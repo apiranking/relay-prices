@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import json
+import shutil
 from html import escape
 from pathlib import Path
 
@@ -423,7 +424,21 @@ def write(path: str, html: str) -> None:
     (d / "index.html").write_text(html, encoding="utf-8")
 
 
+def redirect_stub(path: str, target: str) -> str:
+    url = f"{SITE}/{target}"
+    return (f'<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">'
+            f'<meta name="robots" content="noindex,follow"><link rel="canonical" href="{url}">'
+            f'<meta http-equiv="refresh" content="0; url={BASE}/{target}"><title>已合并</title></head>'
+            f'<body><p>本页已合并到 <a href="{BASE}/{target}">这里</a>。</p></body></html>')
+
+
 def main() -> None:
+    # 型号页随数据自动增减：先记下旧的型号页目录，整份 docs 重建，
+    # 掉出门槛/下架的型号写跳转桩（指回厂商页），旧链接不 404
+    old_models = {str(d.relative_to(DOCS)) for v in VENDOR_SLUGS if (DOCS / v).is_dir()
+                  for d in (DOCS / v).iterdir() if d.is_dir()}
+    if DOCS.exists():
+        shutil.rmtree(DOCS)
     pages = {p.stem: json.loads(p.read_text(encoding="utf-8")) for p in DATA.glob("*.json") if p.stem != "official"}
     official = json.loads((DATA / "official.json").read_text(encoding="utf-8"))
     latest = max(d["updated"] for d in pages.values())
@@ -451,6 +466,11 @@ def main() -> None:
          [("中转站推荐", f"{BASE}/recommend/")])
     emit("rate-explained/", rate_body(official), latest, [("倍率怎么算", f"{BASE}/rate-explained/")])
     emit("", index_body(pages), latest)
+
+    built = {p.rstrip("/") for p, _ in out}
+    for gone in sorted(old_models - built):
+        write(gone + "/", redirect_stub(gone, gone.split("/")[0] + "/"))
+        print(f"型号页下线 → 跳转桩：{gone}")
 
     (DOCS / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
