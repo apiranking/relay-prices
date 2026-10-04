@@ -8,42 +8,52 @@
    "rows": [
     {
      "name": "Prism API",
+     "slug": "prismapi-site",
      "rate": 0.014
     },
     {
      "name": "XTokenMirror",
+     "slug": "xtokenmirror-cn",
      "rate": 0.026
     },
     {
      "name": "SunnyPumpkinAPI",
+     "slug": "gua-guagua-uk",
      "rate": 0.042
     },
     {
      "name": "旺旺中转站",
+     "slug": "api-bbww-top",
      "rate": 0.042
     },
     {
      "name": "Cavoti AI",
+     "slug": "cavoti-ai",
      "rate": 0.045
     },
     {
      "name": "A6API",
+     "slug": "a6api",
      "rate": 0.048
     },
     {
      "name": "ergouzi",
+     "slug": "ergouzi",
      "rate": 0.05
     },
     {
      "name": "空悲切API",
+     "slug": "xn--vduyey89e-com",
      "rate": 0.05
     },
     {
      "name": "AI 搬运工",
+     "slug": "aimover-cc",
      "rate": 0.053
     },
     {
      "name": "537 AI",
+     "slug": "537-ai-net",
      "rate": 0.06
     }
    ]
@@ -55,42 +65,52 @@
    "rows": [
     {
      "name": "Token云桥",
+     "slug": "0029-org",
      "rate": 0.001
     },
     {
      "name": "A6API",
+     "slug": "a6api",
      "rate": 0.007
     },
     {
      "name": "XTokenMirror",
+     "slug": "xtokenmirror-cn",
      "rate": 0.007
     },
     {
      "name": "Lumin AI",
+     "slug": "ai-luminai-cc",
      "rate": 0.012
     },
     {
      "name": "PRY API",
+     "slug": "bearlab-ai",
      "rate": 0.014
     },
     {
      "name": "SixthSense LLM",
+     "slug": "sixthsense-llm-com",
      "rate": 0.016
     },
     {
      "name": "BootToken",
+     "slug": "boottoken",
      "rate": 0.018
     },
     {
      "name": "云雾AI",
+     "slug": "yunwu-ai",
      "rate": 0.02
     },
     {
      "name": "deepkey",
+     "slug": "deepkey-top",
      "rate": 0.024
     },
     {
      "name": "ai98pro",
+     "slug": "ai98pro",
      "rate": 0.029
     }
    ]
@@ -102,42 +122,52 @@
    "rows": [
     {
      "name": "XTokenMirror",
+     "slug": "xtokenmirror-cn",
      "rate": 0.04
     },
     {
      "name": "SunnyPumpkinAPI",
+     "slug": "gua-guagua-uk",
      "rate": 0.042
     },
     {
      "name": "A6API",
+     "slug": "a6api",
      "rate": 0.081
     },
     {
      "name": "PRY API",
+     "slug": "bearlab-ai",
      "rate": 0.1
     },
     {
      "name": "RPG8",
+     "slug": "api-rpg8-cn",
      "rate": 0.1
     },
     {
      "name": "Z-API",
+     "slug": "api-zicc-cc",
      "rate": 0.1
     },
     {
      "name": "旺旺中转站",
+     "slug": "api-bbww-top",
      "rate": 0.111
     },
     {
      "name": "合聚API",
+     "slug": "hejuapi-com",
      "rate": 0.125
     },
     {
      "name": "poloai",
+     "slug": "poloai",
      "rate": 0.137
     },
     {
      "name": "FastCode",
+     "slug": "api-timebackward-com",
      "rate": 0.14
     }
    ]
@@ -149,42 +179,52 @@
    "rows": [
     {
      "name": "A6API",
+     "slug": "a6api",
      "rate": 0.004
     },
     {
      "name": "PRY API",
+     "slug": "bearlab-ai",
      "rate": 0.02
     },
     {
      "name": "SixthSense LLM",
+     "slug": "sixthsense-llm-com",
      "rate": 0.027
     },
     {
      "name": "AI 搬运工",
+     "slug": "aimover-cc",
      "rate": 0.05
     },
     {
      "name": "deepkey",
+     "slug": "deepkey-top",
      "rate": 0.06
     },
     {
      "name": "合租 Ink",
+     "slug": "hezu-ink",
      "rate": 0.08
     },
     {
      "name": "PackyCode",
+     "slug": "packyapi-com",
      "rate": 0.1
     },
     {
      "name": "RightCode",
+     "slug": "right-codes",
      "rate": 0.1
     },
     {
      "name": "xiaojing",
+     "slug": "open-xiaojingai-com",
      "rate": 0.1
     },
     {
      "name": "Cavoti AI",
+     "slug": "cavoti-ai",
      "rate": 0.102
     }
    ]
@@ -196,42 +236,52 @@
    "rows": [
     {
      "name": "A6API",
+     "slug": "a6api",
      "rate": 0.006
     },
     {
      "name": "PRY API",
+     "slug": "bearlab-ai",
      "rate": 0.05
     },
     {
      "name": "PackyCode",
+     "slug": "packyapi-com",
      "rate": 0.25
     },
     {
      "name": "deepkey",
+     "slug": "deepkey-top",
      "rate": 0.25
     },
     {
      "name": "RunAPI",
+     "slug": "runapi-co",
      "rate": 0.251
     },
     {
      "name": "HolySheep AI",
+     "slug": "holysheep-ai",
      "rate": 0.267
     },
     {
      "name": "H API",
+     "slug": "h-api",
      "rate": 0.3
     },
     {
      "name": "UU API",
+     "slug": "uuapi-net",
      "rate": 0.325
     },
     {
      "name": "ZIVV",
+     "slug": "zivv-pro",
      "rate": 0.375
     },
     {
      "name": "LMU AI · 灵眸",
+     "slug": "api-lmuai-com",
      "rate": 0.388
     }
    ]

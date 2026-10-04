@@ -24,6 +24,7 @@
  "rows": [
   {
    "name": "UU API",
+   "slug": "uuapi-net",
    "rates": {
     "claude": 0.4,
     "openai": 0.04,
@@ -34,6 +35,7 @@
   },
   {
    "name": "H API",
+   "slug": "h-api",
    "rates": {
     "claude": 0.2,
     "openai": 0.036,
@@ -44,6 +46,7 @@
   },
   {
    "name": "OpenOx",
+   "slug": "openox",
    "rates": {
     "claude": 0.8,
     "openai": 0.032,
@@ -54,6 +57,7 @@
   },
   {
    "name": "APINebula",
+   "slug": "apinebula-com",
    "rates": {
     "claude": 0.5,
     "openai": 0.078,
@@ -63,6 +67,7 @@
   },
   {
    "name": "LinkAI",
+   "slug": "linkai",
    "rates": {
     "claude": 0.3,
     "openai": 0.04,
@@ -72,6 +77,7 @@
   },
   {
    "name": "boxying",
+   "slug": "boxying",
    "rates": {
     "claude": 0.3,
     "openai": 0.06
@@ -79,6 +85,7 @@
   },
   {
    "name": "RunAPI",
+   "slug": "runapi-co",
    "rates": {
     "claude": 0.879,
     "openai": 0.1,
@@ -89,6 +96,7 @@
   },
   {
    "name": "SSSAICode",
+   "slug": "sssaicode-com",
    "rates": {
     "claude": 0.7,
     "openai": 0.32,
@@ -97,6 +105,7 @@
   },
   {
    "name": "Z-API",
+   "slug": "api-zicc-cc",
    "rates": {
     "claude": 0.08,
     "openai": 0.1,
@@ -105,6 +114,7 @@
   },
   {
    "name": "LinksAPI",
+   "slug": "linksapi",
    "rates": {
     "claude": 0.125,
     "openai": 0.049,
@@ -114,6 +124,7 @@
   },
   {
    "name": "Luxery API",
+   "slug": "luxery-api",
    "rates": {
     "claude": 0.6,
     "openai": 0.06
@@ -121,6 +132,7 @@
   },
   {
    "name": "AI 搬运工",
+   "slug": "aimover-cc",
    "rates": {
     "claude": 0.053,
     "openai": 0.068,
@@ -129,6 +141,7 @@
   },
   {
    "name": "Xcode",
+   "slug": "xcode-best",
    "rates": {
     "claude": 1.133,
     "openai": 0.06,
@@ -139,6 +152,7 @@
   },
   {
    "name": "Codex2API",
+   "slug": "codex2api",
    "rates": {
     "claude": 0.133,
     "openai": 0.065,
@@ -147,6 +161,7 @@
   },
   {
    "name": "Cavoti AI",
+   "slug": "cavoti-ai",
    "rates": {
     "claude": 0.045,
     "openai": 0.041,
@@ -155,6 +170,7 @@
   },
   {
    "name": "moacode",
+   "slug": "moacode",
    "rates": {
     "claude": 0.767,
     "openai": 0.248
@@ -162,6 +178,7 @@
   },
   {
    "name": "PackyCode",
+   "slug": "packyapi-com",
    "rates": {
     "claude": 0.3,
     "openai": 0.5,
@@ -172,6 +189,7 @@
   },
   {
    "name": "A6API",
+   "slug": "a6api",
    "rates": {
     "claude": 0.048,
     "openai": 0.007,
@@ -182,6 +200,7 @@
   },
   {
    "name": "ByteCat",
+   "slug": "bytecatcode-org",
    "rates": {
     "claude": 0.1,
     "openai": 0.1,
@@ -191,6 +210,7 @@
   },
   {
    "name": "Die Ge",
+   "slug": "die-ge",
    "rates": {
     "claude": 0.25,
     "openai": 0.03,
@@ -200,6 +220,7 @@
   },
   {
    "name": "卡皮巴拉API",
+   "slug": "kapibala-asia",
    "rates": {
     "openai": 0.06,
     "claude": 0.18,
@@ -209,6 +230,7 @@
   },
   {
    "name": "代码狗",
+   "slug": "ai-codepup-cn",
    "rates": {
     "claude": 0.067,
     "openai": 0.036,
@@ -217,6 +239,7 @@
   },
   {
    "name": "LMU AI · 灵眸",
+   "slug": "api-lmuai-com",
    "rates": {
     "claude": 0.639,
     "openai": 0.151,
@@ -227,6 +250,7 @@
   },
   {
    "name": "CCTQ",
+   "slug": "cctq",
    "rates": {
     "claude": 1.0,
     "openai": 0.04,
@@ -235,6 +259,7 @@
   },
   {
    "name": "聚星AI",
+   "slug": "juxingai-top",
    "rates": {
     "claude": 3.2,
     "openai": 0.48,
@@ -244,6 +269,7 @@
   },
   {
    "name": "RightCode",
+   "slug": "right-codes",
    "rates": {
     "claude": 0.2,
     "openai": 0.08,
@@ -253,6 +279,7 @@
   },
   {
    "name": "deepkey",
+   "slug": "deepkey-top",
    "rates": {
     "claude": 0.4,
     "openai": 0.024,
@@ -263,6 +290,7 @@
   },
   {
    "name": "三头牛",
+   "slug": "36niu-com",
    "rates": {
     "claude": 0.679,
     "openai": 0.271,
@@ -273,6 +301,7 @@
   },
   {
    "name": "PRY API",
+   "slug": "bearlab-ai",
    "rates": {
     "claude": 0.267,
     "openai": 0.014,
@@ -283,6 +312,7 @@
   },
   {
    "name": "GPTeam",
+   "slug": "portal-gpteamservices-com",
    "rates": {
     "claude": 0.679,
     "gemini": 1.357,

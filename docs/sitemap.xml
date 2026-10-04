@@ -1,14 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://apiranking.github.io/relay-prices/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/claude-opus-5-5/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/claude-sonnet-4-6/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/claude-opus-4-8/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/claude-opus-5/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/claude-fable-5-1/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/claude-fable-5/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude/claude-sonnet-5-5/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/claude-code/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gpt/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gpt/gpt-5-5/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gpt/gpt-6-astra/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gpt/gpt-6-1-sol/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gpt/gpt-5-6-terra/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gpt/gpt-6-luna/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gemini/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/gemini/gemini-3-1-pro/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/grok/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/deepseek/</loc><lastmod>2026-10-04</lastmod></url>
 <url><loc>https://apiranking.github.io/relay-prices/ai/</loc><lastmod>2026-10-04</lastmod></url>
 <url><loc>https://apiranking.github.io/relay-prices/api/</loc><lastmod>2026-10-04</lastmod></url>
 <url><loc>https://apiranking.github.io/relay-prices/recommend/</loc><lastmod>2026-10-04</lastmod></url>
-<url><loc>https://apiranking.github.io/relay-prices/claude/</loc><lastmod>2026-10-04</lastmod></url>
-<url><loc>https://apiranking.github.io/relay-prices/claude-code/</loc><lastmod>2026-10-04</lastmod></url>
-<url><loc>https://apiranking.github.io/relay-prices/gpt/</loc><lastmod>2026-10-04</lastmod></url>
-<url><loc>https://apiranking.github.io/relay-prices/gemini/</loc><lastmod>2026-10-04</lastmod></url>
-<url><loc>https://apiranking.github.io/relay-prices/grok/</loc><lastmod>2026-10-04</lastmod></url>
-<url><loc>https://apiranking.github.io/relay-prices/deepseek/</loc><lastmod>2026-10-04</lastmod></url>
 <url><loc>https://apiranking.github.io/relay-prices/rate-explained/</loc><lastmod>2026-10-04</lastmod></url>
+<url><loc>https://apiranking.github.io/relay-prices/</loc><lastmod>2026-10-04</lastmod></url>
 </urlset>

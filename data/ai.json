@@ -25,6 +25,7 @@
  "rows": [
   {
    "name": "A6API",
+   "slug": "a6api",
    "rates": {
     "claude": 0.048,
     "openai": 0.007,
@@ -35,6 +36,7 @@
   },
   {
    "name": "H API",
+   "slug": "h-api",
    "rates": {
     "claude": 0.2,
     "openai": 0.036,
@@ -45,6 +47,7 @@
   },
   {
    "name": "Kuaipao API",
+   "slug": "kuaipao-pro",
    "rates": {
     "claude": 0.5,
     "openai": 0.04,
@@ -55,6 +58,7 @@
   },
   {
    "name": "LMU AI · 灵眸",
+   "slug": "api-lmuai-com",
    "rates": {
     "claude": 0.639,
     "openai": 0.151,
@@ -65,6 +69,7 @@
   },
   {
    "name": "OpenOx",
+   "slug": "openox",
    "rates": {
     "claude": 0.8,
     "openai": 0.032,
@@ -75,6 +80,7 @@
   },
   {
    "name": "PRY API",
+   "slug": "bearlab-ai",
    "rates": {
     "claude": 0.267,
     "openai": 0.014,
@@ -85,6 +91,7 @@
   },
   {
    "name": "PackyCode",
+   "slug": "packyapi-com",
    "rates": {
     "claude": 0.3,
     "openai": 0.5,
@@ -95,6 +102,7 @@
   },
   {
    "name": "RunAPI",
+   "slug": "runapi-co",
    "rates": {
     "claude": 0.879,
     "openai": 0.1,
@@ -105,6 +113,7 @@
   },
   {
    "name": "UU API",
+   "slug": "uuapi-net",
    "rates": {
     "claude": 0.4,
     "openai": 0.04,
@@ -115,6 +124,7 @@
   },
   {
    "name": "Xcode",
+   "slug": "xcode-best",
    "rates": {
     "claude": 1.133,
     "openai": 0.06,
@@ -125,6 +135,7 @@
   },
   {
    "name": "deepkey",
+   "slug": "deepkey-top",
    "rates": {
     "claude": 0.4,
     "openai": 0.024,
@@ -135,6 +146,7 @@
   },
   {
    "name": "xiaojing",
+   "slug": "open-xiaojingai-com",
    "rates": {
     "claude": 0.25,
     "openai": 0.05,
@@ -145,6 +157,7 @@
   },
   {
    "name": "三头牛",
+   "slug": "36niu-com",
    "rates": {
     "claude": 0.679,
     "openai": 0.271,
@@ -155,6 +168,7 @@
   },
   {
    "name": "4Sapi",
+   "slug": "4sapi-com",
    "rates": {
     "claude": 0.667,
     "openai": 0.2,
@@ -164,6 +178,7 @@
   },
   {
    "name": "AIAPI World",
+   "slug": "aiapi-world",
    "rates": {
     "grok": 1.04,
     "openai": 0.1,
@@ -173,6 +188,7 @@
   },
   {
    "name": "APINebula",
+   "slug": "apinebula-com",
    "rates": {
     "claude": 0.5,
     "openai": 0.078,
@@ -182,6 +198,7 @@
   },
   {
    "name": "Bailili API",
+   "slug": "bailili-api",
    "rates": {
     "claude": 0.6,
     "openai": 0.5,
@@ -191,6 +208,7 @@
   },
   {
    "name": "ByteCat",
+   "slug": "bytecatcode-org",
    "rates": {
     "claude": 0.1,
     "openai": 0.1,
@@ -200,6 +218,7 @@
   },
   {
    "name": "Clauddy API",
+   "slug": "clauddy-com",
    "rates": {
     "claude": 0.1,
     "openai": 0.5,
@@ -209,6 +228,7 @@
   },
   {
    "name": "Die Ge",
+   "slug": "die-ge",
    "rates": {
     "claude": 0.25,
     "openai": 0.03,
@@ -218,6 +238,7 @@
   },
   {
    "name": "Dualseason API",
+   "slug": "dualseason-com",
    "rates": {
     "claude": 0.18,
     "openai": 0.09,
@@ -227,6 +248,7 @@
   },
   {
    "name": "GPT Agent",
+   "slug": "gpt-agent-cc",
    "rates": {
     "claude": 0.533,
     "grok": 3.0,
@@ -236,6 +258,7 @@
   },
   {
    "name": "GPTeam",
+   "slug": "portal-gpteamservices-com",
    "rates": {
     "claude": 0.679,
     "gemini": 1.357,
@@ -245,6 +268,7 @@
   },
   {
    "name": "Global AI",
+   "slug": "globalai-vip",
    "rates": {
     "claude": 0.55,
     "gemini": 0.8,
@@ -254,6 +278,7 @@
   },
   {
    "name": "Kkaiapi",
+   "slug": "kkaiapi-com",
    "rates": {
     "claude": 1.0,
     "gemini": 1.0,
@@ -263,6 +288,7 @@
   },
   {
    "name": "LLM-ALL API",
+   "slug": "llm-all-pro",
    "rates": {
     "claude": 0.133,
     "gemini": 0.3,
@@ -272,6 +298,7 @@
   },
   {
    "name": "LinkAI",
+   "slug": "linkai",
    "rates": {
     "claude": 0.3,
     "openai": 0.04,
@@ -281,6 +308,7 @@
   },
   {
    "name": "LinkAPI",
+   "slug": "linkapi-ai",
    "rates": {
     "claude": 0.5,
     "openai": 0.2,
@@ -290,6 +318,7 @@
   },
   {
    "name": "LinksAPI",
+   "slug": "linksapi",
    "rates": {
     "claude": 0.125,
     "openai": 0.049,
@@ -299,6 +328,7 @@
   },
   {
    "name": "Mmaqq API",
+   "slug": "mmaqq-top",
    "rates": {
     "claude": 0.5,
     "openai": 0.3,
@@ -308,6 +338,7 @@
   },
   {
    "name": "RightCode",
+   "slug": "right-codes",
    "rates": {
     "claude": 0.2,
     "openai": 0.08,
@@ -317,6 +348,7 @@
   },
   {
    "name": "Ruoli API",
+   "slug": "ruoli-dev",
    "rates": {
     "claude": 0.12,
     "openai": 0.16,
@@ -326,6 +358,7 @@
   },
   {
    "name": "Top-API",
+   "slug": "top-api",
    "rates": {
     "claude": 0.339,
     "openai": 0.136,
@@ -335,6 +368,7 @@
   },
   {
    "name": "TryAllAI",
+   "slug": "api-tryallai-com",
    "rates": {
     "claude": 4.071,
     "openai": 0.814,
@@ -344,6 +378,7 @@
   },
   {
    "name": "Uiuihao API",
+   "slug": "api-uiuihao-com",
    "rates": {
     "claude": 0.533,
     "openai": 0.35,
@@ -353,6 +388,7 @@
   },
   {
    "name": "云雾AI",
+   "slug": "yunwu-ai",
    "rates": {
     "claude": 0.333,
     "grok": 0.5,
@@ -362,6 +398,7 @@
   },
   {
    "name": "卡皮巴拉API",
+   "slug": "kapibala-asia",
    "rates": {
     "openai": 0.06,
     "claude": 0.18,
@@ -371,6 +408,7 @@
   },
   {
    "name": "旺旺中转站",
+   "slug": "api-bbww-top",
    "rates": {
     "claude": 0.042,
     "openai": 0.208,
@@ -380,6 +418,7 @@
   },
   {
    "name": "空悲切API",
+   "slug": "xn--vduyey89e-com",
    "rates": {
     "claude": 0.05,
     "openai": 0.03,
@@ -389,6 +428,7 @@
   },
   {
    "name": "老张 API",
+   "slug": "api-laozhang-ai",
    "rates": {
     "claude": 0.667,
     "openai": 1.0,
@@ -398,6 +438,7 @@
   },
   {
    "name": "聚星AI",
+   "slug": "juxingai-top",
    "rates": {
     "claude": 3.2,
     "openai": 0.48,
@@ -407,6 +448,7 @@
   },
   {
    "name": "537 AI",
+   "slug": "537-ai-net",
    "rates": {
     "claude": 0.06,
     "openai": 0.3,
@@ -415,6 +457,7 @@
   },
   {
    "name": "78 Code",
+   "slug": "api-78code-cc",
    "rates": {
     "claude": 0.322,
     "openai": 0.2,
@@ -423,6 +466,7 @@
   },
   {
    "name": "AI 搬运工",
+   "slug": "aimover-cc",
    "rates": {
     "claude": 0.053,
     "openai": 0.068,
@@ -431,6 +475,7 @@
   },
   {
    "name": "AI8",
+   "slug": "ai8-my",
    "rates": {
     "claude": 1.0,
     "openai": 1.0,
@@ -439,6 +484,7 @@
   },
   {
    "name": "AiXor",
+   "slug": "aixor-org",
    "rates": {
     "claude": 0.26,
     "openai": 0.2,
@@ -447,6 +493,7 @@
   },
   {
    "name": "AutoRouter",
+   "slug": "autorouter-io",
    "rates": {
     "claude": 0.45,
     "openai": 0.15,
@@ -455,6 +502,7 @@
   },
   {
    "name": "Bob API",
+   "slug": "bobdong-cn",
    "rates": {
     "claude": 0.2,
     "openai": 0.075,
@@ -463,6 +511,7 @@
   },
   {
    "name": "BootToken",
+   "slug": "boottoken",
    "rates": {
     "claude": 0.36,
     "openai": 0.018,
@@ -471,6 +520,7 @@
   },
   {
    "name": "ByteClaude",
+   "slug": "claude-bestswifter-com",
    "rates": {
     "claude": 0.3,
     "openai": 0.1,
@@ -479,6 +529,7 @@
   },
   {
    "name": "CCTQ",
+   "slug": "cctq",
    "rates": {
     "claude": 1.0,
     "openai": 0.04,
@@ -487,6 +538,7 @@
   },
   {
    "name": "Cavoti AI",
+   "slug": "cavoti-ai",
    "rates": {
     "claude": 0.045,
     "openai": 0.041,
@@ -495,6 +547,7 @@
   },
   {
    "name": "Codex2API",
+   "slug": "codex2api",
    "rates": {
     "claude": 0.133,
     "openai": 0.065,
@@ -503,6 +556,7 @@
   },
   {
    "name": "Cooper-API",
+   "slug": "cooper-api-com",
    "rates": {
     "claude": 1.018,
     "openai": 0.679,
@@ -511,6 +565,7 @@
   },
   {
    "name": "Cun AI",
+   "slug": "cun-ai",
    "rates": {
     "claude": 0.833,
     "openai": 1.062,
@@ -519,6 +574,7 @@
   },
   {
    "name": "DawCode",
+   "slug": "dawclaudecode-com",
    "rates": {
     "claude": 0.45,
     "openai": 0.3,
@@ -527,6 +583,7 @@
   },
   {
    "name": "DoroAI",
+   "slug": "doro-lol",
    "rates": {
     "claude": 0.08,
     "gemini": 0.75,
@@ -535,6 +592,7 @@
   },
   {
    "name": "FastCode",
+   "slug": "api-timebackward-com",
    "rates": {
     "claude": 0.14,
     "openai": 0.138,
@@ -543,6 +601,7 @@
   },
   {
    "name": "HoHoApi",
+   "slug": "hohoapi",
    "rates": {
     "claude": 3.087,
     "openai": 4.411,
@@ -551,6 +610,7 @@
   },
   {
    "name": "HolySheep AI",
+   "slug": "holysheep-ai",
    "rates": {
     "claude": 1.0,
     "openai": 0.1,
@@ -559,6 +619,7 @@
   },
   {
    "name": "IKunCode",
+   "slug": "api-ikuncode-cc",
    "rates": {
     "claude": 0.4,
     "openai": 0.2,
@@ -567,6 +628,7 @@
   },
   {
    "name": "Micu",
+   "slug": "micuapi-ai",
    "rates": {
     "claude": 0.3,
     "gemini": 2.2,
@@ -575,6 +637,7 @@
   },
   {
    "name": "Neco Api",
+   "slug": "api-sbbbbbbbbb-xyz",
    "rates": {
     "claude": 16.285,
     "openai": 6.785,
@@ -583,6 +646,7 @@
   },
   {
    "name": "OhMyGPT",
+   "slug": "x-dogenet-win",
    "rates": {
     "claude": 1.1,
     "openai": 1.1,
@@ -591,6 +655,7 @@
   },
   {
    "name": "OneChats",
+   "slug": "chatapi-onechats-top",
    "rates": {
     "claude": 1.333,
     "openai": 1.0,
@@ -599,6 +664,7 @@
   },
   {
    "name": "Poixe AI",
+   "slug": "poixe-com",
    "rates": {
     "claude": 3.393,
     "openai": 3.393,
@@ -607,6 +673,7 @@
   },
   {
    "name": "RPG8",
+   "slug": "api-rpg8-cn",
    "rates": {
     "claude": 1.5,
     "openai": 0.2,
@@ -615,6 +682,7 @@
   },
   {
    "name": "Rehdasu API",
+   "slug": "rehdasu-cn",
    "rates": {
     "openai": 0.1,
     "claude": 0.2,
@@ -623,6 +691,7 @@
   },
   {
    "name": "SSSAICode",
+   "slug": "sssaicode-com",
    "rates": {
     "claude": 0.7,
     "openai": 0.32,
@@ -631,6 +700,7 @@
   },
   {
    "name": "SixthSense LLM",
+   "slug": "sixthsense-llm-com",
    "rates": {
     "openai": 0.016,
     "claude": 0.091,
@@ -639,6 +709,7 @@
   },
   {
    "name": "SparkCode",
+   "slug": "sparkcode-top",
    "rates": {
     "claude": 0.35,
     "gemini": 0.3,
@@ -647,6 +718,7 @@
   },
   {
    "name": "Sublyx",
+   "slug": "sublyx",
    "rates": {
     "claude": 8.143,
     "openai": 1.696,
@@ -655,6 +727,7 @@
   },
   {
    "name": "Sum API",
+   "slug": "api-clawopen-top",
    "rates": {
     "claude": 0.2,
     "openai": 0.04,
@@ -663,6 +736,7 @@
   },
   {
    "name": "SunnyPumpkinAPI",
+   "slug": "gua-guagua-uk",
    "rates": {
     "claude": 0.042,
     "gemini": 0.042,
@@ -671,6 +745,7 @@
   },
   {
    "name": "TimiCC",
+   "slug": "timicc-com",
    "rates": {
     "claude": 3.393,
     "openai": 1.018,
@@ -679,6 +754,7 @@
   },
   {
    "name": "ToCodex",
+   "slug": "user-tocodex-com",
    "rates": {
     "claude": 1.0,
     "openai": 0.4,
@@ -687,6 +763,7 @@
   },
   {
    "name": "Token云桥",
+   "slug": "0029-org",
    "rates": {
     "claude": 0.3,
     "openai": 0.001,
@@ -695,6 +772,7 @@
   },
   {
    "name": "V-API",
+   "slug": "api-gpt-ge",
    "rates": {
     "claude": 0.467,
     "openai": 1.0,
@@ -703,6 +781,7 @@
   },
   {
    "name": "Wytkt API",
+   "slug": "wytkt-cn",
    "rates": {
     "claude": 7.5,
     "openai": 15.0,
@@ -711,6 +790,7 @@
   },
   {
    "name": "XTokenMirror",
+   "slug": "xtokenmirror-cn",
    "rates": {
     "claude": 0.026,
     "openai": 0.007,
@@ -719,6 +799,7 @@
   },
   {
    "name": "Xiaoye API",
+   "slug": "ai-xiaoye-io",
    "rates": {
     "claude": 2.1,
     "openai": 0.3,
@@ -727,6 +808,7 @@
   },
   {
    "name": "Yourapi",
+   "slug": "yourapi-cn",
    "rates": {
     "claude": 0.6,
     "openai": 0.175,
@@ -735,6 +817,7 @@
   },
   {
    "name": "Z-API",
+   "slug": "api-zicc-cc",
    "rates": {
     "claude": 0.08,
     "openai": 0.1,
@@ -743,6 +826,7 @@
   },
   {
    "name": "ZEN-AI",
+   "slug": "zen-ai-top",
    "rates": {
     "claude": 12.214,
     "gemini": 3.393,
@@ -751,6 +835,7 @@
   },
   {
    "name": "ZIVV",
+   "slug": "zivv-pro",
    "rates": {
     "claude": 0.867,
     "openai": 0.1,
@@ -759,6 +844,7 @@
   },
   {
    "name": "api.68886868.xyz",
+   "slug": "api-68886868-xyz",
    "rates": {
     "claude": 1.221,
     "gemini": 2.646,
@@ -767,6 +853,7 @@
   },
   {
    "name": "chatfire",
+   "slug": "api-chatfire-cn",
    "rates": {
     "claude": 1.0,
     "gemini": 1.0,
@@ -775,6 +862,7 @@
   },
   {
    "name": "codesonline",
+   "slug": "mx-free-codesonline-dev",
    "rates": {
     "claude": 1.357,
     "openai": 1.018,
@@ -783,6 +871,7 @@
   },
   {
    "name": "kksj",
+   "slug": "cnapi-kksj-org",
    "rates": {
     "claude": 1.2,
     "gemini": 1.8,
@@ -791,6 +880,7 @@
   },
   {
    "name": "lucen",
+   "slug": "lucen-cc",
    "rates": {
     "claude": 0.407,
     "openai": 0.204,
@@ -799,6 +889,7 @@
   },
   {
    "name": "lyapunov-api",
+   "slug": "api-lyapunov-vector-com",
    "rates": {
     "claude": 1.0,
     "gemini": 1.0,
@@ -807,6 +898,7 @@
   },
   {
    "name": "nekoapi",
+   "slug": "api-nekoapi-com",
    "rates": {
     "claude": 0.8,
     "openai": 0.5,
@@ -815,6 +907,7 @@
   },
   {
    "name": "v3",
+   "slug": "api-v3-cm",
    "rates": {
     "claude": 2.375,
     "gemini": 6.785,
@@ -823,6 +916,7 @@
   },
   {
    "name": "xinsuanai",
+   "slug": "xinsuanai",
    "rates": {
     "claude": 3.333,
     "gemini": 5.0,
@@ -831,6 +925,7 @@
   },
   {
    "name": "yinli",
+   "slug": "yinli",
    "rates": {
     "claude": 1.5,
     "gemini": 1.0,
@@ -839,6 +934,7 @@
   },
   {
    "name": "一元模型",
+   "slug": "timesniper-club",
    "rates": {
     "claude": 3.2,
     "openai": 3.2,
@@ -847,6 +943,7 @@
   },
   {
    "name": "云影 API",
+   "slug": "yyapi-cloud",
    "rates": {
     "claude": 0.15,
     "gemini": 0.7,
@@ -855,6 +952,7 @@
   },
   {
    "name": "代码狗",
+   "slug": "ai-codepup-cn",
    "rates": {
     "claude": 0.067,
     "openai": 0.036,
@@ -863,6 +961,7 @@
   },
   {
    "name": "合租 Ink",
+   "slug": "hezu-ink",
    "rates": {
     "claude": 0.233,
     "openai": 0.08,
@@ -871,6 +970,7 @@
   },
   {
    "name": "合聚API",
+   "slug": "hejuapi-com",
    "rates": {
     "claude": 0.1,
     "openai": 0.032,
@@ -879,6 +979,7 @@
   },
   {
    "name": "换API",
+   "slug": "huanapi-com",
    "rates": {
     "claude": 0.4,
     "gemini": 0.5,
@@ -887,6 +988,7 @@
   },
   {
    "name": "无限API",
+   "slug": "infai-cc",
    "rates": {
     "claude": 1.0,
     "openai": 36.0,
@@ -895,6 +997,7 @@
   },
   {
    "name": "星辰",
+   "slug": "ai-centos-hk",
    "rates": {
     "claude": 0.1,
     "openai": 0.05,
@@ -903,6 +1006,7 @@
   },
   {
    "name": "柏API",
+   "slug": "byeapi-top",
    "rates": {
     "claude": 0.167,
     "openai": 0.04,
@@ -911,6 +1015,7 @@
   },
   {
    "name": "镜核 AI",
+   "slug": "ai-17nas-com",
    "rates": {
     "claude": 0.44,
     "openai": 0.234,
@@ -919,6 +1024,7 @@
   },
   {
    "name": "黑黑",
+   "slug": "heilovehei",
    "rates": {
     "claude": 0.1,
     "openai": 0.05,
@@ -927,6 +1033,7 @@
   },
   {
    "name": "9527code",
+   "slug": "9527code-com",
    "rates": {
     "claude": 0.35,
     "openai": 0.38
@@ -934,6 +1041,7 @@
   },
   {
    "name": "AI Chat",
+   "slug": "chat-ekti-cc",
    "rates": {
     "claude": 0.25,
     "openai": 0.1
@@ -941,6 +1049,7 @@
   },
   {
    "name": "AIApify",
+   "slug": "aiapify-com",
    "rates": {
     "claude": 1.0,
     "openai": 1.0
@@ -948,6 +1057,7 @@
   },
   {
    "name": "AI派",
+   "slug": "api-aipaibox-com",
    "rates": {
     "claude": 0.167,
     "openai": 0.25
@@ -955,6 +1065,7 @@
   },
   {
    "name": "Agent Router",
+   "slug": "agentrouter-org",
    "rates": {
     "claude": 2.714,
     "openai": 5.428
@@ -962,6 +1073,7 @@
   },
   {
    "name": "Aitechflux API",
+   "slug": "aitechflux-com",
    "rates": {
     "claude": 0.152,
     "openai": 0.03
@@ -969,6 +1081,7 @@
   },
   {
    "name": "BMCCA",
+   "slug": "cca-maya-today",
    "rates": {
     "openai": 0.148,
     "claude": 0.222
@@ -976,6 +1089,7 @@
   },
   {
    "name": "BUZZ",
+   "slug": "buzzai-cc",
    "rates": {
     "claude": 0.543,
     "openai": 0.407
@@ -983,6 +1097,7 @@
   },
   {
    "name": "ClaudeCN",
+   "slug": "claudecn-top",
    "rates": {
     "claude": 1.0,
     "gemini": 7.0
@@ -990,6 +1105,7 @@
   },
   {
    "name": "CodeSuc",
+   "slug": "main-new-codesuc-top",
    "rates": {
     "claude": 0.25,
     "openai": 0.03
@@ -997,6 +1113,7 @@
   },
   {
    "name": "Codeagent API",
+   "slug": "codeagent-cloud",
    "rates": {
     "claude": 1.44,
     "openai": 1.4
@@ -1004,6 +1121,7 @@
   },
   {
    "name": "DDShub",
+   "slug": "ddshub-cc",
    "rates": {
     "claude": 0.3,
     "openai": 0.07
@@ -1011,6 +1129,7 @@
   },
   {
    "name": "Dadakeji API",
+   "slug": "dadakeji-com",
    "rates": {
     "claude": 0.333,
     "openai": 0.3
@@ -1018,6 +1137,7 @@
   },
   {
    "name": "DeRouter",
+   "slug": "derouter-ai",
    "rates": {
     "openai": 0.774,
     "claude": 1.561
@@ -1025,6 +1145,7 @@
   },
   {
    "name": "EasyAI",
+   "slug": "easyai-host",
    "rates": {
     "openai": 0.4,
     "claude": 0.6
@@ -1032,6 +1153,7 @@
   },
   {
    "name": "Frontier Intelligence",
+   "slug": "api-frontier-intelligence-tech",
    "rates": {
     "claude": 5.5,
     "openai": 0.5
@@ -1039,6 +1161,7 @@
   },
   {
    "name": "Handsfreeclub API",
+   "slug": "handsfreeclub-com",
    "rates": {
     "claude": 0.5,
     "grok": 0.6
@@ -1046,6 +1169,7 @@
   },
   {
    "name": "LingxiCode",
+   "slug": "new-050602-xyz",
    "rates": {
     "claude": 0.7,
     "openai": 0.55
@@ -1053,6 +1177,7 @@
   },
   {
    "name": "Lumin AI",
+   "slug": "ai-luminai-cc",
    "rates": {
     "claude": 0.25,
     "openai": 0.012
@@ -1060,6 +1185,7 @@
   },
   {
    "name": "Luxery API",
+   "slug": "luxery-api",
    "rates": {
     "claude": 0.6,
     "openai": 0.06
@@ -1067,6 +1193,7 @@
   },
   {
    "name": "Muxueai API",
+   "slug": "muxueai-pro",
    "rates": {
     "openai": 1.0,
     "claude": 5.0
@@ -1074,6 +1201,7 @@
   },
   {
    "name": "NekoCode",
+   "slug": "nekocode-ai",
    "rates": {
     "claude": 1.0,
     "openai": 1.0
@@ -1081,6 +1209,7 @@
   },
   {
    "name": "Pateway",
+   "slug": "pateway",
    "rates": {
     "claude": 0.679,
     "openai": 0.339
@@ -1088,6 +1217,7 @@
   },
   {
    "name": "PixelMuse",
+   "slug": "pixelmuse-shop",
    "rates": {
     "claude": 0.55,
     "openai": 0.15
@@ -1095,6 +1225,7 @@
   },
   {
    "name": "QweApi",
+   "slug": "qweapi",
    "rates": {
     "claude": 3.6,
     "openai": 1.0
@@ -1102,6 +1233,7 @@
   },
   {
    "name": "Square API",
+   "slug": "api-squarefaceicon-org",
    "rates": {
     "claude": 0.08,
     "openai": 0.065
@@ -1109,6 +1241,7 @@
   },
   {
    "name": "SwitchBase",
+   "slug": "switchbase-vip",
    "rates": {
     "claude": 37.5,
     "openai": 0.4
@@ -1116,6 +1249,7 @@
   },
   {
    "name": "Traxnode",
+   "slug": "traxnode-com",
    "rates": {
     "claude": 0.15,
     "openai": 0.15
@@ -1123,6 +1257,7 @@
   },
   {
    "name": "Umiluxury API",
+   "slug": "umiluxury-com",
    "rates": {
     "claude": 0.467,
     "openai": 0.12
@@ -1130,6 +1265,7 @@
   },
   {
    "name": "Undying",
+   "slug": "vip-undyingapi-com",
    "rates": {
     "claude": 6.785,
     "gemini": 13.571
@@ -1137,6 +1273,7 @@
   },
   {
    "name": "WorldBase.ai",
+   "slug": "worldbase-ai",
    "rates": {
     "claude": 1.018,
     "openai": 0.679
@@ -1144,6 +1281,7 @@
   },
   {
    "name": "Xiamiapi",
+   "slug": "xiamiapi-xyz",
    "rates": {
     "claude": 8.333,
     "openai": 6.0
@@ -1151,6 +1289,7 @@
   },
   {
    "name": "Xyusec API",
+   "slug": "xyusec-com",
    "rates": {
     "claude": 0.833,
     "openai": 0.3
@@ -1158,6 +1297,7 @@
   },
   {
    "name": "YunServer API",
+   "slug": "api-yunserver-cn",
    "rates": {
     "claude": 0.196,
     "openai": 0.199
@@ -1165,6 +1305,7 @@
   },
   {
    "name": "ZeroCode",
+   "slug": "zerocode-sbs",
    "rates": {
     "claude": 0.2,
     "openai": 0.2
@@ -1172,6 +1313,7 @@
   },
   {
    "name": "ai.bytonsec.com",
+   "slug": "ai-bytonsec-com",
    "rates": {
     "claude": 8.143,
     "gemini": 8.482
@@ -1179,6 +1321,7 @@
   },
   {
    "name": "ai98pro",
+   "slug": "ai98pro",
    "rates": {
     "claude": 0.08,
     "openai": 0.029
@@ -1186,6 +1329,7 @@
   },
   {
    "name": "api.code-relay.com",
+   "slug": "api-code-relay-com",
    "rates": {
     "claude": 6.785,
     "openai": 6.785
@@ -1193,6 +1337,7 @@
   },
   {
    "name": "boxying",
+   "slug": "boxying",
    "rates": {
     "claude": 0.3,
     "openai": 0.06
@@ -1200,6 +1345,7 @@
   },
   {
    "name": "cc.580ai.net",
+   "slug": "cc-580ai-net",
    "rates": {
     "claude": 12.723,
     "openai": 15.267
@@ -1207,6 +1353,7 @@
   },
   {
    "name": "ergouzi",
+   "slug": "ergouzi",
    "rates": {
     "claude": 0.05,
     "openai": 0.03
@@ -1214,6 +1361,7 @@
   },
   {
    "name": "fluapi",
+   "slug": "fluapi",
    "rates": {
     "claude": 5.0,
     "openai": 5.0
@@ -1221,6 +1369,7 @@
   },
   {
    "name": "geekai",
+   "slug": "geekai",
    "rates": {
     "claude": 0.75,
     "gemini": 0.75
@@ -1228,6 +1377,7 @@
   },
   {
    "name": "jojocode",
+   "slug": "jojocode",
    "rates": {
     "claude": 0.2,
     "openai": 0.17
@@ -1235,6 +1385,7 @@
   },
   {
    "name": "lanyiapi",
+   "slug": "lanyiapi",
    "rates": {
     "claude": 1.0,
     "openai": 0.5
@@ -1242,6 +1393,7 @@
   },
   {
    "name": "moacode",
+   "slug": "moacode",
    "rates": {
     "claude": 0.767,
     "openai": 0.248
@@ -1249,6 +1401,7 @@
   },
   {
    "name": "poloai",
+   "slug": "poloai",
    "rates": {
     "claude": 0.137,
     "gemini": 0.137
@@ -1256,6 +1409,7 @@
   },
   {
    "name": "synterolink",
+   "slug": "synterolink",
    "rates": {
     "claude": 0.333,
     "openai": 1.0
@@ -1263,6 +1417,7 @@
   },
   {
    "name": "unity2",
+   "slug": "unity2-ai",
    "rates": {
     "claude": 0.4,
     "openai": 0.4
@@ -1270,6 +1425,7 @@
   },
   {
    "name": "yibuapi",
+   "slug": "yibuapi",
    "rates": {
     "claude": 1.0,
     "gemini": 1.0
@@ -1277,6 +1433,7 @@
   },
   {
    "name": "万象",
+   "slug": "wangxiangai-org",
    "rates": {
     "claude": 0.8,
     "openai": 0.4
@@ -1284,6 +1441,7 @@
   },
   {
    "name": "哩喵中转栈",
+   "slug": "limiao-net",
    "rates": {
     "claude": 0.2,
     "openai": 0.04
@@ -1291,6 +1449,7 @@
   },
   {
    "name": "大肘子",
+   "slug": "api-dzzi-ai",
    "rates": {
     "claude": 2.0,
     "openai": 0.35
@@ -1298,6 +1457,7 @@
   },
   {
    "name": "小瑞API",
+   "slug": "xiaoruiapi-cc",
    "rates": {
     "claude": 0.49,
     "openai": 0.273
@@ -1305,6 +1465,7 @@
   },
   {
    "name": "小马API",
+   "slug": "xiaoma-best",
    "rates": {
     "claude": 0.667,
     "openai": 0.5
@@ -1312,6 +1473,7 @@
   },
   {
    "name": "球球Token",
+   "slug": "qiuqiutoken-com",
    "rates": {
     "claude": 0.7,
     "openai": 0.38
@@ -1319,6 +1481,7 @@
   },
   {
    "name": "菜菜中转站",
+   "slug": "rapi-asia",
    "rates": {
     "claude": 0.3,
     "openai": 0.25
@@ -1326,6 +1489,7 @@
   },
   {
    "name": "闪电API",
+   "slug": "ai-flashapi-top",
    "rates": {
     "openai": 0.125,
     "claude": 0.35
@@ -1333,180 +1497,210 @@
   },
   {
    "name": "35-aigcbest",
+   "slug": "35-aigcbest-top",
    "rates": {
     "openai": 1.0
    }
   },
   {
    "name": "996444",
+   "slug": "api-996444-cn",
    "rates": {
     "gemini": 7.464
    }
   },
   {
    "name": "APIKEY.FUN",
+   "slug": "api-apikey-fun",
    "rates": {
     "claude": 0.1
    }
   },
   {
    "name": "Claude API",
+   "slug": "claude-api-org",
    "rates": {
     "claude": 0.069
    }
   },
   {
    "name": "ClaudeAPI",
+   "slug": "console-claudeapi-com",
    "rates": {
     "claude": 0.8
    }
   },
   {
    "name": "ClaudeApi",
+   "slug": "claudeapi-com",
    "rates": {
     "claude": 0.8
    }
   },
   {
    "name": "CodeRelay",
+   "slug": "coderelay-cn",
    "rates": {
     "claude": 0.25
    }
   },
   {
    "name": "Ekan8",
+   "slug": "api-ekan8-com",
    "rates": {
     "claude": 0.5
    }
   },
   {
    "name": "FK Claude",
+   "slug": "fkclaude-xyz",
    "rates": {
     "claude": 0.5
    }
   },
   {
    "name": "Hyperapi",
+   "slug": "hyperapi-cc",
    "rates": {
     "openai": 1.5
    }
   },
   {
    "name": "MaynorAPI",
+   "slug": "apipro-maynor1024-live",
    "rates": {
     "gemini": 10.178
    }
   },
   {
    "name": "OPE AI",
+   "slug": "platform-ope-ai",
    "rates": {
     "claude": 1.0
    }
   },
   {
    "name": "Ofapp API",
+   "slug": "api-ofapp-cn",
    "rates": {
     "openai": 0.25
    }
   },
   {
    "name": "Prism API",
+   "slug": "prismapi-site",
    "rates": {
     "claude": 0.014
    }
   },
   {
    "name": "Privnode",
+   "slug": "privnode-com",
    "rates": {
     "claude": 1.0
    }
   },
   {
    "name": "Suan Niao API",
+   "slug": "api-suanniao-shop",
    "rates": {
     "openai": 0.1
    }
   },
   {
    "name": "SubRouter",
+   "slug": "subrouter-ai",
    "rates": {
     "openai": 0.086
    }
   },
   {
    "name": "api.meai.cloud",
+   "slug": "api-meai-cloud",
    "rates": {
     "claude": 8.143
    }
   },
   {
    "name": "cc.honoursoft.cn",
+   "slug": "cc-honoursoft-cn",
    "rates": {
     "claude": 4.411
    }
   },
   {
    "name": "ePhone AI",
+   "slug": "ephone-ai",
    "rates": {
     "openai": 6.0
    }
   },
   {
    "name": "ephone",
+   "slug": "api-ephone-ai",
    "rates": {
     "openai": 0.53
    }
   },
   {
    "name": "luccc",
+   "slug": "api-luccc-uk",
    "rates": {
     "openai": 0.2
    }
   },
   {
    "name": "xeduapi",
+   "slug": "xeduapi-com",
    "rates": {
     "openai": 0.679
    }
   },
   {
    "name": "哈基米",
+   "slug": "api-gemai-cc",
    "rates": {
     "openai": 9.72
    }
   },
   {
    "name": "我的刀盾",
+   "slug": "daodunapi-com",
    "rates": {
     "claude": 8.143
    }
   },
   {
    "name": "汪汪の中转站",
+   "slug": "qianweikeji-fun",
    "rates": {
     "openai": 4.0
    }
   },
   {
    "name": "炒饭兽",
+   "slug": "chaofanshou-com",
    "rates": {
     "claude": 1.0
    }
   },
   {
    "name": "蓝天",
+   "slug": "wasdxx-xyz",
    "rates": {
     "claude": 10.0
    }
   },
   {
    "name": "词元流动",
+   "slug": "tokenflux-dev",
    "rates": {
     "openai": 0.361
    }
   },
   {
    "name": "通API",
+   "slug": "tongapi-com",
    "rates": {
     "openai": 1.0
    }

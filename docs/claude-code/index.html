@@ -3,29 +3,230 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Claude Code 中转站价格对比：哪家便宜</title>
-<meta name="description" content="178 家 Claude Code 中转站价格与倍率对比，最低 0.014 倍官方价。">
+<title>Claude Code 中转站推荐 2026：170+ 家价格倍率对比</title>
+<meta name="description" content="收录 170+ 家 Claude Code 中转站，对比 Sonnet、Opus 的倍率和输入/输出价，多数站在 0.55 倍上下，附接入配置方法，每日更新。">
 <link rel="canonical" href="https://apiranking.github.io/relay-prices/claude-code/">
+<meta property="og:title" content="Claude Code 中转站推荐 2026：170+ 家价格倍率对比">
+<meta property="og:description" content="收录 170+ 家 Claude Code 中转站，对比 Sonnet、Opus 的倍率和输入/输出价，多数站在 0.55 倍上下，附接入配置方法，每日更新。">
+<meta property="og:url" content="https://apiranking.github.io/relay-prices/claude-code/">
+<meta property="og:type" content="website">
 <style>
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
 line-height:1.6;max-width:1080px;margin:0 auto;padding:16px;color:#222;background:#fafafa}
-h1{font-size:1.6em;margin:.6em 0 .3em}h2{font-size:1.25em;margin:1.6em 0 .4em}
+h1{font-size:1.6em;margin:.6em 0 .3em}h2{font-size:1.25em;margin:1.6em 0 .4em}h3{font-size:1.05em;margin:1.2em 0 .3em}
 .lead{background:#eef6ff;border-left:4px solid #2f7de1;padding:10px 14px;margin:12px 0}
+.cards{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+.card{flex:1 1 170px;background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:10px 12px}
+.card b{display:block;font-size:1.35em}.card span{color:#666;font-size:.88em}
 nav{font-size:.92em;margin-bottom:8px}nav a{margin-right:12px;white-space:nowrap}
+.crumb{font-size:.88em;color:#666}
 table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 20px;font-size:.95em}
+caption{text-align:left;font-weight:600;padding:4px 0}
 th,td{padding:7px 10px;border-bottom:1px solid #e5e5e5;text-align:left}
 th{background:#f0f2f5;font-weight:600}td.n{text-align:right;font-variant-numeric:tabular-nums}
 a{color:#2f7de1;text-decoration:none}a:hover{text-decoration:underline}
+pre{background:#f0f2f5;padding:10px 12px;overflow-x:auto}
 footer{margin-top:32px;padding-top:12px;border-top:1px solid #ddd;color:#666;font-size:.9em}
 .wrap{overflow-x:auto}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Claude Code 中转站哪家便宜？", "acceptedAnswer": {"@type": "Answer", "text": "按最低倍率，目前最便宜的是 Prism API（0.014 倍）、XTokenMirror（0.026 倍）、SunnyPumpkinAPI（0.042 倍）。多数站在 0.55 倍上下，同一家站不同模型、不同分组倍率也不一样，按你要用的模型看对应表格。"}}, {"@type": "Question", "name": "Claude Code 中转站价格怎么算？", "acceptedAnswer": {"@type": "Answer", "text": "实际价格 = 官方价 × 倍率。以 Claude Opus 5.5 为例，官方输入 $4 / 输出 $20 每百万 tokens，0.5 倍的站就是输入 ¥2、输出 ¥10。详见 中转站倍率怎么算。"}}, {"@type": "Question", "name": "Claude Code 能用中转站吗？", "acceptedAnswer": {"@type": "Answer", "text": "能。把 ANTHROPIC_BASE_URL 设成中转站地址、ANTHROPIC_AUTH_TOKEN 设成中转站的 key 即可，和直连官方用法一样。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://apiranking.github.io/relay-prices/"}, {"@type": "ListItem", "position": 2, "name": "Claude Code 中转站", "item": "https://apiranking.github.io/relay-prices/claude-code/"}]}</script>
 </head>
 <body>
 <nav><a href="/relay-prices/">首页</a> <a href="/relay-prices/ai/">AI 中转站</a> <a href="/relay-prices/api/">API 中转站</a> <a href="/relay-prices/recommend/">中转站推荐</a> <a href="/relay-prices/claude/">Claude</a> <a href="/relay-prices/claude-code/">Claude Code</a> <a href="/relay-prices/gpt/">GPT</a> <a href="/relay-prices/gemini/">Gemini</a> <a href="/relay-prices/grok/">Grok</a> <a href="/relay-prices/deepseek/">DeepSeek</a> <a href="/relay-prices/rate-explained/">倍率怎么算</a></nav>
-<h1>Claude Code 中转站价格对比：哪家便宜</h1>
-<p class="lead">Claude Code 主要跑 Sonnet 和 Opus。下表是 178 家中转站这两类模型的价格，按倍率从低到高排。接入时把 <code>ANTHROPIC_BASE_URL</code> 换成中转站地址、<code>ANTHROPIC_AUTH_TOKEN</code> 换成中转站 key 即可。</p>
-<p>跳到：<a href="#claude-opus-5-5">Claude Opus 5.5</a> · <a href="#claude-sonnet-4-6">Claude Sonnet 4.6</a></p>
-<h2 id="claude-opus-5-5">Claude Opus 5.5 中转站价格（157 家）</h2><p>官方价：输入 $4 / 输出 $20 每百万 tokens。</p><div class="wrap"><table><thead><tr><th>#</th><th>中转站</th><th>倍率</th><th>输入价</th><th>输出价</th></tr></thead><tbody>
+<p class="crumb"><a href="/relay-prices/">首页</a> › Claude Code 中转站</p>
+<h1>Claude Code 中转站价格对比</h1>
+<p class="lead">共 178 家中转站支持 Claude。最便宜的是 Prism API（0.014 倍）、XTokenMirror（0.026 倍）、SunnyPumpkinAPI（0.042 倍）；多数站在 0.55 倍上下。综合排名见 <a href="https://apiranking.com/rankings/claude-api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">API Ranking Claude Code 中转站排行</a>。</p>
+<div class="cards"><div class="card"><b>178</b><span>家中转站</span></div><div class="card"><b>0.014</b><span>最低倍率</span></div><div class="card"><b>0.55</b><span>多数站倍率</span></div><div class="card"><b>$4</b><span>Claude Opus 5.5 官方输入价</span></div></div>
+<h2>Claude Code 怎么接中转站</h2>
+<p>在中转站后台创建 key，然后设置两个环境变量再启动 <code>claude</code>：</p>
+<pre>export ANTHROPIC_BASE_URL=https://中转站地址
+export ANTHROPIC_AUTH_TOKEN=中转站的 key
+claude</pre>
+<p>Windows PowerShell 用 <code>$env:ANTHROPIC_BASE_URL="https://中转站地址"</code>。Claude Code 日常主要跑 Sonnet，难题切 Opus，所以下面只比这两类模型。</p>
+<h2 id="all">Claude Code 中转站最低倍率总表（178 家）</h2><div class="wrap"><table><caption>按最低倍率从低到高</caption><thead><tr><th scope="col">#</th><th scope="col">中转站</th><th scope="col">最低倍率</th><th scope="col">对应模型</th></tr></thead><tbody>
+<tr><td>1</td><td><a href="https://apiranking.com/p/prismapi-site?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Prism API</a></td><td class="n">0.014</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>2</td><td><a href="https://apiranking.com/p/xtokenmirror-cn?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">XTokenMirror</a></td><td class="n">0.026</td><td>Claude Opus 5.5</td></tr>
+<tr><td>3</td><td><a href="https://apiranking.com/p/gua-guagua-uk?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">SunnyPumpkinAPI</a></td><td class="n">0.042</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>4</td><td><a href="https://apiranking.com/p/api-bbww-top?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">旺旺中转站</a></td><td class="n">0.042</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>5</td><td><a href="https://apiranking.com/p/cavoti-ai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Cavoti AI</a></td><td class="n">0.045</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>6</td><td>ergouzi</td><td class="n">0.05</td><td>Claude Opus 5.5</td></tr>
+<tr><td>7</td><td>空悲切API</td><td class="n">0.05</td><td>Claude Opus 5.5</td></tr>
+<tr><td>8</td><td>537 AI</td><td class="n">0.06</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>9</td><td>A6API</td><td class="n">0.066</td><td>Claude Opus 5.5</td></tr>
+<tr><td>10</td><td>Claude API</td><td class="n">0.069</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>11</td><td>AI 搬运工</td><td class="n">0.08</td><td>Claude Opus 5.5</td></tr>
+<tr><td>12</td><td>DoroAI</td><td class="n">0.08</td><td>Claude Opus 5.5</td></tr>
+<tr><td>13</td><td>Square API</td><td class="n">0.08</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>14</td><td>APIKEY.FUN</td><td class="n">0.1</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>15</td><td>ByteCat</td><td class="n">0.1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>16</td><td>代码狗</td><td class="n">0.1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>17</td><td>星辰</td><td class="n">0.1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>18</td><td>黑黑</td><td class="n">0.1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>19</td><td>Ruoli API</td><td class="n">0.12</td><td>Claude Opus 5.5</td></tr>
+<tr><td>20</td><td>Z-API</td><td class="n">0.12</td><td>Claude Opus 5.5</td></tr>
+<tr><td>21</td><td>ai98pro</td><td class="n">0.12</td><td>Claude Opus 5.5</td></tr>
+<tr><td>22</td><td>LinksAPI</td><td class="n">0.125</td><td>Claude Opus 5.5</td></tr>
+<tr><td>23</td><td>SixthSense LLM</td><td class="n">0.137</td><td>Claude Opus 5.5</td></tr>
+<tr><td>24</td><td>poloai</td><td class="n">0.137</td><td>Claude Opus 5.5</td></tr>
+<tr><td>25</td><td>FastCode</td><td class="n">0.14</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>26</td><td>Clauddy API</td><td class="n">0.15</td><td>Claude Opus 5.5</td></tr>
+<tr><td>27</td><td>Traxnode</td><td class="n">0.15</td><td>Claude Opus 5.5</td></tr>
+<tr><td>28</td><td>云影 API</td><td class="n">0.15</td><td>Claude Opus 5.5</td></tr>
+<tr><td>29</td><td>合聚API</td><td class="n">0.15</td><td>Claude Opus 5.5</td></tr>
+<tr><td>30</td><td>Aitechflux API</td><td class="n">0.152</td><td>Claude Opus 5.5</td></tr>
+<tr><td>31</td><td>Dualseason API</td><td class="n">0.18</td><td>Claude Opus 5.5</td></tr>
+<tr><td>32</td><td>卡皮巴拉API</td><td class="n">0.18</td><td>Claude Opus 5.5</td></tr>
+<tr><td>33</td><td>YunServer API</td><td class="n">0.196</td><td>Claude Opus 5.5</td></tr>
+<tr><td>34</td><td>Bob API</td><td class="n">0.2</td><td>Claude Opus 5.5</td></tr>
+<tr><td>35</td><td>Codex2API</td><td class="n">0.2</td><td>Claude Opus 5.5</td></tr>
+<tr><td>36</td><td>LLM-ALL API</td><td class="n">0.2</td><td>Claude Opus 5.5</td></tr>
+<tr><td>37</td><td>Sum API</td><td class="n">0.2</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>38</td><td>ZeroCode</td><td class="n">0.2</td><td>Claude Opus 5.5</td></tr>
+<tr><td>39</td><td>哩喵中转栈</td><td class="n">0.2</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>40</td><td>BMCCA</td><td class="n">0.222</td><td>Claude Opus 5.5</td></tr>
+<tr><td>41</td><td>AI Chat</td><td class="n">0.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>42</td><td>AI派</td><td class="n">0.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>43</td><td>CodeRelay</td><td class="n">0.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>44</td><td>CodeSuc</td><td class="n">0.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>45</td><td>Die Ge</td><td class="n">0.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>46</td><td>Lumin AI</td><td class="n">0.25</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>47</td><td>xiaojing</td><td class="n">0.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>48</td><td>柏API</td><td class="n">0.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>49</td><td>AiXor</td><td class="n">0.26</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>50</td><td>ByteClaude</td><td class="n">0.3</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>51</td><td>DDShub</td><td class="n">0.3</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>52</td><td>H API</td><td class="n">0.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>53</td><td>LinkAI</td><td class="n">0.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>54</td><td>PackyCode</td><td class="n">0.3</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>55</td><td>Rehdasu API</td><td class="n">0.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>56</td><td>RightCode</td><td class="n">0.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>57</td><td>Token云桥</td><td class="n">0.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>58</td><td>boxying</td><td class="n">0.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>59</td><td>jojocode</td><td class="n">0.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>60</td><td>菜菜中转站</td><td class="n">0.3</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>61</td><td>78 Code</td><td class="n">0.322</td><td>Claude Opus 5.5</td></tr>
+<tr><td>62</td><td>Top-API</td><td class="n">0.339</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>63</td><td>9527code</td><td class="n">0.35</td><td>Claude Opus 5.5</td></tr>
+<tr><td>64</td><td>SparkCode</td><td class="n">0.35</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>65</td><td>合租 Ink</td><td class="n">0.35</td><td>Claude Opus 5.5</td></tr>
+<tr><td>66</td><td>闪电API</td><td class="n">0.35</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>67</td><td>BootToken</td><td class="n">0.36</td><td>Claude Opus 5.5</td></tr>
+<tr><td>68</td><td>IKunCode</td><td class="n">0.4</td><td>Claude Opus 5.5</td></tr>
+<tr><td>69</td><td>PRY API</td><td class="n">0.4</td><td>Claude Opus 5.5</td></tr>
+<tr><td>70</td><td>UU API</td><td class="n">0.4</td><td>Claude Opus 5.5</td></tr>
+<tr><td>71</td><td>deepkey</td><td class="n">0.4</td><td>Claude Opus 5.5</td></tr>
+<tr><td>72</td><td>换API</td><td class="n">0.4</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>73</td><td>lucen</td><td class="n">0.407</td><td>Claude Opus 5.5</td></tr>
+<tr><td>74</td><td>镜核 AI</td><td class="n">0.44</td><td>Claude Opus 5.5</td></tr>
+<tr><td>75</td><td>AutoRouter</td><td class="n">0.45</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>76</td><td>DawCode</td><td class="n">0.45</td><td>Claude Opus 5.5</td></tr>
+<tr><td>77</td><td>Micu</td><td class="n">0.45</td><td>Claude Opus 5.5</td></tr>
+<tr><td>78</td><td>小瑞API</td><td class="n">0.49</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>79</td><td>APINebula</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>80</td><td>Dadakeji API</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>81</td><td>Ekan8</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>82</td><td>FK Claude</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>83</td><td>Handsfreeclub API</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>84</td><td>LinkAPI</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>85</td><td>Mmaqq API</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>86</td><td>synterolink</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>87</td><td>云雾AI</td><td class="n">0.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>88</td><td>GPT Agent</td><td class="n">0.533</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>89</td><td>BUZZ</td><td class="n">0.543</td><td>Claude Opus 5.5</td></tr>
+<tr><td>90</td><td>Global AI</td><td class="n">0.55</td><td>Claude Opus 5.5</td></tr>
+<tr><td>91</td><td>PixelMuse</td><td class="n">0.55</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>92</td><td>Bailili API</td><td class="n">0.6</td><td>Claude Opus 5.5</td></tr>
+<tr><td>93</td><td>EasyAI</td><td class="n">0.6</td><td>Claude Opus 5.5</td></tr>
+<tr><td>94</td><td>Yourapi</td><td class="n">0.6</td><td>Claude Opus 5.5</td></tr>
+<tr><td>95</td><td>unity2</td><td class="n">0.6</td><td>Claude Opus 5.5</td></tr>
+<tr><td>96</td><td>GPTeam</td><td class="n">0.679</td><td>Claude Opus 5.5</td></tr>
+<tr><td>97</td><td>LingxiCode</td><td class="n">0.7</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>98</td><td>SSSAICode</td><td class="n">0.7</td><td>Claude Opus 5.5</td></tr>
+<tr><td>99</td><td>Umiluxury API</td><td class="n">0.7</td><td>Claude Opus 5.5</td></tr>
+<tr><td>100</td><td>V-API</td><td class="n">0.7</td><td>Claude Opus 5.5</td></tr>
+<tr><td>101</td><td>球球Token</td><td class="n">0.7</td><td>Claude Opus 5.5</td></tr>
+<tr><td>102</td><td>Kuaipao API</td><td class="n">0.75</td><td>Claude Opus 5.5</td></tr>
+<tr><td>103</td><td>geekai</td><td class="n">0.75</td><td>Claude Opus 5.5</td></tr>
+<tr><td>104</td><td>ClaudeAPI</td><td class="n">0.8</td><td>Claude Opus 5.5</td></tr>
+<tr><td>105</td><td>ClaudeApi</td><td class="n">0.8</td><td>Claude Opus 5.5</td></tr>
+<tr><td>106</td><td>OpenOx</td><td class="n">0.8</td><td>Claude Opus 5.5</td></tr>
+<tr><td>107</td><td>Uiuihao API</td><td class="n">0.8</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>108</td><td>nekoapi</td><td class="n">0.8</td><td>Claude Opus 5.5</td></tr>
+<tr><td>109</td><td>万象</td><td class="n">0.8</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>110</td><td>LMU AI · 灵眸</td><td class="n">0.959</td><td>Claude Opus 5.5</td></tr>
+<tr><td>111</td><td>AIAPI World</td><td class="n">0.996</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>112</td><td>4Sapi</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>113</td><td>AIApify</td><td class="n">1</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>114</td><td>ClaudeCN</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>115</td><td>HolySheep AI</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>116</td><td>Kkaiapi</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>117</td><td>NekoCode</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>118</td><td>OPE AI</td><td class="n">1</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>119</td><td>Privnode</td><td class="n">1</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>120</td><td>ToCodex</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>121</td><td>Xyusec API</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>122</td><td>chatfire</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>123</td><td>lanyiapi</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>124</td><td>lyapunov-api</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>125</td><td>yibuapi</td><td class="n">1</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>126</td><td>小马API</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>127</td><td>无限API</td><td class="n">1</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>128</td><td>炒饭兽</td><td class="n">1</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>129</td><td>老张 API</td><td class="n">1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>130</td><td>Cooper-API</td><td class="n">1.018</td><td>Claude Opus 5.5</td></tr>
+<tr><td>131</td><td>Pateway</td><td class="n">1.018</td><td>Claude Opus 5.5</td></tr>
+<tr><td>132</td><td>WorldBase.ai</td><td class="n">1.018</td><td>Claude Opus 5.5</td></tr>
+<tr><td>133</td><td>三头牛</td><td class="n">1.018</td><td>Claude Opus 5.5</td></tr>
+<tr><td>134</td><td>OhMyGPT</td><td class="n">1.1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>135</td><td>moacode</td><td class="n">1.167</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>136</td><td>api.68886868.xyz</td><td class="n">1.221</td><td>Claude Opus 5.5</td></tr>
+<tr><td>137</td><td>Cun AI</td><td class="n">1.25</td><td>Claude Opus 5.5</td></tr>
+<tr><td>138</td><td>ZIVV</td><td class="n">1.3</td><td>Claude Opus 5.5</td></tr>
+<tr><td>139</td><td>RunAPI</td><td class="n">1.319</td><td>Claude Opus 5.5</td></tr>
+<tr><td>140</td><td>codesonline</td><td class="n">1.357</td><td>Claude Opus 5.5</td></tr>
+<tr><td>141</td><td>Codeagent API</td><td class="n">1.44</td><td>Claude Opus 5.5</td></tr>
+<tr><td>142</td><td>AI8</td><td class="n">1.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>143</td><td>CCTQ</td><td class="n">1.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>144</td><td>RPG8</td><td class="n">1.5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>145</td><td>yinli</td><td class="n">1.5</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>146</td><td>DeRouter</td><td class="n">1.561</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>147</td><td>Xcode</td><td class="n">1.7</td><td>Claude Opus 5.5</td></tr>
+<tr><td>148</td><td>Luxery API</td><td class="n">1.8</td><td>Claude Opus 5.5</td></tr>
+<tr><td>149</td><td>kksj</td><td class="n">1.8</td><td>Claude Opus 5.5</td></tr>
+<tr><td>150</td><td>OneChats</td><td class="n">2</td><td>Claude Opus 5.5</td></tr>
+<tr><td>151</td><td>大肘子</td><td class="n">2</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>152</td><td>Xiaoye API</td><td class="n">2.1</td><td>Claude Opus 5.5</td></tr>
+<tr><td>153</td><td>v3</td><td class="n">2.375</td><td>Claude Opus 5.5</td></tr>
+<tr><td>154</td><td>Agent Router</td><td class="n">2.714</td><td>Claude Opus 5.5</td></tr>
+<tr><td>155</td><td>HoHoApi</td><td class="n">3.087</td><td>Claude Opus 5.5</td></tr>
+<tr><td>156</td><td>一元模型</td><td class="n">3.2</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>157</td><td>xinsuanai</td><td class="n">3.333</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>158</td><td>Poixe AI</td><td class="n">3.393</td><td>Claude Opus 5.5</td></tr>
+<tr><td>159</td><td>TimiCC</td><td class="n">3.393</td><td>Claude Opus 5.5</td></tr>
+<tr><td>160</td><td>QweApi</td><td class="n">3.6</td><td>Claude Opus 5.5</td></tr>
+<tr><td>161</td><td>TryAllAI</td><td class="n">4.071</td><td>Claude Opus 5.5</td></tr>
+<tr><td>162</td><td>cc.honoursoft.cn</td><td class="n">4.411</td><td>Claude Opus 5.5</td></tr>
+<tr><td>163</td><td>Muxueai API</td><td class="n">5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>164</td><td>fluapi</td><td class="n">5</td><td>Claude Opus 5.5</td></tr>
+<tr><td>165</td><td>Frontier Intelligence</td><td class="n">5.5</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>166</td><td>Undying</td><td class="n">6.785</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>167</td><td>api.code-relay.com</td><td class="n">6.785</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>168</td><td>ai.bytonsec.com</td><td class="n">8.143</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>169</td><td>api.meai.cloud</td><td class="n">8.143</td><td>Claude Opus 5.5</td></tr>
+<tr><td>170</td><td>我的刀盾</td><td class="n">8.143</td><td>Claude Opus 5.5</td></tr>
+<tr><td>171</td><td>Xiamiapi</td><td class="n">10</td><td>Claude Opus 5.5</td></tr>
+<tr><td>172</td><td>蓝天</td><td class="n">10</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>173</td><td>Sublyx</td><td class="n">12.214</td><td>Claude Opus 5.5</td></tr>
+<tr><td>174</td><td>ZEN-AI</td><td class="n">12.214</td><td>Claude Sonnet 4.6</td></tr>
+<tr><td>175</td><td>cc.580ai.net</td><td class="n">12.723</td><td>Claude Opus 5.5</td></tr>
+<tr><td>176</td><td>Wytkt API</td><td class="n">15</td><td>Claude Opus 5.5</td></tr>
+<tr><td>177</td><td>Neco Api</td><td class="n">16.285</td><td>Claude Opus 5.5</td></tr>
+<tr><td>178</td><td>SwitchBase</td><td class="n">37.5</td><td>Claude Sonnet 4.6</td></tr>
+</tbody></table></div>
+<h2>按模型看 Claude Code 中转站价格</h2>
+<h3 id="claude-opus-5-5">Claude Opus 5.5 中转站价格（157 家）</h3><p>官方价：输入 $4 / 输出 $20 每百万 tokens；多数站在 0.7 倍上下。</p>
+<div class="wrap"><table><caption>Claude Opus 5.5 中转站价格</caption><thead><tr><th scope="col">#</th><th scope="col">中转站</th><th scope="col">倍率</th><th scope="col">输入价</th><th scope="col">输出价</th></tr></thead><tbody>
 <tr><td>1</td><td>XTokenMirror</td><td class="n">0.026</td><td class="n">¥0.104</td><td class="n">¥0.52</td></tr>
 <tr><td>2</td><td>ergouzi</td><td class="n">0.05</td><td class="n">¥0.2</td><td class="n">¥1</td></tr>
 <tr><td>3</td><td>空悲切API</td><td class="n">0.05</td><td class="n">¥0.2</td><td class="n">¥1</td></tr>
@@ -184,7 +385,9 @@ footer{margin-top:32px;padding-top:12px;border-top:1px solid #ddd;color:#666;fon
 <tr><td>156</td><td>Neco Api</td><td class="n">16.285</td><td class="n">¥65.14</td><td class="n">¥325.7</td></tr>
 <tr><td>157</td><td>换API</td><td class="n">22.5</td><td class="n">¥90</td><td class="n">¥450</td></tr>
 </tbody></table></div>
-<h2 id="claude-sonnet-4-6">Claude Sonnet 4.6 中转站价格（152 家）</h2><p>官方价：输入 $3 / 输出 $15 每百万 tokens。</p><div class="wrap"><table><thead><tr><th>#</th><th>中转站</th><th>倍率</th><th>输入价</th><th>输出价</th></tr></thead><tbody>
+<p><a href="/relay-prices/claude/claude-opus-5-5/">Claude Opus 5.5 中转站价格单页 →</a></p>
+<h3 id="claude-sonnet-4-6">Claude Sonnet 4.6 中转站价格（152 家）</h3><p>官方价：输入 $3 / 输出 $15 每百万 tokens；多数站在 0.57 倍上下。</p>
+<div class="wrap"><table><caption>Claude Sonnet 4.6 中转站价格</caption><thead><tr><th scope="col">#</th><th scope="col">中转站</th><th scope="col">倍率</th><th scope="col">输入价</th><th scope="col">输出价</th></tr></thead><tbody>
 <tr><td>1</td><td>Prism API</td><td class="n">0.014</td><td class="n">¥0.042</td><td class="n">¥0.21</td></tr>
 <tr><td>2</td><td>XTokenMirror</td><td class="n">0.026</td><td class="n">¥0.078</td><td class="n">¥0.39</td></tr>
 <tr><td>3</td><td>SunnyPumpkinAPI</td><td class="n">0.042</td><td class="n">¥0.125</td><td class="n">¥0.625</td></tr>
@@ -338,10 +541,11 @@ footer{margin-top:32px;padding-top:12px;border-top:1px solid #ddd;color:#666;fon
 <tr><td>151</td><td>Wytkt API</td><td class="n">25</td><td class="n">¥75</td><td class="n">¥375</td></tr>
 <tr><td>152</td><td>SwitchBase</td><td class="n">37.5</td><td class="n">¥112.5</td><td class="n">¥562.5</td></tr>
 </tbody></table></div>
-<p>倍率是什么、怎么换算成实际花费，见 <a href="/relay-prices/rate-explained/">中转站倍率怎么算</a>。</p>
+<p><a href="/relay-prices/claude/claude-sonnet-4-6/">Claude Sonnet 4.6 中转站价格单页 →</a></p>
+<h2>常见问题</h2><h3>Claude Code 中转站哪家便宜？</h3><p>按最低倍率，目前最便宜的是 Prism API（0.014 倍）、XTokenMirror（0.026 倍）、SunnyPumpkinAPI（0.042 倍）。多数站在 0.55 倍上下，同一家站不同模型、不同分组倍率也不一样，按你要用的模型看对应表格。</p><h3>Claude Code 中转站价格怎么算？</h3><p>实际价格 = 官方价 × 倍率。以 Claude Opus 5.5 为例，官方输入 $4 / 输出 $20 每百万 tokens，0.5 倍的站就是输入 ¥2、输出 ¥10。详见 <a href="/relay-prices/rate-explained/">中转站倍率怎么算</a>。</p><h3>Claude Code 能用中转站吗？</h3><p>能。把 ANTHROPIC_BASE_URL 设成中转站地址、ANTHROPIC_AUTH_TOKEN 设成中转站的 key 即可，和直连官方用法一样。</p>
 <footer>
-<p>数据更新：2026-10-04。价格按人民币 1:1 充值折算，每百万 tokens。</p>
-<p>想看各站真假检测和稳定性，去 <a href="https://www.apiranking.com/rankings/claude-api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices&utm_content=claude-code" rel="nofollow">API Ranking</a>。</p>
+<p>数据更新：2026-10-04。价格单位：人民币元 / 每百万 tokens，按 1 元 = 1 美元额度充值折算。</p>
+<p>各站真假检测、稳定性和站方公告见 <a href="https://apiranking.com/?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">API Ranking</a>。</p>
 </footer>
 </body>
 </html>

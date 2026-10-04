@@ -2,129 +2,275 @@
  "vendor": "DeepSeek",
  "site_count": 20,
  "min_rate": 0.006,
+ "median_rate": 0.438,
+ "sites": [
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "rate": 0.006,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "PRY API",
+   "slug": "bearlab-ai",
+   "rate": 0.05,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "PackyCode",
+   "slug": "packyapi-com",
+   "rate": 0.25,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "deepkey",
+   "slug": "deepkey-top",
+   "rate": 0.25,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "rate": 0.251,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "HolySheep AI",
+   "slug": "holysheep-ai",
+   "rate": 0.267,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "H API",
+   "slug": "h-api",
+   "rate": 0.3,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "UU API",
+   "slug": "uuapi-net",
+   "rate": 0.325,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "ZIVV",
+   "slug": "zivv-pro",
+   "rate": 0.375,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "LMU AI · 灵眸",
+   "slug": "api-lmuai-com",
+   "rate": 0.388,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "rate": 0.488,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "聚星AI",
+   "slug": "juxingai-top",
+   "rate": 0.5,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "卡皮巴拉API",
+   "slug": "kapibala-asia",
+   "rate": 0.525,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "xiaojing",
+   "slug": "open-xiaojingai-com",
+   "rate": 0.55,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "OpenOx",
+   "slug": "openox",
+   "rate": 0.616,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "CCTQ",
+   "slug": "cctq",
+   "rate": 0.7,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "Xcode",
+   "slug": "xcode-best",
+   "rate": 0.75,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "三头牛",
+   "slug": "36niu-com",
+   "rate": 0.921,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "rate": 1.0,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "Kuaipao API",
+   "slug": "kuaipao-pro",
+   "rate": 1.26,
+   "model": "DeepSeek V4.1 Flash"
+  }
+ ],
  "tables": [
   {
    "model_key": "deepseek-v4.1-flash",
+   "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
+   "median_rate": 0.454,
+   "own_page": false,
    "official_in": 2.0,
    "official_out": 8.0,
    "rows": [
     {
      "name": "A6API",
+     "slug": "a6api",
      "in": 0.0117,
      "out": 0.0469,
      "rate": 0.006
     },
     {
      "name": "PRY API",
+     "slug": "bearlab-ai",
      "in": 0.15,
      "out": 0.6,
      "rate": 0.075
     },
     {
      "name": "PackyCode",
+     "slug": "packyapi-com",
      "in": 0.5,
      "out": 2.0,
      "rate": 0.25
     },
     {
      "name": "deepkey",
+     "slug": "deepkey-top",
      "in": 0.5,
      "out": 2.0,
      "rate": 0.25
     },
     {
      "name": "RunAPI",
+     "slug": "runapi-co",
      "in": 0.5026,
      "out": 2.0105,
      "rate": 0.251
     },
     {
      "name": "H API",
+     "slug": "h-api",
      "in": 0.6,
      "out": 2.4,
      "rate": 0.3
     },
     {
      "name": "UU API",
+     "slug": "uuapi-net",
      "in": 0.65,
      "out": 2.6,
      "rate": 0.325
     },
     {
      "name": "ZIVV",
+     "slug": "zivv-pro",
      "in": 0.75,
      "out": 1.5,
      "rate": 0.375
     },
     {
      "name": "LMU AI · 灵眸",
+     "slug": "api-lmuai-com",
      "in": 0.7775,
      "out": 3.1101,
      "rate": 0.388
     },
     {
      "name": "HolySheep AI",
+     "slug": "holysheep-ai",
      "in": 0.8,
      "out": 1.6,
      "rate": 0.4
     },
     {
      "name": "LinksAPI",
+     "slug": "linksapi",
      "in": 1.014,
      "out": 2.028,
      "rate": 0.507
     },
     {
      "name": "xiaojing",
+     "slug": "open-xiaojingai-com",
      "in": 1.1,
      "out": 4.4,
      "rate": 0.55
     },
     {
      "name": "OpenOx",
+     "slug": "openox",
      "in": 1.26,
      "out": 5.04,
      "rate": 0.63
     },
     {
      "name": "卡皮巴拉API",
+     "slug": "kapibala-asia",
      "in": 1.35,
      "out": 5.4,
      "rate": 0.675
     },
     {
      "name": "CCTQ",
+     "slug": "cctq",
      "in": 1.4,
      "out": 5.6,
      "rate": 0.7
     },
     {
      "name": "Xcode",
+     "slug": "xcode-best",
      "in": 1.5,
      "out": 6.0,
      "rate": 0.75
     },
     {
      "name": "聚星AI",
+     "slug": "juxingai-top",
      "in": 1.5,
      "out": 3.0,
      "rate": 0.75
     },
     {
      "name": "三头牛",
+     "slug": "36niu-com",
      "in": 1.8423,
      "out": 7.368,
      "rate": 0.921
     },
     {
      "name": "SSSAICode",
+     "slug": "sssaicode-com",
      "in": 2.0,
      "out": 8.0,
      "rate": 1.0
     },
     {
      "name": "Kuaipao API",
+     "slug": "kuaipao-pro",
      "in": 2.52,
      "out": 9.9,
      "rate": 1.26
@@ -133,120 +279,142 @@
   },
   {
    "model_key": "deepseek-v4-pro",
+   "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
+   "median_rate": 0.5,
+   "own_page": false,
    "official_in": 9.0,
    "official_out": 27.0,
    "rows": [
     {
      "name": "A6API",
+     "slug": "a6api",
      "in": 0.0651,
      "out": 0.1954,
      "rate": 0.007
     },
     {
      "name": "PRY API",
+     "slug": "bearlab-ai",
      "in": 0.45,
      "out": 1.35,
      "rate": 0.05
     },
     {
      "name": "PackyCode",
+     "slug": "packyapi-com",
      "in": 2.25,
      "out": 6.75,
      "rate": 0.25
     },
     {
      "name": "deepkey",
+     "slug": "deepkey-top",
      "in": 2.25,
      "out": 6.75,
      "rate": 0.25
     },
     {
      "name": "HolySheep AI",
+     "slug": "holysheep-ai",
      "in": 2.4,
      "out": 4.8,
      "rate": 0.267
     },
     {
      "name": "H API",
+     "slug": "h-api",
      "in": 2.7,
      "out": 8.1,
      "rate": 0.3
     },
     {
      "name": "UU API",
+     "slug": "uuapi-net",
      "in": 3.37,
      "out": 10.12,
      "rate": 0.374
     },
     {
      "name": "LMU AI · 灵眸",
+     "slug": "api-lmuai-com",
      "in": 3.4989,
      "out": 10.4966,
      "rate": 0.388
     },
     {
      "name": "LinksAPI",
+     "slug": "linksapi",
      "in": 4.3875,
      "out": 13.1625,
      "rate": 0.488
     },
     {
      "name": "聚星AI",
+     "slug": "juxingai-top",
      "in": 4.5,
      "out": 9.0,
      "rate": 0.5
     },
     {
      "name": "RunAPI",
+     "slug": "runapi-co",
      "in": 4.5236,
      "out": 13.571,
      "rate": 0.503
     },
     {
      "name": "卡皮巴拉API",
+     "slug": "kapibala-asia",
      "in": 4.725,
      "out": 14.175,
      "rate": 0.525
     },
     {
      "name": "OpenOx",
+     "slug": "openox",
      "in": 5.544,
      "out": 16.632,
      "rate": 0.616
     },
     {
      "name": "xiaojing",
+     "slug": "open-xiaojingai-com",
      "in": 5.94,
      "out": 17.82,
      "rate": 0.66
     },
     {
      "name": "ZIVV",
+     "slug": "zivv-pro",
      "in": 6.6,
      "out": 13.2,
      "rate": 0.733
     },
     {
      "name": "Xcode",
+     "slug": "xcode-best",
      "in": 6.75,
      "out": 20.25,
      "rate": 0.75
     },
     {
      "name": "三头牛",
+     "slug": "36niu-com",
      "in": 8.2885,
      "out": 24.8643,
      "rate": 0.921
     },
     {
      "name": "SSSAICode",
+     "slug": "sssaicode-com",
      "in": 9.0,
      "out": 27.0,
      "rate": 1.0
     },
     {
      "name": "Kuaipao API",
+     "slug": "kuaipao-pro",
      "in": 18.0,
      "out": 54.0,
      "rate": 2.0
