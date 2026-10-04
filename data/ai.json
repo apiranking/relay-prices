@@ -1,0 +1,1516 @@
+{
+ "families": [
+  {
+   "key": "claude",
+   "label": "Claude"
+  },
+  {
+   "key": "openai",
+   "label": "GPT"
+  },
+  {
+   "key": "gemini",
+   "label": "Gemini"
+  },
+  {
+   "key": "grok",
+   "label": "Grok"
+  },
+  {
+   "key": "deepseek",
+   "label": "DeepSeek"
+  }
+ ],
+ "site_count": 194,
+ "rows": [
+  {
+   "name": "A6API",
+   "rates": {
+    "claude": 0.048,
+    "openai": 0.007,
+    "grok": 0.004,
+    "gemini": 0.081,
+    "deepseek": 0.006
+   }
+  },
+  {
+   "name": "H API",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.036,
+    "grok": 0.4,
+    "gemini": 0.225,
+    "deepseek": 0.3
+   }
+  },
+  {
+   "name": "Kuaipao API",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.04,
+    "grok": 0.5,
+    "gemini": 1.0,
+    "deepseek": 1.26
+   }
+  },
+  {
+   "name": "LMU AI · 灵眸",
+   "rates": {
+    "claude": 0.639,
+    "openai": 0.151,
+    "gemini": 1.262,
+    "grok": 0.807,
+    "deepseek": 0.388
+   }
+  },
+  {
+   "name": "OpenOx",
+   "rates": {
+    "claude": 0.8,
+    "openai": 0.032,
+    "grok": 0.4,
+    "deepseek": 0.616,
+    "gemini": 1.0
+   }
+  },
+  {
+   "name": "PRY API",
+   "rates": {
+    "claude": 0.267,
+    "openai": 0.014,
+    "grok": 0.02,
+    "gemini": 0.1,
+    "deepseek": 0.05
+   }
+  },
+  {
+   "name": "PackyCode",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.5,
+    "grok": 0.1,
+    "deepseek": 0.25,
+    "gemini": 7.0
+   }
+  },
+  {
+   "name": "RunAPI",
+   "rates": {
+    "claude": 0.879,
+    "openai": 0.1,
+    "gemini": 0.712,
+    "grok": 0.475,
+    "deepseek": 0.251
+   }
+  },
+  {
+   "name": "UU API",
+   "rates": {
+    "claude": 0.4,
+    "openai": 0.04,
+    "grok": 0.4,
+    "deepseek": 0.325,
+    "gemini": 0.25
+   }
+  },
+  {
+   "name": "Xcode",
+   "rates": {
+    "claude": 1.133,
+    "openai": 0.06,
+    "gemini": 0.5,
+    "grok": 0.2,
+    "deepseek": 0.75
+   }
+  },
+  {
+   "name": "deepkey",
+   "rates": {
+    "claude": 0.4,
+    "openai": 0.024,
+    "grok": 0.06,
+    "gemini": 0.15,
+    "deepseek": 0.25
+   }
+  },
+  {
+   "name": "xiaojing",
+   "rates": {
+    "claude": 0.25,
+    "openai": 0.05,
+    "grok": 0.1,
+    "gemini": 0.25,
+    "deepseek": 0.55
+   }
+  },
+  {
+   "name": "三头牛",
+   "rates": {
+    "claude": 0.679,
+    "openai": 0.271,
+    "grok": 1.357,
+    "gemini": 0.679,
+    "deepseek": 0.921
+   }
+  },
+  {
+   "name": "4Sapi",
+   "rates": {
+    "claude": 0.667,
+    "openai": 0.2,
+    "gemini": 1.0,
+    "grok": 1.0
+   }
+  },
+  {
+   "name": "AIAPI World",
+   "rates": {
+    "grok": 1.04,
+    "openai": 0.1,
+    "claude": 0.797,
+    "gemini": 0.997
+   }
+  },
+  {
+   "name": "APINebula",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.078,
+    "grok": 0.5,
+    "gemini": 0.4
+   }
+  },
+  {
+   "name": "Bailili API",
+   "rates": {
+    "claude": 0.6,
+    "openai": 0.5,
+    "gemini": 1.5,
+    "grok": 0.75
+   }
+  },
+  {
+   "name": "ByteCat",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.1,
+    "gemini": 0.8,
+    "grok": 0.2
+   }
+  },
+  {
+   "name": "Clauddy API",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.5,
+    "gemini": 1.8,
+    "grok": 0.15
+   }
+  },
+  {
+   "name": "Die Ge",
+   "rates": {
+    "claude": 0.25,
+    "openai": 0.03,
+    "gemini": 0.5,
+    "grok": 1.0
+   }
+  },
+  {
+   "name": "Dualseason API",
+   "rates": {
+    "claude": 0.18,
+    "openai": 0.09,
+    "gemini": 1.0,
+    "grok": 18.375
+   }
+  },
+  {
+   "name": "GPT Agent",
+   "rates": {
+    "claude": 0.533,
+    "grok": 3.0,
+    "openai": 0.8,
+    "gemini": 8.0
+   }
+  },
+  {
+   "name": "GPTeam",
+   "rates": {
+    "claude": 0.679,
+    "gemini": 1.357,
+    "openai": 0.407,
+    "grok": 0.679
+   }
+  },
+  {
+   "name": "Global AI",
+   "rates": {
+    "claude": 0.55,
+    "gemini": 0.8,
+    "openai": 0.25,
+    "grok": 0.6
+   }
+  },
+  {
+   "name": "Kkaiapi",
+   "rates": {
+    "claude": 1.0,
+    "gemini": 1.0,
+    "grok": 1.0,
+    "openai": 0.8
+   }
+  },
+  {
+   "name": "LLM-ALL API",
+   "rates": {
+    "claude": 0.133,
+    "gemini": 0.3,
+    "openai": 0.08,
+    "grok": 0.3
+   }
+  },
+  {
+   "name": "LinkAI",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.04,
+    "grok": 0.3,
+    "gemini": 0.3
+   }
+  },
+  {
+   "name": "LinkAPI",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.2,
+    "gemini": 0.315,
+    "grok": 0.8
+   }
+  },
+  {
+   "name": "LinksAPI",
+   "rates": {
+    "claude": 0.125,
+    "openai": 0.049,
+    "deepseek": 0.488,
+    "gemini": 0.507
+   }
+  },
+  {
+   "name": "Mmaqq API",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.3,
+    "grok": 0.25,
+    "gemini": 1.333
+   }
+  },
+  {
+   "name": "RightCode",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.08,
+    "grok": 0.1,
+    "gemini": 0.3
+   }
+  },
+  {
+   "name": "Ruoli API",
+   "rates": {
+    "claude": 0.12,
+    "openai": 0.16,
+    "gemini": 0.3,
+    "grok": 0.3
+   }
+  },
+  {
+   "name": "Top-API",
+   "rates": {
+    "claude": 0.339,
+    "openai": 0.136,
+    "gemini": 0.679,
+    "grok": 0.339
+   }
+  },
+  {
+   "name": "TryAllAI",
+   "rates": {
+    "claude": 4.071,
+    "openai": 0.814,
+    "gemini": 6.785,
+    "grok": 4.071
+   }
+  },
+  {
+   "name": "Uiuihao API",
+   "rates": {
+    "claude": 0.533,
+    "openai": 0.35,
+    "gemini": 1.0,
+    "grok": 1.0
+   }
+  },
+  {
+   "name": "云雾AI",
+   "rates": {
+    "claude": 0.333,
+    "grok": 0.5,
+    "openai": 0.02,
+    "gemini": 0.5
+   }
+  },
+  {
+   "name": "卡皮巴拉API",
+   "rates": {
+    "openai": 0.06,
+    "claude": 0.18,
+    "deepseek": 0.525,
+    "grok": 0.75
+   }
+  },
+  {
+   "name": "旺旺中转站",
+   "rates": {
+    "claude": 0.042,
+    "openai": 0.208,
+    "gemini": 0.111,
+    "grok": 0.4
+   }
+  },
+  {
+   "name": "空悲切API",
+   "rates": {
+    "claude": 0.05,
+    "openai": 0.03,
+    "gemini": 0.2,
+    "grok": 0.15
+   }
+  },
+  {
+   "name": "老张 API",
+   "rates": {
+    "claude": 0.667,
+    "openai": 1.0,
+    "gemini": 1.0,
+    "grok": 1.0
+   }
+  },
+  {
+   "name": "聚星AI",
+   "rates": {
+    "claude": 3.2,
+    "openai": 0.48,
+    "gemini": 1.1,
+    "deepseek": 0.5
+   }
+  },
+  {
+   "name": "537 AI",
+   "rates": {
+    "claude": 0.06,
+    "openai": 0.3,
+    "gemini": 0.9
+   }
+  },
+  {
+   "name": "78 Code",
+   "rates": {
+    "claude": 0.322,
+    "openai": 0.2,
+    "gemini": 3.2
+   }
+  },
+  {
+   "name": "AI 搬运工",
+   "rates": {
+    "claude": 0.053,
+    "openai": 0.068,
+    "grok": 0.05
+   }
+  },
+  {
+   "name": "AI8",
+   "rates": {
+    "claude": 1.0,
+    "openai": 1.0,
+    "grok": 0.7
+   }
+  },
+  {
+   "name": "AiXor",
+   "rates": {
+    "claude": 0.26,
+    "openai": 0.2,
+    "gemini": 0.4
+   }
+  },
+  {
+   "name": "AutoRouter",
+   "rates": {
+    "claude": 0.45,
+    "openai": 0.15,
+    "gemini": 0.65
+   }
+  },
+  {
+   "name": "Bob API",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.075,
+    "gemini": 2.0
+   }
+  },
+  {
+   "name": "BootToken",
+   "rates": {
+    "claude": 0.36,
+    "openai": 0.018,
+    "gemini": 4.95
+   }
+  },
+  {
+   "name": "ByteClaude",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.1,
+    "gemini": 0.2
+   }
+  },
+  {
+   "name": "CCTQ",
+   "rates": {
+    "claude": 1.0,
+    "openai": 0.04,
+    "deepseek": 0.7
+   }
+  },
+  {
+   "name": "Cavoti AI",
+   "rates": {
+    "claude": 0.045,
+    "openai": 0.041,
+    "grok": 0.102
+   }
+  },
+  {
+   "name": "Codex2API",
+   "rates": {
+    "claude": 0.133,
+    "openai": 0.065,
+    "grok": 0.3
+   }
+  },
+  {
+   "name": "Cooper-API",
+   "rates": {
+    "claude": 1.018,
+    "openai": 0.679,
+    "gemini": 2.036
+   }
+  },
+  {
+   "name": "Cun AI",
+   "rates": {
+    "claude": 0.833,
+    "openai": 1.062,
+    "gemini": 1.25
+   }
+  },
+  {
+   "name": "DawCode",
+   "rates": {
+    "claude": 0.45,
+    "openai": 0.3,
+    "gemini": 1.0
+   }
+  },
+  {
+   "name": "DoroAI",
+   "rates": {
+    "claude": 0.08,
+    "gemini": 0.75,
+    "openai": 0.1
+   }
+  },
+  {
+   "name": "FastCode",
+   "rates": {
+    "claude": 0.14,
+    "openai": 0.138,
+    "gemini": 0.14
+   }
+  },
+  {
+   "name": "HoHoApi",
+   "rates": {
+    "claude": 3.087,
+    "openai": 4.411,
+    "gemini": 8.821
+   }
+  },
+  {
+   "name": "HolySheep AI",
+   "rates": {
+    "claude": 1.0,
+    "openai": 0.1,
+    "deepseek": 0.267
+   }
+  },
+  {
+   "name": "IKunCode",
+   "rates": {
+    "claude": 0.4,
+    "openai": 0.2,
+    "gemini": 0.7
+   }
+  },
+  {
+   "name": "Micu",
+   "rates": {
+    "claude": 0.3,
+    "gemini": 2.2,
+    "openai": 0.35
+   }
+  },
+  {
+   "name": "Neco Api",
+   "rates": {
+    "claude": 16.285,
+    "openai": 6.785,
+    "grok": 8.482
+   }
+  },
+  {
+   "name": "OhMyGPT",
+   "rates": {
+    "claude": 1.1,
+    "openai": 1.1,
+    "gemini": 0.9
+   }
+  },
+  {
+   "name": "OneChats",
+   "rates": {
+    "claude": 1.333,
+    "openai": 1.0,
+    "gemini": 2.0
+   }
+  },
+  {
+   "name": "Poixe AI",
+   "rates": {
+    "claude": 3.393,
+    "openai": 3.393,
+    "gemini": 2.117
+   }
+  },
+  {
+   "name": "RPG8",
+   "rates": {
+    "claude": 1.5,
+    "openai": 0.2,
+    "gemini": 0.1
+   }
+  },
+  {
+   "name": "Rehdasu API",
+   "rates": {
+    "openai": 0.1,
+    "claude": 0.2,
+    "gemini": 0.15
+   }
+  },
+  {
+   "name": "SSSAICode",
+   "rates": {
+    "claude": 0.7,
+    "openai": 0.32,
+    "deepseek": 1.0
+   }
+  },
+  {
+   "name": "SixthSense LLM",
+   "rates": {
+    "openai": 0.016,
+    "claude": 0.091,
+    "grok": 0.027
+   }
+  },
+  {
+   "name": "SparkCode",
+   "rates": {
+    "claude": 0.35,
+    "gemini": 0.3,
+    "openai": 0.1
+   }
+  },
+  {
+   "name": "Sublyx",
+   "rates": {
+    "claude": 8.143,
+    "openai": 1.696,
+    "grok": 15.267
+   }
+  },
+  {
+   "name": "Sum API",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.04,
+    "gemini": 50.0
+   }
+  },
+  {
+   "name": "SunnyPumpkinAPI",
+   "rates": {
+    "claude": 0.042,
+    "gemini": 0.042,
+    "openai": 0.069
+   }
+  },
+  {
+   "name": "TimiCC",
+   "rates": {
+    "claude": 3.393,
+    "openai": 1.018,
+    "grok": 0.679
+   }
+  },
+  {
+   "name": "ToCodex",
+   "rates": {
+    "claude": 1.0,
+    "openai": 0.4,
+    "gemini": 1.0
+   }
+  },
+  {
+   "name": "Token云桥",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.001,
+    "gemini": 2.2
+   }
+  },
+  {
+   "name": "V-API",
+   "rates": {
+    "claude": 0.467,
+    "openai": 1.0,
+    "gemini": 1.0
+   }
+  },
+  {
+   "name": "Wytkt API",
+   "rates": {
+    "claude": 7.5,
+    "openai": 15.0,
+    "gemini": 37.5
+   }
+  },
+  {
+   "name": "XTokenMirror",
+   "rates": {
+    "claude": 0.026,
+    "openai": 0.007,
+    "gemini": 0.04
+   }
+  },
+  {
+   "name": "Xiaoye API",
+   "rates": {
+    "claude": 2.1,
+    "openai": 0.3,
+    "grok": 0.3
+   }
+  },
+  {
+   "name": "Yourapi",
+   "rates": {
+    "claude": 0.6,
+    "openai": 0.175,
+    "gemini": 0.4
+   }
+  },
+  {
+   "name": "Z-API",
+   "rates": {
+    "claude": 0.08,
+    "openai": 0.1,
+    "gemini": 0.1
+   }
+  },
+  {
+   "name": "ZEN-AI",
+   "rates": {
+    "claude": 12.214,
+    "gemini": 3.393,
+    "openai": 2.036
+   }
+  },
+  {
+   "name": "ZIVV",
+   "rates": {
+    "claude": 0.867,
+    "openai": 0.1,
+    "deepseek": 0.375
+   }
+  },
+  {
+   "name": "api.68886868.xyz",
+   "rates": {
+    "claude": 1.221,
+    "gemini": 2.646,
+    "openai": 0.543
+   }
+  },
+  {
+   "name": "chatfire",
+   "rates": {
+    "claude": 1.0,
+    "gemini": 1.0,
+    "openai": 0.5
+   }
+  },
+  {
+   "name": "codesonline",
+   "rates": {
+    "claude": 1.357,
+    "openai": 1.018,
+    "grok": 0.543
+   }
+  },
+  {
+   "name": "kksj",
+   "rates": {
+    "claude": 1.2,
+    "gemini": 1.8,
+    "openai": 0.6
+   }
+  },
+  {
+   "name": "lucen",
+   "rates": {
+    "claude": 0.407,
+    "openai": 0.204,
+    "grok": 0.407
+   }
+  },
+  {
+   "name": "lyapunov-api",
+   "rates": {
+    "claude": 1.0,
+    "gemini": 1.0,
+    "openai": 1.0
+   }
+  },
+  {
+   "name": "nekoapi",
+   "rates": {
+    "claude": 0.8,
+    "openai": 0.5,
+    "gemini": 2.5
+   }
+  },
+  {
+   "name": "v3",
+   "rates": {
+    "claude": 2.375,
+    "gemini": 6.785,
+    "openai": 6.785
+   }
+  },
+  {
+   "name": "xinsuanai",
+   "rates": {
+    "claude": 3.333,
+    "gemini": 5.0,
+    "openai": 2.0
+   }
+  },
+  {
+   "name": "yinli",
+   "rates": {
+    "claude": 1.5,
+    "gemini": 1.0,
+    "openai": 3.0
+   }
+  },
+  {
+   "name": "一元模型",
+   "rates": {
+    "claude": 3.2,
+    "openai": 3.2,
+    "gemini": 6.0
+   }
+  },
+  {
+   "name": "云影 API",
+   "rates": {
+    "claude": 0.15,
+    "gemini": 0.7,
+    "openai": 0.08
+   }
+  },
+  {
+   "name": "代码狗",
+   "rates": {
+    "claude": 0.067,
+    "openai": 0.036,
+    "grok": 0.18
+   }
+  },
+  {
+   "name": "合租 Ink",
+   "rates": {
+    "claude": 0.233,
+    "openai": 0.08,
+    "grok": 0.08
+   }
+  },
+  {
+   "name": "合聚API",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.032,
+    "gemini": 0.125
+   }
+  },
+  {
+   "name": "换API",
+   "rates": {
+    "claude": 0.4,
+    "gemini": 0.5,
+    "openai": 0.5
+   }
+  },
+  {
+   "name": "无限API",
+   "rates": {
+    "claude": 1.0,
+    "openai": 36.0,
+    "gemini": 1.5
+   }
+  },
+  {
+   "name": "星辰",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.05,
+    "gemini": 0.433
+   }
+  },
+  {
+   "name": "柏API",
+   "rates": {
+    "claude": 0.167,
+    "openai": 0.04,
+    "grok": 0.2
+   }
+  },
+  {
+   "name": "镜核 AI",
+   "rates": {
+    "claude": 0.44,
+    "openai": 0.234,
+    "gemini": 0.507
+   }
+  },
+  {
+   "name": "黑黑",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.05,
+    "grok": 0.2
+   }
+  },
+  {
+   "name": "9527code",
+   "rates": {
+    "claude": 0.35,
+    "openai": 0.38
+   }
+  },
+  {
+   "name": "AI Chat",
+   "rates": {
+    "claude": 0.25,
+    "openai": 0.1
+   }
+  },
+  {
+   "name": "AIApify",
+   "rates": {
+    "claude": 1.0,
+    "openai": 1.0
+   }
+  },
+  {
+   "name": "AI派",
+   "rates": {
+    "claude": 0.167,
+    "openai": 0.25
+   }
+  },
+  {
+   "name": "Agent Router",
+   "rates": {
+    "claude": 2.714,
+    "openai": 5.428
+   }
+  },
+  {
+   "name": "Aitechflux API",
+   "rates": {
+    "claude": 0.152,
+    "openai": 0.03
+   }
+  },
+  {
+   "name": "BMCCA",
+   "rates": {
+    "openai": 0.148,
+    "claude": 0.222
+   }
+  },
+  {
+   "name": "BUZZ",
+   "rates": {
+    "claude": 0.543,
+    "openai": 0.407
+   }
+  },
+  {
+   "name": "ClaudeCN",
+   "rates": {
+    "claude": 1.0,
+    "gemini": 7.0
+   }
+  },
+  {
+   "name": "CodeSuc",
+   "rates": {
+    "claude": 0.25,
+    "openai": 0.03
+   }
+  },
+  {
+   "name": "Codeagent API",
+   "rates": {
+    "claude": 1.44,
+    "openai": 1.4
+   }
+  },
+  {
+   "name": "DDShub",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.07
+   }
+  },
+  {
+   "name": "Dadakeji API",
+   "rates": {
+    "claude": 0.333,
+    "openai": 0.3
+   }
+  },
+  {
+   "name": "DeRouter",
+   "rates": {
+    "openai": 0.774,
+    "claude": 1.561
+   }
+  },
+  {
+   "name": "EasyAI",
+   "rates": {
+    "openai": 0.4,
+    "claude": 0.6
+   }
+  },
+  {
+   "name": "Frontier Intelligence",
+   "rates": {
+    "claude": 5.5,
+    "openai": 0.5
+   }
+  },
+  {
+   "name": "Handsfreeclub API",
+   "rates": {
+    "claude": 0.5,
+    "grok": 0.6
+   }
+  },
+  {
+   "name": "LingxiCode",
+   "rates": {
+    "claude": 0.7,
+    "openai": 0.55
+   }
+  },
+  {
+   "name": "Lumin AI",
+   "rates": {
+    "claude": 0.25,
+    "openai": 0.012
+   }
+  },
+  {
+   "name": "Luxery API",
+   "rates": {
+    "claude": 0.6,
+    "openai": 0.06
+   }
+  },
+  {
+   "name": "Muxueai API",
+   "rates": {
+    "openai": 1.0,
+    "claude": 5.0
+   }
+  },
+  {
+   "name": "NekoCode",
+   "rates": {
+    "claude": 1.0,
+    "openai": 1.0
+   }
+  },
+  {
+   "name": "Pateway",
+   "rates": {
+    "claude": 0.679,
+    "openai": 0.339
+   }
+  },
+  {
+   "name": "PixelMuse",
+   "rates": {
+    "claude": 0.55,
+    "openai": 0.15
+   }
+  },
+  {
+   "name": "QweApi",
+   "rates": {
+    "claude": 3.6,
+    "openai": 1.0
+   }
+  },
+  {
+   "name": "Square API",
+   "rates": {
+    "claude": 0.08,
+    "openai": 0.065
+   }
+  },
+  {
+   "name": "SwitchBase",
+   "rates": {
+    "claude": 37.5,
+    "openai": 0.4
+   }
+  },
+  {
+   "name": "Traxnode",
+   "rates": {
+    "claude": 0.15,
+    "openai": 0.15
+   }
+  },
+  {
+   "name": "Umiluxury API",
+   "rates": {
+    "claude": 0.467,
+    "openai": 0.12
+   }
+  },
+  {
+   "name": "Undying",
+   "rates": {
+    "claude": 6.785,
+    "gemini": 13.571
+   }
+  },
+  {
+   "name": "WorldBase.ai",
+   "rates": {
+    "claude": 1.018,
+    "openai": 0.679
+   }
+  },
+  {
+   "name": "Xiamiapi",
+   "rates": {
+    "claude": 8.333,
+    "openai": 6.0
+   }
+  },
+  {
+   "name": "Xyusec API",
+   "rates": {
+    "claude": 0.833,
+    "openai": 0.3
+   }
+  },
+  {
+   "name": "YunServer API",
+   "rates": {
+    "claude": 0.196,
+    "openai": 0.199
+   }
+  },
+  {
+   "name": "ZeroCode",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.2
+   }
+  },
+  {
+   "name": "ai.bytonsec.com",
+   "rates": {
+    "claude": 8.143,
+    "gemini": 8.482
+   }
+  },
+  {
+   "name": "ai98pro",
+   "rates": {
+    "claude": 0.08,
+    "openai": 0.029
+   }
+  },
+  {
+   "name": "api.code-relay.com",
+   "rates": {
+    "claude": 6.785,
+    "openai": 6.785
+   }
+  },
+  {
+   "name": "boxying",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.06
+   }
+  },
+  {
+   "name": "cc.580ai.net",
+   "rates": {
+    "claude": 12.723,
+    "openai": 15.267
+   }
+  },
+  {
+   "name": "ergouzi",
+   "rates": {
+    "claude": 0.05,
+    "openai": 0.03
+   }
+  },
+  {
+   "name": "fluapi",
+   "rates": {
+    "claude": 5.0,
+    "openai": 5.0
+   }
+  },
+  {
+   "name": "geekai",
+   "rates": {
+    "claude": 0.75,
+    "gemini": 0.75
+   }
+  },
+  {
+   "name": "jojocode",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.17
+   }
+  },
+  {
+   "name": "lanyiapi",
+   "rates": {
+    "claude": 1.0,
+    "openai": 0.5
+   }
+  },
+  {
+   "name": "moacode",
+   "rates": {
+    "claude": 0.767,
+    "openai": 0.248
+   }
+  },
+  {
+   "name": "poloai",
+   "rates": {
+    "claude": 0.137,
+    "gemini": 0.137
+   }
+  },
+  {
+   "name": "synterolink",
+   "rates": {
+    "claude": 0.333,
+    "openai": 1.0
+   }
+  },
+  {
+   "name": "unity2",
+   "rates": {
+    "claude": 0.4,
+    "openai": 0.4
+   }
+  },
+  {
+   "name": "yibuapi",
+   "rates": {
+    "claude": 1.0,
+    "gemini": 1.0
+   }
+  },
+  {
+   "name": "万象",
+   "rates": {
+    "claude": 0.8,
+    "openai": 0.4
+   }
+  },
+  {
+   "name": "哩喵中转栈",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.04
+   }
+  },
+  {
+   "name": "大肘子",
+   "rates": {
+    "claude": 2.0,
+    "openai": 0.35
+   }
+  },
+  {
+   "name": "小瑞API",
+   "rates": {
+    "claude": 0.49,
+    "openai": 0.273
+   }
+  },
+  {
+   "name": "小马API",
+   "rates": {
+    "claude": 0.667,
+    "openai": 0.5
+   }
+  },
+  {
+   "name": "球球Token",
+   "rates": {
+    "claude": 0.7,
+    "openai": 0.38
+   }
+  },
+  {
+   "name": "菜菜中转站",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.25
+   }
+  },
+  {
+   "name": "闪电API",
+   "rates": {
+    "openai": 0.125,
+    "claude": 0.35
+   }
+  },
+  {
+   "name": "35-aigcbest",
+   "rates": {
+    "openai": 1.0
+   }
+  },
+  {
+   "name": "996444",
+   "rates": {
+    "gemini": 7.464
+   }
+  },
+  {
+   "name": "APIKEY.FUN",
+   "rates": {
+    "claude": 0.1
+   }
+  },
+  {
+   "name": "Claude API",
+   "rates": {
+    "claude": 0.069
+   }
+  },
+  {
+   "name": "ClaudeAPI",
+   "rates": {
+    "claude": 0.8
+   }
+  },
+  {
+   "name": "ClaudeApi",
+   "rates": {
+    "claude": 0.8
+   }
+  },
+  {
+   "name": "CodeRelay",
+   "rates": {
+    "claude": 0.25
+   }
+  },
+  {
+   "name": "Ekan8",
+   "rates": {
+    "claude": 0.5
+   }
+  },
+  {
+   "name": "FK Claude",
+   "rates": {
+    "claude": 0.5
+   }
+  },
+  {
+   "name": "Hyperapi",
+   "rates": {
+    "openai": 1.5
+   }
+  },
+  {
+   "name": "MaynorAPI",
+   "rates": {
+    "gemini": 10.178
+   }
+  },
+  {
+   "name": "OPE AI",
+   "rates": {
+    "claude": 1.0
+   }
+  },
+  {
+   "name": "Ofapp API",
+   "rates": {
+    "openai": 0.25
+   }
+  },
+  {
+   "name": "Prism API",
+   "rates": {
+    "claude": 0.014
+   }
+  },
+  {
+   "name": "Privnode",
+   "rates": {
+    "claude": 1.0
+   }
+  },
+  {
+   "name": "Suan Niao API",
+   "rates": {
+    "openai": 0.1
+   }
+  },
+  {
+   "name": "SubRouter",
+   "rates": {
+    "openai": 0.086
+   }
+  },
+  {
+   "name": "api.meai.cloud",
+   "rates": {
+    "claude": 8.143
+   }
+  },
+  {
+   "name": "cc.honoursoft.cn",
+   "rates": {
+    "claude": 4.411
+   }
+  },
+  {
+   "name": "ePhone AI",
+   "rates": {
+    "openai": 6.0
+   }
+  },
+  {
+   "name": "ephone",
+   "rates": {
+    "openai": 0.53
+   }
+  },
+  {
+   "name": "luccc",
+   "rates": {
+    "openai": 0.2
+   }
+  },
+  {
+   "name": "xeduapi",
+   "rates": {
+    "openai": 0.679
+   }
+  },
+  {
+   "name": "哈基米",
+   "rates": {
+    "openai": 9.72
+   }
+  },
+  {
+   "name": "我的刀盾",
+   "rates": {
+    "claude": 8.143
+   }
+  },
+  {
+   "name": "汪汪の中转站",
+   "rates": {
+    "openai": 4.0
+   }
+  },
+  {
+   "name": "炒饭兽",
+   "rates": {
+    "claude": 1.0
+   }
+  },
+  {
+   "name": "蓝天",
+   "rates": {
+    "claude": 10.0
+   }
+  },
+  {
+   "name": "词元流动",
+   "rates": {
+    "openai": 0.361
+   }
+  },
+  {
+   "name": "通API",
+   "rates": {
+    "openai": 1.0
+   }
+  }
+ ],
+ "updated": "2026-10-04"
+}

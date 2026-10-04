@@ -1,0 +1,241 @@
+{
+ "site_count": 194,
+ "families": [
+  {
+   "key": "claude",
+   "label": "Claude",
+   "count": 179,
+   "rows": [
+    {
+     "name": "Prism API",
+     "rate": 0.014
+    },
+    {
+     "name": "XTokenMirror",
+     "rate": 0.026
+    },
+    {
+     "name": "SunnyPumpkinAPI",
+     "rate": 0.042
+    },
+    {
+     "name": "旺旺中转站",
+     "rate": 0.042
+    },
+    {
+     "name": "Cavoti AI",
+     "rate": 0.045
+    },
+    {
+     "name": "A6API",
+     "rate": 0.048
+    },
+    {
+     "name": "ergouzi",
+     "rate": 0.05
+    },
+    {
+     "name": "空悲切API",
+     "rate": 0.05
+    },
+    {
+     "name": "AI 搬运工",
+     "rate": 0.053
+    },
+    {
+     "name": "537 AI",
+     "rate": 0.06
+    }
+   ]
+  },
+  {
+   "key": "openai",
+   "label": "GPT",
+   "count": 170,
+   "rows": [
+    {
+     "name": "Token云桥",
+     "rate": 0.001
+    },
+    {
+     "name": "A6API",
+     "rate": 0.007
+    },
+    {
+     "name": "XTokenMirror",
+     "rate": 0.007
+    },
+    {
+     "name": "Lumin AI",
+     "rate": 0.012
+    },
+    {
+     "name": "PRY API",
+     "rate": 0.014
+    },
+    {
+     "name": "SixthSense LLM",
+     "rate": 0.016
+    },
+    {
+     "name": "BootToken",
+     "rate": 0.018
+    },
+    {
+     "name": "云雾AI",
+     "rate": 0.02
+    },
+    {
+     "name": "deepkey",
+     "rate": 0.024
+    },
+    {
+     "name": "ai98pro",
+     "rate": 0.029
+    }
+   ]
+  },
+  {
+   "key": "gemini",
+   "label": "Gemini",
+   "count": 94,
+   "rows": [
+    {
+     "name": "XTokenMirror",
+     "rate": 0.04
+    },
+    {
+     "name": "SunnyPumpkinAPI",
+     "rate": 0.042
+    },
+    {
+     "name": "A6API",
+     "rate": 0.081
+    },
+    {
+     "name": "PRY API",
+     "rate": 0.1
+    },
+    {
+     "name": "RPG8",
+     "rate": 0.1
+    },
+    {
+     "name": "Z-API",
+     "rate": 0.1
+    },
+    {
+     "name": "旺旺中转站",
+     "rate": 0.111
+    },
+    {
+     "name": "合聚API",
+     "rate": 0.125
+    },
+    {
+     "name": "poloai",
+     "rate": 0.137
+    },
+    {
+     "name": "FastCode",
+     "rate": 0.14
+    }
+   ]
+  },
+  {
+   "key": "grok",
+   "label": "Grok",
+   "count": 55,
+   "rows": [
+    {
+     "name": "A6API",
+     "rate": 0.004
+    },
+    {
+     "name": "PRY API",
+     "rate": 0.02
+    },
+    {
+     "name": "SixthSense LLM",
+     "rate": 0.027
+    },
+    {
+     "name": "AI 搬运工",
+     "rate": 0.05
+    },
+    {
+     "name": "deepkey",
+     "rate": 0.06
+    },
+    {
+     "name": "合租 Ink",
+     "rate": 0.08
+    },
+    {
+     "name": "PackyCode",
+     "rate": 0.1
+    },
+    {
+     "name": "RightCode",
+     "rate": 0.1
+    },
+    {
+     "name": "xiaojing",
+     "rate": 0.1
+    },
+    {
+     "name": "Cavoti AI",
+     "rate": 0.102
+    }
+   ]
+  },
+  {
+   "key": "deepseek",
+   "label": "DeepSeek",
+   "count": 20,
+   "rows": [
+    {
+     "name": "A6API",
+     "rate": 0.006
+    },
+    {
+     "name": "PRY API",
+     "rate": 0.05
+    },
+    {
+     "name": "PackyCode",
+     "rate": 0.25
+    },
+    {
+     "name": "deepkey",
+     "rate": 0.25
+    },
+    {
+     "name": "RunAPI",
+     "rate": 0.251
+    },
+    {
+     "name": "HolySheep AI",
+     "rate": 0.267
+    },
+    {
+     "name": "H API",
+     "rate": 0.3
+    },
+    {
+     "name": "UU API",
+     "rate": 0.325
+    },
+    {
+     "name": "ZIVV",
+     "rate": 0.375
+    },
+    {
+     "name": "LMU AI · 灵眸",
+     "rate": 0.388
+    }
+   ]
+  }
+ ],
+ "updated": "2026-10-04"
+}

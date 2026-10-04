@@ -1,0 +1,146 @@
+[
+ {
+  "label": "Claude Sonnet 4.6",
+  "family": "claude",
+  "in": 3.0,
+  "out": 15.0
+ },
+ {
+  "label": "Claude Sonnet 5.5",
+  "family": "claude",
+  "in": 3.0,
+  "out": 15.0
+ },
+ {
+  "label": "Claude Sonnet 5",
+  "family": "claude",
+  "in": 3.0,
+  "out": 15.0
+ },
+ {
+  "label": "Claude Opus 4.8",
+  "family": "claude",
+  "in": 5.0,
+  "out": 25.0
+ },
+ {
+  "label": "Claude Opus 5",
+  "family": "claude",
+  "in": 5.0,
+  "out": 25.0
+ },
+ {
+  "label": "Claude Opus 5.5",
+  "family": "claude",
+  "in": 4.0,
+  "out": 20.0
+ },
+ {
+  "label": "Claude Fable 5",
+  "family": "claude",
+  "in": 10.0,
+  "out": 50.0
+ },
+ {
+  "label": "Claude Fable 5.1",
+  "family": "claude",
+  "in": 10.0,
+  "out": 50.0
+ },
+ {
+  "label": "GPT-6 Astra",
+  "family": "openai",
+  "in": 10.0,
+  "out": 50.0
+ },
+ {
+  "label": "GPT-6.1 Sol",
+  "family": "openai",
+  "in": 10.0,
+  "out": 15.0
+ },
+ {
+  "label": "GPT-6 Sol",
+  "family": "openai",
+  "in": 10.0,
+  "out": 15.0
+ },
+ {
+  "label": "GPT-6 Luna",
+  "family": "openai",
+  "in": 0.5,
+  "out": 0.75
+ },
+ {
+  "label": "GPT-5.6 Sol",
+  "family": "openai",
+  "in": 5.0,
+  "out": 30.0
+ },
+ {
+  "label": "GPT-5.6 Terra",
+  "family": "openai",
+  "in": 2.5,
+  "out": 15.0
+ },
+ {
+  "label": "GPT-5.6 Luna",
+  "family": "openai",
+  "in": 1.0,
+  "out": 6.0
+ },
+ {
+  "label": "GPT-5.5",
+  "family": "openai",
+  "in": 5.0,
+  "out": 30.0
+ },
+ {
+  "label": "Gemini 3.1 Pro",
+  "family": "gemini",
+  "in": 2.0,
+  "out": 8.0
+ },
+ {
+  "label": "Gemini 3.5 Flash",
+  "family": "gemini",
+  "in": 1.5,
+  "out": 9.0
+ },
+ {
+  "label": "Gemini 3.7 Flash",
+  "family": "gemini",
+  "in": 1.5,
+  "out": 7.5
+ },
+ {
+  "label": "Grok 4.5",
+  "family": "grok",
+  "in": 2.0,
+  "out": 6.0
+ },
+ {
+  "label": "Grok 4.7",
+  "family": "grok",
+  "in": 2.0,
+  "out": 6.0
+ },
+ {
+  "label": "Grok 4.6",
+  "family": "grok",
+  "in": 2.0,
+  "out": 6.0
+ },
+ {
+  "label": "DeepSeek V4 Pro",
+  "family": "deepseek",
+  "in": 9.0,
+  "out": 27.0
+ },
+ {
+  "label": "DeepSeek V4.1 Flash",
+  "family": "deepseek",
+  "in": 2.0,
+  "out": 8.0
+ }
+]

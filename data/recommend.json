@@ -1,0 +1,295 @@
+{
+ "families": [
+  {
+   "key": "claude",
+   "label": "Claude"
+  },
+  {
+   "key": "openai",
+   "label": "GPT"
+  },
+  {
+   "key": "gemini",
+   "label": "Gemini"
+  },
+  {
+   "key": "grok",
+   "label": "Grok"
+  },
+  {
+   "key": "deepseek",
+   "label": "DeepSeek"
+  }
+ ],
+ "rows": [
+  {
+   "name": "UU API",
+   "rates": {
+    "claude": 0.4,
+    "openai": 0.04,
+    "grok": 0.4,
+    "deepseek": 0.325,
+    "gemini": 0.25
+   }
+  },
+  {
+   "name": "H API",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.036,
+    "grok": 0.4,
+    "gemini": 0.225,
+    "deepseek": 0.3
+   }
+  },
+  {
+   "name": "OpenOx",
+   "rates": {
+    "claude": 0.8,
+    "openai": 0.032,
+    "grok": 0.4,
+    "deepseek": 0.616,
+    "gemini": 1.0
+   }
+  },
+  {
+   "name": "APINebula",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.078,
+    "grok": 0.5,
+    "gemini": 0.4
+   }
+  },
+  {
+   "name": "LinkAI",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.04,
+    "grok": 0.3,
+    "gemini": 0.3
+   }
+  },
+  {
+   "name": "boxying",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.06
+   }
+  },
+  {
+   "name": "RunAPI",
+   "rates": {
+    "claude": 0.879,
+    "openai": 0.1,
+    "gemini": 0.712,
+    "grok": 0.475,
+    "deepseek": 0.251
+   }
+  },
+  {
+   "name": "SSSAICode",
+   "rates": {
+    "claude": 0.7,
+    "openai": 0.32,
+    "deepseek": 1.0
+   }
+  },
+  {
+   "name": "Z-API",
+   "rates": {
+    "claude": 0.08,
+    "openai": 0.1,
+    "gemini": 0.1
+   }
+  },
+  {
+   "name": "LinksAPI",
+   "rates": {
+    "claude": 0.125,
+    "openai": 0.049,
+    "deepseek": 0.488,
+    "gemini": 0.507
+   }
+  },
+  {
+   "name": "Luxery API",
+   "rates": {
+    "claude": 0.6,
+    "openai": 0.06
+   }
+  },
+  {
+   "name": "AI 搬运工",
+   "rates": {
+    "claude": 0.053,
+    "openai": 0.068,
+    "grok": 0.05
+   }
+  },
+  {
+   "name": "Xcode",
+   "rates": {
+    "claude": 1.133,
+    "openai": 0.06,
+    "gemini": 0.5,
+    "grok": 0.2,
+    "deepseek": 0.75
+   }
+  },
+  {
+   "name": "Codex2API",
+   "rates": {
+    "claude": 0.133,
+    "openai": 0.065,
+    "grok": 0.3
+   }
+  },
+  {
+   "name": "Cavoti AI",
+   "rates": {
+    "claude": 0.045,
+    "openai": 0.041,
+    "grok": 0.102
+   }
+  },
+  {
+   "name": "moacode",
+   "rates": {
+    "claude": 0.767,
+    "openai": 0.248
+   }
+  },
+  {
+   "name": "PackyCode",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.5,
+    "grok": 0.1,
+    "deepseek": 0.25,
+    "gemini": 7.0
+   }
+  },
+  {
+   "name": "A6API",
+   "rates": {
+    "claude": 0.048,
+    "openai": 0.007,
+    "grok": 0.004,
+    "gemini": 0.081,
+    "deepseek": 0.006
+   }
+  },
+  {
+   "name": "ByteCat",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.1,
+    "gemini": 0.8,
+    "grok": 0.2
+   }
+  },
+  {
+   "name": "Die Ge",
+   "rates": {
+    "claude": 0.25,
+    "openai": 0.03,
+    "gemini": 0.5,
+    "grok": 1.0
+   }
+  },
+  {
+   "name": "卡皮巴拉API",
+   "rates": {
+    "openai": 0.06,
+    "claude": 0.18,
+    "deepseek": 0.525,
+    "grok": 0.75
+   }
+  },
+  {
+   "name": "代码狗",
+   "rates": {
+    "claude": 0.067,
+    "openai": 0.036,
+    "grok": 0.18
+   }
+  },
+  {
+   "name": "LMU AI · 灵眸",
+   "rates": {
+    "claude": 0.639,
+    "openai": 0.151,
+    "gemini": 1.262,
+    "grok": 0.807,
+    "deepseek": 0.388
+   }
+  },
+  {
+   "name": "CCTQ",
+   "rates": {
+    "claude": 1.0,
+    "openai": 0.04,
+    "deepseek": 0.7
+   }
+  },
+  {
+   "name": "聚星AI",
+   "rates": {
+    "claude": 3.2,
+    "openai": 0.48,
+    "gemini": 1.1,
+    "deepseek": 0.5
+   }
+  },
+  {
+   "name": "RightCode",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.08,
+    "grok": 0.1,
+    "gemini": 0.3
+   }
+  },
+  {
+   "name": "deepkey",
+   "rates": {
+    "claude": 0.4,
+    "openai": 0.024,
+    "grok": 0.06,
+    "gemini": 0.15,
+    "deepseek": 0.25
+   }
+  },
+  {
+   "name": "三头牛",
+   "rates": {
+    "claude": 0.679,
+    "openai": 0.271,
+    "grok": 1.357,
+    "gemini": 0.679,
+    "deepseek": 0.921
+   }
+  },
+  {
+   "name": "PRY API",
+   "rates": {
+    "claude": 0.267,
+    "openai": 0.014,
+    "grok": 0.02,
+    "gemini": 0.1,
+    "deepseek": 0.05
+   }
+  },
+  {
+   "name": "GPTeam",
+   "rates": {
+    "claude": 0.679,
+    "gemini": 1.357,
+    "openai": 0.407,
+    "grok": 0.679
+   }
+  }
+ ],
+ "updated": "2026-10-04"
+}

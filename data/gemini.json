@@ -1,0 +1,1052 @@
+{
+ "vendor": "Gemini",
+ "site_count": 94,
+ "min_rate": 0.04,
+ "tables": [
+  {
+   "model_key": "gemini-3.1-pro-preview",
+   "label": "Gemini 3.1 Pro",
+   "official_in": 2.0,
+   "official_out": 8.0,
+   "rows": [
+    {
+     "name": "XTokenMirror",
+     "in": 0.08,
+     "out": 0.48,
+     "rate": 0.04
+    },
+    {
+     "name": "SunnyPumpkinAPI",
+     "in": 0.083,
+     "out": 0.5,
+     "rate": 0.042
+    },
+    {
+     "name": "RPG8",
+     "in": 0.2,
+     "out": 12.0,
+     "rate": 0.1
+    },
+    {
+     "name": "Z-API",
+     "in": 0.2,
+     "out": 1.2,
+     "rate": 0.1
+    },
+    {
+     "name": "旺旺中转站",
+     "in": 0.2222,
+     "out": 1.3333,
+     "rate": 0.111
+    },
+    {
+     "name": "poloai",
+     "in": 0.274,
+     "out": 1.644,
+     "rate": 0.137
+    },
+    {
+     "name": "A6API",
+     "in": 0.2768,
+     "out": 1.6611,
+     "rate": 0.138
+    },
+    {
+     "name": "FastCode",
+     "in": 0.28,
+     "out": 1.11,
+     "rate": 0.14
+    },
+    {
+     "name": "Rehdasu API",
+     "in": 0.3,
+     "out": 1.8,
+     "rate": 0.15
+    },
+    {
+     "name": "ByteClaude",
+     "in": 0.4,
+     "out": 2.4,
+     "rate": 0.2
+    },
+    {
+     "name": "PRY API",
+     "in": 0.4,
+     "out": 2.4,
+     "rate": 0.2
+    },
+    {
+     "name": "合聚API",
+     "in": 0.5,
+     "out": 3.0,
+     "rate": 0.25
+    },
+    {
+     "name": "LLM-ALL API",
+     "in": 0.6,
+     "out": 3.6,
+     "rate": 0.3
+    },
+    {
+     "name": "Ruoli API",
+     "in": 0.6,
+     "out": 3.6,
+     "rate": 0.3
+    },
+    {
+     "name": "SparkCode",
+     "in": 0.6,
+     "out": 3.6,
+     "rate": 0.3
+    },
+    {
+     "name": "deepkey",
+     "in": 0.6,
+     "out": 3.6,
+     "rate": 0.3
+    },
+    {
+     "name": "LinkAPI",
+     "in": 0.63,
+     "out": 2.5,
+     "rate": 0.315
+    },
+    {
+     "name": "AiXor",
+     "in": 0.8,
+     "out": 4.8,
+     "rate": 0.4
+    },
+    {
+     "name": "Yourapi",
+     "in": 0.8,
+     "out": 4.8,
+     "rate": 0.4
+    },
+    {
+     "name": "H API",
+     "in": 0.9,
+     "out": 5.4,
+     "rate": 0.45
+    },
+    {
+     "name": "Die Ge",
+     "in": 1.0,
+     "out": 6.0,
+     "rate": 0.5
+    },
+    {
+     "name": "UU API",
+     "in": 1.0,
+     "out": 6.0,
+     "rate": 0.5
+    },
+    {
+     "name": "xiaojing",
+     "in": 1.0,
+     "out": 6.0,
+     "rate": 0.5
+    },
+    {
+     "name": "云雾AI",
+     "in": 1.0,
+     "out": 6.0,
+     "rate": 0.5
+    },
+    {
+     "name": "换API",
+     "in": 1.0,
+     "out": 6.0,
+     "rate": 0.5
+    },
+    {
+     "name": "空悲切API",
+     "in": 1.0,
+     "out": 6.0,
+     "rate": 0.5
+    },
+    {
+     "name": "LinksAPI",
+     "in": 1.014,
+     "out": 6.084,
+     "rate": 0.507
+    },
+    {
+     "name": "LinkAI",
+     "in": 1.2,
+     "out": 7.2,
+     "rate": 0.6
+    },
+    {
+     "name": "RightCode",
+     "in": 1.2,
+     "out": 7.2,
+     "rate": 0.6
+    },
+    {
+     "name": "AutoRouter",
+     "in": 1.3,
+     "out": 7.8,
+     "rate": 0.65
+    },
+    {
+     "name": "Top-API",
+     "in": 1.3571,
+     "out": 8.1426,
+     "rate": 0.679
+    },
+    {
+     "name": "IKunCode",
+     "in": 1.4,
+     "out": 8.4,
+     "rate": 0.7
+    },
+    {
+     "name": "云影 API",
+     "in": 1.4,
+     "out": 8.4,
+     "rate": 0.7
+    },
+    {
+     "name": "DoroAI",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 0.75
+    },
+    {
+     "name": "geekai",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 0.75
+    },
+    {
+     "name": "镜核 AI",
+     "in": 1.52,
+     "out": 7.6,
+     "rate": 0.76
+    },
+    {
+     "name": "APINebula",
+     "in": 1.6,
+     "out": 9.6,
+     "rate": 0.8
+    },
+    {
+     "name": "ByteCat",
+     "in": 1.6,
+     "out": 6.4,
+     "rate": 0.8
+    },
+    {
+     "name": "Global AI",
+     "in": 1.6,
+     "out": 9.6,
+     "rate": 0.8
+    },
+    {
+     "name": "537 AI",
+     "in": 1.8,
+     "out": 10.8,
+     "rate": 0.9
+    },
+    {
+     "name": "OhMyGPT",
+     "in": 1.8,
+     "out": 10.8,
+     "rate": 0.9
+    },
+    {
+     "name": "AIAPI World",
+     "in": 1.9941,
+     "out": 11.9646,
+     "rate": 0.997
+    },
+    {
+     "name": "4Sapi",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "DawCode",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Dualseason API",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Kkaiapi",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Kuaipao API",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "OpenOx",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "ToCodex",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Uiuihao API",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "V-API",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Xcode",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "chatfire",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "lyapunov-api",
+     "in": 2.0,
+     "out": 8.0,
+     "rate": 1.0
+    },
+    {
+     "name": "yinli",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "老张 API",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "聚星AI",
+     "in": 2.2,
+     "out": 13.2,
+     "rate": 1.1
+    },
+    {
+     "name": "Cun AI",
+     "in": 2.5,
+     "out": 15.0,
+     "rate": 1.25
+    },
+    {
+     "name": "星辰",
+     "in": 2.6,
+     "out": 15.6,
+     "rate": 1.3
+    },
+    {
+     "name": "GPTeam",
+     "in": 2.7142,
+     "out": 16.2852,
+     "rate": 1.357
+    },
+    {
+     "name": "Bailili API",
+     "in": 3.0,
+     "out": 18.0,
+     "rate": 1.5
+    },
+    {
+     "name": "Mmaqq API",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 1.5
+    },
+    {
+     "name": "无限API",
+     "in": 3.0,
+     "out": 18.0,
+     "rate": 1.5
+    },
+    {
+     "name": "Clauddy API",
+     "in": 3.6,
+     "out": 21.6,
+     "rate": 1.8
+    },
+    {
+     "name": "kksj",
+     "in": 3.6,
+     "out": 21.6,
+     "rate": 1.8
+    },
+    {
+     "name": "OneChats",
+     "in": 4.0,
+     "out": 24.0,
+     "rate": 2.0
+    },
+    {
+     "name": "Cooper-API",
+     "in": 4.0713,
+     "out": 24.4277,
+     "rate": 2.036
+    },
+    {
+     "name": "Poixe AI",
+     "in": 4.2409,
+     "out": 33.9274,
+     "rate": 2.117
+    },
+    {
+     "name": "Micu",
+     "in": 4.4,
+     "out": 26.4,
+     "rate": 2.2
+    },
+    {
+     "name": "Token云桥",
+     "in": 4.4,
+     "out": 26.4,
+     "rate": 2.2
+    },
+    {
+     "name": "nekoapi",
+     "in": 5.0,
+     "out": 30.0,
+     "rate": 2.5
+    },
+    {
+     "name": "LMU AI · 灵眸",
+     "in": 5.0489,
+     "out": 30.2932,
+     "rate": 2.524
+    },
+    {
+     "name": "api.68886868.xyz",
+     "in": 5.2927,
+     "out": 31.756,
+     "rate": 2.646
+    },
+    {
+     "name": "78 Code",
+     "in": 6.4,
+     "out": 38.4,
+     "rate": 3.2
+    },
+    {
+     "name": "RunAPI",
+     "in": 6.7855,
+     "out": 40.7129,
+     "rate": 3.393
+    },
+    {
+     "name": "ZEN-AI",
+     "in": 6.7855,
+     "out": 40.7129,
+     "rate": 3.393
+    },
+    {
+     "name": "BootToken",
+     "in": 9.9,
+     "out": 59.4,
+     "rate": 4.95
+    },
+    {
+     "name": "xinsuanai",
+     "in": 10.0,
+     "out": 40.0,
+     "rate": 5.0
+    },
+    {
+     "name": "一元模型",
+     "in": 12.0,
+     "out": 72.0,
+     "rate": 6.0
+    },
+    {
+     "name": "TryAllAI",
+     "in": 13.571,
+     "out": 81.4258,
+     "rate": 6.785
+    },
+    {
+     "name": "v3",
+     "in": 13.571,
+     "out": 81.4258,
+     "rate": 6.785
+    },
+    {
+     "name": "ClaudeCN",
+     "in": 14.0,
+     "out": 84.0,
+     "rate": 7.0
+    },
+    {
+     "name": "PackyCode",
+     "in": 14.0,
+     "out": 84.0,
+     "rate": 7.0
+    },
+    {
+     "name": "996444",
+     "in": 14.9281,
+     "out": 89.5683,
+     "rate": 7.464
+    },
+    {
+     "name": "HoHoApi",
+     "in": 17.6422,
+     "out": 105.8535,
+     "rate": 8.821
+    },
+    {
+     "name": "GPT Agent",
+     "in": 20.0,
+     "out": 100.0,
+     "rate": 10.0
+    },
+    {
+     "name": "Undying",
+     "in": 27.1419,
+     "out": 162.8515,
+     "rate": 13.571
+    },
+    {
+     "name": "Wytkt API",
+     "in": 75.0,
+     "out": 300.0,
+     "rate": 37.5
+    }
+   ]
+  },
+  {
+   "model_key": "gemini-3.5-flash",
+   "label": "Gemini 3.5 Flash",
+   "official_in": 1.5,
+   "official_out": 9.0,
+   "rows": [
+    {
+     "name": "XTokenMirror",
+     "in": 0.06,
+     "out": 0.36,
+     "rate": 0.04
+    },
+    {
+     "name": "poloai",
+     "in": 0.205,
+     "out": 1.233,
+     "rate": 0.137
+    },
+    {
+     "name": "Rehdasu API",
+     "in": 0.225,
+     "out": 1.35,
+     "rate": 0.15
+    },
+    {
+     "name": "ByteClaude",
+     "in": 0.3,
+     "out": 1.8,
+     "rate": 0.2
+    },
+    {
+     "name": "空悲切API",
+     "in": 0.3,
+     "out": 1.8,
+     "rate": 0.2
+    },
+    {
+     "name": "合聚API",
+     "in": 0.375,
+     "out": 2.25,
+     "rate": 0.25
+    },
+    {
+     "name": "LLM-ALL API",
+     "in": 0.45,
+     "out": 2.7,
+     "rate": 0.3
+    },
+    {
+     "name": "Ruoli API",
+     "in": 0.45,
+     "out": 2.7,
+     "rate": 0.3
+    },
+    {
+     "name": "SparkCode",
+     "in": 0.45,
+     "out": 2.7,
+     "rate": 0.3
+    },
+    {
+     "name": "AiXor",
+     "in": 0.6,
+     "out": 3.6,
+     "rate": 0.4
+    },
+    {
+     "name": "Yourapi",
+     "in": 0.6,
+     "out": 3.6,
+     "rate": 0.4
+    },
+    {
+     "name": "星辰",
+     "in": 0.65,
+     "out": 11.7,
+     "rate": 0.433
+    },
+    {
+     "name": "Die Ge",
+     "in": 0.75,
+     "out": 4.5,
+     "rate": 0.5
+    },
+    {
+     "name": "云雾AI",
+     "in": 0.75,
+     "out": 4.5,
+     "rate": 0.5
+    },
+    {
+     "name": "镜核 AI",
+     "in": 0.76,
+     "out": 1.52,
+     "rate": 0.507
+    },
+    {
+     "name": "RightCode",
+     "in": 0.9,
+     "out": 5.4,
+     "rate": 0.6
+    },
+    {
+     "name": "旺旺中转站",
+     "in": 0.9,
+     "out": 5.4,
+     "rate": 0.6
+    },
+    {
+     "name": "换API",
+     "in": 1.0,
+     "out": 6.0,
+     "rate": 0.667
+    },
+    {
+     "name": "Top-API",
+     "in": 1.0178,
+     "out": 6.1069,
+     "rate": 0.679
+    },
+    {
+     "name": "IKunCode",
+     "in": 1.05,
+     "out": 6.3,
+     "rate": 0.7
+    },
+    {
+     "name": "云影 API",
+     "in": 1.05,
+     "out": 6.3,
+     "rate": 0.7
+    },
+    {
+     "name": "DoroAI",
+     "in": 1.125,
+     "out": 6.75,
+     "rate": 0.75
+    },
+    {
+     "name": "ByteCat",
+     "in": 1.2,
+     "out": 7.2,
+     "rate": 0.8
+    },
+    {
+     "name": "Global AI",
+     "in": 1.2,
+     "out": 7.2,
+     "rate": 0.8
+    },
+    {
+     "name": "OhMyGPT",
+     "in": 1.35,
+     "out": 8.1,
+     "rate": 0.9
+    },
+    {
+     "name": "4Sapi",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "AIAPI World",
+     "in": 1.5005,
+     "out": 9.0029,
+     "rate": 1.0
+    },
+    {
+     "name": "DawCode",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Dualseason API",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Kkaiapi",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Uiuihao API",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "V-API",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "chatfire",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "lyapunov-api",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "yibuapi",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "老张 API",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Cun AI",
+     "in": 1.875,
+     "out": 11.25,
+     "rate": 1.25
+    },
+    {
+     "name": "Mmaqq API",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 1.333
+    },
+    {
+     "name": "GPTeam",
+     "in": 2.0356,
+     "out": 12.2139,
+     "rate": 1.357
+    },
+    {
+     "name": "Bailili API",
+     "in": 2.25,
+     "out": 13.5,
+     "rate": 1.5
+    },
+    {
+     "name": "无限API",
+     "in": 2.25,
+     "out": 13.5,
+     "rate": 1.5
+    },
+    {
+     "name": "LinkAPI",
+     "in": 2.4,
+     "out": 14.4,
+     "rate": 1.6
+    },
+    {
+     "name": "Clauddy API",
+     "in": 2.7,
+     "out": 16.2,
+     "rate": 1.8
+    },
+    {
+     "name": "kksj",
+     "in": 2.7,
+     "out": 16.2,
+     "rate": 1.8
+    },
+    {
+     "name": "Bob API",
+     "in": 3.0,
+     "out": 18.0,
+     "rate": 2.0
+    },
+    {
+     "name": "OneChats",
+     "in": 3.0,
+     "out": 18.0,
+     "rate": 2.0
+    },
+    {
+     "name": "Cooper-API",
+     "in": 3.0535,
+     "out": 18.3208,
+     "rate": 2.036
+    },
+    {
+     "name": "Micu",
+     "in": 3.3,
+     "out": 19.8,
+     "rate": 2.2
+    },
+    {
+     "name": "geekai",
+     "in": 3.375,
+     "out": 20.25,
+     "rate": 2.25
+    },
+    {
+     "name": "FastCode",
+     "in": 3.6,
+     "out": 21.6,
+     "rate": 2.4
+    },
+    {
+     "name": "nekoapi",
+     "in": 3.75,
+     "out": 22.5,
+     "rate": 2.5
+    },
+    {
+     "name": "api.68886868.xyz",
+     "in": 3.9695,
+     "out": 23.817,
+     "rate": 2.646
+    },
+    {
+     "name": "yinli",
+     "in": 4.5,
+     "out": 27.0,
+     "rate": 3.0
+    },
+    {
+     "name": "ZEN-AI",
+     "in": 7.1248,
+     "out": 42.7485,
+     "rate": 4.75
+    },
+    {
+     "name": "一元模型",
+     "in": 9.0,
+     "out": 54.0,
+     "rate": 6.0
+    },
+    {
+     "name": "Poixe AI",
+     "in": 10.1782,
+     "out": 61.0693,
+     "rate": 6.785
+    },
+    {
+     "name": "TryAllAI",
+     "in": 10.1782,
+     "out": 61.0693,
+     "rate": 6.785
+    },
+    {
+     "name": "v3",
+     "in": 10.1782,
+     "out": 61.0693,
+     "rate": 6.785
+    },
+    {
+     "name": "GPT Agent",
+     "in": 12.0,
+     "out": 60.0,
+     "rate": 8.0
+    },
+    {
+     "name": "ai.bytonsec.com",
+     "in": 12.7228,
+     "out": 76.3366,
+     "rate": 8.482
+    },
+    {
+     "name": "HoHoApi",
+     "in": 13.2317,
+     "out": 79.3901,
+     "rate": 8.821
+    },
+    {
+     "name": "MaynorAPI",
+     "in": 15.2673,
+     "out": 91.604,
+     "rate": 10.178
+    },
+    {
+     "name": "Undying",
+     "in": 20.3564,
+     "out": 122.1386,
+     "rate": 13.571
+    },
+    {
+     "name": "Sum API",
+     "in": 75.0,
+     "out": 300.0,
+     "rate": 50.0
+    },
+    {
+     "name": "996444",
+     "in": 447.8417,
+     "out": 1791.3667,
+     "rate": 298.561
+    }
+   ]
+  },
+  {
+   "model_key": "gemini-3.7-flash",
+   "label": "Gemini 3.7 Flash",
+   "official_in": 1.5,
+   "official_out": 7.5,
+   "rows": [
+    {
+     "name": "A6API",
+     "in": 0.1213,
+     "out": 0.6066,
+     "rate": 0.081
+    },
+    {
+     "name": "PRY API",
+     "in": 0.15,
+     "out": 0.75,
+     "rate": 0.1
+    },
+    {
+     "name": "合聚API",
+     "in": 0.1875,
+     "out": 0.9375,
+     "rate": 0.125
+    },
+    {
+     "name": "deepkey",
+     "in": 0.225,
+     "out": 1.125,
+     "rate": 0.15
+    },
+    {
+     "name": "H API",
+     "in": 0.3375,
+     "out": 1.6875,
+     "rate": 0.225
+    },
+    {
+     "name": "UU API",
+     "in": 0.375,
+     "out": 1.875,
+     "rate": 0.25
+    },
+    {
+     "name": "xiaojing",
+     "in": 0.375,
+     "out": 1.875,
+     "rate": 0.25
+    },
+    {
+     "name": "LinkAI",
+     "in": 0.45,
+     "out": 2.25,
+     "rate": 0.3
+    },
+    {
+     "name": "RightCode",
+     "in": 0.45,
+     "out": 2.25,
+     "rate": 0.3
+    },
+    {
+     "name": "APINebula",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.4
+    },
+    {
+     "name": "Xcode",
+     "in": 0.75,
+     "out": 3.75,
+     "rate": 0.5
+    },
+    {
+     "name": "LinksAPI",
+     "in": 0.9506,
+     "out": 4.7531,
+     "rate": 0.634
+    },
+    {
+     "name": "三头牛",
+     "in": 1.0178,
+     "out": 5.0891,
+     "rate": 0.679
+    },
+    {
+     "name": "RunAPI",
+     "in": 1.0687,
+     "out": 5.3436,
+     "rate": 0.712
+    },
+    {
+     "name": "Kuaipao API",
+     "in": 1.5,
+     "out": 7.5,
+     "rate": 1.0
+    },
+    {
+     "name": "LMU AI · 灵眸",
+     "in": 1.8933,
+     "out": 9.4666,
+     "rate": 1.262
+    },
+    {
+     "name": "聚星AI",
+     "in": 3.85,
+     "out": 23.1,
+     "rate": 2.567
+    }
+   ]
+  }
+ ],
+ "updated": "2026-10-04"
+}
