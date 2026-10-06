@@ -56,6 +56,16 @@
    }
   },
   {
+   "name": "LinkAI",
+   "slug": "linkai",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.04,
+    "grok": 0.3,
+    "gemini": 0.3
+   }
+  },
+  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "rates": {
@@ -66,13 +76,12 @@
    }
   },
   {
-   "name": "LinkAI",
-   "slug": "linkai",
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
    "rates": {
-    "claude": 0.3,
-    "openai": 0.04,
-    "grok": 0.3,
-    "gemini": 0.3
+    "claude": 0.7,
+    "openai": 0.32,
+    "deepseek": 1.0
    }
   },
   {
@@ -92,15 +101,6 @@
     "gemini": 0.712,
     "grok": 0.475,
     "deepseek": 0.251
-   }
-  },
-  {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
-   "rates": {
-    "claude": 0.7,
-    "openai": 0.32,
-    "deepseek": 1.0
    }
   },
   {
@@ -128,15 +128,6 @@
    "rates": {
     "claude": 0.6,
     "openai": 0.06
-   }
-  },
-  {
-   "name": "AI 搬运工",
-   "slug": "aimover-cc",
-   "rates": {
-    "claude": 0.053,
-    "openai": 0.068,
-    "grok": 0.05
    }
   },
   {
@@ -238,6 +229,15 @@
    }
   },
   {
+   "name": "AI 搬运工",
+   "slug": "aimover-cc",
+   "rates": {
+    "claude": 0.053,
+    "openai": 0.068,
+    "grok": 0.05
+   }
+  },
+  {
    "name": "LMU AI · 灵眸",
    "slug": "api-lmuai-com",
    "rates": {
@@ -321,5 +321,5 @@
    }
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-06"
 }
