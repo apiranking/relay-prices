@@ -1,6 +1,6 @@
 {
  "vendor": "Gemini",
- "site_count": 94,
+ "site_count": 95,
  "min_rate": 0.04,
  "median_rate": 1.0,
  "sites": [
@@ -435,6 +435,12 @@
    "slug": "cooper-api-com",
    "rate": 2.036,
    "model": "Gemini 3.1 Pro"
+  },
+  {
+   "name": "corealgos",
+   "slug": "corealgos",
+   "rate": 2.036,
+   "model": "Gemini 3.7 Flash"
   },
   {
    "name": "Poixe AI",
@@ -1112,6 +1118,13 @@
      "rate": 3.393
     },
     {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "in": 8.1426,
+     "out": 48.8555,
+     "rate": 4.071
+    },
+    {
      "name": "BootToken",
      "slug": "boottoken",
      "in": 9.9,
@@ -1667,7 +1680,7 @@
    "model_key": "gemini-3.7-flash",
    "price_slug": "gemini-3-7-flash",
    "label": "Gemini 3.7 Flash",
-   "median_rate": 0.3,
+   "median_rate": 0.35,
    "own_page": false,
    "official_in": 1.5,
    "official_out": 7.5,
@@ -1785,6 +1798,13 @@
      "rate": 1.262
     },
     {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "in": 3.0535,
+     "out": 15.2673,
+     "rate": 2.036
+    },
+    {
      "name": "聚星AI",
      "slug": "juxingai-top",
      "in": 3.85,
@@ -1794,5 +1814,5 @@
    ]
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-07"
 }

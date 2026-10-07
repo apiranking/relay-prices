@@ -1,6 +1,6 @@
 {
  "vendor": "Claude",
- "site_count": 179,
+ "site_count": 180,
  "min_rate": 0.014,
  "median_rate": 0.5,
  "sites": [
@@ -915,6 +915,12 @@
    "slug": "ai-xiaoye-io",
    "rate": 2.1,
    "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "corealgos",
+   "slug": "corealgos",
+   "rate": 2.262,
+   "model": "Claude Sonnet 5"
   },
   {
    "name": "v3",
@@ -4094,6 +4100,13 @@
      "rate": 3.393
     },
     {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "in": 16.9637,
+     "out": 84.8185,
+     "rate": 3.393
+    },
+    {
      "name": "yinli",
      "slug": "yinli",
      "in": 17.5,
@@ -5064,6 +5077,13 @@
      "rate": 3.393
     },
     {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "in": 16.9637,
+     "out": 84.8185,
+     "rate": 3.393
+    },
+    {
      "name": "yinli",
      "slug": "yinli",
      "in": 17.5,
@@ -5202,7 +5222,7 @@
    "model_key": "claude-fable-5-1",
    "price_slug": "claude-fable-5-1",
    "label": "Claude Fable 5.1",
-   "median_rate": 1.1,
+   "median_rate": 1.135,
    "own_page": true,
    "official_in": 10.0,
    "official_out": 50.0,
@@ -5931,6 +5951,13 @@
     {
      "name": "TimiCC",
      "slug": "timicc-com",
+     "in": 33.9274,
+     "out": 169.637,
+     "rate": 3.393
+    },
+    {
+     "name": "corealgos",
+     "slug": "corealgos",
      "in": 33.9274,
      "out": 169.637,
      "rate": 3.393
@@ -7698,6 +7725,13 @@
      "rate": 1.6
     },
     {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "in": 6.7855,
+     "out": 33.9274,
+     "rate": 2.262
+    },
+    {
      "name": "Poixe AI",
      "slug": "poixe-com",
      "in": 10.1782,
@@ -7756,5 +7790,5 @@
    ]
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-07"
 }

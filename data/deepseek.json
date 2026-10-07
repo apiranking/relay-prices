@@ -1,13 +1,19 @@
 {
  "vendor": "DeepSeek",
- "site_count": 20,
+ "site_count": 21,
  "min_rate": 0.006,
- "median_rate": 0.438,
+ "median_rate": 0.388,
  "sites": [
   {
    "name": "A6API",
    "slug": "a6api",
    "rate": 0.006,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "corealgos",
+   "slug": "corealgos",
+   "rate": 0.037,
    "model": "DeepSeek V4.1 Flash"
   },
   {
@@ -130,7 +136,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.454,
+   "median_rate": 0.4,
    "own_page": false,
    "official_in": 2.0,
    "official_out": 8.0,
@@ -141,6 +147,13 @@
      "in": 0.0117,
      "out": 0.0469,
      "rate": 0.006
+    },
+    {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "in": 0.0733,
+     "out": 0.3664,
+     "rate": 0.037
     },
     {
      "name": "PRY API",
@@ -281,7 +294,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.5,
+   "median_rate": 0.494,
    "own_page": false,
    "official_in": 9.0,
    "official_out": 27.0,
@@ -299,6 +312,13 @@
      "in": 0.45,
      "out": 1.35,
      "rate": 0.05
+    },
+    {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "in": 0.7003,
+     "out": 2.1015,
+     "rate": 0.078
     },
     {
      "name": "PackyCode",
@@ -422,5 +442,5 @@
    ]
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-07"
 }

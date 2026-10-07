@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 194,
+ "site_count": 195,
  "rows": [
   {
    "name": "A6API",
@@ -384,6 +384,16 @@
     "openai": 0.35,
     "gemini": 1.0,
     "grok": 1.0
+   }
+  },
+  {
+   "name": "corealgos",
+   "slug": "corealgos",
+   "rates": {
+    "openai": 0.062,
+    "claude": 2.262,
+    "gemini": 2.036,
+    "deepseek": 0.037
    }
   },
   {
@@ -1706,5 +1716,5 @@
    }
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-07"
 }

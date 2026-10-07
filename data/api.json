@@ -1,10 +1,10 @@
 {
- "site_count": 194,
+ "site_count": 195,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 179,
+   "count": 180,
    "rows": [
     {
      "name": "Prism API",
@@ -61,7 +61,7 @@
   {
    "key": "openai",
    "label": "GPT",
-   "count": 170,
+   "count": 171,
    "rows": [
     {
      "name": "Token云桥",
@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 94,
+   "count": 95,
    "rows": [
     {
      "name": "XTokenMirror",
@@ -232,12 +232,17 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 20,
+   "count": 21,
    "rows": [
     {
      "name": "A6API",
      "slug": "a6api",
      "rate": 0.006
+    },
+    {
+     "name": "corealgos",
+     "slug": "corealgos",
+     "rate": 0.037
     },
     {
      "name": "PRY API",
@@ -278,14 +283,9 @@
      "name": "ZIVV",
      "slug": "zivv-pro",
      "rate": 0.375
-    },
-    {
-     "name": "LMU AI · 灵眸",
-     "slug": "api-lmuai-com",
-     "rate": 0.388
     }
    ]
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-07"
 }

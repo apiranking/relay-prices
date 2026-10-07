@@ -311,15 +311,15 @@
    }
   },
   {
-   "name": "GPTeam",
-   "slug": "portal-gpteamservices-com",
+   "name": "corealgos",
+   "slug": "corealgos",
    "rates": {
-    "claude": 0.679,
-    "gemini": 1.357,
-    "openai": 0.407,
-    "grok": 0.679
+    "openai": 0.062,
+    "claude": 2.262,
+    "gemini": 2.036,
+    "deepseek": 0.037
    }
   }
  ],
- "updated": "2026-10-06"
+ "updated": "2026-10-07"
 }
