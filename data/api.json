@@ -69,14 +69,14 @@
      "rate": 0.001
     },
     {
-     "name": "A6API",
-     "slug": "a6api",
-     "rate": 0.007
-    },
-    {
      "name": "XTokenMirror",
      "slug": "xtokenmirror-cn",
      "rate": 0.007
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "rate": 0.009
     },
     {
      "name": "Lumin AI",
@@ -104,14 +104,14 @@
      "rate": 0.02
     },
     {
-     "name": "deepkey",
-     "slug": "deepkey-top",
-     "rate": 0.024
-    },
-    {
      "name": "ai98pro",
      "slug": "ai98pro",
      "rate": 0.029
+    },
+    {
+     "name": "Aitechflux API",
+     "slug": "aitechflux-com",
+     "rate": 0.03
     }
    ]
   },
@@ -287,5 +287,5 @@
    ]
   }
  ],
- "updated": "2026-10-07"
+ "updated": "2026-10-09"
 }

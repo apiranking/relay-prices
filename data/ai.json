@@ -28,7 +28,7 @@
    "slug": "a6api",
    "rates": {
     "claude": 0.048,
-    "openai": 0.007,
+    "openai": 0.009,
     "grok": 0.004,
     "gemini": 0.081,
     "deepseek": 0.006
@@ -39,7 +39,7 @@
    "slug": "h-api",
    "rates": {
     "claude": 0.2,
-    "openai": 0.036,
+    "openai": 0.144,
     "grok": 0.4,
     "gemini": 0.225,
     "deepseek": 0.3
@@ -50,7 +50,7 @@
    "slug": "kuaipao-pro",
    "rates": {
     "claude": 0.5,
-    "openai": 0.04,
+    "openai": 0.16,
     "grok": 0.5,
     "gemini": 1.0,
     "deepseek": 1.26
@@ -61,7 +61,7 @@
    "slug": "api-lmuai-com",
    "rates": {
     "claude": 0.639,
-    "openai": 0.151,
+    "openai": 0.404,
     "gemini": 1.262,
     "grok": 0.807,
     "deepseek": 0.388
@@ -72,7 +72,7 @@
    "slug": "openox",
    "rates": {
     "claude": 0.8,
-    "openai": 0.032,
+    "openai": 0.128,
     "grok": 0.4,
     "deepseek": 0.616,
     "gemini": 1.0
@@ -105,7 +105,7 @@
    "slug": "runapi-co",
    "rates": {
     "claude": 0.879,
-    "openai": 0.1,
+    "openai": 0.4,
     "gemini": 0.712,
     "grok": 0.475,
     "deepseek": 0.251
@@ -116,7 +116,7 @@
    "slug": "uuapi-net",
    "rates": {
     "claude": 0.4,
-    "openai": 0.04,
+    "openai": 0.16,
     "grok": 0.4,
     "deepseek": 0.325,
     "gemini": 0.25
@@ -127,7 +127,7 @@
    "slug": "xcode-best",
    "rates": {
     "claude": 1.133,
-    "openai": 0.06,
+    "openai": 0.12,
     "gemini": 0.5,
     "grok": 0.2,
     "deepseek": 0.75
@@ -138,7 +138,7 @@
    "slug": "deepkey-top",
    "rates": {
     "claude": 0.4,
-    "openai": 0.024,
+    "openai": 0.08,
     "grok": 0.06,
     "gemini": 0.15,
     "deepseek": 0.25
@@ -149,7 +149,7 @@
    "slug": "open-xiaojingai-com",
    "rates": {
     "claude": 0.25,
-    "openai": 0.05,
+    "openai": 0.1,
     "grok": 0.1,
     "gemini": 0.25,
     "deepseek": 0.55
@@ -160,7 +160,7 @@
    "slug": "36niu-com",
    "rates": {
     "claude": 0.679,
-    "openai": 0.271,
+    "openai": 1.357,
     "grok": 1.357,
     "gemini": 0.679,
     "deepseek": 0.921
@@ -191,7 +191,7 @@
    "slug": "apinebula-com",
    "rates": {
     "claude": 0.5,
-    "openai": 0.078,
+    "openai": 0.39,
     "grok": 0.5,
     "gemini": 0.4
    }
@@ -321,7 +321,7 @@
    "slug": "linksapi",
    "rates": {
     "claude": 0.125,
-    "openai": 0.049,
+    "openai": 0.062,
     "deepseek": 0.488,
     "gemini": 0.507
    }
@@ -410,7 +410,7 @@
    "name": "卡皮巴拉API",
    "slug": "kapibala-asia",
    "rates": {
-    "openai": 0.06,
+    "openai": 0.12,
     "claude": 0.18,
     "deepseek": 0.525,
     "grok": 0.75
@@ -848,7 +848,7 @@
    "slug": "zivv-pro",
    "rates": {
     "claude": 0.867,
-    "openai": 0.1,
+    "openai": 0.144,
     "deepseek": 0.375
    }
   },
@@ -1198,7 +1198,7 @@
    "slug": "luxery-api",
    "rates": {
     "claude": 0.6,
-    "openai": 0.06
+    "openai": 0.24
    }
   },
   {
@@ -1350,7 +1350,7 @@
    "slug": "boxying",
    "rates": {
     "claude": 0.3,
-    "openai": 0.06
+    "openai": 0.24
    }
   },
   {
@@ -1716,5 +1716,5 @@
    }
   }
  ],
- "updated": "2026-10-07"
+ "updated": "2026-10-09"
 }
