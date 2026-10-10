@@ -23,14 +23,14 @@
  ],
  "rows": [
   {
-   "name": "UU API",
-   "slug": "uuapi-net",
+   "name": "OpenOx",
+   "slug": "openox",
    "rates": {
-    "claude": 0.4,
-    "openai": 0.16,
+    "claude": 0.8,
+    "openai": 0.128,
     "grok": 0.4,
-    "deepseek": 0.325,
-    "gemini": 0.25
+    "deepseek": 0.616,
+    "gemini": 1.0
    }
   },
   {
@@ -45,14 +45,14 @@
    }
   },
   {
-   "name": "OpenOx",
-   "slug": "openox",
+   "name": "UU API",
+   "slug": "uuapi-net",
    "rates": {
-    "claude": 0.8,
-    "openai": 0.128,
+    "claude": 0.4,
+    "openai": 0.16,
     "grok": 0.4,
-    "deepseek": 0.616,
-    "gemini": 1.0
+    "deepseek": 0.325,
+    "gemini": 0.25
    }
   },
   {
@@ -321,5 +321,5 @@
    }
   }
  ],
- "updated": "2026-10-09"
+ "updated": "2026-10-10"
 }
