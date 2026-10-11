@@ -1,8 +1,8 @@
 {
  "vendor": "DeepSeek",
- "site_count": 21,
+ "site_count": 22,
  "min_rate": 0.006,
- "median_rate": 0.388,
+ "median_rate": 0.382,
  "sites": [
   {
    "name": "A6API",
@@ -57,6 +57,12 @@
    "slug": "uuapi-net",
    "rate": 0.325,
    "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rate": 0.328,
+   "model": "DeepSeek V4 Pro"
   },
   {
    "name": "ZIVV",
@@ -136,7 +142,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.4,
+   "median_rate": 0.454,
    "own_page": false,
    "official_in": 2.0,
    "official_out": 8.0,
@@ -226,6 +232,13 @@
      "rate": 0.507
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 1.0178,
+     "out": 4.0713,
+     "rate": 0.509
+    },
+    {
      "name": "xiaojing",
      "slug": "open-xiaojingai-com",
      "in": 1.1,
@@ -294,7 +307,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.494,
+   "median_rate": 0.488,
    "own_page": false,
    "official_in": 9.0,
    "official_out": 27.0,
@@ -347,6 +360,13 @@
      "in": 2.7,
      "out": 8.1,
      "rate": 0.3
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 2.9517,
+     "out": 5.9034,
+     "rate": 0.328
     },
     {
      "name": "UU API",
@@ -442,5 +462,5 @@
    ]
   }
  ],
- "updated": "2026-10-07"
+ "updated": "2026-10-11"
 }

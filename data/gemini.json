@@ -1,6 +1,6 @@
 {
  "vendor": "Gemini",
- "site_count": 95,
+ "site_count": 96,
  "min_rate": 0.04,
  "median_rate": 1.0,
  "sites": [
@@ -435,6 +435,12 @@
    "slug": "cooper-api-com",
    "rate": 2.036,
    "model": "Gemini 3.1 Pro"
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rate": 2.036,
+   "model": "Gemini 3.7 Flash"
   },
   {
    "name": "corealgos",
@@ -1097,6 +1103,13 @@
      "rate": 2.646
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 5.4284,
+     "out": 32.5703,
+     "rate": 2.714
+    },
+    {
      "name": "78 Code",
      "slug": "api-78code-cc",
      "in": 6.4,
@@ -1680,7 +1693,7 @@
    "model_key": "gemini-3.7-flash",
    "price_slug": "gemini-3-7-flash",
    "label": "Gemini 3.7 Flash",
-   "median_rate": 0.35,
+   "median_rate": 0.4,
    "own_page": false,
    "official_in": 1.5,
    "official_out": 7.5,
@@ -1798,6 +1811,13 @@
      "rate": 1.262
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 3.0535,
+     "out": 15.2673,
+     "rate": 2.036
+    },
+    {
      "name": "corealgos",
      "slug": "corealgos",
      "in": 3.0535,
@@ -1814,5 +1834,5 @@
    ]
   }
  ],
- "updated": "2026-10-07"
+ "updated": "2026-10-11"
 }

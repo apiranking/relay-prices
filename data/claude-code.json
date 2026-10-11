@@ -1,8 +1,8 @@
 {
  "vendor": "Claude Code",
- "site_count": 178,
+ "site_count": 179,
  "min_rate": 0.014,
- "median_rate": 0.546,
+ "median_rate": 0.55,
  "sites": [
   {
    "name": "Prism API",
@@ -896,6 +896,12 @@
    "name": "kksj",
    "slug": "cnapi-kksj-org",
    "rate": 1.8,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rate": 1.9,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1978,6 +1984,13 @@
      "in": 7.3826,
      "out": 36.913,
      "rate": 1.846
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 7.5997,
+     "out": 37.9987,
+     "rate": 1.9
     },
     {
      "name": "小瑞API",
@@ -3260,5 +3273,5 @@
    ]
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-11"
 }

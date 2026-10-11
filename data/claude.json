@@ -1,6 +1,6 @@
 {
  "vendor": "Claude",
- "site_count": 180,
+ "site_count": 181,
  "min_rate": 0.014,
  "median_rate": 0.5,
  "sites": [
@@ -867,6 +867,12 @@
    "slug": "api-68886868-xyz",
    "rate": 1.221,
    "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rate": 1.267,
+   "model": "Claude Sonnet 5.5"
   },
   {
    "name": "OneChats",
@@ -1990,6 +1996,13 @@
      "in": 7.3826,
      "out": 36.913,
      "rate": 1.846
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 7.5997,
+     "out": 37.9987,
+     "rate": 1.9
     },
     {
      "name": "小瑞API",
@@ -5222,7 +5235,7 @@
    "model_key": "claude-fable-5-1",
    "price_slug": "claude-fable-5-1",
    "label": "Claude Fable 5.1",
-   "median_rate": 1.135,
+   "median_rate": 1.17,
    "own_page": true,
    "official_in": 10.0,
    "official_out": 50.0,
@@ -5856,6 +5869,13 @@
      "in": 18.5,
      "out": 92.5,
      "rate": 1.85
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 18.9993,
+     "out": 94.9967,
+     "rate": 1.9
     },
     {
      "name": "DoroAI",
@@ -6707,7 +6727,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.516,
+   "median_rate": 0.533,
    "own_page": true,
    "official_in": 3.0,
    "official_out": 15.0,
@@ -7224,6 +7244,13 @@
      "rate": 1.2
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 3.7999,
+     "out": 18.9993,
+     "rate": 1.267
+    },
+    {
      "name": "OneChats",
      "slug": "chatapi-onechats-top",
      "in": 4.0002,
@@ -7306,7 +7333,7 @@
    "model_key": "claude-haiku-5-5",
    "price_slug": "claude-haiku-5-5",
    "label": "Claude Haiku 5.5",
-   "median_rate": 0.516,
+   "median_rate": 0.533,
    "own_page": true,
    "official_in": 0.1,
    "official_out": 0.5,
@@ -7865,6 +7892,13 @@
      "rate": 5.333
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 0.5428,
+     "out": 2.7142,
+     "rate": 5.428
+    },
+    {
      "name": "GPT Agent",
      "slug": "gpt-agent-cc",
      "in": 0.8,
@@ -8389,5 +8423,5 @@
    ]
   }
  ],
- "updated": "2026-10-09"
+ "updated": "2026-10-11"
 }

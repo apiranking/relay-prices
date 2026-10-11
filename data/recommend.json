@@ -23,14 +23,14 @@
  ],
  "rows": [
   {
-   "name": "OpenOx",
-   "slug": "openox",
+   "name": "UU API",
+   "slug": "uuapi-net",
    "rates": {
-    "claude": 0.8,
-    "openai": 0.128,
+    "claude": 0.4,
+    "openai": 0.16,
     "grok": 0.4,
-    "deepseek": 0.616,
-    "gemini": 1.0
+    "deepseek": 0.325,
+    "gemini": 0.25
    }
   },
   {
@@ -45,14 +45,14 @@
    }
   },
   {
-   "name": "UU API",
-   "slug": "uuapi-net",
+   "name": "OpenOx",
+   "slug": "openox",
    "rates": {
-    "claude": 0.4,
-    "openai": 0.16,
+    "claude": 0.8,
+    "openai": 0.128,
     "grok": 0.4,
-    "deepseek": 0.325,
-    "gemini": 0.25
+    "deepseek": 0.616,
+    "gemini": 1.0
    }
   },
   {
@@ -113,6 +113,26 @@
    }
   },
   {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rates": {
+    "claude": 1.267,
+    "openai": 0.611,
+    "gemini": 2.036,
+    "grok": 10.857,
+    "deepseek": 0.328
+   }
+  },
+  {
+   "name": "CCTQ",
+   "slug": "cctq",
+   "rates": {
+    "claude": 1.0,
+    "openai": 0.04,
+    "deepseek": 0.7
+   }
+  },
+  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "rates": {
@@ -128,6 +148,15 @@
    "rates": {
     "claude": 0.6,
     "openai": 0.24
+   }
+  },
+  {
+   "name": "ToCodex",
+   "slug": "user-tocodex-com",
+   "rates": {
+    "claude": 1.0,
+    "openai": 0.4,
+    "gemini": 1.0
    }
   },
   {
@@ -249,15 +278,6 @@
    }
   },
   {
-   "name": "CCTQ",
-   "slug": "cctq",
-   "rates": {
-    "claude": 1.0,
-    "openai": 0.04,
-    "deepseek": 0.7
-   }
-  },
-  {
    "name": "聚星AI",
    "slug": "juxingai-top",
    "rates": {
@@ -298,28 +318,7 @@
     "gemini": 0.679,
     "deepseek": 0.921
    }
-  },
-  {
-   "name": "PRY API",
-   "slug": "bearlab-ai",
-   "rates": {
-    "claude": 0.267,
-    "openai": 0.014,
-    "grok": 0.02,
-    "gemini": 0.1,
-    "deepseek": 0.05
-   }
-  },
-  {
-   "name": "corealgos",
-   "slug": "corealgos",
-   "rates": {
-    "openai": 0.062,
-    "claude": 2.262,
-    "gemini": 2.036,
-    "deepseek": 0.037
-   }
   }
  ],
- "updated": "2026-10-10"
+ "updated": "2026-10-11"
 }

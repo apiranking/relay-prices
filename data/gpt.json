@@ -1,6 +1,6 @@
 {
  "vendor": "GPT",
- "site_count": 171,
+ "site_count": 172,
  "min_rate": 0.001,
  "median_rate": 0.25,
  "sites": [
@@ -758,6 +758,12 @@
    "name": "kksj",
    "slug": "cnapi-kksj-org",
    "rate": 0.6,
+   "model": "GPT-5.5"
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rate": 0.611,
    "model": "GPT-5.5"
   },
   {
@@ -1868,6 +1874,13 @@
      "rate": 0.6
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 3.0535,
+     "out": 18.3208,
+     "rate": 0.611
+    },
+    {
      "name": "Cooper-API",
      "slug": "cooper-api-com",
      "in": 3.3927,
@@ -2712,6 +2725,13 @@
      "rate": 0.6
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 6.1069,
+     "out": 30.5347,
+     "rate": 0.611
+    },
+    {
      "name": "Cooper-API",
      "slug": "cooper-api-com",
      "in": 6.7855,
@@ -3430,6 +3450,13 @@
      "rate": 0.8
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 2.0356,
+     "out": 12.2139,
+     "rate": 0.814
+    },
+    {
      "name": "35-aigcbest",
      "slug": "35-aigcbest-top",
      "in": 2.5,
@@ -4099,6 +4126,13 @@
      "rate": 0.753
     },
     {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 1.5267,
+     "out": 9.1604,
+     "rate": 0.763
+    },
+    {
      "name": "GPT Agent",
      "slug": "gpt-agent-cc",
      "in": 1.6,
@@ -4265,7 +4299,7 @@
    "model_key": "gpt-6-luna",
    "price_slug": "gpt-6-luna",
    "label": "GPT-6 Luna",
-   "median_rate": 0.25,
+   "median_rate": 0.275,
    "own_page": true,
    "official_in": 0.5,
    "official_out": 0.75,
@@ -4808,6 +4842,13 @@
      "in": 1.0,
      "out": 1.5,
      "rate": 2.0
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 1.3571,
+     "out": 8.1426,
+     "rate": 2.714
     },
     {
      "name": "Codeagent API",
@@ -6427,5 +6468,5 @@
    ]
   }
  ],
- "updated": "2026-10-09"
+ "updated": "2026-10-11"
 }

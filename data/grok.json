@@ -1,8 +1,8 @@
 {
  "vendor": "Grok",
- "site_count": 55,
+ "site_count": 56,
  "min_rate": 0.004,
- "median_rate": 0.4,
+ "median_rate": 0.403,
  "sites": [
   {
    "name": "A6API",
@@ -323,6 +323,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rate": 10.857,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "Sublyx",
    "slug": "sublyx",
    "rate": 15.267,
@@ -340,7 +346,7 @@
    "model_key": "grok-4.7",
    "price_slug": "grok-4-7",
    "label": "Grok 4.7",
-   "median_rate": 0.4,
+   "median_rate": 0.403,
    "own_page": false,
    "official_in": 2.0,
    "official_out": 6.0,
@@ -715,6 +721,13 @@
      "in": 16.9637,
      "out": 40.7129,
      "rate": 8.482
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 21.7135,
+     "out": 65.1406,
+     "rate": 10.857
     },
     {
      "name": "Sublyx",
@@ -1308,5 +1321,5 @@
    ]
   }
  ],
- "updated": "2026-10-04"
+ "updated": "2026-10-11"
 }

@@ -1,10 +1,10 @@
 {
- "site_count": 195,
+ "site_count": 196,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 180,
+   "count": 181,
    "rows": [
     {
      "name": "Prism API",
@@ -61,7 +61,7 @@
   {
    "key": "openai",
    "label": "GPT",
-   "count": 171,
+   "count": 172,
    "rows": [
     {
      "name": "Token云桥",
@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 95,
+   "count": 96,
    "rows": [
     {
      "name": "XTokenMirror",
@@ -175,7 +175,7 @@
   {
    "key": "grok",
    "label": "Grok",
-   "count": 55,
+   "count": 56,
    "rows": [
     {
      "name": "A6API",
@@ -232,7 +232,7 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 21,
+   "count": 22,
    "rows": [
     {
      "name": "A6API",
@@ -280,12 +280,12 @@
      "rate": 0.325
     },
     {
-     "name": "ZIVV",
-     "slug": "zivv-pro",
-     "rate": 0.375
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "rate": 0.328
     }
    ]
   }
  ],
- "updated": "2026-10-09"
+ "updated": "2026-10-11"
 }
