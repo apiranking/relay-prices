@@ -8,14 +8,14 @@
  {
   "label": "Claude Sonnet 5.5",
   "family": "claude",
-  "in": 3.0,
-  "out": 15.0
+  "in": 2.0,
+  "out": 10.0
  },
  {
   "label": "Claude Sonnet 5",
   "family": "claude",
-  "in": 3.0,
-  "out": 15.0
+  "in": 2.0,
+  "out": 10.0
  },
  {
   "label": "Claude Opus 4.8",

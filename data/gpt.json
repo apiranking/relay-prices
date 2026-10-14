@@ -305,6 +305,12 @@
    "model": "GPT-6 Luna"
   },
   {
+   "name": "OpenOx",
+   "slug": "openox",
+   "rate": 0.12,
+   "model": "GPT-5.5"
+  },
+  {
    "name": "Umiluxury API",
    "slug": "umiluxury-com",
    "rate": 0.12,
@@ -327,12 +333,6 @@
    "slug": "ai-flashapi-top",
    "rate": 0.125,
    "model": "GPT-5.5"
-  },
-  {
-   "name": "OpenOx",
-   "slug": "openox",
-   "rate": 0.128,
-   "model": "GPT-5.6 Terra"
   },
   {
    "name": "Top-API",
@@ -1342,6 +1342,13 @@
      "rate": 0.1
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 0.6003,
+     "out": 3.6018,
+     "rate": 0.12
+    },
+    {
      "name": "Umiluxury API",
      "slug": "umiluxury-com",
      "in": 0.6,
@@ -1403,13 +1410,6 @@
      "in": 0.75,
      "out": 4.5,
      "rate": 0.15
-    },
-    {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 0.8,
-     "out": 4.8,
-     "rate": 0.16
     },
     {
      "name": "Ruoli API",
@@ -2389,6 +2389,13 @@
      "rate": 0.1
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 1.2006,
+     "out": 6.003,
+     "rate": 0.12
+    },
+    {
      "name": "Umiluxury API",
      "slug": "umiluxury-com",
      "in": 1.2,
@@ -2415,13 +2422,6 @@
      "in": 1.5,
      "out": 7.5,
      "rate": 0.15
-    },
-    {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 1.6,
-     "out": 8.0,
-     "rate": 0.16
     },
     {
      "name": "Ruoli API",
@@ -3776,6 +3776,13 @@
      "rate": 0.1
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 0.2401,
+     "out": 1.2006,
+     "rate": 0.12
+    },
+    {
      "name": "Umiluxury API",
      "slug": "umiluxury-com",
      "in": 0.24,
@@ -3802,13 +3809,6 @@
      "in": 0.2962,
      "out": 1.481,
      "rate": 0.148
-    },
-    {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 0.32,
-     "out": 1.6,
-     "rate": 0.16
     },
     {
      "name": "Ruoli API",
@@ -6468,5 +6468,5 @@
    ]
   }
  ],
- "updated": "2026-10-11"
+ "updated": "2026-10-14"
 }

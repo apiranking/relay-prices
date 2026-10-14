@@ -71,7 +71,7 @@
    "name": "OmniaKey",
    "slug": "omniakey",
    "rates": {
-    "claude": 1.267,
+    "claude": 1.9,
     "openai": 0.611,
     "gemini": 2.036,
     "grok": 10.857,
@@ -82,8 +82,8 @@
    "name": "OpenOx",
    "slug": "openox",
    "rates": {
-    "claude": 0.8,
-    "openai": 0.128,
+    "claude": 0.333,
+    "openai": 0.12,
     "grok": 0.4,
     "deepseek": 0.616,
     "gemini": 1.0
@@ -402,7 +402,7 @@
    "slug": "corealgos",
    "rates": {
     "openai": 0.062,
-    "claude": 2.262,
+    "claude": 3.393,
     "gemini": 2.036,
     "deepseek": 0.037
    }
@@ -1727,5 +1727,5 @@
    }
   }
  ],
- "updated": "2026-10-11"
+ "updated": "2026-10-14"
 }
