@@ -155,8 +155,8 @@
    "slug": "user-tocodex-com",
    "rates": {
     "claude": 1.0,
-    "openai": 0.4,
-    "gemini": 1.0
+    "gemini": 1.0,
+    "openai": 0.4
    }
   },
   {
@@ -213,8 +213,8 @@
    "rates": {
     "claude": 0.048,
     "openai": 0.009,
-    "grok": 0.004,
     "gemini": 0.081,
+    "grok": 0.004,
     "deepseek": 0.006
    }
   },
@@ -271,8 +271,8 @@
    "slug": "api-lmuai-com",
    "rates": {
     "claude": 0.639,
-    "openai": 0.404,
     "gemini": 1.262,
+    "openai": 0.404,
     "grok": 0.807,
     "deepseek": 0.388
    }

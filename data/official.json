@@ -102,6 +102,18 @@
   "out": 30.0
  },
  {
+  "label": "Gemini 4 Argon",
+  "family": "gemini",
+  "in": 2.0,
+  "out": 10.0
+ },
+ {
+  "label": "Gemini 3.8 Flash",
+  "family": "gemini",
+  "in": 1.5,
+  "out": 7.5
+ },
+ {
   "label": "Gemini 3.1 Pro",
   "family": "gemini",
   "in": 2.0,
