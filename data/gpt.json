@@ -2049,13 +2049,6 @@
      "rate": 1.25
     },
     {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "in": 6.2551,
-     "out": 37.5304,
-     "rate": 1.251
-    },
-    {
      "name": "三头牛",
      "slug": "36niu-com",
      "in": 6.7855,
@@ -2103,6 +2096,13 @@
      "in": 12.0,
      "out": 60.0,
      "rate": 2.4
+    },
+    {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 13.571,
+     "out": 81.4258,
+     "rate": 2.714
     },
     {
      "name": "yinli",
@@ -2704,6 +2704,13 @@
      "rate": 0.5
     },
     {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 5.004,
+     "out": 25.0202,
+     "rate": 0.5
+    },
+    {
      "name": "nekoapi",
      "slug": "api-nekoapi-com",
      "in": 5.0,
@@ -2842,13 +2849,6 @@
      "in": 11.25,
      "out": 56.25,
      "rate": 1.125
-    },
-    {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "in": 12.5101,
-     "out": 62.5506,
-     "rate": 1.251
     },
     {
      "name": "三头牛",
@@ -6468,5 +6468,5 @@
    ]
   }
  ],
- "updated": "2026-10-14"
+ "updated": "2026-10-17"
 }

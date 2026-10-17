@@ -623,6 +623,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "rate": 0.792,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "ClaudeAPI",
    "slug": "console-claudeapi-com",
    "rate": 0.8,
@@ -830,12 +836,6 @@
    "name": "ZIVV",
    "slug": "zivv-pro",
    "rate": 1.3,
-   "model": "Claude Opus 5.5"
-  },
-  {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "rate": 1.319,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1692,6 +1692,13 @@
      "rate": 0.75
     },
     {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 3.1666,
+     "out": 15.8328,
+     "rate": 0.792
+    },
+    {
      "name": "537 AI",
      "slug": "537-ai-net",
      "in": 3.2,
@@ -1893,13 +1900,6 @@
      "in": 5.2,
      "out": 26.0,
      "rate": 1.3
-    },
-    {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "in": 5.2776,
-     "out": 26.3879,
-     "rate": 1.319
     },
     {
      "name": "codesonline",
@@ -3273,5 +3273,5 @@
    ]
   }
  ],
- "updated": "2026-10-11"
+ "updated": "2026-10-17"
 }

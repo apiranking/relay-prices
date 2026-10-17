@@ -96,7 +96,7 @@
    "name": "RunAPI",
    "slug": "runapi-co",
    "rates": {
-    "claude": 0.879,
+    "claude": 0.792,
     "openai": 0.4,
     "gemini": 0.712,
     "grok": 0.475,
@@ -320,5 +320,5 @@
    }
   }
  ],
- "updated": "2026-10-14"
+ "updated": "2026-10-17"
 }

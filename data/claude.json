@@ -683,6 +683,12 @@
    "model": "Claude Sonnet 5.5"
   },
   {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "rate": 0.792,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "AIAPI World",
    "slug": "aiapi-world",
    "rate": 0.797,
@@ -728,12 +734,6 @@
    "name": "ZIVV",
    "slug": "zivv-pro",
    "rate": 0.867,
-   "model": "Claude Haiku 5.5"
-  },
-  {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "rate": 0.879,
    "model": "Claude Haiku 5.5"
   },
   {
@@ -1704,6 +1704,13 @@
      "rate": 0.75
     },
     {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 3.1666,
+     "out": 15.8328,
+     "rate": 0.792
+    },
+    {
      "name": "537 AI",
      "slug": "537-ai-net",
      "in": 3.2,
@@ -1905,13 +1912,6 @@
      "in": 5.2,
      "out": 26.0,
      "rate": 1.3
-    },
-    {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "in": 5.2776,
-     "out": 26.3879,
-     "rate": 1.319
     },
     {
      "name": "codesonline",
@@ -5913,6 +5913,13 @@
      "rate": 2.005
     },
     {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 20.3564,
+     "out": 101.7822,
+     "rate": 2.036
+    },
+    {
      "name": "Top-API",
      "slug": "top-api",
      "in": 20.3564,
@@ -5959,13 +5966,6 @@
      "slug": "poixe-com",
      "in": 33.9274,
      "out": 3.3927,
-     "rate": 3.393
-    },
-    {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "in": 33.9274,
-     "out": 169.637,
      "rate": 3.393
     },
     {
@@ -7132,6 +7132,13 @@
      "rate": 0.78
     },
     {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 1.5833,
+     "out": 7.9164,
+     "rate": 0.792
+    },
+    {
      "name": "nekoapi",
      "slug": "api-nekoapi-com",
      "in": 1.6,
@@ -7221,13 +7228,6 @@
      "in": 2.6,
      "out": 13.0,
      "rate": 1.3
-    },
-    {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "in": 2.6388,
-     "out": 13.194,
-     "rate": 1.319
     },
     {
      "name": "OneChats",
@@ -7745,6 +7745,13 @@
      "rate": 0.78
     },
     {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 0.0792,
+     "out": 0.3958,
+     "rate": 0.792
+    },
+    {
      "name": "nekoapi",
      "slug": "api-nekoapi-com",
      "in": 0.08,
@@ -7771,13 +7778,6 @@
      "in": 0.0867,
      "out": 0.4334,
      "rate": 0.867
-    },
-    {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "in": 0.0882,
-     "out": 0.4397,
-     "rate": 0.879
     },
     {
      "name": "AIAPI World",
@@ -8430,5 +8430,5 @@
    ]
   }
  ],
- "updated": "2026-10-14"
+ "updated": "2026-10-17"
 }
