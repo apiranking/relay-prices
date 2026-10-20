@@ -1,10 +1,10 @@
 {
- "site_count": 196,
+ "site_count": 197,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 181,
+   "count": 182,
    "rows": [
     {
      "name": "Prism API",
@@ -61,7 +61,7 @@
   {
    "key": "openai",
    "label": "GPT",
-   "count": 172,
+   "count": 174,
    "rows": [
     {
      "name": "Token云桥",
@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 96,
+   "count": 98,
    "rows": [
     {
      "name": "XTokenMirror",
@@ -232,7 +232,7 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 22,
+   "count": 23,
    "rows": [
     {
      "name": "A6API",
@@ -287,5 +287,5 @@
    ]
   }
  ],
- "updated": "2026-10-11"
+ "updated": "2026-10-20"
 }

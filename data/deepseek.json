@@ -1,8 +1,8 @@
 {
  "vendor": "DeepSeek",
- "site_count": 22,
+ "site_count": 23,
  "min_rate": 0.006,
- "median_rate": 0.382,
+ "median_rate": 0.388,
  "sites": [
   {
    "name": "A6API",
@@ -113,6 +113,12 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "rate": 0.7,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
    "name": "Xcode",
    "slug": "xcode-best",
    "rate": 0.75,
@@ -142,7 +148,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.454,
+   "median_rate": 0.507,
    "own_page": false,
    "official_in": 2.0,
    "official_out": 8.0,
@@ -267,6 +273,13 @@
      "rate": 0.7
     },
     {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 1.4,
+     "out": 5.6,
+     "rate": 0.7
+    },
+    {
      "name": "Xcode",
      "slug": "xcode-best",
      "in": 1.5,
@@ -307,7 +320,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.488,
+   "median_rate": 0.494,
    "own_page": false,
    "official_in": 9.0,
    "official_out": 27.0,
@@ -425,6 +438,13 @@
      "rate": 0.66
     },
     {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 6.3,
+     "out": 18.9,
+     "rate": 0.7
+    },
+    {
      "name": "ZIVV",
      "slug": "zivv-pro",
      "in": 6.6,
@@ -462,5 +482,5 @@
    ]
   }
  ],
- "updated": "2026-10-11"
+ "updated": "2026-10-20"
 }

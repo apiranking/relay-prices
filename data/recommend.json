@@ -104,6 +104,16 @@
    }
   },
   {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "rates": {
+    "claude": 1.5,
+    "openai": 0.8,
+    "gemini": 0.75,
+    "deepseek": 0.7
+   }
+  },
+  {
    "name": "Z-API",
    "slug": "api-zicc-cc",
    "rates": {
@@ -307,18 +317,7 @@
     "gemini": 0.15,
     "deepseek": 0.25
    }
-  },
-  {
-   "name": "三头牛",
-   "slug": "36niu-com",
-   "rates": {
-    "claude": 0.679,
-    "openai": 1.357,
-    "grok": 1.357,
-    "gemini": 0.679,
-    "deepseek": 0.921
-   }
   }
  ],
- "updated": "2026-10-17"
+ "updated": "2026-10-20"
 }

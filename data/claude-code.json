@@ -1,6 +1,6 @@
 {
  "vendor": "Claude Code",
- "site_count": 179,
+ "site_count": 180,
  "min_rate": 0.014,
  "median_rate": 0.55,
  "sites": [
@@ -635,12 +635,6 @@
    "model": "Claude Opus 5.5"
   },
   {
-   "name": "ClaudeApi",
-   "slug": "claudeapi-com",
-   "rate": 0.8,
-   "model": "Claude Opus 5.5"
-  },
-  {
    "name": "OpenOx",
    "slug": "openox",
    "rate": 0.8,
@@ -863,6 +857,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "rate": 1.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "RPG8",
    "slug": "api-rpg8-cn",
    "rate": 1.5,
@@ -992,6 +992,12 @@
    "name": "fluapi",
    "slug": "fluapi",
    "rate": 5.0,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "ClaudeApi",
+   "slug": "claudeapi-com",
+   "rate": 5.428,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1713,13 +1719,6 @@
      "rate": 0.8
     },
     {
-     "name": "ClaudeApi",
-     "slug": "claudeapi-com",
-     "in": 3.2,
-     "out": 16.0,
-     "rate": 0.8
-    },
-    {
      "name": "OpenOx",
      "slug": "openox",
      "in": 3.2,
@@ -1937,6 +1936,13 @@
      "rate": 1.5
     },
     {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 6.0,
+     "out": 30.0,
+     "rate": 1.5
+    },
+    {
      "name": "RPG8",
      "slug": "api-rpg8-cn",
      "in": 6.0,
@@ -2124,6 +2130,13 @@
      "in": 20.0,
      "out": 100.0,
      "rate": 5.0
+    },
+    {
+     "name": "ClaudeApi",
+     "slug": "claudeapi-com",
+     "in": 21.7135,
+     "out": 108.5677,
+     "rate": 5.428
     },
     {
      "name": "一元模型",
@@ -2816,13 +2829,6 @@
      "rate": 0.8
     },
     {
-     "name": "ClaudeApi",
-     "slug": "claudeapi-com",
-     "in": 2.4,
-     "out": 12.0,
-     "rate": 0.8
-    },
-    {
      "name": "Uiuihao API",
      "slug": "api-uiuihao-com",
      "in": 2.4,
@@ -3173,6 +3179,13 @@
      "rate": 5.0
     },
     {
+     "name": "ClaudeApi",
+     "slug": "claudeapi-com",
+     "in": 16.2852,
+     "out": 81.4258,
+     "rate": 5.428
+    },
+    {
      "name": "Frontier Intelligence",
      "slug": "api-frontier-intelligence-tech",
      "in": 16.5,
@@ -3273,5 +3286,5 @@
    ]
   }
  ],
- "updated": "2026-10-17"
+ "updated": "2026-10-20"
 }

@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 196,
+ "site_count": 197,
  "rows": [
   {
    "name": "A6API",
@@ -235,6 +235,16 @@
     "openai": 0.5,
     "gemini": 1.8,
     "grok": 0.15
+   }
+  },
+  {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "rates": {
+    "claude": 1.5,
+    "openai": 0.8,
+    "gemini": 0.75,
+    "deepseek": 0.7
    }
   },
   {
@@ -564,6 +574,15 @@
     "claude": 0.045,
     "openai": 0.041,
     "grok": 0.102
+   }
+  },
+  {
+   "name": "ClaudeApi",
+   "slug": "claudeapi-com",
+   "rates": {
+    "openai": 4.411,
+    "claude": 5.428,
+    "gemini": 2.036
    }
   },
   {
@@ -1552,13 +1571,6 @@
    }
   },
   {
-   "name": "ClaudeApi",
-   "slug": "claudeapi-com",
-   "rates": {
-    "claude": 0.8
-   }
-  },
-  {
    "name": "CodeRelay",
    "slug": "coderelay-cn",
    "rates": {
@@ -1727,5 +1739,5 @@
    }
   }
  ],
- "updated": "2026-10-17"
+ "updated": "2026-10-20"
 }

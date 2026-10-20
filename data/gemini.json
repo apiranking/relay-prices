@@ -1,6 +1,6 @@
 {
  "vendor": "Gemini",
- "site_count": 96,
+ "site_count": 98,
  "min_rate": 0.04,
  "median_rate": 1.0,
  "sites": [
@@ -239,6 +239,12 @@
    "model": "Gemini 3.8 Flash"
   },
   {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "rate": 0.75,
+   "model": "Gemini 3.8 Flash"
+  },
+  {
    "name": "DoroAI",
    "slug": "doro-lol",
    "rate": 0.75,
@@ -429,6 +435,12 @@
    "slug": "chatapi-onechats-top",
    "rate": 2.0,
    "model": "Gemini 4 Argon"
+  },
+  {
+   "name": "ClaudeApi",
+   "slug": "claudeapi-com",
+   "rate": 2.036,
+   "model": "Gemini 3.8 Flash"
   },
   {
    "name": "Cooper-API",
@@ -1026,6 +1038,13 @@
      "rate": 1.5
     },
     {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 1.5
+    },
+    {
      "name": "Mmaqq API",
      "slug": "mmaqq-top",
      "in": 3.0,
@@ -1129,6 +1148,13 @@
      "in": 6.7855,
      "out": 33.9274,
      "rate": 3.393
+    },
+    {
+     "name": "ClaudeApi",
+     "slug": "claudeapi-com",
+     "in": 8.1426,
+     "out": 67.8548,
+     "rate": 4.071
     },
     {
      "name": "corealgos",
@@ -1730,6 +1756,13 @@
      "rate": 2.2
     },
     {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 5.0,
+     "out": 30.0,
+     "rate": 2.5
+    },
+    {
      "name": "nekoapi",
      "slug": "api-nekoapi-com",
      "in": 5.0,
@@ -1770,6 +1803,13 @@
      "in": 6.7855,
      "out": 40.7129,
      "rate": 3.393
+    },
+    {
+     "name": "ClaudeApi",
+     "slug": "claudeapi-com",
+     "in": 8.1426,
+     "out": 48.8555,
+     "rate": 4.071
     },
     {
      "name": "corealgos",
@@ -2334,7 +2374,7 @@
    "model_key": "gemini-3.8-flash",
    "price_slug": "gemini-3-8-flash",
    "label": "Gemini 3.8 Flash",
-   "median_rate": 0.4,
+   "median_rate": 0.5,
    "own_page": false,
    "official_in": 1.5,
    "official_out": 7.5,
@@ -2438,6 +2478,13 @@
      "rate": 0.712
     },
     {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 1.125,
+     "out": 5.625,
+     "rate": 0.75
+    },
+    {
      "name": "Kuaipao API",
      "slug": "kuaipao-pro",
      "in": 1.5,
@@ -2450,6 +2497,13 @@
      "in": 1.8937,
      "out": 9.4683,
      "rate": 1.262
+    },
+    {
+     "name": "ClaudeApi",
+     "slug": "claudeapi-com",
+     "in": 3.0535,
+     "out": 15.2673,
+     "rate": 2.036
     },
     {
      "name": "OmniaKey",
@@ -2478,7 +2532,7 @@
    "model_key": "gemini-3.7-flash",
    "price_slug": "gemini-3-7-flash",
    "label": "Gemini 3.7 Flash",
-   "median_rate": 0.4,
+   "median_rate": 0.45,
    "own_page": false,
    "official_in": 1.5,
    "official_out": 7.5,
@@ -2582,6 +2636,13 @@
      "rate": 0.712
     },
     {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 1.125,
+     "out": 5.625,
+     "rate": 0.75
+    },
+    {
      "name": "Kuaipao API",
      "slug": "kuaipao-pro",
      "in": 1.5,
@@ -2619,5 +2680,5 @@
    ]
   }
  ],
- "updated": "2026-10-17"
+ "updated": "2026-10-20"
 }
