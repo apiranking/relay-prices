@@ -677,12 +677,6 @@
    "model": "Claude Opus 5.5"
   },
   {
-   "name": "moacode",
-   "slug": "moacode",
-   "rate": 0.767,
-   "model": "Claude Sonnet 5.5"
-  },
-  {
    "name": "RunAPI",
    "slug": "runapi-co",
    "rate": 0.792,
@@ -897,6 +891,12 @@
    "slug": "yinli",
    "rate": 1.5,
    "model": "Claude Sonnet 4.6"
+  },
+  {
+   "name": "CodingRouter",
+   "slug": "codingrouter",
+   "rate": 1.561,
+   "model": "Claude Opus 5.5"
   },
   {
    "name": "DeRouter",
@@ -1885,13 +1885,6 @@
      "rate": 1.1
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 4.72,
-     "out": 23.6,
-     "rate": 1.18
-    },
-    {
      "name": "api.68886868.xyz",
      "slug": "api-68886868-xyz",
      "in": 4.8855,
@@ -1960,6 +1953,13 @@
      "in": 6.0,
      "out": 30.0,
      "rate": 1.5
+    },
+    {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 6.2426,
+     "out": 31.2132,
+     "rate": 1.561
     },
     {
      "name": "Uiuihao API",
@@ -2226,7 +2226,7 @@
    "model_key": "claude-sonnet-4-6",
    "price_slug": "claude-sonnet-4-6",
    "label": "Claude Sonnet 4.6",
-   "median_rate": 0.575,
+   "median_rate": 0.55,
    "own_page": true,
    "official_in": 3.0,
    "official_out": 15.0,
@@ -3014,13 +3014,6 @@
      "in": 3.3,
      "out": 16.5,
      "rate": 1.1
-    },
-    {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 3.5,
-     "out": 17.6,
-     "rate": 1.167
     },
     {
      "name": "Cun AI",
@@ -3963,13 +3956,6 @@
      "in": 5.5,
      "out": 27.5,
      "rate": 1.1
-    },
-    {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 5.9,
-     "out": 29.3,
-     "rate": 1.18
     },
     {
      "name": "api.68886868.xyz",
@@ -4942,13 +4928,6 @@
      "rate": 1.1
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 5.9,
-     "out": 29.3,
-     "rate": 1.18
-    },
-    {
      "name": "api.68886868.xyz",
      "slug": "api-68886868-xyz",
      "in": 6.1069,
@@ -5667,13 +5646,6 @@
      "rate": 1.1
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 11.7,
-     "out": 58.6,
-     "rate": 1.17
-    },
-    {
      "name": "AI派",
      "slug": "api-aipaibox-com",
      "in": 12.0,
@@ -5826,6 +5798,13 @@
      "in": 15.0,
      "out": 75.0,
      "rate": 1.5
+    },
+    {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 15.6066,
+     "out": 78.033,
+     "rate": 1.561
     },
     {
      "name": "BootToken",
@@ -6106,7 +6085,7 @@
    "model_key": "claude-fable-5",
    "price_slug": "claude-fable-5",
    "label": "Claude Fable 5",
-   "median_rate": 1.2,
+   "median_rate": 1.225,
    "own_page": true,
    "official_in": 10.0,
    "official_out": 50.0,
@@ -6404,13 +6383,6 @@
      "in": 11.0,
      "out": 55.0,
      "rate": 1.1
-    },
-    {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 11.7,
-     "out": 58.6,
-     "rate": 1.17
     },
     {
      "name": "AI派",
@@ -7145,13 +7117,6 @@
      "rate": 0.7
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 1.5334,
-     "out": 7.667,
-     "rate": 0.767
-    },
-    {
      "name": "LinksAPI",
      "slug": "linksapi",
      "in": 1.56,
@@ -7269,6 +7234,13 @@
      "in": 3.0,
      "out": 15.0,
      "rate": 1.5
+    },
+    {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 3.1213,
+     "out": 15.6066,
+     "rate": 1.561
     },
     {
      "name": "APINebula",
@@ -7772,13 +7744,6 @@
      "rate": 0.7
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 0.0767,
-     "out": 0.3834,
-     "rate": 0.767
-    },
-    {
      "name": "LinksAPI",
      "slug": "linksapi",
      "in": 0.078,
@@ -7919,6 +7884,13 @@
      "rate": 1.5
     },
     {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 0.1561,
+     "out": 0.7803,
+     "rate": 1.561
+    },
+    {
      "name": "Codeagent API",
      "slug": "codeagent-cloud",
      "in": 0.16,
@@ -8001,7 +7973,7 @@
    "model_key": "claude-sonnet-5",
    "price_slug": "claude-sonnet-5",
    "label": "Claude Sonnet 5",
-   "median_rate": 0.615,
+   "median_rate": 0.55,
    "own_page": false,
    "official_in": 2.0,
    "official_out": 10.0,
@@ -8371,13 +8343,6 @@
      "rate": 1.1
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 2.3,
-     "out": 11.7,
-     "rate": 1.15
-    },
-    {
      "name": "kksj",
      "slug": "cnapi-kksj-org",
      "in": 2.4,
@@ -8485,5 +8450,5 @@
    ]
   }
  ],
- "updated": "2026-10-20"
+ "updated": "2026-10-21"
 }

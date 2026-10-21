@@ -2,7 +2,7 @@
  "vendor": "GPT",
  "site_count": 174,
  "min_rate": 0.001,
- "median_rate": 0.262,
+ "median_rate": 0.272,
  "sites": [
   {
    "name": "Token云桥",
@@ -497,12 +497,6 @@
    "model": "GPT-5.6 Terra"
   },
   {
-   "name": "moacode",
-   "slug": "moacode",
-   "rate": 0.248,
-   "model": "GPT-5.6 Terra"
-  },
-  {
    "name": "AI派",
    "slug": "api-aipaibox-com",
    "rate": 0.25,
@@ -525,6 +519,12 @@
    "slug": "rapi-asia",
    "rate": 0.25,
    "model": "GPT-5.5"
+  },
+  {
+   "name": "CodingRouter",
+   "slug": "codingrouter",
+   "rate": 0.271,
+   "model": "GPT-6 Luna"
   },
   {
    "name": "小瑞API",
@@ -1054,7 +1054,7 @@
    "model_key": "gpt-5.5",
    "price_slug": "gpt-5-5",
    "label": "GPT-5.5",
-   "median_rate": 0.31,
+   "median_rate": 0.32,
    "own_page": true,
    "official_in": 5.0,
    "official_out": 30.0,
@@ -1655,13 +1655,6 @@
      "rate": 0.3
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 1.6,
-     "out": 9.3,
-     "rate": 0.32
-    },
-    {
      "name": "Pateway",
      "slug": "pateway",
      "in": 1.6964,
@@ -2066,6 +2059,13 @@
      "in": 6.25,
      "out": 37.5,
      "rate": 1.25
+    },
+    {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 6.7855,
+     "out": 40.7129,
+     "rate": 1.357
     },
     {
      "name": "三头牛",
@@ -2639,13 +2639,6 @@
      "rate": 0.3
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 3.2,
-     "out": 16.0,
-     "rate": 0.32
-    },
-    {
      "name": "Pateway",
      "slug": "pateway",
      "in": 3.3927,
@@ -2882,6 +2875,13 @@
      "in": 11.25,
      "out": 56.25,
      "rate": 1.125
+    },
+    {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 13.571,
+     "out": 67.8548,
+     "rate": 1.357
     },
     {
      "name": "三头牛",
@@ -3343,13 +3343,6 @@
      "rate": 0.3
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 0.64,
-     "out": 3.2,
-     "rate": 0.32
-    },
-    {
      "name": "Pateway",
      "slug": "pateway",
      "in": 0.6785,
@@ -3581,6 +3574,13 @@
      "rate": 1.125
     },
     {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 2.7142,
+     "out": 13.571,
+     "rate": 1.357
+    },
+    {
      "name": "三头牛",
      "slug": "36niu-com",
      "in": 2.7142,
@@ -3663,7 +3663,7 @@
    "model_key": "gpt-5.6-terra",
    "price_slug": "gpt-5-6-terra",
    "label": "GPT-5.6 Terra",
-   "median_rate": 0.275,
+   "median_rate": 0.3,
    "own_page": true,
    "official_in": 2.5,
    "official_out": 15.0,
@@ -3991,13 +3991,6 @@
      "rate": 0.24
     },
     {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 0.62,
-     "out": 3.7,
-     "rate": 0.248
-    },
-    {
      "name": "Global AI",
      "slug": "globalai-vip",
      "in": 0.625,
@@ -4257,6 +4250,13 @@
      "rate": 1.018
     },
     {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 2.7142,
+     "out": 16.2852,
+     "rate": 1.086
+    },
+    {
      "name": "QweApi",
      "slug": "qweapi",
      "in": 3.0,
@@ -4360,7 +4360,7 @@
    "model_key": "gpt-6-luna",
    "price_slug": "gpt-6-luna",
    "label": "GPT-6 Luna",
-   "median_rate": 0.275,
+   "median_rate": 0.271,
    "own_page": true,
    "official_in": 0.5,
    "official_out": 0.75,
@@ -4651,6 +4651,13 @@
      "in": 0.125,
      "out": 0.1875,
      "rate": 0.25
+    },
+    {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 0.1357,
+     "out": 0.6785,
+     "rate": 0.271
     },
     {
      "name": "537 AI",
@@ -4945,7 +4952,7 @@
    "model_key": "gpt-6-sol",
    "price_slug": "gpt-6-sol",
    "label": "GPT-6 Sol",
-   "median_rate": 0.31,
+   "median_rate": 0.3,
    "own_page": false,
    "official_in": 2.0,
    "official_out": 10.0,
@@ -5215,13 +5222,6 @@
      "in": 0.6,
      "out": 3.0,
      "rate": 0.3
-    },
-    {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 0.64,
-     "out": 3.2,
-     "rate": 0.32
     },
     {
      "name": "corealgos",
@@ -5765,13 +5765,6 @@
      "in": 1.5,
      "out": 9.0,
      "rate": 0.3
-    },
-    {
-     "name": "moacode",
-     "slug": "moacode",
-     "in": 1.6,
-     "out": 9.3,
-     "rate": 0.32
     },
     {
      "name": "Pateway",
@@ -6529,5 +6522,5 @@
    ]
   }
  ],
- "updated": "2026-10-20"
+ "updated": "2026-10-21"
 }

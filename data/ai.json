@@ -35,6 +35,17 @@
    }
   },
   {
+   "name": "CodingRouter",
+   "slug": "codingrouter",
+   "rates": {
+    "openai": 0.271,
+    "gemini": 0.679,
+    "claude": 1.561,
+    "deepseek": 0.95,
+    "grok": 2.036
+   }
+  },
+  {
    "name": "H API",
    "slug": "h-api",
    "rates": {
@@ -1432,14 +1443,6 @@
    }
   },
   {
-   "name": "moacode",
-   "slug": "moacode",
-   "rates": {
-    "claude": 0.767,
-    "openai": 0.248
-   }
-  },
-  {
    "name": "poloai",
    "slug": "poloai",
    "rates": {
@@ -1739,5 +1742,5 @@
    }
   }
  ],
- "updated": "2026-10-20"
+ "updated": "2026-10-21"
 }

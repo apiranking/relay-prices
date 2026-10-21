@@ -56,16 +56,6 @@
    }
   },
   {
-   "name": "LinkAI",
-   "slug": "linkai",
-   "rates": {
-    "claude": 0.3,
-    "openai": 0.04,
-    "grok": 0.3,
-    "gemini": 0.3
-   }
-  },
-  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "rates": {
@@ -76,12 +66,13 @@
    }
   },
   {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
+   "name": "LinkAI",
+   "slug": "linkai",
    "rates": {
-    "claude": 0.7,
-    "openai": 0.32,
-    "deepseek": 1.0
+    "claude": 0.3,
+    "openai": 0.04,
+    "grok": 0.3,
+    "gemini": 0.3
    }
   },
   {
@@ -90,6 +81,15 @@
    "rates": {
     "claude": 0.3,
     "openai": 0.24
+   }
+  },
+  {
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "rates": {
+    "claude": 0.7,
+    "openai": 0.32,
+    "deepseek": 1.0
    }
   },
   {
@@ -114,23 +114,14 @@
    }
   },
   {
-   "name": "Z-API",
-   "slug": "api-zicc-cc",
+   "name": "A6API",
+   "slug": "a6api",
    "rates": {
-    "claude": 0.08,
-    "openai": 0.1,
-    "gemini": 0.1
-   }
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "rates": {
-    "claude": 1.9,
-    "openai": 0.611,
-    "gemini": 2.036,
-    "grok": 10.857,
-    "deepseek": 0.328
+    "claude": 0.048,
+    "openai": 0.009,
+    "gemini": 0.081,
+    "grok": 0.004,
+    "deepseek": 0.006
    }
   },
   {
@@ -153,6 +144,26 @@
    }
   },
   {
+   "name": "Xcode",
+   "slug": "xcode-best",
+   "rates": {
+    "claude": 1.133,
+    "openai": 0.12,
+    "gemini": 0.5,
+    "grok": 0.2,
+    "deepseek": 0.75
+   }
+  },
+  {
+   "name": "Z-API",
+   "slug": "api-zicc-cc",
+   "rates": {
+    "claude": 0.08,
+    "openai": 0.1,
+    "gemini": 0.1
+   }
+  },
+  {
    "name": "Luxery API",
    "slug": "luxery-api",
    "rates": {
@@ -167,17 +178,6 @@
     "claude": 1.0,
     "gemini": 1.0,
     "openai": 0.4
-   }
-  },
-  {
-   "name": "Xcode",
-   "slug": "xcode-best",
-   "rates": {
-    "claude": 1.133,
-    "openai": 0.12,
-    "gemini": 0.5,
-    "grok": 0.2,
-    "deepseek": 0.75
    }
   },
   {
@@ -199,14 +199,6 @@
    }
   },
   {
-   "name": "moacode",
-   "slug": "moacode",
-   "rates": {
-    "claude": 0.767,
-    "openai": 0.248
-   }
-  },
-  {
    "name": "PackyCode",
    "slug": "packyapi-com",
    "rates": {
@@ -215,17 +207,6 @@
     "grok": 0.1,
     "deepseek": 0.25,
     "gemini": 7.0
-   }
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rates": {
-    "claude": 0.048,
-    "openai": 0.009,
-    "gemini": 0.081,
-    "grok": 0.004,
-    "deepseek": 0.006
    }
   },
   {
@@ -288,6 +269,17 @@
    }
   },
   {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rates": {
+    "claude": 1.9,
+    "openai": 0.611,
+    "gemini": 2.036,
+    "grok": 10.857,
+    "deepseek": 0.328
+   }
+  },
+  {
    "name": "聚星AI",
    "slug": "juxingai-top",
    "rates": {
@@ -317,7 +309,18 @@
     "gemini": 0.15,
     "deepseek": 0.25
    }
+  },
+  {
+   "name": "三头牛",
+   "slug": "36niu-com",
+   "rates": {
+    "claude": 0.679,
+    "openai": 1.357,
+    "grok": 1.357,
+    "gemini": 0.679,
+    "deepseek": 0.921
+   }
   }
  ],
- "updated": "2026-10-20"
+ "updated": "2026-10-21"
 }

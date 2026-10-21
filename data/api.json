@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 98,
+   "count": 99,
    "rows": [
     {
      "name": "XTokenMirror",
@@ -175,7 +175,7 @@
   {
    "key": "grok",
    "label": "Grok",
-   "count": 56,
+   "count": 57,
    "rows": [
     {
      "name": "A6API",
@@ -232,7 +232,7 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 23,
+   "count": 24,
    "rows": [
     {
      "name": "A6API",
@@ -287,5 +287,5 @@
    ]
   }
  ],
- "updated": "2026-10-20"
+ "updated": "2026-10-21"
 }

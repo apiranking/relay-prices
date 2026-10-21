@@ -1,8 +1,8 @@
 {
  "vendor": "DeepSeek",
- "site_count": 23,
+ "site_count": 24,
  "min_rate": 0.006,
- "median_rate": 0.388,
+ "median_rate": 0.438,
  "sites": [
   {
    "name": "A6API",
@@ -131,6 +131,12 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
+   "name": "CodingRouter",
+   "slug": "codingrouter",
+   "rate": 0.95,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "rate": 1.0,
@@ -148,7 +154,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.507,
+   "median_rate": 0.508,
    "own_page": false,
    "official_in": 2.0,
    "official_out": 8.0,
@@ -301,6 +307,13 @@
      "rate": 0.921
     },
     {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 1.8999,
+     "out": 7.5997,
+     "rate": 0.95
+    },
+    {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
      "in": 2.0,
@@ -320,7 +333,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.494,
+   "median_rate": 0.5,
    "own_page": false,
    "official_in": 9.0,
    "official_out": 27.0,
@@ -466,6 +479,13 @@
      "rate": 0.921
     },
     {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 8.9568,
+     "out": 26.8705,
+     "rate": 0.995
+    },
+    {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
      "in": 9.0,
@@ -482,5 +502,5 @@
    ]
   }
  ],
- "updated": "2026-10-20"
+ "updated": "2026-10-21"
 }
