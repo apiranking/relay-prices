@@ -84,6 +84,27 @@
    }
   },
   {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "rates": {
+    "claude": 1.5,
+    "openai": 0.8,
+    "gemini": 0.75,
+    "deepseek": 0.7
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rates": {
+    "claude": 1.9,
+    "openai": 0.611,
+    "gemini": 2.036,
+    "grok": 10.857,
+    "deepseek": 0.328
+   }
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "rates": {
@@ -101,16 +122,6 @@
     "gemini": 0.712,
     "grok": 0.475,
     "deepseek": 0.251
-   }
-  },
-  {
-   "name": "Code0.ai",
-   "slug": "code0-ai",
-   "rates": {
-    "claude": 1.5,
-    "openai": 0.8,
-    "gemini": 0.75,
-    "deepseek": 0.7
    }
   },
   {
@@ -269,17 +280,6 @@
    }
   },
   {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "rates": {
-    "claude": 1.9,
-    "openai": 0.611,
-    "gemini": 2.036,
-    "grok": 10.857,
-    "deepseek": 0.328
-   }
-  },
-  {
    "name": "聚星AI",
    "slug": "juxingai-top",
    "rates": {
@@ -322,5 +322,5 @@
    }
   }
  ],
- "updated": "2026-10-21"
+ "updated": "2026-10-22"
 }
