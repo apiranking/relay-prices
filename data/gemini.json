@@ -20,13 +20,13 @@
    "name": "A6API",
    "slug": "a6api",
    "rate": 0.081,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "PRY API",
    "slug": "bearlab-ai",
    "rate": 0.1,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "RPG8",
@@ -74,7 +74,7 @@
    "name": "deepkey",
    "slug": "deepkey-top",
    "rate": 0.15,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "ByteClaude",
@@ -92,19 +92,19 @@
    "name": "H API",
    "slug": "h-api",
    "rate": 0.225,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "UU API",
    "slug": "uuapi-net",
    "rate": 0.25,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "xiaojing",
    "slug": "open-xiaojingai-com",
    "rate": 0.25,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "LLM-ALL API",
@@ -116,7 +116,7 @@
    "name": "LinkAI",
    "slug": "linkai",
    "rate": 0.3,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "RightCode",
@@ -146,7 +146,7 @@
    "name": "APINebula",
    "slug": "apinebula-com",
    "rate": 0.4,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "AiXor",
@@ -176,7 +176,7 @@
    "name": "Xcode",
    "slug": "xcode-best",
    "rate": 0.5,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "云雾AI",
@@ -212,7 +212,7 @@
    "name": "CodingRouter",
    "slug": "codingrouter",
    "rate": 0.679,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "Top-API",
@@ -224,7 +224,7 @@
    "name": "三头牛",
    "slug": "36niu-com",
    "rate": 0.679,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "IKunCode",
@@ -242,13 +242,13 @@
    "name": "RunAPI",
    "slug": "runapi-co",
    "rate": 0.712,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "Code0.ai",
    "slug": "code0-ai",
    "rate": 0.75,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "DoroAI",
@@ -392,7 +392,7 @@
    "name": "LMU AI · 灵眸",
    "slug": "api-lmuai-com",
    "rate": 1.262,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "Mmaqq API",
@@ -446,7 +446,7 @@
    "name": "ClaudeApi",
    "slug": "claudeapi-com",
    "rate": 2.036,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "Cooper-API",
@@ -458,13 +458,13 @@
    "name": "OmniaKey",
    "slug": "omniakey",
    "rate": 2.036,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "corealgos",
    "slug": "corealgos",
    "rate": 2.036,
-   "model": "Gemini 3.8 Flash"
+   "model": "Gemini 3.5 Flash"
   },
   {
    "name": "Poixe AI",
@@ -1929,7 +1929,7 @@
    "price_slug": "gemini-3-5-flash",
    "label": "Gemini 3.5 Flash",
    "median_rate": 1.0,
-   "own_page": false,
+   "own_page": true,
    "official_in": 1.5,
    "official_out": 9.0,
    "rows": [
@@ -1941,6 +1941,20 @@
      "rate": 0.04
     },
     {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.1215,
+     "out": 0.7267,
+     "rate": 0.081
+    },
+    {
+     "name": "PRY API",
+     "slug": "bearlab-ai",
+     "in": 0.15,
+     "out": 0.9,
+     "rate": 0.1
+    },
+    {
      "name": "poloai",
      "slug": "poloai",
      "in": 0.205,
@@ -1950,6 +1964,13 @@
     {
      "name": "Rehdasu API",
      "slug": "rehdasu-cn",
+     "in": 0.225,
+     "out": 1.35,
+     "rate": 0.15
+    },
+    {
+     "name": "deepkey",
+     "slug": "deepkey-top",
      "in": 0.225,
      "out": 1.35,
      "rate": 0.15
@@ -1969,6 +1990,27 @@
      "rate": 0.2
     },
     {
+     "name": "H API",
+     "slug": "h-api",
+     "in": 0.3375,
+     "out": 2.025,
+     "rate": 0.225
+    },
+    {
+     "name": "UU API",
+     "slug": "uuapi-net",
+     "in": 0.375,
+     "out": 2.25,
+     "rate": 0.25
+    },
+    {
+     "name": "xiaojing",
+     "slug": "open-xiaojingai-com",
+     "in": 0.375,
+     "out": 2.25,
+     "rate": 0.25
+    },
+    {
      "name": "合聚API",
      "slug": "hejuapi-com",
      "in": 0.375,
@@ -1978,6 +2020,13 @@
     {
      "name": "LLM-ALL API",
      "slug": "llm-all-pro",
+     "in": 0.45,
+     "out": 2.7,
+     "rate": 0.3
+    },
+    {
+     "name": "LinkAI",
+     "slug": "linkai",
      "in": 0.45,
      "out": 2.7,
      "rate": 0.3
@@ -1995,6 +2044,13 @@
      "in": 0.45,
      "out": 2.7,
      "rate": 0.3
+    },
+    {
+     "name": "APINebula",
+     "slug": "apinebula-com",
+     "in": 0.6,
+     "out": 3.6,
+     "rate": 0.4
     },
     {
      "name": "AiXor",
@@ -2020,6 +2076,13 @@
     {
      "name": "Die Ge",
      "slug": "die-ge",
+     "in": 0.75,
+     "out": 4.5,
+     "rate": 0.5
+    },
+    {
+     "name": "Xcode",
+     "slug": "xcode-best",
      "in": 0.75,
      "out": 4.5,
      "rate": 0.5
@@ -2053,6 +2116,13 @@
      "rate": 0.6
     },
     {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 0.9507,
+     "out": 5.7038,
+     "rate": 0.634
+    },
+    {
      "name": "换API",
      "slug": "huanapi-com",
      "in": 1.0,
@@ -2060,8 +2130,22 @@
      "rate": 0.667
     },
     {
+     "name": "CodingRouter",
+     "slug": "codingrouter",
+     "in": 1.0178,
+     "out": 6.1069,
+     "rate": 0.679
+    },
+    {
      "name": "Top-API",
      "slug": "top-api",
+     "in": 1.0178,
+     "out": 6.1069,
+     "rate": 0.679
+    },
+    {
+     "name": "三头牛",
+     "slug": "36niu-com",
      "in": 1.0178,
      "out": 6.1069,
      "rate": 0.679
@@ -2079,6 +2163,20 @@
      "in": 1.05,
      "out": 6.3,
      "rate": 0.7
+    },
+    {
+     "name": "RunAPI",
+     "slug": "runapi-co",
+     "in": 1.0687,
+     "out": 6.4123,
+     "rate": 0.712
+    },
+    {
+     "name": "Code0.ai",
+     "slug": "code0-ai",
+     "in": 1.125,
+     "out": 6.75,
+     "rate": 0.75
     },
     {
      "name": "DoroAI",
@@ -2144,6 +2242,13 @@
      "rate": 1.0
     },
     {
+     "name": "Kuaipao API",
+     "slug": "kuaipao-pro",
+     "in": 1.5,
+     "out": 9.0,
+     "rate": 1.0
+    },
+    {
      "name": "Uiuihao API",
      "slug": "api-uiuihao-com",
      "in": 1.5,
@@ -2191,6 +2296,13 @@
      "in": 1.875,
      "out": 11.25,
      "rate": 1.25
+    },
+    {
+     "name": "LMU AI · 灵眸",
+     "slug": "api-lmuai-com",
+     "in": 1.8937,
+     "out": 11.3619,
+     "rate": 1.262
     },
     {
      "name": "Mmaqq API",
@@ -2256,8 +2368,29 @@
      "rate": 2.0
     },
     {
+     "name": "ClaudeApi",
+     "slug": "claudeapi-com",
+     "in": 3.0535,
+     "out": 18.3208,
+     "rate": 2.036
+    },
+    {
      "name": "Cooper-API",
      "slug": "cooper-api-com",
+     "in": 3.0535,
+     "out": 18.3208,
+     "rate": 2.036
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 3.0535,
+     "out": 18.3208,
+     "rate": 2.036
+    },
+    {
+     "name": "corealgos",
+     "slug": "corealgos",
      "in": 3.0535,
      "out": 18.3208,
      "rate": 2.036
@@ -2289,6 +2422,13 @@
      "in": 3.75,
      "out": 22.5,
      "rate": 2.5
+    },
+    {
+     "name": "聚星AI",
+     "slug": "juxingai-top",
+     "in": 3.85,
+     "out": 23.1003,
+     "rate": 2.567
     },
     {
      "name": "api.68886868.xyz",
@@ -2714,5 +2854,5 @@
    ]
   }
  ],
- "updated": "2026-10-21"
+ "updated": "2026-10-23"
 }
