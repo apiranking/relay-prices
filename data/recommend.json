@@ -76,6 +76,15 @@
    }
   },
   {
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "rates": {
+    "claude": 0.7,
+    "openai": 0.32,
+    "deepseek": 1.0
+   }
+  },
+  {
    "name": "boxying",
    "slug": "boxying",
    "rates": {
@@ -102,15 +111,6 @@
     "gemini": 2.036,
     "grok": 10.857,
     "deepseek": 0.328
-   }
-  },
-  {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
-   "rates": {
-    "claude": 0.7,
-    "openai": 0.32,
-    "deepseek": 1.0
    }
   },
   {
@@ -322,5 +322,5 @@
    }
   }
  ],
- "updated": "2026-10-22"
+ "updated": "2026-10-24"
 }
