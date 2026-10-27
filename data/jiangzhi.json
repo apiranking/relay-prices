@@ -25,57 +25,25 @@
    "model": "GPT-6 Astra",
    "tier": "max / high 档",
    "image": 397
-  },
-  {
-   "name": "APINebula",
-   "slug": "apinebula-com",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 612
-  },
-  {
-   "name": "LinkAI",
-   "slug": "linkai",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 160
-  },
-  {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 21
-  },
-  {
-   "name": "boxying",
-   "slug": "boxying",
-   "model": "GPT-6.1 Sol",
-   "tier": "max / high 档",
-   "image": 150
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 726
-  },
-  {
-   "name": "Code0.ai",
-   "slug": "code0-ai",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 591
-  },
-  {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 13
   }
  ],
  "hidden": 1,
+ "cases": [
+  {
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 23
+  },
+  {
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 26
+  },
+  {
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 25
+  }
+ ],
  "updated": "2026-10-27"
 }

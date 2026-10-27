@@ -720,6 +720,12 @@ def jiangzhi_body(d: dict) -> tuple[str, str, str, list[dict]]:
         parts.append(f"<h2>官方画出来是什么样</h2><p>官方渠道 {model}（{escape(ref['tier'])}）画的鹈鹕骑自行车：</p>"
                      f'<div class="pel"><figure>{pelican_img(ref["image"], f"{ref['model']} 官方 鹈鹕骑自行车")}'
                      "<figcaption>官方参考</figcaption></figure></div>")
+    if d.get("cases"):
+        figs = "".join(f'<figure>{pelican_img(c["image"], f"中转站降智案例 {c['model']} 鹈鹕骑自行车")}'
+                       "<figcaption>某中转站</figcaption></figure>" for c in d["cases"])
+        parts.append("<h2>降智的站画出来什么样</h2>"
+                     f"<p>同一个提示词、同样标着 {model}，某中转站画出来是这样。跟上面官方的比，差别一眼可见。</p>"
+                     f'<div class="pel">{figs}</div>')
     if st:
         figs = []
         for c in st:
@@ -727,7 +733,7 @@ def jiangzhi_body(d: dict) -> tuple[str, str, str, list[dict]]:
             figs.append(f'<figure>{pelican_img(c["image"], f"{c['name']} {c['model']} 鹈鹕测试")}'
                         f'<figcaption>{name}</figcaption></figure>')
         parts.append("<h2>没降智的站画出来什么样</h2>"
-                     "<p>下面是我们测过、和官方一个水平的站，可以拿来对照。点站名看这家站的价格、真假检测和扣费实测。</p>"
+                     "<p>下面几家我们测过，画出来和官方一个水平。点站名看这家站的价格、真假检测和扣费实测。</p>"
                      f'<div class="pel">{"".join(figs)}</div>')
     parts.append("<h2>怀疑自己用的站降智了？</h2>"
                  f'<p>用自己的 key 在线测一次：填中转站地址和 key，和官方同档对比。'
