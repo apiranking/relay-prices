@@ -93,16 +93,6 @@
    }
   },
   {
-   "name": "Code0.ai",
-   "slug": "code0-ai",
-   "rates": {
-    "claude": 1.5,
-    "openai": 0.8,
-    "gemini": 0.75,
-    "deepseek": 0.7
-   }
-  },
-  {
    "name": "OmniaKey",
    "slug": "omniakey",
    "rates": {
@@ -111,6 +101,16 @@
     "gemini": 2.036,
     "grok": 10.857,
     "deepseek": 0.328
+   }
+  },
+  {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "rates": {
+    "claude": 1.5,
+    "openai": 0.8,
+    "gemini": 0.75,
+    "deepseek": 0.7
    }
   },
   {
@@ -322,5 +322,5 @@
    }
   }
  ],
- "updated": "2026-10-24"
+ "updated": "2026-10-27"
 }
