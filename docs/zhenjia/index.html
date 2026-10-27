@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>中转站模型真假怎么判断 2026：Claude / GPT 掺假、掉包怎么识别</title>
+<meta name="description" content="中转站的 Claude、GPT 是不是真的？问「你是谁」测不出来，掺假站会让模型照着说。看回答风格、看价格也都不准。讲清楚掺假、掉包是什么，附打码的真实案例。">
+<link rel="canonical" href="https://apiranking.github.io/relay-prices/zhenjia/">
+<meta property="og:title" content="中转站模型真假怎么判断 2026：Claude / GPT 掺假、掉包怎么识别">
+<meta property="og:description" content="中转站的 Claude、GPT 是不是真的？问「你是谁」测不出来，掺假站会让模型照着说。看回答风格、看价格也都不准。讲清楚掺假、掉包是什么，附打码的真实案例。">
+<meta property="og:url" content="https://apiranking.github.io/relay-prices/zhenjia/">
+<meta property="og:type" content="website">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+line-height:1.6;max-width:1080px;margin:0 auto;padding:16px;color:#222;background:#fafafa}
+h1{font-size:1.6em;margin:.6em 0 .3em}h2{font-size:1.25em;margin:1.6em 0 .4em}h3{font-size:1.05em;margin:1.2em 0 .3em}
+.lead{background:#eef6ff;border-left:4px solid #2f7de1;padding:10px 14px;margin:12px 0}
+.cards{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+.card{flex:1 1 170px;background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:10px 12px}
+.card b{display:block;font-size:1.35em}.card span{color:#666;font-size:.88em}
+nav{font-size:.92em;margin-bottom:8px}nav a{margin-right:12px;white-space:nowrap}
+.crumb{font-size:.88em;color:#666}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 20px;font-size:.95em}
+caption{text-align:left;font-weight:600;padding:4px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #e5e5e5;text-align:left}
+th{background:#f0f2f5;font-weight:600}td.n{text-align:right;font-variant-numeric:tabular-nums}
+a{color:#2f7de1;text-decoration:none}a:hover{text-decoration:underline}
+pre{background:#f0f2f5;padding:10px 12px;overflow-x:auto}
+footer{margin-top:32px;padding-top:12px;border-top:1px solid #ddd;color:#666;font-size:.9em}
+.wrap{overflow-x:auto}
+ol.rank{list-style:none;padding:0;margin:12px 0}
+ol.rank>li{background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:10px 14px;margin:0 0 10px}
+.rk-h{font-size:1.08em;font-weight:600}.rk-h .no{display:inline-block;min-width:1.8em;color:#888}
+.tg{display:inline-block;font-size:.8em;font-weight:500;padding:1px 7px;border-radius:10px;margin-left:6px;background:#eef0f3;color:#555}
+.tg.ok{background:#e6f6ec;color:#17803d}.tg.warn{background:#fff4e0;color:#a35b00}.tg.bad{background:#fde8e8;color:#b42318}
+.rk ul{margin:6px 0 4px;padding-left:1.2em}.rk li{margin:2px 0}
+.more{font-size:.92em}.upd{color:#666;font-size:.9em;margin:-.2em 0 .6em}
+.pel{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:12px 0}
+.pel figure{margin:0;background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:8px}
+.pel img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}.pel figcaption{font-size:.92em;margin-top:4px}
+details{margin:14px 0}summary{cursor:pointer;font-weight:600;padding:6px 0}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "中转站的 Claude 是真的吗？", "acceptedAnswer": {"@type": "Answer", "text": "不一定。有的站真，有的站用别家模型冒充。问「你是谁」测不出来，要用专门的检测。"}}, {"@type": "Question", "name": "怎么判断中转站有没有掺假？", "acceptedAnswer": {"@type": "Answer", "text": "自己问、看风格、看价格都判断不了，要用专门的检测，而且多测几次。可以直接用 API Ranking 中转站真假检测。"}}, {"@type": "Question", "name": "便宜的中转站是不是都是假的？", "acceptedAnswer": {"@type": "Answer", "text": "不是。价格便宜也可能是真模型，真假要靠检测，不能只看价格。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://apiranking.github.io/relay-prices/"}, {"@type": "ListItem", "position": 2, "name": "真假怎么判断", "item": "https://apiranking.github.io/relay-prices/zhenjia/"}]}</script>
+</head>
+<body>
+<nav><a href="/relay-prices/">首页</a> <a href="/relay-prices/ai/">AI 中转站</a> <a href="/relay-prices/api/">API 中转站</a> <a href="/relay-prices/recommend/">中转站推荐</a> <a href="/relay-prices/claude/">Claude</a> <a href="/relay-prices/claude-code/">Claude Code</a> <a href="/relay-prices/gpt/">GPT</a> <a href="/relay-prices/codex/">Codex</a> <a href="/relay-prices/gemini/">Gemini</a> <a href="/relay-prices/grok/">Grok</a> <a href="/relay-prices/deepseek/">DeepSeek</a> <a href="/relay-prices/jiangzhi/">降智怎么测</a> <a href="/relay-prices/zhenjia/">真假怎么判断</a> <a href="/relay-prices/rate-explained/">倍率怎么算</a></nav>
+<p class="crumb"><a href="/relay-prices/">首页</a> › 真假怎么判断</p>
+<h1>中转站模型真假怎么判断</h1><p class="upd">更新于 2026-10-27</p>
+<p class="lead">问模型「你是谁」测不出真假：掺假的站会让别家模型照着说自己是 Claude、是 GPT。看回答风格、看价格也都不准，要用专门的检测。想知道自己用的站是不是真的，<a href="https://apiranking.com/verify-yourself?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">在 API Ranking 填地址和 key 在线测</a>。</p>
+<h2>什么是掺假、掉包</h2><p>中转站标的是 Claude Opus、GPT，实际给你接的是别家模型，或者真假混着给。它通常不报错，只是写代码、做推理时不如官方，钱却按标的模型扣。</p>
+<h2>为什么自己问不出来</h2><ul><li><b>问「你是谁」没用。</b>中转站可以在你看不到的地方加一句「你是 Claude」，别家模型也会照着回答。</li><li><b>看回答风格不靠谱。</b>各家模型都能模仿别人的语气，几轮对话分不出来。</li><li><b>价格便宜不等于假。</b>便宜的站也可能是真模型，只看价格会冤枉好站，也会漏掉贵的假站。</li><li><b>测一次也不够。</b>真假混着给的站，一次可能碰巧是真的。</li></ul>
+<h2>真实掺假案例</h2><p>网友用自己的 key 在线测出来的，站名已打码：</p><ul><li>标称 <b>Claude Opus 5.5</b> → 实际应答来自 <b>阿里通义</b> 模型</li><li>标称 <b>Claude Sonnet 5.5</b> → 实际应答来自 <b>Google Gemini</b> 模型</li><li>标称 <b>GPT-6 Astra</b> → 实际应答来自 <b>Claude</b> 模型</li><li>标称 <b>Claude Opus 5.5</b> → 实际应答来自 <b>智谱 GLM</b> 模型</li></ul>
+<h2>检测通过的站</h2><p>下面几家是真模型，点站名看这家站的价格和扣费实测。</p><ul><li><a href="https://apiranking.com/p/uuapi-net?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">UU API</a> <span class="tg ok">✓ 模型为真</span></li><li><a href="https://apiranking.com/p/h-api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">H API</a> <span class="tg ok">✓ 模型为真</span></li><li><a href="https://apiranking.com/p/openox?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">OpenOx</a> <span class="tg ok">✓ 模型为真</span></li></ul><p>更多站见 <a href="/relay-prices/recommend/">中转站推荐</a>。</p>
+<h2>怀疑自己用的站掺假了？</h2><p>用自己的 key 在线测一次：填中转站地址和 key，直接出结论。<a href="https://apiranking.com/verify-yourself?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">去 API Ranking 测真假 →</a></p>
+<h2>常见问题</h2><h3>中转站的 Claude 是真的吗？</h3><p>不一定。有的站真，有的站用别家模型冒充。问「你是谁」测不出来，要用专门的检测。</p><h3>怎么判断中转站有没有掺假？</h3><p>自己问、看风格、看价格都判断不了，要用专门的检测，而且多测几次。可以直接用 <a href="https://apiranking.com/verify-yourself?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">API Ranking 中转站真假检测</a>。</p><h3>便宜的中转站是不是都是假的？</h3><p>不是。价格便宜也可能是真模型，真假要靠检测，不能只看价格。</p>
+<footer>
+<p>数据更新：2026-10-27。</p>
+<p>各站真假检测、稳定性和站方公告见 <a href="https://apiranking.com/?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">API Ranking</a>。</p>
+</footer>
+</body>
+</html>

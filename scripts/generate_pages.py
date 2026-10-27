@@ -29,8 +29,10 @@ NAV = [
     ("ai", "AI 中转站"), ("api", "API 中转站"), ("recommend", "中转站推荐"),
     ("claude", "Claude"), ("claude-code", "Claude Code"), ("gpt", "GPT"), ("codex", "Codex"),
     ("gemini", "Gemini"), ("grok", "Grok"), ("deepseek", "DeepSeek"),
-    ("jiangzhi", "降智怎么测"), ("rate-explained", "倍率怎么算"),
+    ("jiangzhi", "降智怎么测"), ("zhenjia", "真假怎么判断"), ("rate-explained", "倍率怎么算"),
 ]
+# 没有价格表的内容页：页脚不出价格单位
+NO_PRICE_PATHS = {"jiangzhi/", "zhenjia/"}
 VENDOR_SLUGS = ["claude", "claude-code", "gpt", "codex", "gemini", "grok", "deepseek"]
 # 客户端专题页：型号表挂在父厂商页下，不单出型号页
 CLIENT_PARENT = {"claude-code": "claude", "codex": "gpt"}
@@ -205,7 +207,7 @@ def page(path: str, title: str, desc: str, body: str, updated: str,
 {crumb_html}
 {body.replace("</h1>", f'</h1><p class="upd">更新于 {updated}</p>', 1)}
 <footer>
-<p>数据更新：{updated}。价格单位：人民币元 / 每百万 tokens，按 1 元 = 1 美元额度充值折算。</p>
+<p>数据更新：{updated}。{"" if path in NO_PRICE_PATHS else "价格单位：人民币元 / 每百万 tokens，按 1 元 = 1 美元额度充值折算。"}</p>
 <p>各站真假检测、稳定性和站方公告见 <a href="{MAIN}/?{UTM}">API Ranking</a>。</p>
 </footer>
 </body>
@@ -749,6 +751,51 @@ def jiangzhi_body(d: dict) -> tuple[str, str, str, list[dict]]:
     return title, desc, "\n".join(parts), [faq_ld]
 
 
+def zhenjia_body(d: dict, pages: dict) -> tuple[str, str, str, list[dict]]:
+    title = f"中转站模型真假怎么判断 {YEAR}：Claude / GPT 掺假、掉包怎么识别"
+    desc = ("中转站的 Claude、GPT 是不是真的？问「你是谁」测不出来，掺假站会让模型照着说。"
+            "看回答风格、看价格也都不准。讲清楚掺假、掉包是什么，附打码的真实案例。")
+    test = f'{MAIN}/verify-yourself?{UTM}'
+    ok = [c for c in pages["ai"].get("ranking") or [] if c["tier"] in ("S", "A") and c.get("water") == "模型为真"][:3]
+    parts = ["<h1>中转站模型真假怎么判断</h1>",
+             '<p class="lead">问模型「你是谁」测不出真假：掺假的站会让别家模型照着说自己是 Claude、是 GPT。'
+             "看回答风格、看价格也都不准，要用专门的检测。"
+             f'想知道自己用的站是不是真的，<a href="{test}">在 API Ranking 填地址和 key 在线测</a>。</p>',
+             "<h2>什么是掺假、掉包</h2>"
+             "<p>中转站标的是 Claude Opus、GPT，实际给你接的是别家模型，或者真假混着给。"
+             "它通常不报错，只是写代码、做推理时不如官方，钱却按标的模型扣。</p>",
+             "<h2>为什么自己问不出来</h2><ul>"
+             "<li><b>问「你是谁」没用。</b>中转站可以在你看不到的地方加一句「你是 Claude」，别家模型也会照着回答。</li>"
+             "<li><b>看回答风格不靠谱。</b>各家模型都能模仿别人的语气，几轮对话分不出来。</li>"
+             "<li><b>价格便宜不等于假。</b>便宜的站也可能是真模型，只看价格会冤枉好站，也会漏掉贵的假站。</li>"
+             "<li><b>测一次也不够。</b>真假混着给的站，一次可能碰巧是真的。</li>"
+             "</ul>"]
+
+    if d.get("cases"):
+        items = "".join(f"<li>标称 <b>{escape(c['model'])}</b> → 实际应答来自 <b>{escape(c['got'])}</b> 模型</li>"
+                        for c in d["cases"])
+        parts.append("<h2>真实掺假案例</h2>"
+                     f"<p>网友用自己的 key 在线测出来的，站名已打码：</p><ul>{items}</ul>")
+    if ok:
+        lis = "".join(f'<li><a href="{site_url(c["slug"])}">{escape(c["name"])}</a> <span class="tg ok">✓ 模型为真</span></li>'
+                      if c.get("slug") else f"<li>{escape(c['name'])}</li>" for c in ok)
+        parts.append("<h2>检测通过的站</h2>"
+                     f"<p>下面几家是真模型，点站名看这家站的价格和扣费实测。</p><ul>{lis}</ul>"
+                     f'<p>更多站见 <a href="{BASE}/recommend/">中转站推荐</a>。</p>')
+    parts.append("<h2>怀疑自己用的站掺假了？</h2>"
+                 f'<p>用自己的 key 在线测一次：填中转站地址和 key，直接出结论。<a href="{test}">去 API Ranking 测真假 →</a></p>')
+    qas = [("中转站的 Claude 是真的吗？",
+            "不一定。有的站真，有的站用别家模型冒充。问「你是谁」测不出来，要用专门的检测。"),
+           ("怎么判断中转站有没有掺假？",
+            "自己问、看风格、看价格都判断不了，要用专门的检测，而且多测几次。"
+            f'可以直接用 <a href="{test}">API Ranking 中转站真假检测</a>。'),
+           ("便宜的中转站是不是都是假的？",
+            "不是。价格便宜也可能是真模型，真假要靠检测，不能只看价格。")]
+    faq_html, faq_ld = faq_block(qas)
+    parts.append(faq_html)
+    return title, desc, "\n".join(parts), [faq_ld]
+
+
 def rec_low(cards: list[dict], flag: str | None) -> str:
     """首页厂商表「推荐站最低价」格：站名链主站详情 + 旗舰型号 ¥ 输入价 + 折扣。"""
     priced = [c for c in cards if c.get("price")]
@@ -775,7 +822,7 @@ def index_body(pages: dict) -> tuple[str, str, str, list[dict]]:
              f'用 Claude Code 看 <a href="{BASE}/claude-code/">Claude Code 中转站排行榜</a>，'
              f'用 Codex 看 <a href="{BASE}/codex/">Codex 中转站排行榜</a>；'
              f'按需求挑看 <a href="{BASE}/recommend/">中转站推荐</a>，'
-             f'怕降智看 <a href="{BASE}/jiangzhi/">降智怎么测</a>。</p>',
+             f'怕掺假看 <a href="{BASE}/zhenjia/">真假怎么判断</a>，怕降智看 <a href="{BASE}/jiangzhi/">降智怎么测</a>。</p>',
              f'<p>共收录 {pages["ai"]["site_count"]} 家 AI API 中转站，按模型分好、按价格排好。</p>',
              '<div class="wrap"><table><caption>各厂商中转站排行榜</caption><thead><tr><th scope="col">排行榜</th>'
              '<th scope="col">中转站数</th><th scope="col">推荐站最低价</th><th scope="col">最便宜的 3 家</th></tr></thead><tbody>']
@@ -793,6 +840,7 @@ def index_body(pages: dict) -> tuple[str, str, str, list[dict]]:
         parts.append("<p>旧型号：" + " · ".join(f'<a href="{model_url(s, t)}">{escape(t["label"])}</a>' for s, t in old) + "</p>")
     parts.append(f'<h2>更多</h2><ul><li><a href="{BASE}/api/">API 中转站哪家便宜：各厂商前 10</a></li>'
                  f'<li><a href="{BASE}/recommend/">中转站推荐：综合排名前 30</a></li>'
+                 f'<li><a href="{BASE}/zhenjia/">中转站模型真假怎么判断</a></li>'
                  f'<li><a href="{BASE}/jiangzhi/">中转站降智怎么测（鹈鹕测试）</a></li>'
                  f'<li><a href="{BASE}/rate-explained/">中转站倍率怎么算</a></li></ul>')
     return title, desc, "\n".join(parts), []
@@ -849,6 +897,9 @@ def main() -> None:
     if pages.get("jiangzhi", {}).get("stations"):
         emit("jiangzhi/", jiangzhi_body(pages["jiangzhi"]), pages["jiangzhi"]["updated"],
              [("降智怎么测", f"{BASE}/jiangzhi/")])
+    if pages.get("zhenjia"):
+        emit("zhenjia/", zhenjia_body(pages["zhenjia"], pages), pages["zhenjia"]["updated"],
+             [("真假怎么判断", f"{BASE}/zhenjia/")])
     emit("rate-explained/", rate_body(official), latest, [("倍率怎么算", f"{BASE}/rate-explained/")])
     emit("", index_body(pages), latest)
 

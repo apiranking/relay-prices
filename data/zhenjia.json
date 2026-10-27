@@ -1,0 +1,21 @@
+{
+ "cases": [
+  {
+   "model": "Claude Opus 5.5",
+   "got": "阿里通义"
+  },
+  {
+   "model": "Claude Sonnet 5.5",
+   "got": "Google Gemini"
+  },
+  {
+   "model": "GPT-6 Astra",
+   "got": "Claude"
+  },
+  {
+   "model": "Claude Opus 5.5",
+   "got": "智谱 GLM"
+  }
+ ],
+ "updated": "2026-10-27"
+}
