@@ -29,7 +29,7 @@ NAV = [
     ("ai", "AI 中转站"), ("api", "API 中转站"), ("recommend", "中转站推荐"),
     ("claude", "Claude"), ("claude-code", "Claude Code"), ("gpt", "GPT"), ("codex", "Codex"),
     ("gemini", "Gemini"), ("grok", "Grok"), ("deepseek", "DeepSeek"),
-    ("jiangzhi", "降智排行"), ("rate-explained", "倍率怎么算"),
+    ("jiangzhi", "降智怎么测"), ("rate-explained", "倍率怎么算"),
 ]
 VENDOR_SLUGS = ["claude", "claude-code", "gpt", "codex", "gemini", "grok", "deepseek"]
 # 客户端专题页：型号表挂在父厂商页下，不单出型号页
@@ -696,42 +696,46 @@ def pelican_img(i: int, alt: str) -> str:
 
 def jiangzhi_body(d: dict) -> tuple[str, str, str, list[dict]]:
     st, ref = d["stations"], d.get("ref")
-    n = len(st)
     model = escape(ref["model"]) if ref else "GPT"
-    title = f"GPT 中转站降智排行榜 {YEAR}：{n} 家实测没偷降档位（鹈鹕测试）"
-    desc = (f"哪家 GPT 中转站没降智？{n} 家用 {model} 最高档实测画鹈鹕骑自行车，"
-            "和官方参考图对比，没偷降推理档位的站全列出来。")
-    names = "、".join(escape(c["name"]) for c in st[:3])
+    title = f"中转站降智怎么测 {YEAR}：鹈鹕测试方法（鹈鹕骑自行车）"
+    desc = ("中转站降智怎么测？让模型用代码画一只骑自行车的鹈鹕，和官方同档画的对比，"
+            "图明显变糙就是降智。附官方参考图和测试步骤。")
     test = f'{MAIN}/jiangzhi-test?{UTM}'
-    parts = ["<h1>GPT 中转站降智排行榜</h1>",
-             f'<p class="lead">下面 {n} 家我们实测过，画出来的图和官方同档一个水平，没发现偷降推理档位：{names} 等。'
-             + ("明显偷降档位的站不上榜。" if d.get("hidden") else "") + "</p>",
+    parts = ["<h1>中转站降智怎么测：鹈鹕测试</h1>",
+             '<p class="lead">让模型用代码画「一只骑自行车的鹈鹕」，再和官方渠道同一个型号、同一个推理档位画的对比。'
+             f'画得明显差一截，就是被降智了。不想自己比，<a href="{test}">在 API Ranking 填地址和 key 在线测</a>。</p>',
              "<h2>什么是降智</h2>"
-             "<p>模型名没变，但推理档位被偷偷调低、或换成了更便宜的型号。它不报错，只会让你觉得模型今天变笨了、"
-             "回得特别快。用 Codex、Claude Code 写代码的人最容易吃亏：同样的钱，拿到的是低档模型。</p>",
-             "<h2>怎么测出来的</h2>"
-             f"<p>让模型用代码画「一只骑自行车的鹈鹕」。题目短，但强模型和被降档的模型画出来差别一眼可见，"
-             f"没法靠背答案过关。每家用 {model} {escape(ref['tier'] if ref else '')}连画 3 张，和官方渠道的图对比。"
-             f'提示词、每家 3 张大图和降智案例见 <a href="{test}">API Ranking 鹈鹕测试</a>。</p>']
+             "<p>模型名没变，但推理档位被偷偷调低、或换成了更便宜的型号。它不报错，只会让你觉得模型今天变笨了。"
+             "用 Codex、Claude Code 写代码的人最容易吃亏：同样的钱，拿到的是低档模型。</p>",
+             "<h2>为什么用鹈鹕骑自行车</h2>"
+             "<p>题目短，但要同时画对鹈鹕和自行车、还要让它真的骑在车上，强模型和被降档的模型画出来差别一眼可见，"
+             "也没法靠背答案过关。</p>",
+             "<h2>测试步骤</h2><ol>"
+             "<li><b>选同一个型号和推理档位。</b>中转站和官方用一样的型号、一样的档位，档位不同没法比。</li>"
+             "<li><b>用同一个提示词各画几张。</b>一张可能碰运气，多画几张看整体水平。"
+             f'提示词在 <a href="{test}">API Ranking 鹈鹕测试</a>，可以一键复制。</li>'
+             "<li><b>和官方的图对比。</b>鹈鹕和自行车画不全、比例乱、人车分离，明显比官方差，就要警惕。</li>"
+             "</ol>"]
     if ref:
-        parts.append(f"<h2>官方参考图</h2><p>官方渠道 {model}（{escape(ref['tier'])}）画出来是这样：</p>"
+        parts.append(f"<h2>官方画出来是什么样</h2><p>官方渠道 {model}（{escape(ref['tier'])}）画的鹈鹕骑自行车：</p>"
                      f'<div class="pel"><figure>{pelican_img(ref["image"], f"{ref['model']} 官方 鹈鹕骑自行车")}'
                      "<figcaption>官方参考</figcaption></figure></div>")
-    figs = []
-    for i, c in enumerate(st, 1):
-        name = (f'<a href="{site_url(c["slug"])}">{escape(c["name"])}</a>' if c.get("slug") else escape(c["name"]))
-        figs.append(f'<figure>{pelican_img(c["image"], f"{c['name']} {c['model']} 降智测试 鹈鹕")}'
-                    f'<figcaption>{i}. {name} <span class="tg ok">✓ 没降智</span></figcaption></figure>')
-    parts.append(f'<h2 id="ranking">没降智的 GPT 中转站（{n} 家）</h2>'
-                 "<p>按 API Ranking 综合排名排序，点站名看这家站的价格、真假检测和扣费实测。</p>"
-                 f'<div class="pel">{"".join(figs)}</div>')
+    if st:
+        figs = []
+        for c in st:
+            name = (f'<a href="{site_url(c["slug"])}">{escape(c["name"])}</a>' if c.get("slug") else escape(c["name"]))
+            figs.append(f'<figure>{pelican_img(c["image"], f"{c['name']} {c['model']} 鹈鹕测试")}'
+                        f'<figcaption>{name}</figcaption></figure>')
+        parts.append("<h2>没降智的站画出来什么样</h2>"
+                     "<p>下面是我们测过、和官方一个水平的站，可以拿来对照。点站名看这家站的价格、真假检测和扣费实测。</p>"
+                     f'<div class="pel">{"".join(figs)}</div>')
     parts.append("<h2>怀疑自己用的站降智了？</h2>"
-                 f'<p>用自己的 key 在线测一次：填中转站地址和 key，几分钟出结论，和官方同档对比。'
+                 f'<p>用自己的 key 在线测一次：填中转站地址和 key，和官方同档对比。'
                  f'<a href="{test}">去 API Ranking 测降智 →</a></p>')
-    qas = [("哪家 GPT 中转站没降智？",
-            f"本页列出的 {n} 家实测没发现偷降推理档位，画图水平和官方同档一致：{names} 等。"),
-           ("中转站降智怎么判断？",
-            "同一道题、同一个推理档位，在官方和中转站各跑几次：图明显变糙、回复明显变快，就要警惕。只是慢不算证据。"),
+    qas = [("中转站降智怎么判断？",
+            "同一道题、同一个推理档位，在官方和中转站各画几张：中转站的图明显比官方糙，就是降智了。"),
+           ("鹈鹕测试是什么？",
+            "让模型用代码画一只骑自行车的鹈鹕，和官方同档画的对比，用来看中转站有没有偷降推理档位或换便宜型号。"),
            ("鹈鹕测试提示词在哪？",
             f'提示词和官方参考图都在 <a href="{test}">API Ranking 鹈鹕测试</a>，可以一键复制。')]
     faq_html, faq_ld = faq_block(qas)
@@ -765,7 +769,7 @@ def index_body(pages: dict) -> tuple[str, str, str, list[dict]]:
              f'用 Claude Code 看 <a href="{BASE}/claude-code/">Claude Code 中转站排行榜</a>，'
              f'用 Codex 看 <a href="{BASE}/codex/">Codex 中转站排行榜</a>；'
              f'按需求挑看 <a href="{BASE}/recommend/">中转站推荐</a>，'
-             f'怕降智看 <a href="{BASE}/jiangzhi/">降智排行榜</a>。</p>',
+             f'怕降智看 <a href="{BASE}/jiangzhi/">降智怎么测</a>。</p>',
              f'<p>共收录 {pages["ai"]["site_count"]} 家 AI API 中转站，按模型分好、按价格排好。</p>',
              '<div class="wrap"><table><caption>各厂商中转站排行榜</caption><thead><tr><th scope="col">排行榜</th>'
              '<th scope="col">中转站数</th><th scope="col">推荐站最低价</th><th scope="col">最便宜的 3 家</th></tr></thead><tbody>']
@@ -783,7 +787,7 @@ def index_body(pages: dict) -> tuple[str, str, str, list[dict]]:
         parts.append("<p>旧型号：" + " · ".join(f'<a href="{model_url(s, t)}">{escape(t["label"])}</a>' for s, t in old) + "</p>")
     parts.append(f'<h2>更多</h2><ul><li><a href="{BASE}/api/">API 中转站哪家便宜：各厂商前 10</a></li>'
                  f'<li><a href="{BASE}/recommend/">中转站推荐：综合排名前 30</a></li>'
-                 f'<li><a href="{BASE}/jiangzhi/">GPT 中转站降智排行榜（鹈鹕测试）</a></li>'
+                 f'<li><a href="{BASE}/jiangzhi/">中转站降智怎么测（鹈鹕测试）</a></li>'
                  f'<li><a href="{BASE}/rate-explained/">中转站倍率怎么算</a></li></ul>')
     return title, desc, "\n".join(parts), []
 
@@ -838,7 +842,7 @@ def main() -> None:
          [("中转站推荐", f"{BASE}/recommend/")])
     if pages.get("jiangzhi", {}).get("stations"):
         emit("jiangzhi/", jiangzhi_body(pages["jiangzhi"]), pages["jiangzhi"]["updated"],
-             [("降智排行", f"{BASE}/jiangzhi/")])
+             [("降智怎么测", f"{BASE}/jiangzhi/")])
     emit("rate-explained/", rate_body(official), latest, [("倍率怎么算", f"{BASE}/rate-explained/")])
     emit("", index_body(pages), latest)
 
