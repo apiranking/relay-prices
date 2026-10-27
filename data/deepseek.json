@@ -156,6 +156,7 @@
    "label": "DeepSeek V4.1 Flash",
    "median_rate": 0.508,
    "own_page": false,
+   "current": false,
    "official_in": 2.0,
    "official_out": 8.0,
    "rows": [
@@ -335,6 +336,7 @@
    "label": "DeepSeek V4 Pro",
    "median_rate": 0.5,
    "own_page": false,
+   "current": false,
    "official_in": 9.0,
    "official_out": 27.0,
    "rows": [
@@ -502,5 +504,5 @@
    ]
   }
  ],
- "updated": "2026-10-21"
+ "updated": "2026-10-27"
 }

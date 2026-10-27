@@ -7,6 +7,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from html import escape
 from pathlib import Path
@@ -21,6 +22,8 @@ UTM = "utm_source=github&utm_medium=referral&utm_campaign=relay-prices"
 YEAR = "2026"
 TOP_LINKS = 5      # 每张榜只给前几名加主站详情链接，长表站名不链
 TOP_PER_MODEL = 10  # 厂商页每个模型列前几名
+# IndexNow key：key 文件放在 /relay-prices/ 下，只能提交本路径下的 URL（每日脚本推送后提交）
+INDEXNOW_KEY = "ef63afa7fff4fbac9097d652b448074c"
 
 NAV = [
     ("ai", "AI 中转站"), ("api", "API 中转站"), ("recommend", "中转站推荐"),
@@ -129,6 +132,39 @@ def _strip_tags(s: str) -> str:
     return "".join(out)
 
 
+def alias(label: str) -> str:
+    """型号连写词形（搜索常见写法）：Claude Opus 5.5 → opus5.5，GPT-6 Astra → gpt6 astra。"""
+    s = label.lower().replace("claude ", "").replace("-", "")
+    return re.sub(r"(?<=[a-z]) (?=\d)", "", s)
+
+
+def current_links(slug: str, tables: list[dict]) -> str:
+    """现役型号单页直达（锚文本用连写词形）。"""
+    cur = [t for t in tables if t.get("current") and t["own_page"]]
+    if not cur:
+        return ""
+    return ("<p>现役型号直达：" + " · ".join(
+        f'<a href="{model_url(slug, t)}">{escape(alias(t["label"]))}中转站</a>' for t in cur) + "</p>")
+
+
+def bench_block(bench: list[dict]) -> str:
+    """Claude Code 真付费实测合格站（主站实测同一闸门）。"""
+    if not bench:
+        return ""
+    items = "".join(f"<tr><td>{site_name(r, bool(r.get('slug')))}</td><td>{escape(r['model'])}</td>"
+                    f"<td>{escape(r.get('cache') or '—')}</td><td>扣费{escape(r.get('billing') or '—')}</td></tr>"
+                    for r in bench)
+    return (f'<h2 id="bench">Claude Code 中转站真付费实测</h2>'
+            f"<p>下面 {len(bench)} 家我们用 Claude Code 真实付费跑过多轮，缓存都能正常命中，扣费和标价对得上。</p>"
+            '<div class="wrap"><table><thead><tr><th scope="col">中转站</th><th scope="col">实测型号</th>'
+            f'<th scope="col">缓存</th><th scope="col">扣费</th></tr></thead><tbody>{items}</tbody></table></div>'
+            f'<p><a href="{MAIN}/benchmark?{UTM}">看完整实测对比 →</a></p>')
+
+
+def top_names_plain(rows: list[dict], n: int = 3) -> str:
+    return "、".join(escape(r["name"]) for r in rows[:n])
+
+
 def top_names(rows: list[dict], n: int = 3) -> str:
     return "、".join(f"{escape(r['name'])}（{rate(r['rate'])} 倍）" for r in rows[:n])
 
@@ -184,11 +220,19 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
     v, n = d["vendor"], d["site_count"]
     tables = d["tables"]
     head_models = "、".join(t["label"].replace("Claude ", "") for t in tables[:2])
+    bench = d.get("bench") or []
     if slug == "claude-code":
-        title = f"Claude Code 中转站推荐 {YEAR}：{approx(n)} 家价格倍率对比"
-        h1 = "Claude Code 中转站价格对比"
-        desc = (f"收录 {approx(n)} 家 Claude Code 中转站，对比 Sonnet、Opus 的倍率和输入/输出价，"
-                f"多数站在 {mid(d['median_rate'])} 倍上下，附接入配置方法，每日更新。")
+        title = (f"Claude Code 中转站推荐排行榜 {YEAR}：真付费实测 + {approx(n)} 家价格对比" if bench
+                 else f"Claude Code 中转站推荐 {YEAR}：{approx(n)} 家价格倍率对比")
+        h1 = "Claude Code 中转站推荐排行榜"
+        desc = (f"Claude Code 中转站 {YEAR} 对比：{head_models} 现役型号，收录 {approx(n)} 家价格倍率，"
+                + (f"{len(bench)} 家真付费实测缓存命中、扣费和标价对得上，" if bench else "")
+                + "附接入配置方法，每日更新。")
+    elif slug == "claude" and bench:
+        title = f"Claude 中转站推荐排行榜 {YEAR}：{approx(n)} 家价格对比 + 真付费实测"
+        h1 = "Claude 中转站推荐排行榜"
+        desc = (f"收录 {approx(n)} 家 Claude 中转站，按现役 {head_models} 等模型对比倍率和输入/输出价，"
+                f"多数站在 {mid(d['median_rate'])} 倍上下；{len(bench)} 家 Claude Code 真付费实测缓存和扣费合格，每日更新。")
     else:
         title = f"{v} 中转站推荐 {YEAR}：{approx(n)} 家价格倍率对比，哪家便宜"
         h1 = f"{v} 中转站价格对比"
@@ -201,14 +245,21 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
              f"多数站在 {mid(d['median_rate'])} 倍上下。综合排名见 {main_link(slug, f'API Ranking {v} 中转站排行')}。</p>",
              cards([("家中转站", str(n)), ("最低倍率", rate(d["min_rate"])),
                     ("多数站倍率", mid(d["median_rate"])), (f"{tables[0]['label']} 官方输入价", f"${tables[0]['official_in']:g}")])]
+    if slug != "claude-code":
+        parts.append(current_links(slug, tables))
+    if slug == "claude":
+        parts.append(f'<p>用 Claude Code？看 <a href="{BASE}/claude-code/">Claude Code 中转站推荐排行榜（真付费实测）</a>。</p>')
+        parts.append(bench_block(bench))
 
     if slug == "claude-code":
+        parts.append(bench_block(bench))
+        parts.append(f'<p>想看全部 Claude 型号（含 Fable、Haiku）？看 <a href="{BASE}/claude/">Claude 中转站推荐排行榜</a>。</p>')
         parts.append("""<h2>Claude Code 怎么接中转站</h2>
 <p>在中转站后台创建 key，然后设置两个环境变量再启动 <code>claude</code>：</p>
 <pre>export ANTHROPIC_BASE_URL=https://中转站地址
 export ANTHROPIC_AUTH_TOKEN=中转站的 key
 claude</pre>
-<p>Windows PowerShell 用 <code>$env:ANTHROPIC_BASE_URL="https://中转站地址"</code>。Claude Code 日常主要跑 Sonnet，难题切 Opus，所以下面只比这两类模型。</p>""")
+<p>Windows PowerShell 用 <code>$env:ANTHROPIC_BASE_URL="https://中转站地址"</code>。Claude Code 日常主要跑 Sonnet，难题切 Opus，所以下面只比这两款现役型号。</p>""")
 
     # 一站一行总表：该厂商下每站的最低倍率
     parts.append(f'<h2 id="all">{escape(v)} 中转站最低倍率总表（{n} 家）</h2>'
@@ -248,6 +299,10 @@ claude</pre>
         qas.append(("Claude Code 能用中转站吗？",
                     "能。把 ANTHROPIC_BASE_URL 设成中转站地址、ANTHROPIC_AUTH_TOKEN 设成中转站的 key 即可，"
                     "和直连官方用法一样。"))
+        if bench:
+            qas.append(("claudecode中转站哪家好？",
+                        f"价格看上面的倍率表；缓存和扣费靠不靠谱，看真付费实测：{top_names_plain(bench)} 等 {len(bench)} 家"
+                        "缓存都能正常命中、扣费和标价对得上。"))
     else:
         qas.append((f"{v} 中转站有多少家？", f"本页收录 {n} 家支持 {escape(v)} 模型的中转站，每天更新价格。"))
     faq_html, faq_ld = faq_block(qas)
@@ -258,8 +313,9 @@ claude</pre>
 def model_body(d: dict, vendor_slug: str, t: dict) -> tuple[str, str, str, list[dict]]:
     label, rows = t["label"], t["rows"]
     n = len(rows)
-    title = f"{label} 中转站推荐 {YEAR}：{approx(n)} 家价格倍率对比，哪家便宜"
-    desc = (f"收录 {approx(n)} 家 {label} 中转站，按倍率从低到高排，对比输入/输出价。"
+    al = alias(label)
+    title = f"{label} 中转站推荐 {YEAR}：{approx(n)} 家价格倍率对比，{al} 哪家便宜"
+    desc = (f"{al}中转站：收录 {approx(n)} 家 {label} 中转站，按倍率从低到高排，对比输入/输出价。"
             f"官方价 ${t['official_in']:g}/${t['official_out']:g}，多数站在 {mid(t['median_rate'])} 倍上下，每日更新。")
     siblings = [x for x in d["tables"] if x["own_page"] and x["model_key"] != t["model_key"]]
     parts = [
@@ -408,8 +464,12 @@ def index_body(pages: dict) -> tuple[str, str, str, list[dict]]:
                      f'<td class="n">{mid(d["median_rate"])}</td><td>{top_names(d["sites"])}</td></tr>')
     parts.append("</tbody></table></div>")
     models = [(s, t) for s in ("claude", "gpt", "gemini") for t in pages[s]["tables"] if t["own_page"]]
+    cur = [(s, t) for s, t in models if t.get("current")]
+    old = [(s, t) for s, t in models if not t.get("current")]
     parts.append("<h2>热门模型中转站价格</h2><p>"
-                 + " · ".join(f'<a href="{model_url(s, t)}">{escape(t["label"])} 中转站</a>' for s, t in models) + "</p>")
+                 + " · ".join(f'<a href="{model_url(s, t)}">{escape(alias(t["label"]))}中转站</a>' for s, t in cur) + "</p>")
+    if old:
+        parts.append("<p>旧型号：" + " · ".join(f'<a href="{model_url(s, t)}">{escape(t["label"])}</a>' for s, t in old) + "</p>")
     parts.append(f'<h2>更多</h2><ul><li><a href="{BASE}/api/">API 中转站哪家便宜：各厂商前 10</a></li>'
                  f'<li><a href="{BASE}/recommend/">中转站推荐：综合排名前 30</a></li>'
                  f'<li><a href="{BASE}/rate-explained/">中转站倍率怎么算</a></li></ul>')
@@ -480,6 +540,7 @@ def main() -> None:
     # Google Search Console 网址前缀资源验证文件；docs 每次整份重建，必须在这里重写，删了认领就失效
     (DOCS / "googlea4abb33f6ca136fb.html").write_text(
         "google-site-verification: googlea4abb33f6ca136fb.html", encoding="utf-8")
+    (DOCS / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     print(f"生成 {len(out)} 页 → {DOCS}")
 
 
