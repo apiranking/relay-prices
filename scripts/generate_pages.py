@@ -27,16 +27,18 @@ INDEXNOW_KEY = "ef63afa7fff4fbac9097d652b448074c"
 
 NAV = [
     ("ai", "AI 中转站"), ("api", "API 中转站"), ("recommend", "中转站推荐"),
-    ("claude", "Claude"), ("claude-code", "Claude Code"), ("gpt", "GPT"),
+    ("claude", "Claude"), ("claude-code", "Claude Code"), ("gpt", "GPT"), ("codex", "Codex"),
     ("gemini", "Gemini"), ("grok", "Grok"), ("deepseek", "DeepSeek"),
     ("jiangzhi", "降智排行"), ("rate-explained", "倍率怎么算"),
 ]
-VENDOR_SLUGS = ["claude", "claude-code", "gpt", "gemini", "grok", "deepseek"]
+VENDOR_SLUGS = ["claude", "claude-code", "gpt", "codex", "gemini", "grok", "deepseek"]
+# 客户端专题页：型号表挂在父厂商页下，不单出型号页
+CLIENT_PARENT = {"claude-code": "claude", "codex": "gpt"}
 FAMILY_SLUG = {"claude": "claude", "openai": "gpt", "gemini": "gemini", "grok": "grok", "deepseek": "deepseek"}
 # 页面 slug → 主站对应排行页
 MAIN_PAGE = {
     "claude": "/rankings/claude-api", "claude-code": "/rankings/claude-api",
-    "gpt": "/rankings/gpt-api", "gemini": "/rankings/gemini-api",
+    "gpt": "/rankings/gpt-api", "codex": "/rankings/codex-api", "gemini": "/rankings/gemini-api",
     "grok": "/rankings/grok-api", "deepseek": "/rankings/deepseek-api",
 }
 
@@ -64,7 +66,7 @@ ol.rank>li{background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:10
 .tg{display:inline-block;font-size:.8em;font-weight:500;padding:1px 7px;border-radius:10px;margin-left:6px;background:#eef0f3;color:#555}
 .tg.ok{background:#e6f6ec;color:#17803d}.tg.warn{background:#fff4e0;color:#a35b00}.tg.bad{background:#fde8e8;color:#b42318}
 .rk ul{margin:6px 0 4px;padding-left:1.2em}.rk li{margin:2px 0}
-.more{font-size:.92em}
+.more{font-size:.92em}.upd{color:#666;font-size:.9em;margin:-.2em 0 .6em}
 .pel{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:12px 0}
 .pel figure{margin:0;background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:8px}
 .pel img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}.pel figcaption{font-size:.92em;margin-top:4px}
@@ -201,7 +203,7 @@ def page(path: str, title: str, desc: str, body: str, updated: str,
 <body>
 <nav><a href="{BASE}/">首页</a> {nav}</nav>
 {crumb_html}
-{body}
+{body.replace("</h1>", f'</h1><p class="upd">更新于 {updated}</p>', 1)}
 <footer>
 <p>数据更新：{updated}。价格单位：人民币元 / 每百万 tokens，按 1 元 = 1 美元额度充值折算。</p>
 <p>各站真假检测、稳定性和站方公告见 <a href="{MAIN}/?{UTM}">API Ranking</a>。</p>
@@ -230,7 +232,27 @@ def site_url(slug: str) -> str:
 TONE = {"good": "ok", "info": "ok", "warn": "warn", "bad": "bad"}
 
 
-def rank_card(i: int, c: dict, flagship: str) -> str:
+def cheapest(cards: list[dict]) -> tuple[str, dict] | None:
+    """推荐站里最便宜的（并列的一起列出）：返回（站名串, 价格）。"""
+    priced = [c for c in cards if c.get("price")]
+    if not priced:
+        return None
+    low = min(c["price"]["in"] for c in priced)
+    tied = [c for c in priced if abs(c["price"]["in"] - low) < 1e-9]
+    names = "、".join(escape(c["name"]) for c in tied)
+    return (f"{names} {len(tied)} 家并列" if len(tied) > 1 else names), tied[0]["price"]
+
+
+def cheap_phrase(cards: list[dict], flag: str) -> str:
+    hit = cheapest(cards)
+    if not hit:
+        return ""
+    who, pr = hit
+    return (f"推荐站里 {flag} 最便宜的是 {who}，输入 ¥{pr['in']:.2f} / 百万 tokens"
+            f"（{times(pr['rate'])}）。")
+
+
+def rank_card(i: int, c: dict, flagship: str, show_bench: bool = True) -> str:
     name = escape(c["name"])
     head = f'<a href="{site_url(c["slug"])}">{name}</a>' if c.get("slug") else name
     tags = ""
@@ -242,7 +264,7 @@ def rank_card(i: int, c: dict, flagship: str) -> str:
         pr = c["price"]
         facts.append(f"{escape(flagship)}：输入 ¥{pr['in']:.2f} / 输出 ¥{pr['out']:.2f} 每百万 tokens，"
                      f"{times(pr['rate'])}")
-    b = c.get("bench")
+    b = c.get("bench") if show_bench else None
     if b:
         bits = [f'<span class="tg {TONE.get(b["billing_color"], "")}">扣费{escape(b["billing"].removeprefix("扣费"))}</span>']
         if b.get("cache"):
@@ -302,16 +324,12 @@ def summary_lead(d: dict, v: str) -> str:
         return ""
     flag = escape(d.get("flagship") or "")
     names = "、".join(escape(c["name"]) for c in top[:3])
-    priced = [c for c in top if c.get("price")]
-    cheap = min(priced, key=lambda c: c["price"]["rate"]) if priced else None
     benched = [c for c in top if c.get("bench") and c["bench"]["billing_color"] in ("good", "info")]
     s = f"想省心直接选排行榜前三：{names}。"
     if benched:
         s += (f"这 {len(top)} 家都由我们自己掏钱实测过，扣费和标价对得上。" if len(benched) == len(top)
               else f"推荐的 {len(top)} 家里有 {len(benched)} 家我们自己掏钱实测过，扣费和标价对得上。")
-    if cheap:
-        s += (f"推荐站里 {flag} 最便宜的是 {escape(cheap['name'])}，"
-              f"输入 ¥{cheap['price']['in']:.2f} / 百万 tokens（{times(cheap['price']['rate'])}）。")
+    s += cheap_phrase(top, flag)
     return f'<p class="lead">{s}</p>'
 
 
@@ -336,6 +354,11 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
         desc = (f"Claude Code 中转站 {YEAR} 对比：{head_models} 现役型号，收录 {approx(n)} 家价格倍率，"
                 + (f"{len(bench)} 家真付费实测缓存命中、扣费和标价对得上，" if bench else "")
                 + "附接入配置方法，每日更新。")
+    elif slug == "codex":
+        title = f"Codex 中转站推荐排行榜 {YEAR}：真付费实测 + {approx(n)} 家价格对比"
+        h1 = "Codex 中转站推荐排行榜"
+        desc = (f"Codex 中转站 {YEAR} 推荐：用 Codex 真实付费实测扣费和缓存，{head_models} 现役型号，"
+                f"收录 {approx(n)} 家价格倍率，附 Codex 接入中转站配置方法，每日更新。")
     elif slug == "claude" and bench:
         title = f"Claude 中转站推荐排行榜 {YEAR}：{approx(n)} 家价格对比 + 真付费实测"
         h1 = "Claude 中转站推荐排行榜"
@@ -354,9 +377,11 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
     parts = [f"<h1>{escape(h1)}</h1>", lead, ranking_block(d, slug, v)]
     if slug == "claude":
         parts.append(f'<p>用 Claude Code？看 <a href="{BASE}/claude-code/">Claude Code 中转站推荐排行榜</a>。</p>')
+    if slug == "gpt":
+        parts.append(f'<p>用 Codex？看 <a href="{BASE}/codex/">Codex 中转站推荐排行榜</a>。</p>')
     if bench:
         parts.append(f'<p>实测方法和每家的逐轮扣费明细见 <a href="{MAIN}/benchmark?{UTM}">API Ranking 真付费实测</a>。</p>')
-    parts.append(HOW_TO_PICK.format(v=escape(v.replace(" Code", ""))))
+    parts.append(HOW_TO_PICK.format(v=escape({"claude-code": "Claude", "codex": "GPT"}.get(slug, v))))
 
     if slug == "claude-code":
         parts.append(f'<p>想看全部 Claude 型号（含 Fable、Haiku）？看 <a href="{BASE}/claude/">Claude 中转站推荐排行榜</a>。</p>')
@@ -366,12 +391,25 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
 export ANTHROPIC_AUTH_TOKEN=中转站的 key
 claude</pre>
 <p>Windows PowerShell 用 <code>$env:ANTHROPIC_BASE_URL="https://中转站地址"</code>。Claude Code 日常主要跑 Sonnet，难题切 Opus，所以下面只比这两款现役型号。</p>""")
+    if slug == "codex":
+        parts.append(f'<p>想看全部 GPT 型号？看 <a href="{BASE}/gpt/">GPT 中转站推荐排行榜</a>。</p>')
+        parts.append("""<h2>Codex 怎么接中转站</h2>
+<p>在中转站后台创建 key，然后编辑 <code>~/.codex/config.toml</code>（Windows 在 <code>%USERPROFILE%\\.codex\\config.toml</code>）：</p>
+<pre>model = "站里给你用的模型名"
+model_provider = "relay"
+
+[model_providers.relay]
+name = "relay"
+base_url = "https://中转站地址/v1"
+env_key = "OPENAI_API_KEY"
+wire_api = "responses"</pre>
+<p>再 <code>export OPENAI_API_KEY="中转站的 key"</code> 启动 <code>codex</code>。地址末尾的 <code>/v1</code> 别漏，漏了会请求到站点网页上。下面只比 Codex 常用的现役型号。</p>""")
 
     parts.append(f"<h2>{escape(v)} 全部中转站价格（{n} 家）</h2>"
                  + cards([("家中转站", str(n)), ("最低倍率", rate(d["min_rate"])),
                           ("多数站倍率", mid(d["median_rate"])),
                           (f"{tables[0]['label']} 官方输入价", f"${tables[0]['official_in']:g}")]))
-    if slug != "claude-code":
+    if slug not in CLIENT_PARENT:
         parts.append(current_links(slug, tables))
     parts.append(f'<details><summary>展开：{escape(v)} 中转站最低倍率总表</summary>')
     # 一站一行总表：该厂商下每站的最低倍率
@@ -386,7 +424,7 @@ claude</pre>
     # 分模型：有独立页的只列前 10 + 链接；没有独立页的列全表
     parts.append(f"</details><details><summary>展开：按模型看 {escape(v)} 中转站价格</summary>")
     for t in tables:
-        own = t["own_page"] and slug != "claude-code"
+        own = t["own_page"] and slug not in CLIENT_PARENT
         rows = t["rows"][:TOP_PER_MODEL] if own else t["rows"]
         parts.append(f'<h3 id="{escape(t["price_slug"])}">{escape(t["label"])} 中转站价格（{len(t["rows"])} 家）</h3>'
                      f'<p>官方价：输入 ${t["official_in"]:g} / 输出 ${t["official_out"]:g} 每百万 tokens；'
@@ -394,8 +432,8 @@ claude</pre>
         parts.append(price_table(f"{t['label']} 中转站价格" + ("前 10" if own else ""), rows, linked_top=0))
         if own:
             parts.append(f'<p><a href="{model_url(slug, t)}">看全部 {len(t["rows"])} 家 {escape(t["label"])} 中转站价格 →</a></p>')
-        elif slug == "claude-code" and t["own_page"]:
-            parts.append(f'<p><a href="{model_url("claude", t)}">{escape(t["label"])} 中转站价格单页 →</a></p>')
+        elif slug in CLIENT_PARENT and t["own_page"]:
+            parts.append(f'<p><a href="{model_url(CLIENT_PARENT[slug], t)}">{escape(t["label"])} 中转站价格单页 →</a></p>')
     parts.append("</details>")
 
     t0 = tables[0]
@@ -416,6 +454,15 @@ claude</pre>
             qas.append(("claudecode中转站哪家好？",
                         f"价格看上面的倍率表；缓存和扣费靠不靠谱，看真付费实测：{top_names_plain(bench)} 等 {len(bench)} 家"
                         "缓存都能正常命中、扣费和标价对得上。"))
+    elif slug == "codex":
+        qas.append(("Codex 能用中转站吗？",
+                    "能。在 ~/.codex/config.toml 里加一个自定义提供方，base_url 填中转站地址（带 /v1）、"
+                    "wire_api 设成 responses，key 放环境变量即可。"))
+        top = [c for c in d.get("ranking") or [] if c["tier"] in ("S", "A")]
+        if top:
+            qas.append(("codex中转站哪家好？",
+                        f"先看排行榜前几名：{top_names_plain(top)}。这些站真假检测都过了，"
+                        "带「真付费实测」的我们用 Codex 自己掏钱跑过，扣费和标价对得上。"))
     else:
         qas.append((f"{v} 中转站有多少家？", f"本页收录 {n} 家支持 {escape(v)} 模型的中转站，每天更新价格。"))
     faq_html, faq_ld = faq_block(qas)
@@ -431,13 +478,29 @@ def model_body(d: dict, vendor_slug: str, t: dict) -> tuple[str, str, str, list[
     desc = (f"{al}中转站：收录 {approx(n)} 家 {label} 中转站，按倍率从低到高排，对比输入/输出价。"
             f"官方价 ${t['official_in']:g}/${t['official_out']:g}，多数站在 {mid(t['median_rate'])} 倍上下，每日更新。")
     siblings = [x for x in d["tables"] if x["own_page"] and x["model_key"] != t["model_key"]]
-    parts = [
-        f"<h1>{escape(label)} 中转站价格对比</h1>",
-        f'<p class="lead">共 {n} 家中转站提供 {escape(label)}。最便宜的是 {top_names(rows)}；'
-        f"多数站在 {mid(t['median_rate'])} 倍上下。综合排名见 {main_link(vendor_slug, f'API Ranking {d['vendor']} 中转站排行')}。</p>",
+    by_name = {r["name"]: r for r in rows}
+    rec = []  # 推荐站（S/A，主站排序）里提供这个型号的，价格换成这个型号的
+    for c in d.get("ranking") or []:
+        r = by_name.get(c["name"])
+        if c["tier"] in ("S", "A") and r:
+            rec.append(dict(c, price={"in": r["in"], "out": r["out"], "rate": r["rate"]}))
+    if rec:
+        lead = (f'<p class="lead">{escape(label)} 想省心就从推荐站里挑：{"、".join(escape(c["name"]) for c in rec[:3])}。'
+                f"{cheap_phrase(rec, escape(label))}只看价格，全部 {n} 家在下面的表里。</p>")
+    else:
+        lead = (f'<p class="lead">共 {n} 家中转站提供 {escape(label)}。最便宜的是 {top_names(rows)}；'
+                f"多数站在 {mid(t['median_rate'])} 倍上下。</p>")
+    parts = [f"<h1>{escape(label)} 中转站价格对比</h1>", lead]
+    if rec:
+        parts.append(f'<h2 id="ranking">{escape(label)} 推荐中转站（{len(rec)} 家）</h2>'
+                     f"<p>排序与 {main_link(vendor_slug, f'API Ranking {d['vendor']} 排行榜')} 一致，点站名看这家站的完整信息。</p>"
+                     '<ol class="rank">' + "".join(rank_card(i, c, label, show_bench=False) for i, c in enumerate(rec, 1)) + "</ol>")
+    parts += [
+        f"<h2>{escape(label)} 全部中转站价格（{n} 家）</h2>",
         cards([("家中转站", str(n)), ("最低倍率", rate(rows[0]["rate"])), ("多数站倍率", mid(t["median_rate"])),
                ("官方输入/输出", f"${t['official_in']:g}/${t['official_out']:g}")]),
         price_table(f"{label} 中转站价格（按倍率从低到高）", rows),
+        "<p>表里没进推荐的站还没做真假检测或实测，只能看价格，选之前先自己小额试用。</p>",
     ]
     if siblings:
         parts.append(f"<h2>其他 {escape(d['vendor'])} 模型中转站价格</h2><p>"
@@ -471,7 +534,7 @@ def overview_table(fams: list[dict], rows: list[dict], numbered: bool, linked_to
 
 
 def vendor_links() -> str:
-    return " · ".join(f'<a href="{BASE}/{s}/">{l} 中转站</a>' for s, l in NAV[3:9])
+    return " · ".join(f'<a href="{BASE}/{s}/">{l} 中转站</a>' for s, l in NAV if s in VENDOR_SLUGS)
 
 
 def ai_body(d: dict, vendors: dict) -> tuple[str, str, str, list[dict]]:
@@ -530,16 +593,54 @@ def api_body(d: dict) -> tuple[str, str, str, list[dict]]:
     return title, desc, "\n".join(parts), []
 
 
-def recommend_body(d: dict) -> tuple[str, str, str, list[dict]]:
+def _picks(cards: list[dict], flag: str | None, k: int = 3) -> str:
+    return "".join(rank_card(i, c, flag or "") for i, c in enumerate(cards[:k], 1))
+
+
+def recommend_body(d: dict, pages: dict) -> tuple[str, str, str, list[dict]]:
     n = len(d["rows"])
     title = f"中转站推荐 {YEAR}：{n} 家靠谱 API 中转站价格对比"
-    desc = f"API Ranking 综合排名前 {n} 的 AI API 中转站，附 Claude、GPT、Gemini、Grok、DeepSeek 最低倍率，每日更新。"
-    body = (f"<h1>中转站推荐：综合排名前 {n} 家</h1>"
-            f'<p class="lead">按 API Ranking 综合排名取前 {n} 家，第一名是 {escape(d["rows"][0]["name"])}。'
-            f"每格是该厂商模型的最低倍率，越小越便宜。完整排名见 {main_link('', 'API Ranking')}。</p>"
-            + overview_table(d["families"], d["rows"], numbered=True, linked_top=10)
-            + f"<p>只看价格：{vendor_links()}</p>")
-    return title, desc, body, []
+    desc = (f"中转站推荐：写代码用 Claude Code、Codex 选哪家，预算有限选哪家，要开票选哪家，"
+            f"按需求直接给答案；附 API Ranking 综合排名前 {n} 家价格倍率，每日更新。")
+
+    def top(slug):
+        return [c for c in pages[slug].get("ranking") or [] if c["tier"] in ("S", "A")]
+
+    cl, gp = top("claude"), top("gpt")
+    cflag, gflag = pages["claude"].get("flagship"), pages["gpt"].get("flagship")
+    cheap = sorted((c for c in cl if c.get("price")), key=lambda c: c["price"]["rate"])
+    trial = [c for c in cl if (c.get("min_topup") or "").replace(" ", "") in ("¥1", "1元", "￥1")
+             and "无手续费" in (c.get("refund") or "")]
+    inv = [c for c in cl if c.get("invoice") == "yes"]
+    sec = []
+    if cl:
+        sec.append(("写代码用 Claude Code", f"Claude 排行榜前三，真假检测都过了：{'、'.join(escape(c['name']) for c in cl[:3])}。",
+                    _picks(cl, cflag), f"{BASE}/claude-code/", "Claude Code 中转站推荐排行榜"))
+    if gp:
+        sec.append(("用 Codex / GPT", f"GPT 排行榜前三：{'、'.join(escape(c['name']) for c in gp[:3])}。",
+                    _picks(gp, gflag), f"{BASE}/codex/", "Codex 中转站推荐排行榜"))
+    if cheap:
+        sec.append(("预算优先", f"推荐站里 {escape(cflag or 'Claude')} 最便宜的三家，便宜但不是来路不明的低价站。",
+                    _picks(cheap, cflag), f"{BASE}/claude/", "Claude 全部中转站价格"))
+    if trial:
+        sec.append(("先充一点试试", "起充 ¥1、退款无手续费，试了不满意损失最小。",
+                    _picks(trial, cflag), None, None))
+    if inv:
+        sec.append(("公司报销要开票", "这些推荐站能开票，开票要求点站名看详情。",
+                    _picks(inv, cflag), None, None))
+    body = [f"<h1>中转站推荐：按需求直接挑</h1>",
+            '<p class="lead">不想看长表格，就按你的情况找下面对应的一节，每节直接给三家。'
+            "这些站都在 API Ranking 推荐档：真假检测通过，多数我们自己掏钱实测过扣费。</p>"]
+    for h, lead, cards_html, url, txt in sec:
+        body.append(f"<h2>{escape(h)}</h2><p>{lead}</p><ol class=\"rank\">{cards_html}</ol>")
+        if url:
+            body.append(f'<p class="more"><a href="{url}">看{escape(txt)} →</a></p>')
+    body.append(f"<h2>综合排名前 {n} 家价格倍率</h2>"
+                f"<p>每格是该厂商模型的最低倍率（官方价的几倍），越小越便宜。完整排名见 {main_link('', 'API Ranking')}。</p>"
+                "<details><summary>展开：综合排名前 {n} 家 × 五大厂商倍率</summary>".replace("{n}", str(n))
+                + overview_table(d["families"], d["rows"], numbered=True, linked_top=10) + "</details>"
+                + f"<p>按厂商看：{vendor_links()}</p>")
+    return title, desc, "\n".join(body), []
 
 
 def rate_body(official: list[dict]) -> tuple[str, str, str, list[dict]]:
@@ -638,19 +739,40 @@ def jiangzhi_body(d: dict) -> tuple[str, str, str, list[dict]]:
     return title, desc, "\n".join(parts), [faq_ld]
 
 
+def rec_low(cards: list[dict], flag: str | None) -> str:
+    """首页厂商表「推荐站最低价」格：站名链主站详情 + 旗舰型号 ¥ 输入价 + 折扣。"""
+    priced = [c for c in cards if c.get("price")]
+    if not priced:
+        return "—"
+    low = min(c["price"]["in"] for c in priced)
+    tied = [c for c in priced if abs(c["price"]["in"] - low) < 1e-9]
+    who = "、".join(f'<a href="{site_url(c["slug"])}">{escape(c["name"])}</a>' if c.get("slug") else escape(c["name"])
+                   for c in tied)
+    pr = tied[0]["price"]
+    return f"{who}（{escape(flag or '')} 输入 ¥{pr['in']:.2f}，{times(pr['rate'])}）"
+
+
 def index_body(pages: dict) -> tuple[str, str, str, list[dict]]:
     title = f"AI API 中转站推荐 {YEAR}：Claude、GPT、Gemini 价格倍率对比"
     desc = (f"收录 {approx(pages['ai']['site_count'])} 家 AI API 中转站，按模型对比 Claude、GPT、Gemini、Grok、DeepSeek "
             "的倍率和输入/输出价，每日更新。")
+    top = [c for c in pages["ai"].get("ranking") or [] if c["tier"] in ("S", "A")]
+    names = "、".join(escape(c["name"]) for c in top[:3])
+    sa = {s: [c for c in pages[s].get("ranking") or [] if c["tier"] in ("S", "A")] for s in VENDOR_SLUGS}
+    prices = "".join(cheap_phrase(sa[s], escape(pages[s].get("flagship") or "")) for s in ("claude", "gpt") if sa[s])
     parts = ["<h1>AI API 中转站价格对比</h1>",
-             f'<p class="lead">收录 {pages["ai"]["site_count"]} 家 AI API 中转站，按模型分好、按价格排好。'
-             f'先看 <a href="{BASE}/ai/">全部中转站总表</a>，或直接选你要用的模型。</p>',
-             '<div class="wrap"><table><caption>各厂商中转站一览</caption><thead><tr><th scope="col">模型</th>'
-             '<th scope="col">中转站数</th><th scope="col">多数站倍率</th><th scope="col">最便宜的 3 家</th></tr></thead><tbody>']
+             f'<p class="lead">不知道选哪家，先从 API Ranking 排行榜前三里挑：{names}，真假检测都过了。{prices}'
+             f'用 Claude Code 看 <a href="{BASE}/claude-code/">Claude Code 中转站排行榜</a>，'
+             f'用 Codex 看 <a href="{BASE}/codex/">Codex 中转站排行榜</a>；'
+             f'按需求挑看 <a href="{BASE}/recommend/">中转站推荐</a>，'
+             f'怕降智看 <a href="{BASE}/jiangzhi/">降智排行榜</a>。</p>',
+             f'<p>共收录 {pages["ai"]["site_count"]} 家 AI API 中转站，按模型分好、按价格排好。</p>',
+             '<div class="wrap"><table><caption>各厂商中转站排行榜</caption><thead><tr><th scope="col">排行榜</th>'
+             '<th scope="col">中转站数</th><th scope="col">推荐站最低价</th><th scope="col">最便宜的 3 家</th></tr></thead><tbody>']
     for s in VENDOR_SLUGS:
         d = pages[s]
-        parts.append(f'<tr><td><a href="{BASE}/{s}/">{escape(d["vendor"])} 中转站</a></td><td class="n">{d["site_count"]}</td>'
-                     f'<td class="n">{mid(d["median_rate"])}</td><td>{top_names(d["sites"])}</td></tr>')
+        parts.append(f'<tr><td><a href="{BASE}/{s}/">{escape(d["vendor"])} 中转站排行榜</a></td><td class="n">{d["site_count"]}</td>'
+                     f'<td>{rec_low(sa[s], d.get("flagship"))}</td><td>{top_names(d["sites"])}</td></tr>')
     parts.append("</tbody></table></div>")
     models = [(s, t) for s in ("claude", "gpt", "gemini") for t in pages[s]["tables"] if t["own_page"]]
     cur = [(s, t) for s, t in models if t.get("current")]
@@ -703,7 +825,7 @@ def main() -> None:
     for slug in VENDOR_SLUGS:
         d = pages[slug]
         emit(f"{slug}/", vendor_body(d, slug), d["updated"], [(f"{nav_label[slug]} 中转站", f"{BASE}/{slug}/")])
-        if slug == "claude-code":
+        if slug in CLIENT_PARENT:
             continue
         for t in d["tables"]:
             if t["own_page"]:
@@ -712,7 +834,7 @@ def main() -> None:
                      [(f"{nav_label[slug]} 中转站", f"{BASE}/{slug}/"), (t["label"], f"{BASE}/{path}")])
     emit("ai/", ai_body(pages["ai"], pages), pages["ai"]["updated"], [("AI 中转站", f"{BASE}/ai/")])
     emit("api/", api_body(pages["api"]), pages["api"]["updated"], [("API 中转站", f"{BASE}/api/")])
-    emit("recommend/", recommend_body(pages["recommend"]), pages["recommend"]["updated"],
+    emit("recommend/", recommend_body(pages["recommend"], pages), pages["recommend"]["updated"],
          [("中转站推荐", f"{BASE}/recommend/")])
     if pages.get("jiangzhi", {}).get("stations"):
         emit("jiangzhi/", jiangzhi_body(pages["jiangzhi"]), pages["jiangzhi"]["updated"],

@@ -34,7 +34,7 @@ ol.rank>li{background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:10
 .tg{display:inline-block;font-size:.8em;font-weight:500;padding:1px 7px;border-radius:10px;margin-left:6px;background:#eef0f3;color:#555}
 .tg.ok{background:#e6f6ec;color:#17803d}.tg.warn{background:#fff4e0;color:#a35b00}.tg.bad{background:#fde8e8;color:#b42318}
 .rk ul{margin:6px 0 4px;padding-left:1.2em}.rk li{margin:2px 0}
-.more{font-size:.92em}
+.more{font-size:.92em}.upd{color:#666;font-size:.9em;margin:-.2em 0 .6em}
 .pel{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:12px 0}
 .pel figure{margin:0;background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:8px}
 .pel img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}.pel figcaption{font-size:.92em;margin-top:4px}
@@ -44,9 +44,9 @@ details{margin:14px 0}summary{cursor:pointer;font-weight:600;padding:6px 0}
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://apiranking.github.io/relay-prices/"}, {"@type": "ListItem", "position": 2, "name": "降智排行", "item": "https://apiranking.github.io/relay-prices/jiangzhi/"}]}</script>
 </head>
 <body>
-<nav><a href="/relay-prices/">首页</a> <a href="/relay-prices/ai/">AI 中转站</a> <a href="/relay-prices/api/">API 中转站</a> <a href="/relay-prices/recommend/">中转站推荐</a> <a href="/relay-prices/claude/">Claude</a> <a href="/relay-prices/claude-code/">Claude Code</a> <a href="/relay-prices/gpt/">GPT</a> <a href="/relay-prices/gemini/">Gemini</a> <a href="/relay-prices/grok/">Grok</a> <a href="/relay-prices/deepseek/">DeepSeek</a> <a href="/relay-prices/jiangzhi/">降智排行</a> <a href="/relay-prices/rate-explained/">倍率怎么算</a></nav>
+<nav><a href="/relay-prices/">首页</a> <a href="/relay-prices/ai/">AI 中转站</a> <a href="/relay-prices/api/">API 中转站</a> <a href="/relay-prices/recommend/">中转站推荐</a> <a href="/relay-prices/claude/">Claude</a> <a href="/relay-prices/claude-code/">Claude Code</a> <a href="/relay-prices/gpt/">GPT</a> <a href="/relay-prices/codex/">Codex</a> <a href="/relay-prices/gemini/">Gemini</a> <a href="/relay-prices/grok/">Grok</a> <a href="/relay-prices/deepseek/">DeepSeek</a> <a href="/relay-prices/jiangzhi/">降智排行</a> <a href="/relay-prices/rate-explained/">倍率怎么算</a></nav>
 <p class="crumb"><a href="/relay-prices/">首页</a> › 降智排行</p>
-<h1>GPT 中转站降智排行榜</h1>
+<h1>GPT 中转站降智排行榜</h1><p class="upd">更新于 2026-10-27</p>
 <p class="lead">下面 10 家我们实测过，画出来的图和官方同档一个水平，没发现偷降推理档位：UU API、H API、OpenOx 等。明显偷降档位的站不上榜。</p>
 <h2>什么是降智</h2><p>模型名没变，但推理档位被偷偷调低、或换成了更便宜的型号。它不报错，只会让你觉得模型今天变笨了、回得特别快。用 Codex、Claude Code 写代码的人最容易吃亏：同样的钱，拿到的是低档模型。</p>
 <h2>怎么测出来的</h2><p>让模型用代码画「一只骑自行车的鹈鹕」。题目短，但强模型和被降档的模型画出来差别一眼可见，没法靠背答案过关。每家用 GPT-6 Astra max / high 档连画 3 张，和官方渠道的图对比。提示词、每家 3 张大图和降智案例见 <a href="https://apiranking.com/jiangzhi-test?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">API Ranking 鹈鹕测试</a>。</p>

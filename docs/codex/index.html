@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Codex 中转站推荐排行榜 2026：真付费实测 + 100+ 家价格对比</title>
+<meta name="description" content="Codex 中转站 2026 推荐：用 Codex 真实付费实测扣费和缓存，GPT-6 Astra、GPT-5.6 Sol 现役型号，收录 100+ 家价格倍率，附 Codex 接入中转站配置方法，每日更新。">
+<link rel="canonical" href="https://apiranking.github.io/relay-prices/codex/">
+<meta property="og:title" content="Codex 中转站推荐排行榜 2026：真付费实测 + 100+ 家价格对比">
+<meta property="og:description" content="Codex 中转站 2026 推荐：用 Codex 真实付费实测扣费和缓存，GPT-6 Astra、GPT-5.6 Sol 现役型号，收录 100+ 家价格倍率，附 Codex 接入中转站配置方法，每日更新。">
+<meta property="og:url" content="https://apiranking.github.io/relay-prices/codex/">
+<meta property="og:type" content="website">
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+line-height:1.6;max-width:1080px;margin:0 auto;padding:16px;color:#222;background:#fafafa}
+h1{font-size:1.6em;margin:.6em 0 .3em}h2{font-size:1.25em;margin:1.6em 0 .4em}h3{font-size:1.05em;margin:1.2em 0 .3em}
+.lead{background:#eef6ff;border-left:4px solid #2f7de1;padding:10px 14px;margin:12px 0}
+.cards{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0}
+.card{flex:1 1 170px;background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:10px 12px}
+.card b{display:block;font-size:1.35em}.card span{color:#666;font-size:.88em}
+nav{font-size:.92em;margin-bottom:8px}nav a{margin-right:12px;white-space:nowrap}
+.crumb{font-size:.88em;color:#666}
+table{width:100%;border-collapse:collapse;background:#fff;margin:8px 0 20px;font-size:.95em}
+caption{text-align:left;font-weight:600;padding:4px 0}
+th,td{padding:7px 10px;border-bottom:1px solid #e5e5e5;text-align:left}
+th{background:#f0f2f5;font-weight:600}td.n{text-align:right;font-variant-numeric:tabular-nums}
+a{color:#2f7de1;text-decoration:none}a:hover{text-decoration:underline}
+pre{background:#f0f2f5;padding:10px 12px;overflow-x:auto}
+footer{margin-top:32px;padding-top:12px;border-top:1px solid #ddd;color:#666;font-size:.9em}
+.wrap{overflow-x:auto}
+ol.rank{list-style:none;padding:0;margin:12px 0}
+ol.rank>li{background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:10px 14px;margin:0 0 10px}
+.rk-h{font-size:1.08em;font-weight:600}.rk-h .no{display:inline-block;min-width:1.8em;color:#888}
+.tg{display:inline-block;font-size:.8em;font-weight:500;padding:1px 7px;border-radius:10px;margin-left:6px;background:#eef0f3;color:#555}
+.tg.ok{background:#e6f6ec;color:#17803d}.tg.warn{background:#fff4e0;color:#a35b00}.tg.bad{background:#fde8e8;color:#b42318}
+.rk ul{margin:6px 0 4px;padding-left:1.2em}.rk li{margin:2px 0}
+.more{font-size:.92em}.upd{color:#666;font-size:.9em;margin:-.2em 0 .6em}
+.pel{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:10px;margin:12px 0}
+.pel figure{margin:0;background:#fff;border:1px solid #e3e6ea;border-radius:8px;padding:8px}
+.pel img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#fff}.pel figcaption{font-size:.92em;margin-top:4px}
+details{margin:14px 0}summary{cursor:pointer;font-weight:600;padding:6px 0}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Codex 中转站哪家便宜？", "acceptedAnswer": {"@type": "Answer", "text": "按最低倍率，目前最便宜的是 XTokenMirror（0.007 倍）、A6API（0.009 倍）、SixthSense LLM（0.016 倍）。多数站在 0.3 倍上下，同一家站不同模型、不同分组倍率也不一样，按你要用的模型看对应表格。"}}, {"@type": "Question", "name": "Codex 中转站价格怎么算？", "acceptedAnswer": {"@type": "Answer", "text": "实际价格 = 官方价 × 倍率。以 GPT-6 Astra 为例，官方输入 $10 / 输出 $50 每百万 tokens，0.5 倍的站就是输入 ¥5、输出 ¥25。详见 中转站倍率怎么算。"}}, {"@type": "Question", "name": "Codex 能用中转站吗？", "acceptedAnswer": {"@type": "Answer", "text": "能。在 ~/.codex/config.toml 里加一个自定义提供方，base_url 填中转站地址（带 /v1）、wire_api 设成 responses，key 放环境变量即可。"}}, {"@type": "Question", "name": "codex中转站哪家好？", "acceptedAnswer": {"@type": "Answer", "text": "先看排行榜前几名：UU API、H API、OpenOx。这些站真假检测都过了，带「真付费实测」的我们用 Codex 自己掏钱跑过，扣费和标价对得上。"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "首页", "item": "https://apiranking.github.io/relay-prices/"}, {"@type": "ListItem", "position": 2, "name": "Codex 中转站", "item": "https://apiranking.github.io/relay-prices/codex/"}]}</script>
+</head>
+<body>
+<nav><a href="/relay-prices/">首页</a> <a href="/relay-prices/ai/">AI 中转站</a> <a href="/relay-prices/api/">API 中转站</a> <a href="/relay-prices/recommend/">中转站推荐</a> <a href="/relay-prices/claude/">Claude</a> <a href="/relay-prices/claude-code/">Claude Code</a> <a href="/relay-prices/gpt/">GPT</a> <a href="/relay-prices/codex/">Codex</a> <a href="/relay-prices/gemini/">Gemini</a> <a href="/relay-prices/grok/">Grok</a> <a href="/relay-prices/deepseek/">DeepSeek</a> <a href="/relay-prices/jiangzhi/">降智排行</a> <a href="/relay-prices/rate-explained/">倍率怎么算</a></nav>
+<p class="crumb"><a href="/relay-prices/">首页</a> › Codex 中转站</p>
+<h1>Codex 中转站推荐排行榜</h1><p class="upd">更新于 2026-10-27</p>
+<p class="lead">想省心直接选排行榜前三：UU API、H API、OpenOx。这 10 家都由我们自己掏钱实测过，扣费和标价对得上。推荐站里 GPT-6 Astra 最便宜的是 OpenOx，输入 ¥1.20 / 百万 tokens（官方价 1.2 折）。</p>
+<h2 id="ranking">Codex 中转站排行榜（推荐 10 家）</h2>
+<p>排序与 <a href="https://apiranking.com/rankings/codex-api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">API Ranking Codex 排行榜</a> 一致。价格按现役 GPT-6 Astra 算，点站名看这家站的完整信息。</p>
+<ol class="rank"><li class="rk"><div class="rk-h"><span class="no">1</span><a href="https://apiranking.com/p/uuapi-net?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">UU API</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥2.00 / 输出 ¥10.00 每百万 tokens，官方价 2 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 9.5 秒</span></li><li>起充 ¥1 · 赠送 进群赠送 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/uuapi-net?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 UU API 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">2</span><a href="https://apiranking.com/p/h-api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">H API</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥1.80 / 输出 ¥9.00 每百万 tokens，官方价 1.8 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 9.9 秒</span></li><li>起充 ¥1 · 赠送 $0.5 · 可开票 · 退款1.6%手续费</li></ul><div class="more"><a href="https://apiranking.com/p/h-api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 H API 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">3</span><a href="https://apiranking.com/p/openox?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">OpenOx</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥1.20 / 输出 ¥6.00 每百万 tokens，官方价 1.2 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 7.5 秒</span></li><li>起充 ¥1 · 赠送 加客服领取$3 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/openox?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 OpenOx 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">4</span><a href="https://apiranking.com/p/apinebula-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">APINebula</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥3.90 / 输出 ¥19.50 每百万 tokens，官方价 3.9 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 4.3 秒</span></li><li>起充 ¥20 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/apinebula-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 APINebula 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">5</span><a href="https://apiranking.com/p/linkai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">LinkAI</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥2.00 / 输出 ¥10.00 每百万 tokens，官方价 2 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 8.1 秒</span></li><li>起充 ¥5 · 赠送 进群赠送 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/linkai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 LinkAI 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">6</span><a href="https://apiranking.com/p/sssaicode-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">SSSAICode</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥4.00 / 输出 ¥20.00 每百万 tokens，官方价 4 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 7.4 秒</span></li><li>起充 ¥10 · 可开票</li></ul><div class="more"><a href="https://apiranking.com/p/sssaicode-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 SSSAICode 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">7</span><a href="https://apiranking.com/p/boxying?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">boxying</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥3.00 / 输出 ¥15.00 每百万 tokens，官方价 3 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 7.3 秒</span></li><li>起充 ¥1 · 赠送 ¥0.5 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/boxying?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 boxying 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">8</span><a href="https://apiranking.com/p/omniakey?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">OmniaKey</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥6.11 / 输出 ¥30.53 每百万 tokens，官方价 6.1 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 35.1 秒</span></li><li>起充 ¥5 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/omniakey?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 OmniaKey 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">9</span><a href="https://apiranking.com/p/code0-ai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Code0.ai</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥10.00 / 输出 ¥50.00 每百万 tokens，和官方价持平</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 23.2 秒</span></li><li>起充 ¥1 · 赠送 ¥1 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/code0-ai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 Code0.ai 的用户评价、实测明细和优惠 →</a></div></li><li class="rk"><div class="rk-h"><span class="no">10</span><a href="https://apiranking.com/p/runapi-co?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">RunAPI</a><span class="tg ok">✓ 模型为真</span></div><ul><li>GPT-6 Astra：输入 ¥5.00 / 输出 ¥25.02 每百万 tokens，官方价 5 折</li><li>真付费实测（GPT-6.1 Sol）：<span class="tg ok">扣费完全对得上</span><span class="tg ok">缓存优秀</span><span class="tg">首字约 16.2 秒</span></li><li>起充 ¥7 · 赠送 ¥0.1 · 可开票 · 退款无手续费</li></ul><div class="more"><a href="https://apiranking.com/p/runapi-co?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">看 RunAPI 的用户评价、实测明细和优惠 →</a></div></li></ol>
+<h3>其他收录站（GPT-6 Astra 价格）</h3><div class="wrap"><table><thead><tr><th scope="col">中转站</th><th scope="col">输入价</th><th scope="col">输出价</th><th scope="col">相当于</th></tr></thead><tbody>
+<tr><td><a href="https://apiranking.com/p/a6api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">A6API</a></td><td class="n">¥0.10</td><td class="n">¥0.49</td><td>官方价 0.1 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/cctq?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">CCTQ</a></td><td class="n">¥2.00</td><td class="n">¥10.00</td><td>官方价 2 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/linksapi?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">LinksAPI</a></td><td class="n">¥1.95</td><td class="n">¥9.75</td><td>官方价 2 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/xcode-best?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Xcode</a></td><td class="n">¥1.50</td><td class="n">¥7.50</td><td>官方价 1.5 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/api-zicc-cc?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Z-API</a></td><td class="n">¥1.00</td><td class="n">¥5.00</td><td>官方价 1 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/luxery-api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Luxery API</a></td><td class="n">¥3.00</td><td class="n">¥15.00</td><td>官方价 3 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/codex2api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Codex2API</a></td><td class="n">¥0.65</td><td class="n">¥3.25</td><td>官方价 0.7 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/cavoti-ai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Cavoti AI</a></td><td class="n">¥0.53</td><td class="n">¥2.65</td><td>官方价 0.5 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/packyapi-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">PackyCode</a></td><td class="n">¥5.00</td><td class="n">¥25.00</td><td>官方价 5 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/bytecatcode-org?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">ByteCat</a></td><td class="n">¥2.00</td><td class="n">¥10.00</td><td>官方价 2 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/die-ge?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">Die Ge</a></td><td class="n">¥0.90</td><td class="n">¥4.50</td><td>官方价 0.9 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/kapibala-asia?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">卡皮巴拉API</a></td><td class="n">¥3.00</td><td class="n">¥15.00</td><td>官方价 3 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/ai-codepup-cn?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">代码狗</a></td><td class="n">¥1.80</td><td class="n">¥9.00</td><td>官方价 1.8 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/api-lmuai-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">LMU AI · 灵眸</a></td><td class="n">¥5.05</td><td class="n">¥25.24</td><td>官方价 5 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/juxingai-top?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">聚星AI</a></td><td class="n">¥8.00</td><td class="n">¥40.00</td><td>官方价 8 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/right-codes?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">RightCode</a></td><td class="n">¥4.00</td><td class="n">¥20.00</td><td>官方价 4 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/deepkey-top?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">deepkey</a></td><td class="n">¥0.80</td><td class="n">¥4.00</td><td>官方价 0.8 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/36niu-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">三头牛</a></td><td class="n">¥13.57</td><td class="n">¥67.85</td><td>官方价 1.36 倍</td></tr>
+<tr><td><a href="https://apiranking.com/p/bearlab-ai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">PRY API</a></td><td class="n">¥0.70</td><td class="n">¥3.50</td><td>官方价 0.7 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/codingrouter?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">CodingRouter</a></td><td class="n">¥13.57</td><td class="n">¥67.85</td><td>官方价 1.36 倍</td></tr>
+<tr><td><a href="https://apiranking.com/p/corealgos?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">corealgos</a></td><td class="n">¥1.69</td><td class="n">¥8.47</td><td>官方价 1.7 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/portal-gpteamservices-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">GPTeam</a></td><td class="n">¥4.07</td><td class="n">¥20.36</td><td>官方价 4.1 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/synterolink?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">synterolink</a></td><td class="n">¥10.00</td><td class="n">¥50.00</td><td>和官方价持平</td></tr>
+<tr><td><a href="https://apiranking.com/p/api-bbww-top?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">旺旺中转站</a></td><td class="n">¥3.00</td><td class="n">¥15.00</td><td>官方价 3 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/zivv-pro?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">ZIVV</a></td><td class="n">¥2.80</td><td class="n">¥14.00</td><td>官方价 2.8 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/open-xiaojingai-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">xiaojing</a></td><td class="n">¥2.50</td><td class="n">¥12.50</td><td>官方价 2.5 折</td></tr>
+<tr><td><a href="https://apiranking.com/p/holysheep-ai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">HolySheep AI</a></td><td class="n">¥5.00</td><td class="n">¥25.00</td><td>官方价 5 折</td></tr>
+</tbody></table></div><p>这些站还没进推荐档：没做真假检测或实测，只能看价格，选之前先自己小额试用。</p>
+<h2>怎么选 GPT 中转站</h2>
+<ol>
+<li><b>先看真假。</b>标「模型为真」的站，调用到的才是真 GPT；便宜但掺了别的模型，用起来更亏。</li>
+<li><b>再看扣费和缓存。</b>同样的标价，扣费偷偷多算、缓存不命中，实际花的钱能差一大截。带「真付费实测」的站这两项我们自己验过。</li>
+<li><b>最后比价格。</b>前两项都过了，剩下的差别基本就是价格，按你常用的型号挑便宜的。</li>
+<li><b>先小额充值试用。</b>起充低、退款无手续费的站，试错成本最低。</li>
+</ol>
+<p>想看全部 GPT 型号？看 <a href="/relay-prices/gpt/">GPT 中转站推荐排行榜</a>。</p>
+<h2>Codex 怎么接中转站</h2>
+<p>在中转站后台创建 key，然后编辑 <code>~/.codex/config.toml</code>（Windows 在 <code>%USERPROFILE%\.codex\config.toml</code>）：</p>
+<pre>model = "站里给你用的模型名"
+model_provider = "relay"
+
+[model_providers.relay]
+name = "relay"
+base_url = "https://中转站地址/v1"
+env_key = "OPENAI_API_KEY"
+wire_api = "responses"</pre>
+<p>再 <code>export OPENAI_API_KEY="中转站的 key"</code> 启动 <code>codex</code>。地址末尾的 <code>/v1</code> 别漏，漏了会请求到站点网页上。下面只比 Codex 常用的现役型号。</p>
+<h2>Codex 全部中转站价格（101 家）</h2><div class="cards"><div class="card"><b>101</b><span>家中转站</span></div><div class="card"><b>0.007</b><span>最低倍率</span></div><div class="card"><b>0.3</b><span>多数站倍率</span></div><div class="card"><b>$10</b><span>GPT-6 Astra 官方输入价</span></div></div>
+<details><summary>展开：Codex 中转站最低倍率总表</summary>
+<div class="wrap" id="all"><table><caption>按最低倍率从低到高</caption><thead><tr><th scope="col">#</th><th scope="col">中转站</th><th scope="col">最低倍率</th><th scope="col">对应模型</th></tr></thead><tbody>
+<tr><td>1</td><td><a href="https://apiranking.com/p/xtokenmirror-cn?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">XTokenMirror</a></td><td class="n">0.007</td><td>GPT-6 Astra</td></tr>
+<tr><td>2</td><td><a href="https://apiranking.com/p/a6api?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">A6API</a></td><td class="n">0.009</td><td>GPT-6 Astra</td></tr>
+<tr><td>3</td><td><a href="https://apiranking.com/p/sixthsense-llm-com?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">SixthSense LLM</a></td><td class="n">0.016</td><td>GPT-6 Astra</td></tr>
+<tr><td>4</td><td><a href="https://apiranking.com/p/yunwu-ai?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">云雾AI</a></td><td class="n">0.02</td><td>GPT-6 Astra</td></tr>
+<tr><td>5</td><td><a href="https://apiranking.com/p/ai98pro?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">ai98pro</a></td><td class="n">0.029</td><td>GPT-6 Astra</td></tr>
+<tr><td>6</td><td>Aitechflux API</td><td class="n">0.03</td><td>GPT-6 Astra</td></tr>
+<tr><td>7</td><td>空悲切API</td><td class="n">0.03</td><td>GPT-6 Astra</td></tr>
+<tr><td>8</td><td>合聚API</td><td class="n">0.04</td><td>GPT-6 Astra</td></tr>
+<tr><td>9</td><td>柏API</td><td class="n">0.04</td><td>GPT-6 Astra</td></tr>
+<tr><td>10</td><td>黑黑</td><td class="n">0.05</td><td>GPT-6 Astra</td></tr>
+<tr><td>11</td><td>Cavoti AI</td><td class="n">0.053</td><td>GPT-6 Astra</td></tr>
+<tr><td>12</td><td>Codex2API</td><td class="n">0.065</td><td>GPT-6 Astra</td></tr>
+<tr><td>13</td><td>PRY API</td><td class="n">0.07</td><td>GPT-6 Astra</td></tr>
+<tr><td>14</td><td>LLM-ALL API</td><td class="n">0.08</td><td>GPT-6 Astra</td></tr>
+<tr><td>15</td><td>deepkey</td><td class="n">0.08</td><td>GPT-6 Astra</td></tr>
+<tr><td>16</td><td>云影 API</td><td class="n">0.08</td><td>GPT-6 Astra</td></tr>
+<tr><td>17</td><td>合租 Ink</td><td class="n">0.08</td><td>GPT-6 Astra</td></tr>
+<tr><td>18</td><td>AI 搬运工</td><td class="n">0.085</td><td>GPT-5.6 Sol</td></tr>
+<tr><td>19</td><td>Die Ge</td><td class="n">0.09</td><td>GPT-6 Astra</td></tr>
+<tr><td>20</td><td>Dualseason API</td><td class="n">0.09</td><td>GPT-6 Astra</td></tr>
+<tr><td>21</td><td>AIAPI World</td><td class="n">0.1</td><td>GPT-6 Astra</td></tr>
+<tr><td>22</td><td>Rehdasu API</td><td class="n">0.1</td><td>GPT-6 Astra</td></tr>
+<tr><td>23</td><td>Z-API</td><td class="n">0.1</td><td>GPT-6 Astra</td></tr>
+<tr><td>24</td><td>OpenOx</td><td class="n">0.12</td><td>GPT-6 Astra</td></tr>
+<tr><td>25</td><td>Umiluxury API</td><td class="n">0.12</td><td>GPT-6 Astra</td></tr>
+<tr><td>26</td><td>Top-API</td><td class="n">0.136</td><td>GPT-6 Astra</td></tr>
+<tr><td>27</td><td>corealgos</td><td class="n">0.136</td><td>GPT-5.6 Sol</td></tr>
+<tr><td>28</td><td>BMCCA</td><td class="n">0.148</td><td>GPT-6 Astra</td></tr>
+<tr><td>29</td><td>Xcode</td><td class="n">0.15</td><td>GPT-6 Astra</td></tr>
+<tr><td>30</td><td>Ruoli API</td><td class="n">0.16</td><td>GPT-6 Astra</td></tr>
+<tr><td>31</td><td>jojocode</td><td class="n">0.17</td><td>GPT-6 Astra</td></tr>
+<tr><td>32</td><td>Yourapi</td><td class="n">0.175</td><td>GPT-6 Astra</td></tr>
+<tr><td>33</td><td>H API</td><td class="n">0.18</td><td>GPT-6 Astra</td></tr>
+<tr><td>34</td><td>代码狗</td><td class="n">0.18</td><td>GPT-6 Astra</td></tr>
+<tr><td>35</td><td>LinksAPI</td><td class="n">0.195</td><td>GPT-6 Astra</td></tr>
+<tr><td>36</td><td>ByteCat</td><td class="n">0.2</td><td>GPT-6 Astra</td></tr>
+<tr><td>37</td><td>CCTQ</td><td class="n">0.2</td><td>GPT-6 Astra</td></tr>
+<tr><td>38</td><td>Kuaipao API</td><td class="n">0.2</td><td>GPT-6 Astra</td></tr>
+<tr><td>39</td><td>LinkAI</td><td class="n">0.2</td><td>GPT-6 Astra</td></tr>
+<tr><td>40</td><td>LinkAPI</td><td class="n">0.2</td><td>GPT-6 Astra</td></tr>
+<tr><td>41</td><td>UU API</td><td class="n">0.2</td><td>GPT-6 Astra</td></tr>
+<tr><td>42</td><td>lucen</td><td class="n">0.204</td><td>GPT-6 Astra</td></tr>
+<tr><td>43</td><td>Global AI</td><td class="n">0.25</td><td>GPT-6 Astra</td></tr>
+<tr><td>44</td><td>Ofapp API</td><td class="n">0.25</td><td>GPT-6 Astra</td></tr>
+<tr><td>45</td><td>xiaojing</td><td class="n">0.25</td><td>GPT-6 Astra</td></tr>
+<tr><td>46</td><td>ZIVV</td><td class="n">0.28</td><td>GPT-6 Astra</td></tr>
+<tr><td>47</td><td>537 AI</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>48</td><td>Dadakeji API</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>49</td><td>DawCode</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>50</td><td>Luxery API</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>51</td><td>Xiaoye API</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>52</td><td>Xyusec API</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>53</td><td>boxying</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>54</td><td>卡皮巴拉API</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>55</td><td>旺旺中转站</td><td class="n">0.3</td><td>GPT-6 Astra</td></tr>
+<tr><td>56</td><td>Pateway</td><td class="n">0.339</td><td>GPT-6 Astra</td></tr>
+<tr><td>57</td><td>APINebula</td><td class="n">0.39</td><td>GPT-6 Astra</td></tr>
+<tr><td>58</td><td>EasyAI</td><td class="n">0.4</td><td>GPT-6 Astra</td></tr>
+<tr><td>59</td><td>RightCode</td><td class="n">0.4</td><td>GPT-6 Astra</td></tr>
+<tr><td>60</td><td>SSSAICode</td><td class="n">0.4</td><td>GPT-6 Astra</td></tr>
+<tr><td>61</td><td>unity2</td><td class="n">0.4</td><td>GPT-6 Astra</td></tr>
+<tr><td>62</td><td>GPTeam</td><td class="n">0.407</td><td>GPT-6 Astra</td></tr>
+<tr><td>63</td><td>Bailili API</td><td class="n">0.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>64</td><td>Clauddy API</td><td class="n">0.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>65</td><td>HolySheep AI</td><td class="n">0.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>66</td><td>Mmaqq API</td><td class="n">0.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>67</td><td>PackyCode</td><td class="n">0.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>68</td><td>RunAPI</td><td class="n">0.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>69</td><td>nekoapi</td><td class="n">0.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>70</td><td>LMU AI · 灵眸</td><td class="n">0.505</td><td>GPT-6 Astra</td></tr>
+<tr><td>71</td><td>kksj</td><td class="n">0.6</td><td>GPT-6 Astra</td></tr>
+<tr><td>72</td><td>OmniaKey</td><td class="n">0.611</td><td>GPT-6 Astra</td></tr>
+<tr><td>73</td><td>Cooper-API</td><td class="n">0.679</td><td>GPT-6 Astra</td></tr>
+<tr><td>74</td><td>Uiuihao API</td><td class="n">0.7</td><td>GPT-6 Astra</td></tr>
+<tr><td>75</td><td>GPT Agent</td><td class="n">0.8</td><td>GPT-6 Astra</td></tr>
+<tr><td>76</td><td>聚星AI</td><td class="n">0.8</td><td>GPT-6 Astra</td></tr>
+<tr><td>77</td><td>35-aigcbest</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>78</td><td>4Sapi</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>79</td><td>AI8</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>80</td><td>Code0.ai</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>81</td><td>Kkaiapi</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>82</td><td>Muxueai API</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>83</td><td>QweApi</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>84</td><td>V-API</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>85</td><td>synterolink</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>86</td><td>老张 API</td><td class="n">1</td><td>GPT-6 Astra</td></tr>
+<tr><td>87</td><td>TimiCC</td><td class="n">1.018</td><td>GPT-6 Astra</td></tr>
+<tr><td>88</td><td>codesonline</td><td class="n">1.018</td><td>GPT-6 Astra</td></tr>
+<tr><td>89</td><td>Cun AI</td><td class="n">1.125</td><td>GPT-6 Astra</td></tr>
+<tr><td>90</td><td>CodingRouter</td><td class="n">1.357</td><td>GPT-6 Astra</td></tr>
+<tr><td>91</td><td>三头牛</td><td class="n">1.357</td><td>GPT-6 Astra</td></tr>
+<tr><td>92</td><td>Hyperapi</td><td class="n">1.5</td><td>GPT-6 Astra</td></tr>
+<tr><td>93</td><td>Codeagent API</td><td class="n">1.6</td><td>GPT-6 Astra</td></tr>
+<tr><td>94</td><td>OneChats</td><td class="n">2</td><td>GPT-6 Astra</td></tr>
+<tr><td>95</td><td>TryAllAI</td><td class="n">4.071</td><td>GPT-6 Astra</td></tr>
+<tr><td>96</td><td>ClaudeApi</td><td class="n">4.411</td><td>GPT-6 Astra</td></tr>
+<tr><td>97</td><td>Agent Router</td><td class="n">5.428</td><td>GPT-6 Astra</td></tr>
+<tr><td>98</td><td>Xiamiapi</td><td class="n">6</td><td>GPT-6 Astra</td></tr>
+<tr><td>99</td><td>Sublyx</td><td class="n">8.143</td><td>GPT-6 Astra</td></tr>
+<tr><td>100</td><td>Neco Api</td><td class="n">13.571</td><td>GPT-6 Astra</td></tr>
+<tr><td>101</td><td>Wytkt API</td><td class="n">15</td><td>GPT-6 Astra</td></tr>
+</tbody></table></div>
+</details><details><summary>展开：按模型看 Codex 中转站价格</summary>
+<h3 id="gpt-6-astra">GPT-6 Astra 中转站价格（100 家）</h3><p>官方价：输入 $10 / 输出 $50 每百万 tokens；多数站在 0.3 倍上下。</p>
+<div class="wrap"><table><caption>GPT-6 Astra 中转站价格</caption><thead><tr><th scope="col">#</th><th scope="col">中转站</th><th scope="col">倍率</th><th scope="col">输入价</th><th scope="col">输出价</th></tr></thead><tbody>
+<tr><td>1</td><td>XTokenMirror</td><td class="n">0.007</td><td class="n">¥0.07</td><td class="n">¥0.35</td></tr>
+<tr><td>2</td><td>A6API</td><td class="n">0.009</td><td class="n">¥0.0977</td><td class="n">¥0.4886</td></tr>
+<tr><td>3</td><td>SixthSense LLM</td><td class="n">0.016</td><td class="n">¥0.164</td><td class="n">¥0.82</td></tr>
+<tr><td>4</td><td>云雾AI</td><td class="n">0.02</td><td class="n">¥0.2</td><td class="n">¥1</td></tr>
+<tr><td>5</td><td>ai98pro</td><td class="n">0.029</td><td class="n">¥0.29</td><td class="n">¥1.45</td></tr>
+<tr><td>6</td><td>Aitechflux API</td><td class="n">0.03</td><td class="n">¥0.296</td><td class="n">¥1.48</td></tr>
+<tr><td>7</td><td>空悲切API</td><td class="n">0.03</td><td class="n">¥0.3</td><td class="n">¥1.5</td></tr>
+<tr><td>8</td><td>合聚API</td><td class="n">0.04</td><td class="n">¥0.4</td><td class="n">¥2</td></tr>
+<tr><td>9</td><td>柏API</td><td class="n">0.04</td><td class="n">¥0.4</td><td class="n">¥2</td></tr>
+<tr><td>10</td><td>黑黑</td><td class="n">0.05</td><td class="n">¥0.5</td><td class="n">¥2.5</td></tr>
+<tr><td>11</td><td>Cavoti AI</td><td class="n">0.053</td><td class="n">¥0.5293</td><td class="n">¥2.65</td></tr>
+<tr><td>12</td><td>Codex2API</td><td class="n">0.065</td><td class="n">¥0.65</td><td class="n">¥3.25</td></tr>
+<tr><td>13</td><td>PRY API</td><td class="n">0.07</td><td class="n">¥0.7</td><td class="n">¥3.5</td></tr>
+<tr><td>14</td><td>LLM-ALL API</td><td class="n">0.08</td><td class="n">¥0.8</td><td class="n">¥4</td></tr>
+<tr><td>15</td><td>deepkey</td><td class="n">0.08</td><td class="n">¥0.8</td><td class="n">¥4</td></tr>
+<tr><td>16</td><td>云影 API</td><td class="n">0.08</td><td class="n">¥0.8</td><td class="n">¥4</td></tr>
+<tr><td>17</td><td>合租 Ink</td><td class="n">0.08</td><td class="n">¥0.8</td><td class="n">¥4</td></tr>
+<tr><td>18</td><td>Die Ge</td><td class="n">0.09</td><td class="n">¥0.9</td><td class="n">¥4.5</td></tr>
+<tr><td>19</td><td>Dualseason API</td><td class="n">0.09</td><td class="n">¥0.9</td><td class="n">¥4.5</td></tr>
+<tr><td>20</td><td>AIAPI World</td><td class="n">0.1</td><td class="n">¥0.997</td><td class="n">¥4.99</td></tr>
+<tr><td>21</td><td>Rehdasu API</td><td class="n">0.1</td><td class="n">¥1</td><td class="n">¥5</td></tr>
+<tr><td>22</td><td>Z-API</td><td class="n">0.1</td><td class="n">¥1</td><td class="n">¥5</td></tr>
+<tr><td>23</td><td>OpenOx</td><td class="n">0.12</td><td class="n">¥1.2</td><td class="n">¥6</td></tr>
+<tr><td>24</td><td>Umiluxury API</td><td class="n">0.12</td><td class="n">¥1.2</td><td class="n">¥6</td></tr>
+<tr><td>25</td><td>Top-API</td><td class="n">0.136</td><td class="n">¥1.36</td><td class="n">¥6.79</td></tr>
+<tr><td>26</td><td>BMCCA</td><td class="n">0.148</td><td class="n">¥1.48</td><td class="n">¥7.41</td></tr>
+<tr><td>27</td><td>Xcode</td><td class="n">0.15</td><td class="n">¥1.5</td><td class="n">¥7.5</td></tr>
+<tr><td>28</td><td>Ruoli API</td><td class="n">0.16</td><td class="n">¥1.6</td><td class="n">¥8</td></tr>
+<tr><td>29</td><td>corealgos</td><td class="n">0.169</td><td class="n">¥1.69</td><td class="n">¥8.47</td></tr>
+<tr><td>30</td><td>jojocode</td><td class="n">0.17</td><td class="n">¥1.7</td><td class="n">¥8.5</td></tr>
+<tr><td>31</td><td>Yourapi</td><td class="n">0.175</td><td class="n">¥1.75</td><td class="n">¥8.75</td></tr>
+<tr><td>32</td><td>H API</td><td class="n">0.18</td><td class="n">¥1.8</td><td class="n">¥9</td></tr>
+<tr><td>33</td><td>代码狗</td><td class="n">0.18</td><td class="n">¥1.8</td><td class="n">¥9</td></tr>
+<tr><td>34</td><td>LinksAPI</td><td class="n">0.195</td><td class="n">¥1.95</td><td class="n">¥9.75</td></tr>
+<tr><td>35</td><td>ByteCat</td><td class="n">0.2</td><td class="n">¥2</td><td class="n">¥10</td></tr>
+<tr><td>36</td><td>CCTQ</td><td class="n">0.2</td><td class="n">¥2</td><td class="n">¥10</td></tr>
+<tr><td>37</td><td>Kuaipao API</td><td class="n">0.2</td><td class="n">¥2</td><td class="n">¥10</td></tr>
+<tr><td>38</td><td>LinkAI</td><td class="n">0.2</td><td class="n">¥2</td><td class="n">¥10</td></tr>
+<tr><td>39</td><td>LinkAPI</td><td class="n">0.2</td><td class="n">¥2</td><td class="n">¥10</td></tr>
+<tr><td>40</td><td>UU API</td><td class="n">0.2</td><td class="n">¥2</td><td class="n">¥10</td></tr>
+<tr><td>41</td><td>lucen</td><td class="n">0.204</td><td class="n">¥2.04</td><td class="n">¥10.18</td></tr>
+<tr><td>42</td><td>Global AI</td><td class="n">0.25</td><td class="n">¥2.5</td><td class="n">¥12.5</td></tr>
+<tr><td>43</td><td>Ofapp API</td><td class="n">0.25</td><td class="n">¥2.5</td><td class="n">¥12.5</td></tr>
+<tr><td>44</td><td>xiaojing</td><td class="n">0.25</td><td class="n">¥2.5</td><td class="n">¥12.5</td></tr>
+<tr><td>45</td><td>ZIVV</td><td class="n">0.28</td><td class="n">¥2.8</td><td class="n">¥14</td></tr>
+<tr><td>46</td><td>537 AI</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>47</td><td>Dadakeji API</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>48</td><td>DawCode</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>49</td><td>Luxery API</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>50</td><td>Xiaoye API</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>51</td><td>Xyusec API</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>52</td><td>boxying</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>53</td><td>卡皮巴拉API</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>54</td><td>旺旺中转站</td><td class="n">0.3</td><td class="n">¥3</td><td class="n">¥15</td></tr>
+<tr><td>55</td><td>Pateway</td><td class="n">0.339</td><td class="n">¥3.39</td><td class="n">¥16.96</td></tr>
+<tr><td>56</td><td>APINebula</td><td class="n">0.39</td><td class="n">¥3.9</td><td class="n">¥19.5</td></tr>
+<tr><td>57</td><td>EasyAI</td><td class="n">0.4</td><td class="n">¥4</td><td class="n">¥20</td></tr>
+<tr><td>58</td><td>RightCode</td><td class="n">0.4</td><td class="n">¥4</td><td class="n">¥20</td></tr>
+<tr><td>59</td><td>SSSAICode</td><td class="n">0.4</td><td class="n">¥4</td><td class="n">¥20</td></tr>
+<tr><td>60</td><td>unity2</td><td class="n">0.4</td><td class="n">¥4</td><td class="n">¥20</td></tr>
+<tr><td>61</td><td>GPTeam</td><td class="n">0.407</td><td class="n">¥4.07</td><td class="n">¥20.36</td></tr>
+<tr><td>62</td><td>Bailili API</td><td class="n">0.5</td><td class="n">¥5</td><td class="n">¥25</td></tr>
+<tr><td>63</td><td>Clauddy API</td><td class="n">0.5</td><td class="n">¥5</td><td class="n">¥25</td></tr>
+<tr><td>64</td><td>HolySheep AI</td><td class="n">0.5</td><td class="n">¥5</td><td class="n">¥25</td></tr>
+<tr><td>65</td><td>Mmaqq API</td><td class="n">0.5</td><td class="n">¥5</td><td class="n">¥25</td></tr>
+<tr><td>66</td><td>PackyCode</td><td class="n">0.5</td><td class="n">¥5</td><td class="n">¥25</td></tr>
+<tr><td>67</td><td>RunAPI</td><td class="n">0.5</td><td class="n">¥5</td><td class="n">¥25.02</td></tr>
+<tr><td>68</td><td>nekoapi</td><td class="n">0.5</td><td class="n">¥5</td><td class="n">¥25</td></tr>
+<tr><td>69</td><td>LMU AI · 灵眸</td><td class="n">0.505</td><td class="n">¥5.05</td><td class="n">¥25.24</td></tr>
+<tr><td>70</td><td>kksj</td><td class="n">0.6</td><td class="n">¥6</td><td class="n">¥30</td></tr>
+<tr><td>71</td><td>OmniaKey</td><td class="n">0.611</td><td class="n">¥6.11</td><td class="n">¥30.53</td></tr>
+<tr><td>72</td><td>Cooper-API</td><td class="n">0.679</td><td class="n">¥6.79</td><td class="n">¥33.93</td></tr>
+<tr><td>73</td><td>Uiuihao API</td><td class="n">0.7</td><td class="n">¥7</td><td class="n">¥35</td></tr>
+<tr><td>74</td><td>GPT Agent</td><td class="n">0.8</td><td class="n">¥8</td><td class="n">¥40</td></tr>
+<tr><td>75</td><td>聚星AI</td><td class="n">0.8</td><td class="n">¥8</td><td class="n">¥40</td></tr>
+<tr><td>76</td><td>35-aigcbest</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>77</td><td>4Sapi</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>78</td><td>AI8</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>79</td><td>Code0.ai</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>80</td><td>Kkaiapi</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>81</td><td>Muxueai API</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>82</td><td>QweApi</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>83</td><td>V-API</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>84</td><td>synterolink</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>85</td><td>老张 API</td><td class="n">1</td><td class="n">¥10</td><td class="n">¥50</td></tr>
+<tr><td>86</td><td>TimiCC</td><td class="n">1.018</td><td class="n">¥10.18</td><td class="n">¥50.89</td></tr>
+<tr><td>87</td><td>codesonline</td><td class="n">1.018</td><td class="n">¥10.18</td><td class="n">¥50.89</td></tr>
+<tr><td>88</td><td>Cun AI</td><td class="n">1.125</td><td class="n">¥11.25</td><td class="n">¥56.25</td></tr>
+<tr><td>89</td><td>CodingRouter</td><td class="n">1.357</td><td class="n">¥13.57</td><td class="n">¥67.85</td></tr>
+<tr><td>90</td><td>三头牛</td><td class="n">1.357</td><td class="n">¥13.57</td><td class="n">¥67.85</td></tr>
+<tr><td>91</td><td>Hyperapi</td><td class="n">1.5</td><td class="n">¥15</td><td class="n">¥75</td></tr>
+<tr><td>92</td><td>Codeagent API</td><td class="n">1.6</td><td class="n">¥16</td><td class="n">¥80</td></tr>
+<tr><td>93</td><td>OneChats</td><td class="n">2</td><td class="n">¥20</td><td class="n">¥100</td></tr>
+<tr><td>94</td><td>TryAllAI</td><td class="n">4.071</td><td class="n">¥40.71</td><td class="n">¥203.56</td></tr>
+<tr><td>95</td><td>ClaudeApi</td><td class="n">4.411</td><td class="n">¥44.11</td><td class="n">¥220.53</td></tr>
+<tr><td>96</td><td>Agent Router</td><td class="n">5.428</td><td class="n">¥54.28</td><td class="n">¥271.42</td></tr>
+<tr><td>97</td><td>Xiamiapi</td><td class="n">6</td><td class="n">¥60</td><td class="n">¥300</td></tr>
+<tr><td>98</td><td>Sublyx</td><td class="n">8.143</td><td class="n">¥81.43</td><td class="n">¥407.13</td></tr>
+<tr><td>99</td><td>Neco Api</td><td class="n">13.571</td><td class="n">¥135.71</td><td class="n">¥678.55</td></tr>
+<tr><td>100</td><td>Wytkt API</td><td class="n">15</td><td class="n">¥150</td><td class="n">¥750</td></tr>
+</tbody></table></div>
+<p><a href="/relay-prices/gpt/gpt-6-astra/">GPT-6 Astra 中转站价格单页 →</a></p>
+<h3 id="gpt-5-6-sol">GPT-5.6 Sol 中转站价格（99 家）</h3><p>官方价：输入 $5 / 输出 $30 每百万 tokens；多数站在 0.3 倍上下。</p>
+<div class="wrap"><table><caption>GPT-5.6 Sol 中转站价格</caption><thead><tr><th scope="col">#</th><th scope="col">中转站</th><th scope="col">倍率</th><th scope="col">输入价</th><th scope="col">输出价</th></tr></thead><tbody>
+<tr><td>1</td><td>XTokenMirror</td><td class="n">0.007</td><td class="n">¥0.035</td><td class="n">¥0.21</td></tr>
+<tr><td>2</td><td>SixthSense LLM</td><td class="n">0.016</td><td class="n">¥0.0822</td><td class="n">¥0.4932</td></tr>
+<tr><td>3</td><td>云雾AI</td><td class="n">0.02</td><td class="n">¥0.1</td><td class="n">¥0.6</td></tr>
+<tr><td>4</td><td>ai98pro</td><td class="n">0.029</td><td class="n">¥0.145</td><td class="n">¥0.87</td></tr>
+<tr><td>5</td><td>Aitechflux API</td><td class="n">0.03</td><td class="n">¥0.148</td><td class="n">¥0.98</td></tr>
+<tr><td>6</td><td>空悲切API</td><td class="n">0.03</td><td class="n">¥0.1499</td><td class="n">¥0.8996</td></tr>
+<tr><td>7</td><td>A6API</td><td class="n">0.033</td><td class="n">¥0.1629</td><td class="n">¥0.9771</td></tr>
+<tr><td>8</td><td>合聚API</td><td class="n">0.04</td><td class="n">¥0.2</td><td class="n">¥1.2</td></tr>
+<tr><td>9</td><td>柏API</td><td class="n">0.04</td><td class="n">¥0.2</td><td class="n">¥1.2</td></tr>
+<tr><td>10</td><td>黑黑</td><td class="n">0.05</td><td class="n">¥0.25</td><td class="n">¥1.5</td></tr>
+<tr><td>11</td><td>Cavoti AI</td><td class="n">0.053</td><td class="n">¥0.2657</td><td class="n">¥1.59</td></tr>
+<tr><td>12</td><td>Codex2API</td><td class="n">0.065</td><td class="n">¥0.325</td><td class="n">¥1.95</td></tr>
+<tr><td>13</td><td>PRY API</td><td class="n">0.07</td><td class="n">¥0.35</td><td class="n">¥2.1</td></tr>
+<tr><td>14</td><td>LLM-ALL API</td><td class="n">0.08</td><td class="n">¥0.4</td><td class="n">¥2.4</td></tr>
+<tr><td>15</td><td>云影 API</td><td class="n">0.08</td><td class="n">¥0.4</td><td class="n">¥2.4</td></tr>
+<tr><td>16</td><td>合租 Ink</td><td class="n">0.08</td><td class="n">¥0.4</td><td class="n">¥2.4</td></tr>
+<tr><td>17</td><td>AI 搬运工</td><td class="n">0.085</td><td class="n">¥0.425</td><td class="n">¥2.55</td></tr>
+<tr><td>18</td><td>Die Ge</td><td class="n">0.09</td><td class="n">¥0.45</td><td class="n">¥2.7</td></tr>
+<tr><td>19</td><td>Dualseason API</td><td class="n">0.09</td><td class="n">¥0.45</td><td class="n">¥2.7</td></tr>
+<tr><td>20</td><td>AIAPI World</td><td class="n">0.1</td><td class="n">¥0.4985</td><td class="n">¥2.99</td></tr>
+<tr><td>21</td><td>Rehdasu API</td><td class="n">0.1</td><td class="n">¥0.5</td><td class="n">¥3</td></tr>
+<tr><td>22</td><td>Z-API</td><td class="n">0.1</td><td class="n">¥0.5</td><td class="n">¥3</td></tr>
+<tr><td>23</td><td>OpenOx</td><td class="n">0.12</td><td class="n">¥0.6005</td><td class="n">¥3.6</td></tr>
+<tr><td>24</td><td>Umiluxury API</td><td class="n">0.12</td><td class="n">¥0.6</td><td class="n">¥3.6</td></tr>
+<tr><td>25</td><td>deepkey</td><td class="n">0.12</td><td class="n">¥0.6</td><td class="n">¥3.6</td></tr>
+<tr><td>26</td><td>Top-API</td><td class="n">0.136</td><td class="n">¥0.6785</td><td class="n">¥4.07</td></tr>
+<tr><td>27</td><td>corealgos</td><td class="n">0.136</td><td class="n">¥0.6773</td><td class="n">¥3.39</td></tr>
+<tr><td>28</td><td>BMCCA</td><td class="n">0.148</td><td class="n">¥0.7407</td><td class="n">¥4.44</td></tr>
+<tr><td>29</td><td>Ruoli API</td><td class="n">0.16</td><td class="n">¥0.8</td><td class="n">¥4.8</td></tr>
+<tr><td>30</td><td>jojocode</td><td class="n">0.17</td><td class="n">¥0.85</td><td class="n">¥5.1</td></tr>
+<tr><td>31</td><td>Yourapi</td><td class="n">0.175</td><td class="n">¥0.875</td><td class="n">¥7</td></tr>
+<tr><td>32</td><td>H API</td><td class="n">0.18</td><td class="n">¥0.9</td><td class="n">¥5.4</td></tr>
+<tr><td>33</td><td>代码狗</td><td class="n">0.18</td><td class="n">¥0.9</td><td class="n">¥5.4</td></tr>
+<tr><td>34</td><td>ByteCat</td><td class="n">0.2</td><td class="n">¥1</td><td class="n">¥8</td></tr>
+<tr><td>35</td><td>CCTQ</td><td class="n">0.2</td><td class="n">¥1</td><td class="n">¥6</td></tr>
+<tr><td>36</td><td>Kuaipao API</td><td class="n">0.2</td><td class="n">¥1</td><td class="n">¥6</td></tr>
+<tr><td>37</td><td>LinkAI</td><td class="n">0.2</td><td class="n">¥1</td><td class="n">¥6</td></tr>
+<tr><td>38</td><td>LinkAPI</td><td class="n">0.2</td><td class="n">¥1</td><td class="n">¥6</td></tr>
+<tr><td>39</td><td>UU API</td><td class="n">0.2</td><td class="n">¥1</td><td class="n">¥6</td></tr>
+<tr><td>40</td><td>lucen</td><td class="n">0.204</td><td class="n">¥1.02</td><td class="n">¥6.11</td></tr>
+<tr><td>41</td><td>LinksAPI</td><td class="n">0.244</td><td class="n">¥1.22</td><td class="n">¥7.31</td></tr>
+<tr><td>42</td><td>Global AI</td><td class="n">0.25</td><td class="n">¥1.25</td><td class="n">¥7.5</td></tr>
+<tr><td>43</td><td>Ofapp API</td><td class="n">0.25</td><td class="n">¥1.25</td><td class="n">¥7.5</td></tr>
+<tr><td>44</td><td>xiaojing</td><td class="n">0.25</td><td class="n">¥1.25</td><td class="n">¥7.5</td></tr>
+<tr><td>45</td><td>537 AI</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥12</td></tr>
+<tr><td>46</td><td>Dadakeji API</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>47</td><td>DawCode</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>48</td><td>Luxery API</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>49</td><td>Xcode</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>50</td><td>Xiaoye API</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>51</td><td>Xyusec API</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>52</td><td>boxying</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>53</td><td>卡皮巴拉API</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>54</td><td>旺旺中转站</td><td class="n">0.3</td><td class="n">¥1.5</td><td class="n">¥9</td></tr>
+<tr><td>55</td><td>Pateway</td><td class="n">0.339</td><td class="n">¥1.7</td><td class="n">¥10.18</td></tr>
+<tr><td>56</td><td>APINebula</td><td class="n">0.39</td><td class="n">¥1.95</td><td class="n">¥11.7</td></tr>
+<tr><td>57</td><td>EasyAI</td><td class="n">0.4</td><td class="n">¥2</td><td class="n">¥12</td></tr>
+<tr><td>58</td><td>RightCode</td><td class="n">0.4</td><td class="n">¥2</td><td class="n">¥12</td></tr>
+<tr><td>59</td><td>SSSAICode</td><td class="n">0.4</td><td class="n">¥2</td><td class="n">¥12</td></tr>
+<tr><td>60</td><td>unity2</td><td class="n">0.4</td><td class="n">¥2</td><td class="n">¥12</td></tr>
+<tr><td>61</td><td>GPTeam</td><td class="n">0.407</td><td class="n">¥2.04</td><td class="n">¥12.21</td></tr>
+<tr><td>62</td><td>Bailili API</td><td class="n">0.5</td><td class="n">¥2.5</td><td class="n">¥20</td></tr>
+<tr><td>63</td><td>Clauddy API</td><td class="n">0.5</td><td class="n">¥2.5</td><td class="n">¥15</td></tr>
+<tr><td>64</td><td>Mmaqq API</td><td class="n">0.5</td><td class="n">¥2.5</td><td class="n">¥20</td></tr>
+<tr><td>65</td><td>PackyCode</td><td class="n">0.5</td><td class="n">¥2.5</td><td class="n">¥15</td></tr>
+<tr><td>66</td><td>RunAPI</td><td class="n">0.5</td><td class="n">¥2.5</td><td class="n">¥15</td></tr>
+<tr><td>67</td><td>ZIVV</td><td class="n">0.5</td><td class="n">¥2.5</td><td class="n">¥15</td></tr>
+<tr><td>68</td><td>nekoapi</td><td class="n">0.5</td><td class="n">¥2.5</td><td class="n">¥15</td></tr>
+<tr><td>69</td><td>kksj</td><td class="n">0.6</td><td class="n">¥3</td><td class="n">¥18</td></tr>
+<tr><td>70</td><td>Cooper-API</td><td class="n">0.679</td><td class="n">¥3.39</td><td class="n">¥20.36</td></tr>
+<tr><td>71</td><td>Uiuihao API</td><td class="n">0.7</td><td class="n">¥3.5</td><td class="n">¥21</td></tr>
+<tr><td>72</td><td>LMU AI · 灵眸</td><td class="n">0.753</td><td class="n">¥3.77</td><td class="n">¥22.6</td></tr>
+<tr><td>73</td><td>OmniaKey</td><td class="n">0.763</td><td class="n">¥3.82</td><td class="n">¥22.9</td></tr>
+<tr><td>74</td><td>GPT Agent</td><td class="n">0.8</td><td class="n">¥4</td><td class="n">¥20</td></tr>
+<tr><td>75</td><td>35-aigcbest</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>76</td><td>4Sapi</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>77</td><td>AI8</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>78</td><td>Code0.ai</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>79</td><td>Kkaiapi</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥25</td></tr>
+<tr><td>80</td><td>Muxueai API</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>81</td><td>QweApi</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥40</td></tr>
+<tr><td>82</td><td>V-API</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>83</td><td>synterolink</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>84</td><td>老张 API</td><td class="n">1</td><td class="n">¥5</td><td class="n">¥30</td></tr>
+<tr><td>85</td><td>TimiCC</td><td class="n">1.018</td><td class="n">¥5.09</td><td class="n">¥30.53</td></tr>
+<tr><td>86</td><td>codesonline</td><td class="n">1.018</td><td class="n">¥5.09</td><td class="n">¥30.53</td></tr>
+<tr><td>87</td><td>Cun AI</td><td class="n">1.125</td><td class="n">¥5.62</td><td class="n">¥33.75</td></tr>
+<tr><td>88</td><td>CodingRouter</td><td class="n">1.357</td><td class="n">¥6.79</td><td class="n">¥40.71</td></tr>
+<tr><td>89</td><td>三头牛</td><td class="n">1.357</td><td class="n">¥6.79</td><td class="n">¥40.71</td></tr>
+<tr><td>90</td><td>Hyperapi</td><td class="n">1.5</td><td class="n">¥7.5</td><td class="n">¥45</td></tr>
+<tr><td>91</td><td>Codeagent API</td><td class="n">1.6</td><td class="n">¥8</td><td class="n">¥64</td></tr>
+<tr><td>92</td><td>OneChats</td><td class="n">2</td><td class="n">¥10</td><td class="n">¥60</td></tr>
+<tr><td>93</td><td>TryAllAI</td><td class="n">4.071</td><td class="n">¥20.36</td><td class="n">¥122.14</td></tr>
+<tr><td>94</td><td>ClaudeApi</td><td class="n">4.411</td><td class="n">¥22.05</td><td class="n">¥132.32</td></tr>
+<tr><td>95</td><td>Agent Router</td><td class="n">5.428</td><td class="n">¥27.14</td><td class="n">¥162.85</td></tr>
+<tr><td>96</td><td>Xiamiapi</td><td class="n">6</td><td class="n">¥30</td><td class="n">¥180</td></tr>
+<tr><td>97</td><td>Sublyx</td><td class="n">8.143</td><td class="n">¥40.71</td><td class="n">¥244.28</td></tr>
+<tr><td>98</td><td>Neco Api</td><td class="n">13.571</td><td class="n">¥67.85</td><td class="n">¥407.13</td></tr>
+<tr><td>99</td><td>Wytkt API</td><td class="n">15</td><td class="n">¥75</td><td class="n">¥600</td></tr>
+</tbody></table></div>
+<p><a href="/relay-prices/gpt/gpt-5-6-sol/">GPT-5.6 Sol 中转站价格单页 →</a></p>
+</details>
+<h2>常见问题</h2><h3>Codex 中转站哪家便宜？</h3><p>按最低倍率，目前最便宜的是 XTokenMirror（0.007 倍）、A6API（0.009 倍）、SixthSense LLM（0.016 倍）。多数站在 0.3 倍上下，同一家站不同模型、不同分组倍率也不一样，按你要用的模型看对应表格。</p><h3>Codex 中转站价格怎么算？</h3><p>实际价格 = 官方价 × 倍率。以 GPT-6 Astra 为例，官方输入 $10 / 输出 $50 每百万 tokens，0.5 倍的站就是输入 ¥5、输出 ¥25。详见 <a href="/relay-prices/rate-explained/">中转站倍率怎么算</a>。</p><h3>Codex 能用中转站吗？</h3><p>能。在 ~/.codex/config.toml 里加一个自定义提供方，base_url 填中转站地址（带 /v1）、wire_api 设成 responses，key 放环境变量即可。</p><h3>codex中转站哪家好？</h3><p>先看排行榜前几名：UU API、H API、OpenOx。这些站真假检测都过了，带「真付费实测」的我们用 Codex 自己掏钱跑过，扣费和标价对得上。</p>
+<footer>
+<p>数据更新：2026-10-27。价格单位：人民币元 / 每百万 tokens，按 1 元 = 1 美元额度充值折算。</p>
+<p>各站真假检测、稳定性和站方公告见 <a href="https://apiranking.com/?utm_source=github&utm_medium=referral&utm_campaign=relay-prices">API Ranking</a>。</p>
+</footer>
+</body>
+</html>
