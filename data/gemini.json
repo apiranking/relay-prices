@@ -2859,5 +2859,396 @@
    ]
   }
  ],
+ "flagship": "Gemini 4 Argon",
+ "ranking": [
+  {
+   "name": "UU API",
+   "slug": "uuapi-net",
+   "tier": "S",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "进群赠送",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "H API",
+   "slug": "h-api",
+   "tier": "S",
+   "price": {
+    "in": 0.9,
+    "out": 4.5,
+    "rate": 0.45
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0.5",
+   "invoice": "yes",
+   "invoice_note": "200元起开",
+   "refund": "1.6%手续费",
+   "bench": null
+  },
+  {
+   "name": "OpenOx",
+   "slug": "openox",
+   "tier": "S",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 1.0
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "加客服领取$3",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "APINebula",
+   "slug": "apinebula-com",
+   "tier": "S",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.8
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥20",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "LinkAI",
+   "slug": "linkai",
+   "tier": "S",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.6
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": "进群赠送",
+   "invoice": "yes",
+   "invoice_note": "200元起开",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "开票仅支持国外 Invoice",
+   "refund": null,
+   "bench": null
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "S",
+   "price": {
+    "in": 5.43,
+    "out": 27.14,
+    "rate": 2.714
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": "$0",
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "tier": "S",
+   "price": {
+    "in": 3.0,
+    "out": 15.0,
+    "rate": 1.5
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥1",
+   "invoice": "yes",
+   "invoice_note": "税费1%",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "tier": "S",
+   "price": {
+    "in": 2.85,
+    "out": 14.25,
+    "rate": 1.425
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥7",
+   "bonus": "¥0.1",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.28,
+    "out": 1.38,
+    "rate": 0.138
+   }
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "B",
+   "price": {
+    "in": 1.01,
+    "out": 5.07,
+    "rate": 0.507
+   }
+  },
+  {
+   "name": "Xcode",
+   "slug": "xcode-best",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 1.0
+   }
+  },
+  {
+   "name": "Z-API",
+   "slug": "api-zicc-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.2,
+    "out": 1.0,
+    "rate": 0.1
+   }
+  },
+  {
+   "name": "ToCodex",
+   "slug": "user-tocodex-com",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 1.0
+   }
+  },
+  {
+   "name": "PackyCode",
+   "slug": "packyapi-com",
+   "tier": "B",
+   "price": {
+    "in": 14.0,
+    "out": 70.0,
+    "rate": 7.0
+   }
+  },
+  {
+   "name": "ByteCat",
+   "slug": "bytecatcode-org",
+   "tier": "B",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.8
+   }
+  },
+  {
+   "name": "Die Ge",
+   "slug": "die-ge",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
+   }
+  },
+  {
+   "name": "LMU AI · 灵眸",
+   "slug": "api-lmuai-com",
+   "tier": "B",
+   "price": {
+    "in": 5.05,
+    "out": 25.24,
+    "rate": 2.524
+   }
+  },
+  {
+   "name": "聚星AI",
+   "slug": "juxingai-top",
+   "tier": "B",
+   "price": {
+    "in": 2.2,
+    "out": 11.0,
+    "rate": 1.1
+   }
+  },
+  {
+   "name": "RightCode",
+   "slug": "right-codes",
+   "tier": "B",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.6
+   }
+  },
+  {
+   "name": "deepkey",
+   "slug": "deepkey-top",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "PRY API",
+   "slug": "bearlab-ai",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.2
+   }
+  },
+  {
+   "name": "CodingRouter",
+   "slug": "codingrouter",
+   "tier": "B",
+   "price": {
+    "in": 2.71,
+    "out": 13.57,
+    "rate": 1.357
+   }
+  },
+  {
+   "name": "corealgos",
+   "slug": "corealgos",
+   "tier": "B",
+   "price": {
+    "in": 8.14,
+    "out": 40.71,
+    "rate": 4.071
+   }
+  },
+  {
+   "name": "GPTeam",
+   "slug": "portal-gpteamservices-com",
+   "tier": "B",
+   "price": {
+    "in": 2.71,
+    "out": 13.57,
+    "rate": 1.357
+   }
+  },
+  {
+   "name": "Token云桥",
+   "slug": "0029-org",
+   "tier": "B",
+   "price": {
+    "in": 4.4,
+    "out": 22.0,
+    "rate": 2.2
+   }
+  },
+  {
+   "name": "旺旺中转站",
+   "slug": "api-bbww-top",
+   "tier": "B",
+   "price": {
+    "in": 0.22,
+    "out": 1.11,
+    "rate": 0.111
+   }
+  },
+  {
+   "name": "xiaojing",
+   "slug": "open-xiaojingai-com",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
+   }
+  },
+  {
+   "name": "Kuaipao API",
+   "slug": "kuaipao-pro",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 1.0
+   }
+  },
+  {
+   "name": "Top-API",
+   "slug": "top-api",
+   "tier": "B",
+   "price": {
+    "in": 1.36,
+    "out": 6.79,
+    "rate": 0.679
+   }
+  },
+  {
+   "name": "LLM-ALL API",
+   "slug": "llm-all-pro",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "云影 API",
+   "slug": "yyapi-cloud",
+   "tier": "B",
+   "price": {
+    "in": 1.4,
+    "out": 7.0,
+    "rate": 0.7
+   }
+  }
+ ],
  "updated": "2026-10-27"
 }

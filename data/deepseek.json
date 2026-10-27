@@ -504,5 +504,304 @@
    ]
   }
  ],
+ "flagship": "DeepSeek V4.1 Flash",
+ "ranking": [
+  {
+   "name": "UU API",
+   "slug": "uuapi-net",
+   "tier": "S",
+   "price": {
+    "in": 0.65,
+    "out": 2.6,
+    "rate": 0.325
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "进群赠送",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "H API",
+   "slug": "h-api",
+   "tier": "S",
+   "price": {
+    "in": 0.6,
+    "out": 2.4,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0.5",
+   "invoice": "yes",
+   "invoice_note": "200元起开",
+   "refund": "1.6%手续费",
+   "bench": null
+  },
+  {
+   "name": "OpenOx",
+   "slug": "openox",
+   "tier": "S",
+   "price": {
+    "in": 1.26,
+    "out": 5.04,
+    "rate": 0.63
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "加客服领取$3",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "tier": "S",
+   "price": {
+    "in": 2.0,
+    "out": 8.0,
+    "rate": 1.0
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "开票仅支持国外 Invoice",
+   "refund": null,
+   "bench": null
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "S",
+   "price": {
+    "in": 1.02,
+    "out": 4.07,
+    "rate": 0.509
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": "$0",
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "tier": "S",
+   "price": {
+    "in": 1.4,
+    "out": 5.6,
+    "rate": 0.7
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥1",
+   "invoice": "yes",
+   "invoice_note": "税费1%",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "tier": "S",
+   "price": {
+    "in": 0.5,
+    "out": 2.01,
+    "rate": 0.251
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥7",
+   "bonus": "¥0.1",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.01,
+    "out": 0.05,
+    "rate": 0.006
+   }
+  },
+  {
+   "name": "CCTQ",
+   "slug": "cctq",
+   "tier": "B",
+   "price": {
+    "in": 1.4,
+    "out": 5.6,
+    "rate": 0.7
+   }
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "B",
+   "price": {
+    "in": 1.01,
+    "out": 2.03,
+    "rate": 0.507
+   }
+  },
+  {
+   "name": "Xcode",
+   "slug": "xcode-best",
+   "tier": "B",
+   "price": {
+    "in": 1.5,
+    "out": 6.0,
+    "rate": 0.75
+   }
+  },
+  {
+   "name": "PackyCode",
+   "slug": "packyapi-com",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 2.0,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "卡皮巴拉API",
+   "slug": "kapibala-asia",
+   "tier": "B",
+   "price": {
+    "in": 1.35,
+    "out": 5.4,
+    "rate": 0.675
+   }
+  },
+  {
+   "name": "LMU AI · 灵眸",
+   "slug": "api-lmuai-com",
+   "tier": "B",
+   "price": {
+    "in": 0.78,
+    "out": 3.11,
+    "rate": 0.388
+   }
+  },
+  {
+   "name": "聚星AI",
+   "slug": "juxingai-top",
+   "tier": "B",
+   "price": {
+    "in": 1.5,
+    "out": 3.0,
+    "rate": 0.75
+   }
+  },
+  {
+   "name": "deepkey",
+   "slug": "deepkey-top",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 2.0,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "三头牛",
+   "slug": "36niu-com",
+   "tier": "B",
+   "price": {
+    "in": 1.84,
+    "out": 7.37,
+    "rate": 0.921
+   }
+  },
+  {
+   "name": "PRY API",
+   "slug": "bearlab-ai",
+   "tier": "B",
+   "price": {
+    "in": 0.15,
+    "out": 0.6,
+    "rate": 0.075
+   }
+  },
+  {
+   "name": "CodingRouter",
+   "slug": "codingrouter",
+   "tier": "B",
+   "price": {
+    "in": 1.9,
+    "out": 7.6,
+    "rate": 0.95
+   }
+  },
+  {
+   "name": "corealgos",
+   "slug": "corealgos",
+   "tier": "B",
+   "price": {
+    "in": 0.07,
+    "out": 0.37,
+    "rate": 0.037
+   }
+  },
+  {
+   "name": "ZIVV",
+   "slug": "zivv-pro",
+   "tier": "B",
+   "price": {
+    "in": 0.75,
+    "out": 1.5,
+    "rate": 0.375
+   }
+  },
+  {
+   "name": "xiaojing",
+   "slug": "open-xiaojingai-com",
+   "tier": "B",
+   "price": {
+    "in": 1.1,
+    "out": 4.4,
+    "rate": 0.55
+   }
+  },
+  {
+   "name": "HolySheep AI",
+   "slug": "holysheep-ai",
+   "tier": "B",
+   "price": {
+    "in": 0.8,
+    "out": 1.6,
+    "rate": 0.4
+   }
+  },
+  {
+   "name": "Kuaipao API",
+   "slug": "kuaipao-pro",
+   "tier": "B",
+   "price": {
+    "in": 2.52,
+    "out": 9.9,
+    "rate": 1.26
+   }
+  }
+ ],
  "updated": "2026-10-27"
 }

@@ -9299,6 +9299,539 @@
    ]
   }
  ],
+ "flagship": "Claude Opus 5.5",
+ "ranking": [
+  {
+   "name": "UU API",
+   "slug": "uuapi-net",
+   "tier": "S",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.4
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "进群赠送",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.9
+   }
+  },
+  {
+   "name": "H API",
+   "slug": "h-api",
+   "tier": "S",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0.5",
+   "invoice": "yes",
+   "invoice_note": "200元起开",
+   "refund": "1.6%手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.9
+   }
+  },
+  {
+   "name": "OpenOx",
+   "slug": "openox",
+   "tier": "S",
+   "price": {
+    "in": 3.2,
+    "out": 16.0,
+    "rate": 0.8
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "加客服领取$3",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.2
+   }
+  },
+  {
+   "name": "APINebula",
+   "slug": "apinebula-com",
+   "tier": "S",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 0.5
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥20",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 3.4
+   }
+  },
+  {
+   "name": "LinkAI",
+   "slug": "linkai",
+   "tier": "S",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": "进群赠送",
+   "invoice": "yes",
+   "invoice_note": "200元起开",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 5.5
+   }
+  },
+  {
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "tier": "S",
+   "price": {
+    "in": 2.8,
+    "out": 14.0,
+    "rate": 0.7
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "开票仅支持国外 Invoice",
+   "refund": null,
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 3.8
+   }
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "tier": "S",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥0.5",
+   "invoice": "yes",
+   "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 3.4
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "S",
+   "price": {
+    "in": 7.6,
+    "out": 38.0,
+    "rate": 1.9
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": "$0",
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.5
+   }
+  },
+  {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "tier": "S",
+   "price": {
+    "in": 6.0,
+    "out": 30.0,
+    "rate": 1.5
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥1",
+   "invoice": "yes",
+   "invoice_note": "税费1%",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.1
+   }
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "tier": "S",
+   "price": {
+    "in": 3.17,
+    "out": 15.83,
+    "rate": 0.792
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥7",
+   "bonus": "¥0.1",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5",
+    "billing": "比标价还便宜",
+    "billing_color": "info",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 3.3
+   }
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.27,
+    "out": 1.33,
+    "rate": 0.066
+   }
+  },
+  {
+   "name": "CCTQ",
+   "slug": "cctq",
+   "tier": "B",
+   "price": {
+    "in": 6.0,
+    "out": 30.0,
+    "rate": 1.5
+   }
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 2.5,
+    "rate": 0.125
+   }
+  },
+  {
+   "name": "Xcode",
+   "slug": "xcode-best",
+   "tier": "B",
+   "price": {
+    "in": 6.8,
+    "out": 34.0,
+    "rate": 1.7
+   }
+  },
+  {
+   "name": "Z-API",
+   "slug": "api-zicc-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.48,
+    "out": 2.4,
+    "rate": 0.12
+   }
+  },
+  {
+   "name": "Luxery API",
+   "slug": "luxery-api",
+   "tier": "B",
+   "price": {
+    "in": 7.2,
+    "out": 36.0,
+    "rate": 1.8
+   }
+  },
+  {
+   "name": "ToCodex",
+   "slug": "user-tocodex-com",
+   "tier": "B",
+   "price": {
+    "in": 4.0,
+    "out": 20.0,
+    "rate": 1.0
+   }
+  },
+  {
+   "name": "Codex2API",
+   "slug": "codex2api",
+   "tier": "B",
+   "price": {
+    "in": 0.8,
+    "out": 4.0,
+    "rate": 0.2
+   }
+  },
+  {
+   "name": "Cavoti AI",
+   "slug": "cavoti-ai",
+   "tier": "B",
+   "price": {
+    "in": 0.27,
+    "out": 1.36,
+    "rate": 0.068
+   }
+  },
+  {
+   "name": "PackyCode",
+   "slug": "packyapi-com",
+   "tier": "B",
+   "price": {
+    "in": 3.2,
+    "out": 16.0,
+    "rate": 0.8
+   }
+  },
+  {
+   "name": "ByteCat",
+   "slug": "bytecatcode-org",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.1
+   }
+  },
+  {
+   "name": "Die Ge",
+   "slug": "die-ge",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "卡皮巴拉API",
+   "slug": "kapibala-asia",
+   "tier": "B",
+   "price": {
+    "in": 0.72,
+    "out": 3.6,
+    "rate": 0.18
+   }
+  },
+  {
+   "name": "代码狗",
+   "slug": "ai-codepup-cn",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.1
+   }
+  },
+  {
+   "name": "AI 搬运工",
+   "slug": "aimover-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.32,
+    "out": 1.6,
+    "rate": 0.08
+   }
+  },
+  {
+   "name": "LMU AI · 灵眸",
+   "slug": "api-lmuai-com",
+   "tier": "B",
+   "price": {
+    "in": 3.84,
+    "out": 19.18,
+    "rate": 0.959
+   }
+  },
+  {
+   "name": "RightCode",
+   "slug": "right-codes",
+   "tier": "B",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "deepkey",
+   "slug": "deepkey-top",
+   "tier": "B",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.4
+   }
+  },
+  {
+   "name": "三头牛",
+   "slug": "36niu-com",
+   "tier": "B",
+   "price": {
+    "in": 4.07,
+    "out": 20.36,
+    "rate": 1.018
+   }
+  },
+  {
+   "name": "PRY API",
+   "slug": "bearlab-ai",
+   "tier": "B",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.4
+   }
+  },
+  {
+   "name": "CodingRouter",
+   "slug": "codingrouter",
+   "tier": "B",
+   "price": {
+    "in": 6.24,
+    "out": 31.21,
+    "rate": 1.561
+   }
+  },
+  {
+   "name": "GPTeam",
+   "slug": "portal-gpteamservices-com",
+   "tier": "B",
+   "price": {
+    "in": 2.71,
+    "out": 13.57,
+    "rate": 0.679
+   }
+  },
+  {
+   "name": "synterolink",
+   "slug": "synterolink",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 0.5
+   }
+  },
+  {
+   "name": "Token云桥",
+   "slug": "0029-org",
+   "tier": "B",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "旺旺中转站",
+   "slug": "api-bbww-top",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.1
+   }
+  },
+  {
+   "name": "ZIVV",
+   "slug": "zivv-pro",
+   "tier": "B",
+   "price": {
+    "in": 5.2,
+    "out": 26.0,
+    "rate": 1.3
+   }
+  },
+  {
+   "name": "xiaojing",
+   "slug": "open-xiaojingai-com",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "HolySheep AI",
+   "slug": "holysheep-ai",
+   "tier": "B",
+   "price": {
+    "in": 4.0,
+    "out": 20.0,
+    "rate": 1.0
+   }
+  }
+ ],
  "bench": [
   {
    "name": "UU API",

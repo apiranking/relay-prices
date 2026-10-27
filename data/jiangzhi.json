@@ -1,0 +1,81 @@
+{
+ "ref": {
+  "model": "GPT-6 Astra",
+  "tier": "max / high 档",
+  "image": 36
+ },
+ "stations": [
+  {
+   "name": "UU API",
+   "slug": "uuapi-net",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 31
+  },
+  {
+   "name": "H API",
+   "slug": "h-api",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 28
+  },
+  {
+   "name": "OpenOx",
+   "slug": "openox",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 397
+  },
+  {
+   "name": "APINebula",
+   "slug": "apinebula-com",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 612
+  },
+  {
+   "name": "LinkAI",
+   "slug": "linkai",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 160
+  },
+  {
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 21
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "model": "GPT-6.1 Sol",
+   "tier": "max / high 档",
+   "image": 150
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 726
+  },
+  {
+   "name": "Code0.ai",
+   "slug": "code0-ai",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 591
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "model": "GPT-6 Astra",
+   "tier": "max / high 档",
+   "image": 13
+  }
+ ],
+ "hidden": 1,
+ "updated": "2026-10-27"
+}
