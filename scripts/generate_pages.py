@@ -477,6 +477,9 @@ def main() -> None:
         + "".join(f"<url><loc>{SITE}/{p}</loc><lastmod>{u}</lastmod></url>\n" for p, u in out)
         + "</urlset>\n", encoding="utf-8")
     (DOCS / ".nojekyll").write_text("", encoding="utf-8")
+    # Google Search Console 网址前缀资源验证文件；docs 每次整份重建，必须在这里重写，删了认领就失效
+    (DOCS / "googlea4abb33f6ca136fb.html").write_text(
+        "google-site-verification: googlea4abb33f6ca136fb.html", encoding="utf-8")
     print(f"生成 {len(out)} 页 → {DOCS}")
 
 
