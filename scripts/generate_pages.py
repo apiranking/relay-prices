@@ -916,6 +916,10 @@ def main() -> None:
     # Google Search Console 网址前缀资源验证文件；docs 每次整份重建，必须在这里重写，删了认领就失效
     (DOCS / "googlea4abb33f6ca136fb.html").write_text(
         "google-site-verification: googlea4abb33f6ca136fb.html", encoding="utf-8")
+    # Bing Webmaster 站点验证文件（网址 https://apiranking.github.io/relay-prices/），同上不能删
+    (DOCS / "BingSiteAuth.xml").write_text(
+        '<?xml version="1.0"?>\n<users>\n    <user>20D74E750481B9453ECCBD42B486FA6D</user>\n</users>\n',
+        encoding="utf-8")
     (DOCS / f"{INDEXNOW_KEY}.txt").write_text(INDEXNOW_KEY, encoding="utf-8")
     print(f"生成 {len(out)} 页 → {DOCS}")
 
