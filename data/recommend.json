@@ -125,6 +125,26 @@
    }
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.8,
+    "gemini": 2.625,
+    "deepseek": 0.5
+   }
+  },
+  {
+   "name": "Drag API",
+   "slug": "drag-api",
+   "rates": {
+    "claude": 1.15,
+    "openai": 0.12,
+    "gemini": 0.125,
+    "grok": 0.4
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "rates": {
@@ -298,29 +318,7 @@
     "grok": 0.1,
     "gemini": 0.3
    }
-  },
-  {
-   "name": "deepkey",
-   "slug": "deepkey-top",
-   "rates": {
-    "claude": 0.4,
-    "openai": 0.08,
-    "grok": 0.06,
-    "gemini": 0.15,
-    "deepseek": 0.25
-   }
-  },
-  {
-   "name": "三头牛",
-   "slug": "36niu-com",
-   "rates": {
-    "claude": 0.679,
-    "openai": 1.357,
-    "grok": 1.357,
-    "gemini": 0.679,
-    "deepseek": 0.921
-   }
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-11-04"
 }

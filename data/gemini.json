@@ -1,6 +1,6 @@
 {
  "vendor": "Gemini",
- "site_count": 99,
+ "site_count": 101,
  "min_rate": 0.04,
  "median_rate": 1.0,
  "sites": [
@@ -45,6 +45,12 @@
    "slug": "api-bbww-top",
    "rate": 0.111,
    "model": "Gemini 4 Argon"
+  },
+  {
+   "name": "Drag API",
+   "slug": "drag-api",
+   "rate": 0.125,
+   "model": "Gemini 3.8 Flash"
   },
   {
    "name": "合聚API",
@@ -488,6 +494,12 @@
    "name": "nekoapi",
    "slug": "api-nekoapi-com",
    "rate": 2.5,
+   "model": "Gemini 4 Argon"
+  },
+  {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rate": 2.625,
    "model": "Gemini 4 Argon"
   },
   {
@@ -1136,6 +1148,13 @@
      "rate": 2.524
     },
     {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
+     "in": 5.25,
+     "out": 26.25,
+     "rate": 2.625
+    },
+    {
      "name": "api.68886868.xyz",
      "slug": "api-68886868-xyz",
      "in": 5.2927,
@@ -1349,6 +1368,13 @@
      "in": 0.4,
      "out": 2.4,
      "rate": 0.2
+    },
+    {
+     "name": "Drag API",
+     "slug": "drag-api",
+     "in": 0.5,
+     "out": 3.0,
+     "rate": 0.25
     },
     {
      "name": "合聚API",
@@ -1930,7 +1956,7 @@
    "model_key": "gemini-3.8-flash",
    "price_slug": "gemini-3-8-flash",
    "label": "Gemini 3.8 Flash",
-   "median_rate": 0.567,
+   "median_rate": 0.5,
    "own_page": false,
    "current": true,
    "official_in": 1.5,
@@ -1949,6 +1975,13 @@
      "in": 0.15,
      "out": 0.75,
      "rate": 0.1
+    },
+    {
+     "name": "Drag API",
+     "slug": "drag-api",
+     "in": 0.1875,
+     "out": 0.9375,
+     "rate": 0.125
     },
     {
      "name": "合聚API",
@@ -3020,6 +3053,16 @@
    "bench": null
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "tier": "B",
+   "price": {
+    "in": 5.25,
+    "out": 26.25,
+    "rate": 2.625
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -3228,27 +3271,7 @@
     "out": 6.79,
     "rate": 0.679
    }
-  },
-  {
-   "name": "LLM-ALL API",
-   "slug": "llm-all-pro",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.3
-   }
-  },
-  {
-   "name": "云影 API",
-   "slug": "yyapi-cloud",
-   "tier": "B",
-   "price": {
-    "in": 1.4,
-    "out": 7.0,
-    "rate": 0.7
-   }
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-11-04"
 }

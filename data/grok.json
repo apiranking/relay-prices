@@ -1,8 +1,8 @@
 {
  "vendor": "Grok",
- "site_count": 57,
+ "site_count": 58,
  "min_rate": 0.004,
- "median_rate": 0.407,
+ "median_rate": 0.403,
  "sites": [
   {
    "name": "A6API",
@@ -146,6 +146,12 @@
    "name": "Top-API",
    "slug": "top-api",
    "rate": 0.339,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "Drag API",
+   "slug": "drag-api",
+   "rate": 0.4,
    "model": "Grok 4.7"
   },
   {
@@ -352,7 +358,7 @@
    "model_key": "grok-4.7",
    "price_slug": "grok-4-7",
    "label": "Grok 4.7",
-   "median_rate": 0.407,
+   "median_rate": 0.403,
    "own_page": false,
    "current": true,
    "official_in": 2.0,
@@ -525,6 +531,13 @@
      "in": 0.6785,
      "out": 2.0356,
      "rate": 0.339
+    },
+    {
+     "name": "Drag API",
+     "slug": "drag-api",
+     "in": 0.8,
+     "out": 2.4,
+     "rate": 0.4
     },
     {
      "name": "H API",
@@ -1739,6 +1752,16 @@
    "bench": null
   },
   {
+   "name": "Drag API",
+   "slug": "drag-api",
+   "tier": "B",
+   "price": {
+    "in": 0.8,
+    "out": 2.4,
+    "rate": 0.4
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -2017,17 +2040,7 @@
     "out": 1.8,
     "rate": 0.3
    }
-  },
-  {
-   "name": "AI8",
-   "slug": "ai8-my",
-   "tier": "B",
-   "price": {
-    "in": 1.4,
-    "out": 4.2,
-    "rate": 0.7
-   }
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-11-04"
 }

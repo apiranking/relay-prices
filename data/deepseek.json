@@ -1,8 +1,8 @@
 {
  "vendor": "DeepSeek",
- "site_count": 24,
+ "site_count": 25,
  "min_rate": 0.006,
- "median_rate": 0.438,
+ "median_rate": 0.488,
  "sites": [
   {
    "name": "A6API",
@@ -83,6 +83,12 @@
    "model": "DeepSeek V4 Pro"
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rate": 0.5,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
    "name": "聚星AI",
    "slug": "juxingai-top",
    "rate": 0.5,
@@ -154,7 +160,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.508,
+   "median_rate": 0.507,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -236,6 +242,13 @@
      "in": 0.8,
      "out": 1.6,
      "rate": 0.4
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
+     "in": 1.0,
+     "out": 4.0,
+     "rate": 0.5
     },
     {
      "name": "LinksAPI",
@@ -416,6 +429,13 @@
      "in": 4.3875,
      "out": 13.1625,
      "rate": 0.488
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
+     "in": 4.5,
+     "out": 9.0,
+     "rate": 0.5
     },
     {
      "name": "聚星AI",
@@ -633,6 +653,16 @@
    "bench": null
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 4.0,
+    "rate": 0.5
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -803,5 +833,5 @@
    }
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-11-04"
 }

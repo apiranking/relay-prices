@@ -1,8 +1,8 @@
 {
  "vendor": "Claude Code",
- "site_count": 160,
+ "site_count": 162,
  "min_rate": 0.026,
- "median_rate": 0.546,
+ "median_rate": 0.575,
  "sites": [
   {
    "name": "XTokenMirror",
@@ -683,6 +683,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rate": 1.0,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Cooper-API",
    "slug": "cooper-api-com",
    "rate": 1.018,
@@ -698,6 +704,12 @@
    "name": "OhMyGPT",
    "slug": "x-dogenet-win",
    "rate": 1.1,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Drag API",
+   "slug": "drag-api",
+   "rate": 1.15,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1712,6 +1724,13 @@
      "rate": 1.0
     },
     {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
+     "in": 4.0,
+     "out": 20.0,
+     "rate": 1.0
+    },
+    {
      "name": "老张 API",
      "slug": "api-laozhang-ai",
      "in": 4.0,
@@ -1752,6 +1771,13 @@
      "in": 4.4,
      "out": 22.0,
      "rate": 1.1
+    },
+    {
+     "name": "Drag API",
+     "slug": "drag-api",
+     "in": 4.6,
+     "out": 23.0,
+     "rate": 1.15
     },
     {
      "name": "api.68886868.xyz",
@@ -2095,7 +2121,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.533,
+   "median_rate": 0.542,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -2578,6 +2604,13 @@
      "rate": 1.1
     },
     {
+     "name": "Drag API",
+     "slug": "drag-api",
+     "in": 2.3,
+     "out": 11.5,
+     "rate": 1.15
+    },
+    {
      "name": "kksj",
      "slug": "cnapi-kksj-org",
      "in": 2.4,
@@ -2601,6 +2634,13 @@
     {
      "name": "Code0.ai",
      "slug": "code0-ai",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 1.5
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
      "in": 3.0,
      "out": 15.0,
      "rate": 1.5
@@ -3080,6 +3120,26 @@
    }
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "tier": "B",
+   "price": {
+    "in": 4.0,
+    "out": 20.0,
+    "rate": 1.0
+   }
+  },
+  {
+   "name": "Drag API",
+   "slug": "drag-api",
+   "tier": "B",
+   "price": {
+    "in": 4.6,
+    "out": 23.0,
+    "rate": 1.15
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -3338,27 +3398,7 @@
     "out": 26.0,
     "rate": 1.3
    }
-  },
-  {
-   "name": "xiaojing",
-   "slug": "open-xiaojingai-com",
-   "tier": "B",
-   "price": {
-    "in": 1.0,
-    "out": 5.0,
-    "rate": 0.25
-   }
-  },
-  {
-   "name": "HolySheep AI",
-   "slug": "holysheep-ai",
-   "tier": "B",
-   "price": {
-    "in": 4.0,
-    "out": 20.0,
-    "rate": 1.0
-   }
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-11-04"
 }

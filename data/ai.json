@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 197,
+ "site_count": 199,
  "rows": [
   {
    "name": "A6API",
@@ -269,6 +269,16 @@
    }
   },
   {
+   "name": "Drag API",
+   "slug": "drag-api",
+   "rates": {
+    "claude": 1.15,
+    "openai": 0.12,
+    "gemini": 0.125,
+    "grok": 0.4
+   }
+  },
+  {
    "name": "Dualseason API",
    "slug": "dualseason-com",
    "rates": {
@@ -466,6 +476,16 @@
     "openai": 0.03,
     "gemini": 0.2,
     "grok": 0.15
+   }
+  },
+  {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.8,
+    "gemini": 2.625,
+    "deepseek": 0.5
    }
   },
   {
@@ -1884,5 +1904,5 @@
    "bench": null
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-11-04"
 }

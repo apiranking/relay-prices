@@ -1,10 +1,10 @@
 {
- "site_count": 197,
+ "site_count": 199,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 182,
+   "count": 184,
    "rows": [
     {
      "name": "Prism API",
@@ -61,7 +61,7 @@
   {
    "key": "openai",
    "label": "GPT",
-   "count": 174,
+   "count": 176,
    "rows": [
     {
      "name": "Token云桥",
@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 99,
+   "count": 101,
    "rows": [
     {
      "name": "XTokenMirror",
@@ -156,6 +156,11 @@
      "rate": 0.111
     },
     {
+     "name": "Drag API",
+     "slug": "drag-api",
+     "rate": 0.125
+    },
+    {
      "name": "合聚API",
      "slug": "hejuapi-com",
      "rate": 0.125
@@ -164,18 +169,13 @@
      "name": "poloai",
      "slug": "poloai",
      "rate": 0.137
-    },
-    {
-     "name": "FastCode",
-     "slug": "api-timebackward-com",
-     "rate": 0.14
     }
    ]
   },
   {
    "key": "grok",
    "label": "Grok",
-   "count": 57,
+   "count": 58,
    "rows": [
     {
      "name": "A6API",
@@ -232,7 +232,7 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 24,
+   "count": 25,
    "rows": [
     {
      "name": "A6API",
@@ -287,5 +287,5 @@
    ]
   }
  ],
- "updated": "2026-10-27"
+ "updated": "2026-11-04"
 }
