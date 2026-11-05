@@ -189,6 +189,17 @@
    }
   },
   {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "rates": {
+    "gemini": 1.0,
+    "claude": 0.7,
+    "openai": 0.32,
+    "grok": 0.25,
+    "deepseek": 1.0
+   }
+  },
+  {
    "name": "4Sapi",
    "slug": "4sapi-com",
    "rates": {
@@ -1535,14 +1546,6 @@
    }
   },
   {
-   "name": "球球Token",
-   "slug": "qiuqiutoken-com",
-   "rates": {
-    "claude": 0.7,
-    "openai": 0.38
-   }
-  },
-  {
    "name": "菜菜中转站",
    "slug": "rapi-asia",
    "rates": {
@@ -1902,7 +1905,35 @@
    "invoice_note": null,
    "refund": "无手续费",
    "bench": null
+  },
+  {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "首冲满10送5",
+   "invoice": "yes",
+   "invoice_note": "10元开票",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "Luxery API",
+   "slug": "luxery-api",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": null,
+   "bonus": "$3",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "可退款",
+   "bench": null
   }
  ],
- "updated": "2026-11-04"
+ "updated": "2026-11-05"
 }

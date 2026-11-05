@@ -1,8 +1,8 @@
 {
  "vendor": "DeepSeek",
- "site_count": 25,
+ "site_count": 26,
  "min_rate": 0.006,
- "median_rate": 0.488,
+ "median_rate": 0.494,
  "sites": [
   {
    "name": "A6API",
@@ -149,6 +149,12 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "rate": 1.0,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
    "name": "Kuaipao API",
    "slug": "kuaipao-pro",
    "rate": 1.26,
@@ -160,7 +166,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.507,
+   "median_rate": 0.508,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -330,6 +336,13 @@
     {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
+     "in": 2.0,
+     "out": 8.0,
+     "rate": 1.0
+    },
+    {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
      "in": 2.0,
      "out": 8.0,
      "rate": 1.0
@@ -515,6 +528,13 @@
      "rate": 1.0
     },
     {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
+     "in": 12.0,
+     "out": 24.0,
+     "rate": 1.333
+    },
+    {
      "name": "Kuaipao API",
      "slug": "kuaipao-pro",
      "in": 18.0,
@@ -655,11 +675,29 @@
   {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
-   "tier": "B",
+   "tier": "S",
    "price": {
     "in": 1.0,
     "out": 4.0,
     "rate": 0.5
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "首冲满10送5",
+   "invoice": "yes",
+   "invoice_note": "10元开票",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 8.0,
+    "rate": 1.0
    }
   },
   {
@@ -833,5 +871,5 @@
    }
   }
  ],
- "updated": "2026-11-04"
+ "updated": "2026-11-05"
 }

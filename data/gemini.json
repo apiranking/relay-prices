@@ -1,6 +1,6 @@
 {
  "vendor": "Gemini",
- "site_count": 101,
+ "site_count": 102,
  "min_rate": 0.04,
  "median_rate": 1.0,
  "sites": [
@@ -375,6 +375,12 @@
    "slug": "yinli",
    "rate": 1.0,
    "model": "Gemini 4 Argon"
+  },
+  {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "rate": 1.0,
+   "model": "Gemini 3.8 Flash"
   },
   {
    "name": "老张 API",
@@ -1101,6 +1107,13 @@
     {
      "name": "OneChats",
      "slug": "chatapi-onechats-top",
+     "in": 4.0,
+     "out": 20.0,
+     "rate": 2.0
+    },
+    {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
      "in": 4.0,
      "out": 20.0,
      "rate": 2.0
@@ -1916,6 +1929,13 @@
      "rate": 7.0
     },
     {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
+     "in": 14.4,
+     "out": 86.4,
+     "rate": 7.2
+    },
+    {
      "name": "996444",
      "slug": "api-996444-cn",
      "in": 14.9281,
@@ -1956,7 +1976,7 @@
    "model_key": "gemini-3.8-flash",
    "price_slug": "gemini-3-8-flash",
    "label": "Gemini 3.8 Flash",
-   "median_rate": 0.5,
+   "median_rate": 0.567,
    "own_page": false,
    "current": true,
    "official_in": 1.5,
@@ -2084,6 +2104,13 @@
     {
      "name": "Kuaipao API",
      "slug": "kuaipao-pro",
+     "in": 1.5,
+     "out": 7.5,
+     "rate": 1.0
+    },
+    {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
      "in": 1.5,
      "out": 7.5,
      "rate": 1.0
@@ -3055,11 +3082,43 @@
   {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
-   "tier": "B",
+   "tier": "S",
    "price": {
     "in": 5.25,
     "out": 26.25,
     "rate": 2.625
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "首冲满10送5",
+   "invoice": "yes",
+   "invoice_note": "10元开票",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "Luxery API",
+   "slug": "luxery-api",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": null,
+   "bonus": "$3",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "可退款",
+   "bench": null
+  },
+  {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "tier": "B",
+   "price": {
+    "in": 4.0,
+    "out": 20.0,
+    "rate": 2.0
    }
   },
   {
@@ -3271,7 +3330,17 @@
     "out": 6.79,
     "rate": 0.679
    }
+  },
+  {
+   "name": "LLM-ALL API",
+   "slug": "llm-all-pro",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.3
+   }
   }
  ],
- "updated": "2026-11-04"
+ "updated": "2026-11-05"
 }

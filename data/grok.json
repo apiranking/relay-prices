@@ -1,8 +1,8 @@
 {
  "vendor": "Grok",
- "site_count": 58,
+ "site_count": 59,
  "min_rate": 0.004,
- "median_rate": 0.403,
+ "median_rate": 0.4,
  "sites": [
   {
    "name": "A6API",
@@ -109,6 +109,12 @@
   {
    "name": "Mmaqq API",
    "slug": "mmaqq-top",
+   "rate": 0.25,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
    "rate": 0.25,
    "model": "Grok 4.7"
   },
@@ -358,7 +364,7 @@
    "model_key": "grok-4.7",
    "price_slug": "grok-4-7",
    "label": "Grok 4.7",
-   "median_rate": 0.403,
+   "median_rate": 0.4,
    "own_page": false,
    "current": true,
    "official_in": 2.0,
@@ -486,6 +492,13 @@
     {
      "name": "Mmaqq API",
      "slug": "mmaqq-top",
+     "in": 0.5,
+     "out": 1.5,
+     "rate": 0.25
+    },
+    {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
      "in": 0.5,
      "out": 1.5,
      "rate": 0.25
@@ -1762,6 +1775,16 @@
    }
   },
   {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 1.5,
+    "rate": 0.25
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -2030,17 +2053,7 @@
     "out": 6.0,
     "rate": 1.0
    }
-  },
-  {
-   "name": "Xiaoye API",
-   "slug": "ai-xiaoye-io",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 1.8,
-    "rate": 0.3
-   }
   }
  ],
- "updated": "2026-11-04"
+ "updated": "2026-11-05"
 }

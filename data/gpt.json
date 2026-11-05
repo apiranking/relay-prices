@@ -581,6 +581,12 @@
    "model": "GPT-5.6 Terra"
   },
   {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "rate": 0.32,
+   "model": "GPT-5.6 Terra"
+  },
+  {
    "name": "Pateway",
    "slug": "pateway",
    "rate": 0.339,
@@ -613,12 +619,6 @@
   {
    "name": "9527code",
    "slug": "9527code-com",
-   "rate": 0.38,
-   "model": "GPT-5.5"
-  },
-  {
-   "name": "球球Token",
-   "slug": "qiuqiutoken-com",
    "rate": 0.38,
    "model": "GPT-5.5"
   },
@@ -1500,6 +1500,13 @@
      "rate": 0.4
     },
     {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
+     "in": 4.0,
+     "out": 20.0,
+     "rate": 0.4
+    },
+    {
      "name": "GPTeam",
      "slug": "portal-gpteamservices-com",
      "in": 4.0713,
@@ -2214,6 +2221,13 @@
     {
      "name": "unity2",
      "slug": "unity2-ai",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.4
+    },
+    {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
      "in": 0.8,
      "out": 4.0,
      "rate": 0.4
@@ -3209,7 +3223,7 @@
    "model_key": "gpt-6-luna",
    "price_slug": "gpt-6-luna",
    "label": "GPT-6 Luna",
-   "median_rate": 0.285,
+   "median_rate": 0.3,
    "own_page": true,
    "current": true,
    "official_in": 0.5,
@@ -3641,6 +3655,13 @@
      "in": 0.35,
      "out": 0.525,
      "rate": 0.7
+    },
+    {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.8
     },
     {
      "name": "TryAllAI",
@@ -5419,6 +5440,13 @@
     {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
+     "in": 0.8,
+     "out": 4.8,
+     "rate": 0.32
+    },
+    {
+     "name": "球球Token",
+     "slug": "qiuqiutoken-com",
      "in": 0.8,
      "out": 4.8,
      "rate": 0.32
@@ -7273,12 +7301,38 @@
   {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
-   "tier": "B",
+   "tier": "S",
    "price": {
     "in": 8.0,
     "out": 40.0,
     "rate": 0.8
-   }
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "首冲满10送5",
+   "invoice": "yes",
+   "invoice_note": "10元开票",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "Luxery API",
+   "slug": "luxery-api",
+   "tier": "S",
+   "price": {
+    "in": 3.0,
+    "out": 15.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": null,
+   "bonus": "$3",
+   "invoice": "yes",
+   "invoice_note": null,
+   "refund": "可退款",
+   "bench": null
   },
   {
    "name": "Drag API",
@@ -7288,6 +7342,16 @@
     "in": 1.5,
     "out": 7.5,
     "rate": 0.15
+   }
+  },
+  {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "tier": "B",
+   "price": {
+    "in": 4.0,
+    "out": 20.0,
+    "rate": 0.4
    }
   },
   {
@@ -7338,16 +7402,6 @@
     "in": 1.0,
     "out": 5.0,
     "rate": 0.1
-   }
-  },
-  {
-   "name": "Luxery API",
-   "slug": "luxery-api",
-   "tier": "B",
-   "price": {
-    "in": 3.0,
-    "out": 15.0,
-    "rate": 0.3
    }
   },
   {
@@ -7539,7 +7593,17 @@
     "out": 14.0,
     "rate": 0.28
    }
+  },
+  {
+   "name": "xiaojing",
+   "slug": "open-xiaojingai-com",
+   "tier": "B",
+   "price": {
+    "in": 2.5,
+    "out": 12.5,
+    "rate": 0.25
+   }
   }
  ],
- "updated": "2026-11-04"
+ "updated": "2026-11-05"
 }
