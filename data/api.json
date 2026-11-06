@@ -1,10 +1,10 @@
 {
- "site_count": 199,
+ "site_count": 361,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 184,
+   "count": 310,
    "rows": [
     {
      "name": "Prism API",
@@ -12,9 +12,19 @@
      "rate": 0.014
     },
     {
+     "name": "XINGYI API",
+     "slug": "xingyi888-com",
+     "rate": 0.024
+    },
+    {
      "name": "XTokenMirror",
      "slug": "xtokenmirror-cn",
      "rate": 0.026
+    },
+    {
+     "name": "YeToken",
+     "slug": "yetoken-vip",
+     "rate": 0.04
     },
     {
      "name": "SunnyPumpkinAPI",
@@ -45,23 +55,13 @@
      "name": "空悲切API",
      "slug": "xn--vduyey89e-com",
      "rate": 0.05
-    },
-    {
-     "name": "AI 搬运工",
-     "slug": "aimover-cc",
-     "rate": 0.053
-    },
-    {
-     "name": "537 AI",
-     "slug": "537-ai-net",
-     "rate": 0.06
     }
    ]
   },
   {
    "key": "openai",
    "label": "GPT",
-   "count": 176,
+   "count": 314,
    "rows": [
     {
      "name": "Token云桥",
@@ -79,8 +79,28 @@
      "rate": 0.009
     },
     {
+     "name": "XINGYI API",
+     "slug": "xingyi888-com",
+     "rate": 0.009
+    },
+    {
+     "name": "apikl.ai",
+     "slug": "apikl-ai",
+     "rate": 0.01
+    },
+    {
      "name": "Lumin AI",
      "slug": "ai-luminai-cc",
+     "rate": 0.012
+    },
+    {
+     "name": "OpenLux",
+     "slug": "openlux-ai",
+     "rate": 0.012
+    },
+    {
+     "name": "皮卡丘token商店",
+     "slug": "pikaqiu-shop",
      "rate": 0.012
     },
     {
@@ -89,37 +109,22 @@
      "rate": 0.014
     },
     {
-     "name": "SixthSense LLM",
-     "slug": "sixthsense-llm-com",
-     "rate": 0.016
-    },
-    {
-     "name": "BootToken",
-     "slug": "boottoken",
-     "rate": 0.018
-    },
-    {
-     "name": "云雾AI",
-     "slug": "yunwu-ai",
-     "rate": 0.02
-    },
-    {
-     "name": "ai98pro",
-     "slug": "ai98pro",
-     "rate": 0.029
-    },
-    {
-     "name": "Aitechflux API",
-     "slug": "aitechflux-com",
-     "rate": 0.03
+     "name": "汪汪の中转站",
+     "slug": "hyhawang-com",
+     "rate": 0.014
     }
    ]
   },
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 102,
+   "count": 198,
    "rows": [
+    {
+     "name": "OpenLux",
+     "slug": "openlux-ai",
+     "rate": 0.037
+    },
     {
      "name": "XTokenMirror",
      "slug": "xtokenmirror-cn",
@@ -131,56 +136,71 @@
      "rate": 0.042
     },
     {
+     "name": "不吃坤肉",
+     "slug": "yunfei-best",
+     "rate": 0.05
+    },
+    {
+     "name": "VideoCaptioner API",
+     "slug": "videocaptioner-cn",
+     "rate": 0.055
+    },
+    {
+     "name": "Kedaya AI 中转站",
+     "slug": "kedaya-ai",
+     "rate": 0.075
+    },
+    {
+     "name": "哈基米biu",
+     "slug": "o10-top",
+     "rate": 0.075
+    },
+    {
      "name": "A6API",
      "slug": "a6api",
      "rate": 0.081
     },
     {
-     "name": "PRY API",
-     "slug": "bearlab-ai",
+     "name": "luciferai",
+     "slug": "luciferai-cc",
+     "rate": 0.095
+    },
+    {
+     "name": "MM API",
+     "slug": "slomerex-xyz",
      "rate": 0.1
-    },
-    {
-     "name": "RPG8",
-     "slug": "api-rpg8-cn",
-     "rate": 0.1
-    },
-    {
-     "name": "Z-API",
-     "slug": "api-zicc-cc",
-     "rate": 0.1
-    },
-    {
-     "name": "旺旺中转站",
-     "slug": "api-bbww-top",
-     "rate": 0.111
-    },
-    {
-     "name": "Drag API",
-     "slug": "drag-api",
-     "rate": 0.125
-    },
-    {
-     "name": "合聚API",
-     "slug": "hejuapi-com",
-     "rate": 0.125
-    },
-    {
-     "name": "poloai",
-     "slug": "poloai",
-     "rate": 0.137
     }
    ]
   },
   {
    "key": "grok",
    "label": "Grok",
-   "count": 59,
+   "count": 152,
    "rows": [
+    {
+     "name": "嘀嘀嘀 AI",
+     "slug": "dddai-dev",
+     "rate": 0.001
+    },
     {
      "name": "A6API",
      "slug": "a6api",
      "rate": 0.004
+    },
+    {
+     "name": "Code-Plan（内部站点）",
+     "slug": "o-ai-me",
+     "rate": 0.01
+    },
+    {
+     "name": "Pipio",
+     "slug": "pipio-io",
+     "rate": 0.01
+    },
+    {
+     "name": "鑫旺Neko API",
+     "slug": "790053500-com",
+     "rate": 0.01
     },
     {
      "name": "PRY API",
@@ -193,46 +213,26 @@
      "rate": 0.027
     },
     {
+     "name": "TokenSOS",
+     "slug": "tokensos-net",
+     "rate": 0.04
+    },
+    {
      "name": "AI 搬运工",
      "slug": "aimover-cc",
      "rate": 0.05
     },
     {
-     "name": "deepkey",
-     "slug": "deepkey-top",
-     "rate": 0.06
-    },
-    {
-     "name": "合租 Ink",
-     "slug": "hezu-ink",
-     "rate": 0.08
-    },
-    {
-     "name": "PackyCode",
-     "slug": "packyapi-com",
-     "rate": 0.1
-    },
-    {
-     "name": "RightCode",
-     "slug": "right-codes",
-     "rate": 0.1
-    },
-    {
-     "name": "xiaojing",
-     "slug": "open-xiaojingai-com",
-     "rate": 0.1
-    },
-    {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "rate": 0.102
+     "name": "Factory.pub",
+     "slug": "factory-pub",
+     "rate": 0.05
     }
    ]
   },
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 26,
+   "count": 136,
    "rows": [
     {
      "name": "A6API",
@@ -240,52 +240,52 @@
      "rate": 0.006
     },
     {
+     "name": "Jasper",
+     "slug": "yjs-im",
+     "rate": 0.01
+    },
+    {
+     "name": "UNIKEY",
+     "slug": "getunikey-ai",
+     "rate": 0.01
+    },
+    {
+     "name": "菜鸟AI",
+     "slug": "buddybackend-cloud",
+     "rate": 0.022
+    },
+    {
+     "name": "云枢 API",
+     "slug": "nextpro-top",
+     "rate": 0.029
+    },
+    {
+     "name": "华龙算力",
+     "slug": "hualong-online",
+     "rate": 0.03
+    },
+    {
+     "name": "璃梦API",
+     "slug": "api-hakanaiktn-com",
+     "rate": 0.03
+    },
+    {
      "name": "corealgos",
      "slug": "corealgos",
      "rate": 0.037
     },
     {
-     "name": "PRY API",
-     "slug": "bearlab-ai",
+     "name": "OpenLux",
+     "slug": "openlux-ai",
+     "rate": 0.044
+    },
+    {
+     "name": "GINKA API",
+     "slug": "ginka-cloud",
      "rate": 0.05
-    },
-    {
-     "name": "PackyCode",
-     "slug": "packyapi-com",
-     "rate": 0.25
-    },
-    {
-     "name": "deepkey",
-     "slug": "deepkey-top",
-     "rate": 0.25
-    },
-    {
-     "name": "RunAPI",
-     "slug": "runapi-co",
-     "rate": 0.251
-    },
-    {
-     "name": "HolySheep AI",
-     "slug": "holysheep-ai",
-     "rate": 0.267
-    },
-    {
-     "name": "H API",
-     "slug": "h-api",
-     "rate": 0.3
-    },
-    {
-     "name": "UU API",
-     "slug": "uuapi-net",
-     "rate": 0.325
-    },
-    {
-     "name": "OmniaKey",
-     "slug": "omniakey",
-     "rate": 0.328
     }
    ]
   }
  ],
- "updated": "2026-11-05"
+ "updated": "2026-11-06"
 }

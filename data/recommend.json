@@ -143,16 +143,6 @@
    }
   },
   {
-   "name": "Drag API",
-   "slug": "drag-api",
-   "rates": {
-    "claude": 1.15,
-    "openai": 0.12,
-    "gemini": 0.125,
-    "grok": 0.4
-   }
-  },
-  {
    "name": "球球Token",
    "slug": "qiuqiutoken-com",
    "rates": {
@@ -175,12 +165,75 @@
    }
   },
   {
+   "name": "小红马AIGS",
+   "slug": "aigs-cc",
+   "rates": {
+    "claude": 8.28,
+    "gemini": 3.6,
+    "grok": 8.28,
+    "openai": 1.66,
+    "deepseek": 0.585
+   }
+  },
+  {
+   "name": "璃梦API",
+   "slug": "api-hakanaiktn-com",
+   "rates": {
+    "claude": 1.15,
+    "openai": 0.128,
+    "gemini": 0.14,
+    "deepseek": 0.03
+   }
+  },
+  {
+   "name": "Bool",
+   "slug": "booltoken-com",
+   "rates": {
+    "openai": 0.2,
+    "claude": 0.15
+   }
+  },
+  {
    "name": "CCTQ",
    "slug": "cctq",
    "rates": {
     "claude": 1.0,
     "openai": 0.04,
     "deepseek": 0.7
+   }
+  },
+  {
+   "name": "Claude API",
+   "slug": "claude-api-org",
+   "rates": {
+    "openai": 0.03,
+    "claude": 0.069,
+    "gemini": 0.25
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "rates": {
+    "claude": 1.9,
+    "openai": 0.64,
+    "grok": 1.2
+   }
+  },
+  {
+   "name": "HohoAI",
+   "slug": "hohocode-ai",
+   "rates": {
+    "claude": 0.8,
+    "openai": 0.1
+   }
+  },
+  {
+   "name": "KuaiAPI",
+   "slug": "kuaiapi-net",
+   "rates": {
+    "openai": 0.06,
+    "claude": 1.2
    }
   },
   {
@@ -191,6 +244,57 @@
     "openai": 0.062,
     "deepseek": 0.488,
     "gemini": 0.507
+   }
+  },
+  {
+   "name": "gods",
+   "slug": "meisgold-top",
+   "rates": {
+    "openai": 0.06,
+    "claude": 0.08,
+    "gemini": 0.35
+   }
+  },
+  {
+   "name": "Mirgo",
+   "slug": "mirgo-top",
+   "rates": {
+    "claude": 0.406,
+    "gemini": 3.088,
+    "grok": 0.71,
+    "openai": 0.382,
+    "deepseek": 0.469
+   }
+  },
+  {
+   "name": "SU8 Codes",
+   "slug": "su8-codes",
+   "rates": {
+    "openai": 0.074,
+    "claude": 0.223,
+    "deepseek": 0.107
+   }
+  },
+  {
+   "name": "TokenSOS",
+   "slug": "tokensos-net",
+   "rates": {
+    "claude": 0.12,
+    "openai": 0.02,
+    "gemini": 0.25,
+    "grok": 0.04,
+    "deepseek": 0.06
+   }
+  },
+  {
+   "name": "x-llm",
+   "slug": "x-llm-net",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.08,
+    "grok": 0.5,
+    "gemini": 0.25,
+    "deepseek": 0.05
    }
   },
   {
@@ -205,121 +309,16 @@
    }
   },
   {
-   "name": "Z-API",
-   "slug": "api-zicc-cc",
+   "name": "XINGYI API",
+   "slug": "xingyi888-com",
    "rates": {
-    "claude": 0.08,
-    "openai": 0.1,
-    "gemini": 0.1
-   }
-  },
-  {
-   "name": "ToCodex",
-   "slug": "user-tocodex-com",
-   "rates": {
-    "claude": 1.0,
-    "gemini": 1.0,
-    "openai": 0.4
-   }
-  },
-  {
-   "name": "Codex2API",
-   "slug": "codex2api",
-   "rates": {
-    "claude": 0.133,
-    "openai": 0.065,
-    "grok": 0.3
-   }
-  },
-  {
-   "name": "Cavoti AI",
-   "slug": "cavoti-ai",
-   "rates": {
-    "claude": 0.045,
-    "openai": 0.041,
-    "grok": 0.102
-   }
-  },
-  {
-   "name": "PackyCode",
-   "slug": "packyapi-com",
-   "rates": {
-    "claude": 0.3,
-    "openai": 0.5,
+    "openai": 0.009,
+    "claude": 0.024,
     "grok": 0.1,
-    "deepseek": 0.25,
-    "gemini": 7.0
-   }
-  },
-  {
-   "name": "ByteCat",
-   "slug": "bytecatcode-org",
-   "rates": {
-    "claude": 0.1,
-    "openai": 0.1,
-    "gemini": 0.8,
-    "grok": 0.2
-   }
-  },
-  {
-   "name": "Die Ge",
-   "slug": "die-ge",
-   "rates": {
-    "claude": 0.25,
-    "openai": 0.03,
-    "gemini": 0.5,
-    "grok": 1.0
-   }
-  },
-  {
-   "name": "卡皮巴拉API",
-   "slug": "kapibala-asia",
-   "rates": {
-    "openai": 0.12,
-    "claude": 0.18,
-    "deepseek": 0.525,
-    "grok": 0.75
-   }
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "rates": {
-    "claude": 0.067,
-    "openai": 0.036,
-    "grok": 0.18
-   }
-  },
-  {
-   "name": "AI 搬运工",
-   "slug": "aimover-cc",
-   "rates": {
-    "claude": 0.053,
-    "openai": 0.068,
-    "grok": 0.05
-   }
-  },
-  {
-   "name": "LMU AI · 灵眸",
-   "slug": "api-lmuai-com",
-   "rates": {
-    "claude": 0.639,
-    "gemini": 1.262,
-    "openai": 0.404,
-    "grok": 0.807,
-    "deepseek": 0.388
-   }
-  },
-  {
-   "name": "聚星AI",
-   "slug": "juxingai-top",
-   "rates": {
-    "claude": 3.2,
-    "openai": 0.48,
-    "gemini": 1.1,
-    "deepseek": 0.5
+    "deepseek": 0.125,
+    "gemini": 0.175
    }
   }
  ],
- "updated": "2026-11-05"
+ "updated": "2026-11-06"
 }
