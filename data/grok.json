@@ -1,6 +1,6 @@
 {
  "vendor": "Grok",
- "site_count": 152,
+ "site_count": 154,
  "min_rate": 0.001,
  "median_rate": 0.5,
  "sites": [
@@ -105,6 +105,12 @@
    "slug": "yjs-im",
    "rate": 0.1,
    "model": "Grok 4.7"
+  },
+  {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "rate": 0.1,
+   "model": "Grok 4.5"
   },
   {
    "name": "PackyCode",
@@ -512,6 +518,12 @@
    "name": "Handsfreeclub API",
    "slug": "handsfreeclub-com",
    "rate": 0.6,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "TinyGate",
+   "slug": "tinygate-top",
+   "rate": 0.666,
    "model": "Grok 4.7"
   },
   {
@@ -1181,6 +1193,13 @@
      "rate": 0.15
     },
     {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 0.32,
+     "out": 0.96,
+     "rate": 0.16
+    },
+    {
      "name": "YeToken",
      "slug": "yetoken-vip",
      "in": 0.32,
@@ -1522,6 +1541,13 @@
      "in": 1.2,
      "out": 3.6,
      "rate": 0.6
+    },
+    {
+     "name": "TinyGate",
+     "slug": "tinygate-top",
+     "in": 1.332,
+     "out": 3.995,
+     "rate": 0.666
     },
     {
      "name": "GPTeam",
@@ -1998,7 +2024,7 @@
    "model_key": "grok-4.5",
    "price_slug": "grok-4-5",
    "label": "Grok 4.5",
-   "median_rate": 0.407,
+   "median_rate": 0.403,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -2045,6 +2071,13 @@
      "in": 0.16,
      "out": 0.48,
      "rate": 0.08
+    },
+    {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 0.2,
+     "out": 0.6,
+     "rate": 0.1
     },
     {
      "name": "PackyCode",
@@ -3014,6 +3047,16 @@
    }
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "tier": "B",
+   "price": {
+    "in": 0.32,
+    "out": 0.96,
+    "rate": 0.16
+   }
+  },
+  {
    "name": "Mirgo",
    "slug": "mirgo-top",
    "tier": "B",
@@ -3021,6 +3064,26 @@
     "in": 1.42,
     "out": 4.26,
     "rate": 0.71
+   }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 1.2,
+    "rate": 0.2
+   }
+  },
+  {
+   "name": "TinyGate",
+   "slug": "tinygate-top",
+   "tier": "B",
+   "price": {
+    "in": 1.33,
+    "out": 4.0,
+    "rate": 0.666
    }
   },
   {
@@ -3232,37 +3295,7 @@
     "out": 4.07,
     "rate": 0.679
    }
-  },
-  {
-   "name": "旺旺中转站",
-   "slug": "api-bbww-top",
-   "tier": "B",
-   "price": {
-    "in": 0.8,
-    "out": 2.4,
-    "rate": 0.4
-   }
-  },
-  {
-   "name": "xiaojing",
-   "slug": "open-xiaojingai-com",
-   "tier": "B",
-   "price": {
-    "in": 0.2,
-    "out": 0.6,
-    "rate": 0.1
-   }
-  },
-  {
-   "name": "柏API",
-   "slug": "byeapi-top",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 1.0,
-    "rate": 0.2
-   }
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }

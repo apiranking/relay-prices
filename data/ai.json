@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 361,
+ "site_count": 364,
  "rows": [
   {
    "name": "12API",
@@ -274,6 +274,17 @@
     "gemini": 0.175,
     "deepseek": 0.075,
     "grok": 0.2
+   }
+  },
+  {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "rates": {
+    "claude": 0.8,
+    "openai": 0.16,
+    "grok": 0.1,
+    "gemini": 0.8,
+    "deepseek": 0.45
    }
   },
   {
@@ -1961,6 +1972,15 @@
    }
   },
   {
+   "name": "TinyGate",
+   "slug": "tinygate-top",
+   "rates": {
+    "grok": 0.666,
+    "deepseek": 0.034,
+    "openai": 0.134
+   }
+  },
+  {
    "name": "ToCodex",
    "slug": "user-tocodex-com",
    "rates": {
@@ -2577,6 +2597,14 @@
    "rates": {
     "claude": 0.679,
     "openai": 0.339
+   }
+  },
+  {
+   "name": "PingCode",
+   "slug": "pingcode",
+   "rates": {
+    "claude": 1.05,
+    "openai": 0.56
    }
   },
   {
@@ -3470,5 +3498,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }

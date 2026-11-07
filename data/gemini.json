@@ -1,8 +1,8 @@
 {
  "vendor": "Gemini",
- "site_count": 195,
+ "site_count": 196,
  "min_rate": 0.037,
- "median_rate": 0.848,
+ "median_rate": 0.824,
  "sites": [
   {
    "name": "OpenLux",
@@ -583,6 +583,12 @@
   {
    "name": "Global AI",
    "slug": "globalai-vip",
+   "rate": 0.8,
+   "model": "Gemini 4 Argon"
+  },
+  {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
    "rate": 0.8,
    "model": "Gemini 4 Argon"
   },
@@ -1658,6 +1664,13 @@
     {
      "name": "Global AI",
      "slug": "globalai-vip",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.8
+    },
+    {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
      "in": 1.6,
      "out": 8.0,
      "rate": 0.8
@@ -3402,7 +3415,7 @@
    "model_key": "gemini-3.8-flash",
    "price_slug": "gemini-3-8-flash",
    "label": "Gemini 3.8 Flash",
-   "median_rate": 0.504,
+   "median_rate": 0.509,
    "own_page": true,
    "current": true,
    "official_in": 1.5,
@@ -3934,6 +3947,13 @@
      "rate": 1.018
     },
     {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 1.6,
+     "out": 6.4,
+     "rate": 1.067
+    },
+    {
      "name": "Qiny API",
      "slug": "chatnewai-com",
      "in": 1.6794,
@@ -4438,6 +4458,13 @@
     {
      "name": "Global AI",
      "slug": "globalai-vip",
+     "in": 1.2,
+     "out": 7.2,
+     "rate": 0.8
+    },
+    {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
      "in": 1.2,
      "out": 7.2,
      "rate": 0.8
@@ -5156,6 +5183,16 @@
    }
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "tier": "B",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.8
+   }
+  },
+  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "tier": "B",
@@ -5344,17 +5381,7 @@
     "out": 40.71,
     "rate": 4.071
    }
-  },
-  {
-   "name": "GPTeam",
-   "slug": "portal-gpteamservices-com",
-   "tier": "B",
-   "price": {
-    "in": 2.71,
-    "out": 13.57,
-    "rate": 1.357
-   }
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }

@@ -1,8 +1,8 @@
 {
  "vendor": "Claude Code",
- "site_count": 282,
+ "site_count": 284,
  "min_rate": 0.026,
- "median_rate": 0.673,
+ "median_rate": 0.679,
  "sites": [
   {
    "name": "XTokenMirror",
@@ -959,6 +959,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "rate": 0.8,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "comfly",
    "slug": "comfly-org",
    "rate": 0.8,
@@ -1130,6 +1136,12 @@
    "name": "星期天AI",
    "slug": "weekly-day-top",
    "rate": 1.018,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "PingCode",
+   "slug": "pingcode",
+   "rate": 1.05,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1702,7 +1714,7 @@
    "model_key": "claude-opus-5-5",
    "price_slug": "claude-opus-5-5",
    "label": "Claude Opus 5.5",
-   "median_rate": 0.75,
+   "median_rate": 0.792,
    "own_page": true,
    "current": true,
    "official_in": 4.0,
@@ -2745,6 +2757,13 @@
      "rate": 0.8
     },
     {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 3.2,
+     "out": 16.0,
+     "rate": 0.8
+    },
+    {
      "name": "OpenOx",
      "slug": "openox",
      "in": 3.2,
@@ -2981,6 +3000,13 @@
      "in": 4.0713,
      "out": 20.3564,
      "rate": 1.018
+    },
+    {
+     "name": "PingCode",
+     "slug": "pingcode",
+     "in": 4.2,
+     "out": 21.0,
+     "rate": 1.05
     },
     {
      "name": "OhMyGPT",
@@ -3695,7 +3721,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.74,
+   "median_rate": 0.782,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -4451,6 +4477,13 @@
      "rate": 0.8
     },
     {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.8
+    },
+    {
      "name": "comfly",
      "slug": "comfly-org",
      "in": 1.6,
@@ -4589,6 +4622,13 @@
      "in": 2.0356,
      "out": 10.1782,
      "rate": 1.018
+    },
+    {
+     "name": "PingCode",
+     "slug": "pingcode",
+     "in": 2.1,
+     "out": 10.5,
+     "rate": 1.05
     },
     {
      "name": "星辰",
@@ -5580,6 +5620,16 @@
    }
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "tier": "B",
+   "price": {
+    "in": 3.2,
+    "out": 16.0,
+    "rate": 0.8
+   }
+  },
+  {
    "name": "KuaiAPI",
    "slug": "kuaiapi-net",
    "tier": "B",
@@ -5617,6 +5667,26 @@
     "in": 6.26,
     "out": 31.31,
     "rate": 1.566
+   }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "PingCode",
+   "slug": "pingcode",
+   "tier": "B",
+   "price": {
+    "in": 4.2,
+    "out": 21.0,
+    "rate": 1.05
    }
   },
   {
@@ -5758,37 +5828,7 @@
     "out": 2.0,
     "rate": 0.1
    }
-  },
-  {
-   "name": "Die Ge",
-   "slug": "die-ge",
-   "tier": "B",
-   "price": {
-    "in": 1.0,
-    "out": 5.0,
-    "rate": 0.25
-   }
-  },
-  {
-   "name": "卡皮巴拉API",
-   "slug": "kapibala-asia",
-   "tier": "B",
-   "price": {
-    "in": 0.72,
-    "out": 3.6,
-    "rate": 0.18
-   }
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.1
-   }
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }

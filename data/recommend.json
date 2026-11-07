@@ -221,6 +221,17 @@
    }
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "rates": {
+    "claude": 0.8,
+    "openai": 0.16,
+    "grok": 0.1,
+    "gemini": 0.8,
+    "deepseek": 0.45
+   }
+  },
+  {
    "name": "HohoAI",
    "slug": "hohocode-ai",
    "rates": {
@@ -267,6 +278,24 @@
    }
   },
   {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "rates": {
+    "openai": 0.012,
+    "deepseek": 0.05,
+    "grok": 0.2,
+    "claude": 0.25
+   }
+  },
+  {
+   "name": "PingCode",
+   "slug": "pingcode",
+   "rates": {
+    "claude": 1.05,
+    "openai": 0.56
+   }
+  },
+  {
    "name": "SU8 Codes",
    "slug": "su8-codes",
    "rates": {
@@ -276,49 +305,14 @@
    }
   },
   {
-   "name": "TokenSOS",
-   "slug": "tokensos-net",
+   "name": "TinyGate",
+   "slug": "tinygate-top",
    "rates": {
-    "claude": 0.12,
-    "openai": 0.02,
-    "gemini": 0.25,
-    "grok": 0.04,
-    "deepseek": 0.06
-   }
-  },
-  {
-   "name": "x-llm",
-   "slug": "x-llm-net",
-   "rates": {
-    "claude": 0.2,
-    "openai": 0.08,
-    "grok": 0.5,
-    "gemini": 0.25,
-    "deepseek": 0.05
-   }
-  },
-  {
-   "name": "Xcode",
-   "slug": "xcode-best",
-   "rates": {
-    "claude": 1.133,
-    "openai": 0.12,
-    "gemini": 0.5,
-    "grok": 0.2,
-    "deepseek": 0.75
-   }
-  },
-  {
-   "name": "XINGYI API",
-   "slug": "xingyi888-com",
-   "rates": {
-    "openai": 0.009,
-    "claude": 0.024,
-    "grok": 0.1,
-    "deepseek": 0.125,
-    "gemini": 0.175
+    "grok": 0.666,
+    "deepseek": 0.034,
+    "openai": 0.134
    }
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }

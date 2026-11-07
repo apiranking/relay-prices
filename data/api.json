@@ -1,10 +1,10 @@
 {
- "site_count": 361,
+ "site_count": 364,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 310,
+   "count": 312,
    "rows": [
     {
      "name": "Prism API",
@@ -61,7 +61,7 @@
   {
    "key": "openai",
    "label": "GPT",
-   "count": 314,
+   "count": 317,
    "rows": [
     {
      "name": "Token云桥",
@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 198,
+   "count": 199,
    "rows": [
     {
      "name": "OpenLux",
@@ -175,7 +175,7 @@
   {
    "key": "grok",
    "label": "Grok",
-   "count": 152,
+   "count": 154,
    "rows": [
     {
      "name": "嘀嘀嘀 AI",
@@ -232,7 +232,7 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 136,
+   "count": 138,
    "rows": [
     {
      "name": "A6API",
@@ -270,6 +270,11 @@
      "rate": 0.03
     },
     {
+     "name": "TinyGate",
+     "slug": "tinygate-top",
+     "rate": 0.034
+    },
+    {
      "name": "corealgos",
      "slug": "corealgos",
      "rate": 0.037
@@ -278,14 +283,9 @@
      "name": "OpenLux",
      "slug": "openlux-ai",
      "rate": 0.044
-    },
-    {
-     "name": "GINKA API",
-     "slug": "ginka-cloud",
-     "rate": 0.05
     }
    ]
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }

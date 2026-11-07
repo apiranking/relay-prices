@@ -1,6 +1,6 @@
 {
  "vendor": "Codex",
- "site_count": 235,
+ "site_count": 237,
  "min_rate": 0.007,
  "median_rate": 0.3,
  "sites": [
@@ -485,6 +485,12 @@
    "model": "GPT-6 Astra"
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "rate": 0.16,
+   "model": "GPT-6 Astra"
+  },
+  {
    "name": "Ruoli API",
    "slug": "ruoli-dev",
    "rate": 0.16,
@@ -962,6 +968,12 @@
    "name": "浮生云算",
    "slug": "fushengyunsuan-cn",
    "rate": 0.679,
+   "model": "GPT-6 Astra"
+  },
+  {
+   "name": "PingCode",
+   "slug": "pingcode",
+   "rate": 0.7,
    "model": "GPT-6 Astra"
   },
   {
@@ -1959,6 +1971,13 @@
      "rate": 0.15
     },
     {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.16
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
      "in": 1.6,
@@ -2531,6 +2550,13 @@
      "in": 6.7855,
      "out": 33.9274,
      "rate": 0.679
+    },
+    {
+     "name": "PingCode",
+     "slug": "pingcode",
+     "in": 7.0,
+     "out": 35.0,
+     "rate": 0.7
     },
     {
      "name": "Uiuihao API",
@@ -3553,6 +3579,13 @@
      "rate": 0.15
     },
     {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 0.32,
+     "out": 1.6,
+     "rate": 0.16
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
      "in": 0.32,
@@ -4090,6 +4123,13 @@
      "in": 1.3571,
      "out": 6.7855,
      "rate": 0.679
+    },
+    {
+     "name": "PingCode",
+     "slug": "pingcode",
+     "in": 1.4,
+     "out": 7.0,
+     "rate": 0.7
     },
     {
      "name": "Uiuihao API",
@@ -4992,6 +5032,16 @@
    }
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "tier": "B",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.16
+   }
+  },
+  {
    "name": "HohoAI",
    "slug": "hohocode-ai",
    "tier": "B",
@@ -5029,6 +5079,26 @@
     "in": 3.82,
     "out": 19.12,
     "rate": 0.382
+   }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.06
+   }
+  },
+  {
+   "name": "PingCode",
+   "slug": "pingcode",
+   "tier": "B",
+   "price": {
+    "in": 7.0,
+    "out": 35.0,
+    "rate": 0.7
    }
   },
   {
@@ -5150,47 +5220,7 @@
     "out": 25.0,
     "rate": 0.5
    }
-  },
-  {
-   "name": "ByteCat",
-   "slug": "bytecatcode-org",
-   "tier": "B",
-   "price": {
-    "in": 2.0,
-    "out": 10.0,
-    "rate": 0.2
-   }
-  },
-  {
-   "name": "Die Ge",
-   "slug": "die-ge",
-   "tier": "B",
-   "price": {
-    "in": 0.9,
-    "out": 4.5,
-    "rate": 0.09
-   }
-  },
-  {
-   "name": "卡皮巴拉API",
-   "slug": "kapibala-asia",
-   "tier": "B",
-   "price": {
-    "in": 3.0,
-    "out": 15.0,
-    "rate": 0.3
-   }
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "tier": "B",
-   "price": {
-    "in": 1.8,
-    "out": 9.0,
-    "rate": 0.18
-   }
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }

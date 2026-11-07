@@ -1,6 +1,6 @@
 {
  "vendor": "DeepSeek",
- "site_count": 136,
+ "site_count": 138,
  "min_rate": 0.006,
  "median_rate": 0.384,
  "sites": [
@@ -44,6 +44,12 @@
    "name": "璃梦API",
    "slug": "api-hakanaiktn-com",
    "rate": 0.03,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "TinyGate",
+   "slug": "tinygate-top",
+   "rate": 0.034,
    "model": "DeepSeek V4.1 Flash"
   },
   {
@@ -446,6 +452,12 @@
    "name": "OpenModel",
    "slug": "openmodel-ai",
    "rate": 0.407,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "rate": 0.45,
    "model": "DeepSeek V4.1 Flash"
   },
   {
@@ -866,6 +878,13 @@
      "in": 0.064,
      "out": 0.256,
      "rate": 0.032
+    },
+    {
+     "name": "TinyGate",
+     "slug": "tinygate-top",
+     "in": 0.067,
+     "out": 0.399,
+     "rate": 0.034
     },
     {
      "name": "corealgos",
@@ -1344,6 +1363,13 @@
      "rate": 0.407
     },
     {
+     "name": "LantAPI",
+     "slug": "gerlantapi",
+     "in": 0.9,
+     "out": 3.6,
+     "rate": 0.45
+    },
+    {
      "name": "Mirgo",
      "slug": "mirgo-top",
      "in": 0.9372,
@@ -1776,7 +1802,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.492,
+   "median_rate": 0.488,
    "own_page": true,
    "current": false,
    "official_in": 9.0,
@@ -1830,6 +1856,13 @@
      "in": 0.396,
      "out": 1.188,
      "rate": 0.044
+    },
+    {
+     "name": "TinyGate",
+     "slug": "tinygate-top",
+     "in": 0.439,
+     "out": 1.318,
+     "rate": 0.049
     },
     {
      "name": "GINKA API",
@@ -2794,6 +2827,16 @@
    }
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "tier": "B",
+   "price": {
+    "in": 0.9,
+    "out": 3.6,
+    "rate": 0.45
+   }
+  },
+  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "tier": "B",
@@ -2814,6 +2857,16 @@
    }
   },
   {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 0.1,
+    "out": 0.4,
+    "rate": 0.05
+   }
+  },
+  {
    "name": "SU8 Codes",
    "slug": "su8-codes",
    "tier": "B",
@@ -2821,6 +2874,16 @@
     "in": 0.21,
     "out": 0.86,
     "rate": 0.107
+   }
+  },
+  {
+   "name": "TinyGate",
+   "slug": "tinygate-top",
+   "tier": "B",
+   "price": {
+    "in": 0.07,
+    "out": 0.4,
+    "rate": 0.034
    }
   },
   {
@@ -3004,45 +3067,15 @@
    }
   },
   {
-   "name": "AIsa",
-   "slug": "aisa-one",
+   "name": "SudoCode",
+   "slug": "sudocode-chat",
    "tier": "B",
    "price": {
-    "in": 0.68,
-    "out": 3.39,
-    "rate": 0.339
-   }
-  },
-  {
-   "name": "DMXAPI Global",
-   "slug": "dmxapi-com",
-   "tier": "B",
-   "price": {
-    "in": 1.36,
-    "out": 2.71,
-    "rate": 0.679
-   }
-  },
-  {
-   "name": "MoleAPI",
-   "slug": "moleapi-com",
-   "tier": "B",
-   "price": {
-    "in": 0.61,
-    "out": 2.44,
-    "rate": 0.305
-   }
-  },
-  {
-   "name": "神稳AI",
-   "slug": "shenwenai-com",
-   "tier": "B",
-   "price": {
-    "in": 1.22,
-    "out": 4.9,
-    "rate": 0.612
+    "in": 3.0,
+    "out": 9.0,
+    "rate": 1.5
    }
   }
  ],
- "updated": "2026-11-06"
+ "updated": "2026-11-07"
 }
