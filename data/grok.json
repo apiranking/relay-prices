@@ -1,6 +1,6 @@
 {
  "vendor": "Grok",
- "site_count": 154,
+ "site_count": 170,
  "min_rate": 0.001,
  "median_rate": 0.5,
  "sites": [
@@ -44,6 +44,18 @@
    "name": "SixthSense LLM",
    "slug": "sixthsense-llm-com",
    "rate": 0.027,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "AI Gateway",
+   "slug": "gateai-cc",
+   "rate": 0.03,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "100 Hub",
+   "slug": "aiboys-xyz",
+   "rate": 0.04,
    "model": "Grok 4.7"
   },
   {
@@ -299,6 +311,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "星链 AI",
+   "slug": "aixlau-me",
+   "rate": 0.2,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "柏API",
    "slug": "byeapi-top",
    "rate": 0.2,
@@ -326,6 +344,12 @@
    "name": "ApiPorter",
    "slug": "apiporter-cn",
    "rate": 0.22,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "API VibeCoding",
+   "slug": "apiclaude-cc",
+   "rate": 0.25,
    "model": "Grok 4.7"
   },
   {
@@ -437,6 +461,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "SoleAPI",
+   "slug": "soleapi-com",
+   "rate": 0.4,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "UU API",
    "slug": "uuapi-net",
    "rate": 0.4,
@@ -521,6 +551,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "TokOne",
+   "slug": "tokone-ai",
+   "rate": 0.6,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "TinyGate",
    "slug": "tinygate-top",
    "rate": 0.666,
@@ -535,6 +571,12 @@
   {
    "name": "TimiCC",
    "slug": "timicc-com",
+   "rate": 0.679,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "鱼鱼连线",
+   "slug": "yylx-io",
    "rate": 0.679,
    "model": "Grok 4.7"
   },
@@ -653,6 +695,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "For API",
+   "slug": "foropencode-com",
+   "rate": 1.018,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "HaoAI",
    "slug": "hao-ai",
    "rate": 1.018,
@@ -667,6 +715,18 @@
   {
    "name": "Moyuu",
    "slug": "moyuu-cc",
+   "rate": 1.018,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "aicost API",
+   "slug": "aicost-me",
+   "rate": 1.018,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "刀刀刀",
+   "slug": "codexapis-com",
    "rate": 1.018,
    "model": "Grok 4.7"
   },
@@ -757,6 +817,12 @@
   {
    "name": "2Y API",
    "slug": "yyapis-com",
+   "rate": 1.696,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "乾行AI",
+   "slug": "qianxing-pro",
    "rate": 1.696,
    "model": "Grok 4.7"
   },
@@ -869,9 +935,27 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "HeyRoute",
+   "slug": "heyroute-ai",
+   "rate": 6.785,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "OfoxAI",
    "slug": "ofox-io",
    "rate": 6.785,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "27API",
+   "slug": "27api-com",
+   "rate": 7.5,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "Rainbow Gate AI",
+   "slug": "rainbowgate-top",
+   "rate": 8.143,
    "model": "Grok 4.7"
   },
   {
@@ -901,6 +985,18 @@
   {
    "name": "V-API",
    "slug": "vveai-com",
+   "rate": 13.571,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "睿库API",
+   "slug": "rkapi-com",
+   "rate": 13.571,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "知界API",
+   "slug": "zjapi-com",
    "rate": 13.571,
    "model": "Grok 4.7"
   },
@@ -988,6 +1084,20 @@
      "in": 0.0548,
      "out": 0.1644,
      "rate": 0.027
+    },
+    {
+     "name": "AI Gateway",
+     "slug": "gateai-cc",
+     "in": 0.06,
+     "out": 0.18,
+     "rate": 0.03
+    },
+    {
+     "name": "100 Hub",
+     "slug": "aiboys-xyz",
+     "in": 0.08,
+     "out": 0.24,
+     "rate": 0.04
     },
     {
      "name": "TokenSOS",
@@ -1284,6 +1394,13 @@
      "rate": 0.2
     },
     {
+     "name": "星链 AI",
+     "slug": "aixlau-me",
+     "in": 0.4,
+     "out": 1.2,
+     "rate": 0.2
+    },
+    {
      "name": "柏API",
      "slug": "byeapi-top",
      "in": 0.4,
@@ -1317,6 +1434,13 @@
      "in": 0.44,
      "out": 1.32,
      "rate": 0.22
+    },
+    {
+     "name": "API VibeCoding",
+     "slug": "apiclaude-cc",
+     "in": 0.5,
+     "out": 1.5,
+     "rate": 0.25
     },
     {
      "name": "Bot Compute Fabric",
@@ -1445,6 +1569,13 @@
      "rate": 0.4
     },
     {
+     "name": "SoleAPI",
+     "slug": "soleapi-com",
+     "in": 0.8,
+     "out": 2.4,
+     "rate": 0.4
+    },
+    {
      "name": "UU API",
      "slug": "uuapi-net",
      "in": 0.8,
@@ -1543,6 +1674,13 @@
      "rate": 0.6
     },
     {
+     "name": "TokOne",
+     "slug": "tokone-ai",
+     "in": 1.2,
+     "out": 3.6,
+     "rate": 0.6
+    },
+    {
      "name": "TinyGate",
      "slug": "tinygate-top",
      "in": 1.332,
@@ -1559,6 +1697,13 @@
     {
      "name": "TimiCC",
      "slug": "timicc-com",
+     "in": 1.3571,
+     "out": 4.0713,
+     "rate": 0.679
+    },
+    {
+     "name": "鱼鱼连线",
+     "slug": "yylx-io",
      "in": 1.3571,
      "out": 4.0713,
      "rate": 0.679
@@ -1697,6 +1842,13 @@
      "rate": 1.0
     },
     {
+     "name": "For API",
+     "slug": "foropencode-com",
+     "in": 2.0356,
+     "out": 6.1069,
+     "rate": 1.018
+    },
+    {
      "name": "HaoAI",
      "slug": "hao-ai",
      "in": 2.0356,
@@ -1713,6 +1865,20 @@
     {
      "name": "Moyuu",
      "slug": "moyuu-cc",
+     "in": 2.0356,
+     "out": 6.1069,
+     "rate": 1.018
+    },
+    {
+     "name": "aicost API",
+     "slug": "aicost-me",
+     "in": 2.0356,
+     "out": 6.1069,
+     "rate": 1.018
+    },
+    {
+     "name": "刀刀刀",
+     "slug": "codexapis-com",
      "in": 2.0356,
      "out": 6.1069,
      "rate": 1.018
@@ -1818,6 +1984,13 @@
     {
      "name": "2Y API",
      "slug": "yyapis-com",
+     "in": 3.3927,
+     "out": 10.1782,
+     "rate": 1.696
+    },
+    {
+     "name": "乾行AI",
+     "slug": "qianxing-pro",
      "in": 3.3927,
      "out": 10.1782,
      "rate": 1.696
@@ -1949,11 +2122,32 @@
      "rate": 6.785
     },
     {
+     "name": "HeyRoute",
+     "slug": "heyroute-ai",
+     "in": 13.571,
+     "out": 40.7129,
+     "rate": 6.785
+    },
+    {
      "name": "OfoxAI",
      "slug": "ofox-io",
      "in": 13.571,
      "out": 40.7129,
      "rate": 6.785
+    },
+    {
+     "name": "27API",
+     "slug": "27api-com",
+     "in": 15.0,
+     "out": 90.0,
+     "rate": 7.5
+    },
+    {
+     "name": "Rainbow Gate AI",
+     "slug": "rainbowgate-top",
+     "in": 16.2852,
+     "out": 48.8555,
+     "rate": 8.143
     },
     {
      "name": "元衡 API",
@@ -1986,6 +2180,20 @@
     {
      "name": "V-API",
      "slug": "vveai-com",
+     "in": 27.1419,
+     "out": 81.4258,
+     "rate": 13.571
+    },
+    {
+     "name": "睿库API",
+     "slug": "rkapi-com",
+     "in": 27.1419,
+     "out": 81.4258,
+     "rate": 13.571
+    },
+    {
+     "name": "知界API",
+     "slug": "zjapi-com",
      "in": 27.1419,
      "out": 81.4258,
      "rate": 13.571
@@ -3297,5 +3505,5 @@
    }
   }
  ],
- "updated": "2026-11-07"
+ "updated": "2026-11-08"
 }

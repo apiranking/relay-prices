@@ -1,10 +1,10 @@
 {
- "site_count": 364,
+ "site_count": 432,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 312,
+   "count": 368,
    "rows": [
     {
      "name": "Prism API",
@@ -20,6 +20,11 @@
      "name": "XTokenMirror",
      "slug": "xtokenmirror-cn",
      "rate": 0.026
+    },
+    {
+     "name": "Kun-Api",
+     "slug": "kunkun666-com",
+     "rate": 0.03
     },
     {
      "name": "YeToken",
@@ -47,13 +52,8 @@
      "rate": 0.048
     },
     {
-     "name": "ergouzi",
-     "slug": "ergouzi",
-     "rate": 0.05
-    },
-    {
-     "name": "空悲切API",
-     "slug": "xn--vduyey89e-com",
+     "name": "TK API",
+     "slug": "tkapi-cc-cd",
      "rate": 0.05
     }
    ]
@@ -61,7 +61,7 @@
   {
    "key": "openai",
    "label": "GPT",
-   "count": 317,
+   "count": 382,
    "rows": [
     {
      "name": "Token云桥",
@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 199,
+   "count": 238,
    "rows": [
     {
      "name": "OpenLux",
@@ -146,6 +146,11 @@
      "rate": 0.055
     },
     {
+     "name": "100 Hub",
+     "slug": "aiboys-xyz",
+     "rate": 0.075
+    },
+    {
      "name": "Kedaya AI 中转站",
      "slug": "kedaya-ai",
      "rate": 0.075
@@ -164,18 +169,13 @@
      "name": "luciferai",
      "slug": "luciferai-cc",
      "rate": 0.095
-    },
-    {
-     "name": "MM API",
-     "slug": "slomerex-xyz",
-     "rate": 0.1
     }
    ]
   },
   {
    "key": "grok",
    "label": "Grok",
-   "count": 154,
+   "count": 170,
    "rows": [
     {
      "name": "嘀嘀嘀 AI",
@@ -213,27 +213,32 @@
      "rate": 0.027
     },
     {
-     "name": "TokenSOS",
-     "slug": "tokensos-net",
+     "name": "AI Gateway",
+     "slug": "gateai-cc",
+     "rate": 0.03
+    },
+    {
+     "name": "100 Hub",
+     "slug": "aiboys-xyz",
      "rate": 0.04
     },
     {
-     "name": "AI 搬运工",
-     "slug": "aimover-cc",
-     "rate": 0.05
-    },
-    {
-     "name": "Factory.pub",
-     "slug": "factory-pub",
-     "rate": 0.05
+     "name": "TokenSOS",
+     "slug": "tokensos-net",
+     "rate": 0.04
     }
    ]
   },
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 138,
+   "count": 152,
    "rows": [
+    {
+     "name": "高效中转站",
+     "slug": "sub2-de5-net",
+     "rate": 0.001
+    },
     {
      "name": "A6API",
      "slug": "a6api",
@@ -278,14 +283,9 @@
      "name": "corealgos",
      "slug": "corealgos",
      "rate": 0.037
-    },
-    {
-     "name": "OpenLux",
-     "slug": "openlux-ai",
-     "rate": 0.044
     }
    ]
   }
  ],
- "updated": "2026-11-07"
+ "updated": "2026-11-08"
 }

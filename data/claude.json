@@ -1,8 +1,8 @@
 {
  "vendor": "Claude",
- "site_count": 309,
+ "site_count": 365,
  "min_rate": 0.014,
- "median_rate": 0.6,
+ "median_rate": 0.55,
  "sites": [
   {
    "name": "Prism API",
@@ -20,6 +20,12 @@
    "name": "XTokenMirror",
    "slug": "xtokenmirror-cn",
    "rate": 0.026,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Kun-Api",
+   "slug": "kunkun666-com",
+   "rate": 0.03,
    "model": "Claude Opus 5.5"
   },
   {
@@ -53,8 +59,26 @@
    "model": "Claude Haiku 5.5"
   },
   {
+   "name": "TK API",
+   "slug": "tkapi-cc-cd",
+   "rate": 0.05,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "ergouzi",
    "slug": "ergouzi",
+   "rate": 0.05,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "xixiapi",
+   "slug": "xixiapi-cc",
+   "rate": 0.05,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "土豆",
+   "slug": "2dou-net",
    "rate": 0.05,
    "model": "Claude Opus 5.5"
   },
@@ -63,6 +87,12 @@
    "slug": "xn--vduyey89e-com",
    "rate": 0.05,
    "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "高效中转站",
+   "slug": "sub2-de5-net",
+   "rate": 0.05,
+   "model": "Claude Haiku 5.5"
   },
   {
    "name": "AI 搬运工",
@@ -83,9 +113,27 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "RelayCore",
+   "slug": "relaycore-cn",
+   "rate": 0.06,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "apikl.ai",
    "slug": "apikl-ai",
    "rate": 0.06,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "cicadas",
+   "slug": "cicadas-top",
+   "rate": 0.06,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "CrazyToken",
+   "slug": "aiyoyoo-com",
+   "rate": 0.062,
    "model": "Claude Opus 5.5"
   },
   {
@@ -155,6 +203,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "API VibeCoding",
+   "slug": "apiclaude-cc",
+   "rate": 0.083,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "OpenLux",
    "slug": "openlux-ai",
    "rate": 0.088,
@@ -185,6 +239,12 @@
    "model": "Claude Sonnet 4.6"
   },
   {
+   "name": "BANK OF TOKEN",
+   "slug": "boft-ai",
+   "rate": 0.1,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "ByteCat",
    "slug": "bytecatcode-org",
    "rate": 0.1,
@@ -199,6 +259,12 @@
   {
    "name": "GGUU AI",
    "slug": "gguuai-com",
+   "rate": 0.1,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "OpenToken",
+   "slug": "otokapi-com",
    "rate": 0.1,
    "model": "Claude Opus 5.5"
   },
@@ -245,8 +311,20 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "MorphAPI",
+   "slug": "aidjapi-top",
+   "rate": 0.12,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Ruoli API",
    "slug": "ruoli-dev",
+   "rate": 0.12,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Taomu",
+   "slug": "taomu-xyz",
    "rate": 0.12,
    "model": "Claude Opus 5.5"
   },
@@ -293,6 +371,12 @@
    "model": "Claude Sonnet 4.6"
   },
   {
+   "name": "100 Hub",
+   "slug": "aiboys-xyz",
+   "rate": 0.15,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Bool",
    "slug": "booltoken-com",
    "rate": 0.15,
@@ -317,6 +401,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "island AI Coding",
+   "slug": "codex789-com",
+   "rate": 0.15,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "云影 API",
    "slug": "yyapi-cloud",
    "rate": 0.15,
@@ -337,6 +427,18 @@
   {
    "name": "LaneAI",
    "slug": "rjk66-cn",
+   "rate": 0.16,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "xfastapi",
+   "slug": "xfastapi-ai",
+   "rate": 0.16,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "阶跃星球AI",
+   "slug": "chenhijsdjklasdjkapsojdoa-asia",
    "rate": 0.16,
    "model": "Claude Opus 5.5"
   },
@@ -371,15 +473,33 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "吉吉 API",
+   "slug": "jiji-cc",
+   "rate": 0.18,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "夯炸了",
    "slug": "hangzhale-com",
    "rate": 0.18,
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "AI Prime Tech",
+   "slug": "aiprimetech-io",
+   "rate": 0.195,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "YunServer API",
    "slug": "api-yunserver-cn",
    "rate": 0.196,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "AIFXO",
+   "slug": "aifxo-com",
+   "rate": 0.2,
    "model": "Claude Opus 5.5"
   },
   {
@@ -397,6 +517,12 @@
   {
    "name": "Code-Plan（内部站点）",
    "slug": "o-ai-me",
+   "rate": 0.2,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Giao",
+   "slug": "giaolink-com",
    "rate": 0.2,
    "model": "Claude Opus 5.5"
   },
@@ -429,6 +555,12 @@
    "slug": "api-clawopen-top",
    "rate": 0.2,
    "model": "Claude Sonnet 4.6"
+  },
+  {
+   "name": "Yunbay",
+   "slug": "yunbay-xyz",
+   "rate": 0.2,
+   "model": "Claude Opus 5.5"
   },
   {
    "name": "ZeroCode",
@@ -515,8 +647,20 @@
    "model": "Claude Sonnet 4.6"
   },
   {
+   "name": "MagicAI",
+   "slug": "sky1818-com",
+   "rate": 0.25,
+   "model": "Claude Fable 5.1"
+  },
+  {
    "name": "NikoAPI",
    "slug": "nikoapi-xyz",
+   "rate": 0.25,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Zeus-API",
+   "slug": "zeusnorun-com",
    "rate": 0.25,
    "model": "Claude Opus 5.5"
   },
@@ -557,6 +701,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "AI神鸡",
+   "slug": "aishenji-top",
+   "rate": 0.3,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "ByteClaude",
    "slug": "claude-bestswifter-com",
    "rate": 0.3,
@@ -593,6 +743,12 @@
    "model": "Claude Sonnet 4.6"
   },
   {
+   "name": "RayinAPI",
+   "slug": "rayinai-com",
+   "rate": 0.3,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Token云桥",
    "slug": "0029-org",
    "rate": 0.3,
@@ -607,6 +763,12 @@
   {
    "name": "boxying",
    "slug": "boxying",
+   "rate": 0.3,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "wakaka",
+   "slug": "wkkapi-com",
    "rate": 0.3,
    "model": "Claude Opus 5.5"
   },
@@ -743,6 +905,12 @@
    "model": "Claude Sonnet 5.5"
   },
   {
+   "name": "哟词元",
+   "slug": "yostoken-top",
+   "rate": 0.4,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "换API",
    "slug": "huanapi-com",
    "rate": 0.4,
@@ -770,6 +938,12 @@
    "name": "lucen",
    "slug": "lucen-cc",
    "rate": 0.407,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "星链 AI",
+   "slug": "aixlau-me",
+   "rate": 0.42,
    "model": "Claude Opus 5.5"
   },
   {
@@ -875,6 +1049,24 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "NaMax",
+   "slug": "namax-ai",
+   "rate": 0.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "SoleAPI",
+   "slug": "soleapi-com",
+   "rate": 0.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "云渡",
+   "slug": "yundu-lol",
+   "rate": 0.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "rate": 0.5,
@@ -911,6 +1103,18 @@
    "model": "Claude Sonnet 4.6"
   },
   {
+   "name": "To-Tokens",
+   "slug": "totokens-cc",
+   "rate": 0.55,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "AI Gateway",
+   "slug": "gateai-cc",
+   "rate": 0.6,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Bailili API",
    "slug": "bailili-api",
    "rate": 0.6,
@@ -939,6 +1143,12 @@
    "slug": "api-lmuai-com",
    "rate": 0.639,
    "model": "Claude Haiku 5.5"
+  },
+  {
+   "name": "SSSAiCode",
+   "slug": "sssaicodeapi-com",
+   "rate": 0.64,
+   "model": "Claude Fable 5.1"
   },
   {
    "name": "4Sapi",
@@ -1013,9 +1223,21 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "TokOne",
+   "slug": "tokone-ai",
+   "rate": 0.7,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "球球Token",
    "slug": "qiuqiutoken-com",
    "rate": 0.7,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "aicost API",
+   "slug": "aicost-me",
+   "rate": 0.746,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1097,6 +1319,12 @@
    "model": "Claude Sonnet 4.6"
   },
   {
+   "name": "智元API",
+   "slug": "chaozhiyuanai-com",
+   "rate": 0.8,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "2Y API",
    "slug": "yyapis-com",
    "rate": 0.814,
@@ -1157,6 +1385,18 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "XINX",
+   "slug": "xinx-best",
+   "rate": 0.9,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "aixj",
+   "slug": "aixj-vip",
+   "rate": 0.9,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "AI8",
    "slug": "ai8-my",
    "rate": 1.0,
@@ -1177,6 +1417,12 @@
   {
    "name": "ClaudeCN",
    "slug": "claudecn-top",
+   "rate": 1.0,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Grox",
+   "slug": "mcgrox-top",
    "rate": 1.0,
    "model": "Claude Opus 5.5"
   },
@@ -1257,6 +1503,12 @@
    "slug": "chaofanshou-com",
    "rate": 1.0,
    "model": "Claude Sonnet 4.6"
+  },
+  {
+   "name": "聪明AI",
+   "slug": "congmingai-com",
+   "rate": 1.0,
+   "model": "Claude Opus 5.5"
   },
   {
    "name": "Cooper-API",
@@ -1379,6 +1631,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "鱼鱼连线",
+   "slug": "yylx-io",
+   "rate": 1.357,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "ApiPorter",
    "slug": "apiporter-cn",
    "rate": 1.4,
@@ -1403,6 +1661,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "FastAI",
+   "slug": "fastaitoken-com",
+   "rate": 1.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Nova AI",
    "slug": "novai-su",
    "rate": 1.5,
@@ -1417,6 +1681,18 @@
   {
    "name": "RPG8",
    "slug": "api-rpg8-cn",
+   "rate": 1.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "USA-零",
+   "slug": "usa0-top",
+   "rate": 1.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "momoAPICodex",
+   "slug": "momoai-asia",
    "rate": 1.5,
    "model": "Claude Opus 5.5"
   },
@@ -1460,6 +1736,12 @@
    "name": "ZhongY API",
    "slug": "zyyun-xyz",
    "rate": 1.6,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "ccgo",
+   "slug": "ccgoai-club",
+   "rate": 1.65,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1547,6 +1829,12 @@
    "model": "Claude Fable 5.1"
   },
   {
+   "name": "乾行AI",
+   "slug": "qianxing-pro",
+   "rate": 2.714,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Lanln",
    "slug": "venlacy-com",
    "rate": 2.8,
@@ -1619,9 +1907,21 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "HZLinkAPI",
+   "slug": "hzlinkapi-com",
+   "rate": 3.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "QweApi",
    "slug": "qweapi",
    "rate": 3.6,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Portdan AI",
+   "slug": "portdan-com",
+   "rate": 3.65,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1633,6 +1933,12 @@
   {
    "name": "cc.honoursoft.cn",
    "slug": "cc-honoursoft-cn",
+   "rate": 4.411,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "刀刀刀",
+   "slug": "codexapis-com",
    "rate": 4.411,
    "model": "Claude Opus 5.5"
   },
@@ -1682,6 +1988,12 @@
    "name": "ClaudeFoy",
    "slug": "claudefoy-com",
    "rate": 6.107,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "For API",
+   "slug": "foropencode-com",
+   "rate": 6.446,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1737,6 +2049,12 @@
    "slug": "mwapi-dev",
    "rate": 7.0,
    "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "Api.Airforce",
+   "slug": "api-airforce",
+   "rate": 7.464,
+   "model": "Claude Haiku 5.5"
   },
   {
    "name": "Clodex",
@@ -1799,10 +2117,22 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "NassaAPI",
+   "slug": "nassaapi-xyz",
+   "rate": 9.16,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "蓝天",
    "slug": "wasdxx-xyz",
    "rate": 10.0,
    "model": "Claude Sonnet 4.6"
+  },
+  {
+   "name": "HeyRoute",
+   "slug": "heyroute-ai",
+   "rate": 10.178,
+   "model": "Claude Opus 5.5"
   },
   {
    "name": "ZEN-AI",
@@ -1847,6 +2177,12 @@
    "model": "Claude Sonnet 4.6"
   },
   {
+   "name": "Rainbow Gate AI",
+   "slug": "rainbowgate-top",
+   "rate": 50.891,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "SillyDream",
    "slug": "sillydream-top",
    "rate": 162.852,
@@ -1864,7 +2200,7 @@
    "model_key": "claude-opus-5-5",
    "price_slug": "claude-opus-5-5",
    "label": "Claude Opus 5.5",
-   "median_rate": 0.792,
+   "median_rate": 0.7,
    "own_page": true,
    "current": true,
    "official_in": 4.0,
@@ -1878,6 +2214,13 @@
      "rate": 0.026
     },
     {
+     "name": "Kun-Api",
+     "slug": "kunkun666-com",
+     "in": 0.12,
+     "out": 0.6,
+     "rate": 0.03
+    },
+    {
      "name": "YeToken",
      "slug": "yetoken-vip",
      "in": 0.16,
@@ -1885,8 +2228,29 @@
      "rate": 0.04
     },
     {
+     "name": "TK API",
+     "slug": "tkapi-cc-cd",
+     "in": 0.2,
+     "out": 1.0,
+     "rate": 0.05
+    },
+    {
      "name": "ergouzi",
      "slug": "ergouzi",
+     "in": 0.2,
+     "out": 1.0,
+     "rate": 0.05
+    },
+    {
+     "name": "xixiapi",
+     "slug": "xixiapi-cc",
+     "in": 0.2,
+     "out": 1.0,
+     "rate": 0.05
+    },
+    {
+     "name": "土豆",
+     "slug": "2dou-net",
      "in": 0.2,
      "out": 1.0,
      "rate": 0.05
@@ -1906,11 +2270,32 @@
      "rate": 0.06
     },
     {
+     "name": "RelayCore",
+     "slug": "relaycore-cn",
+     "in": 0.24,
+     "out": 1.2,
+     "rate": 0.06
+    },
+    {
      "name": "apikl.ai",
      "slug": "apikl-ai",
      "in": 0.24,
      "out": 1.2,
      "rate": 0.06
+    },
+    {
+     "name": "cicadas",
+     "slug": "cicadas-top",
+     "in": 0.24,
+     "out": 1.2,
+     "rate": 0.06
+    },
+    {
+     "name": "CrazyToken",
+     "slug": "aiyoyoo-com",
+     "in": 0.25,
+     "out": 1.25,
+     "rate": 0.062
     },
     {
      "name": "A6API",
@@ -1983,6 +2368,13 @@
      "rate": 0.08
     },
     {
+     "name": "API VibeCoding",
+     "slug": "apiclaude-cc",
+     "in": 0.3333,
+     "out": 1.6667,
+     "rate": 0.083
+    },
+    {
      "name": "OpenLux",
      "slug": "openlux-ai",
      "in": 0.353,
@@ -2004,6 +2396,13 @@
      "rate": 0.1
     },
     {
+     "name": "BANK OF TOKEN",
+     "slug": "boft-ai",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.1
+    },
+    {
      "name": "ByteCat",
      "slug": "bytecatcode-org",
      "in": 0.4,
@@ -2013,6 +2412,13 @@
     {
      "name": "GGUU AI",
      "slug": "gguuai-com",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.1
+    },
+    {
+     "name": "OpenToken",
+     "slug": "otokapi-com",
      "in": 0.4,
      "out": 2.0,
      "rate": 0.1
@@ -2074,8 +2480,22 @@
      "rate": 0.12
     },
     {
+     "name": "MorphAPI",
+     "slug": "aidjapi-top",
+     "in": 0.48,
+     "out": 2.4,
+     "rate": 0.12
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
+     "in": 0.48,
+     "out": 2.4,
+     "rate": 0.12
+    },
+    {
+     "name": "Taomu",
+     "slug": "taomu-xyz",
      "in": 0.48,
      "out": 2.4,
      "rate": 0.12
@@ -2130,6 +2550,13 @@
      "rate": 0.137
     },
     {
+     "name": "100 Hub",
+     "slug": "aiboys-xyz",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.15
+    },
+    {
      "name": "Bool",
      "slug": "booltoken-com",
      "in": 0.6,
@@ -2160,6 +2587,13 @@
     {
      "name": "Traxnode",
      "slug": "traxnode-com",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.15
+    },
+    {
+     "name": "island AI Coding",
+     "slug": "codex789-com",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.15
@@ -2200,6 +2634,20 @@
      "rate": 0.16
     },
     {
+     "name": "xfastapi",
+     "slug": "xfastapi-ai",
+     "in": 0.64,
+     "out": 3.2,
+     "rate": 0.16
+    },
+    {
+     "name": "阶跃星球AI",
+     "slug": "chenhijsdjklasdjkapsojdoa-asia",
+     "in": 0.64,
+     "out": 3.2,
+     "rate": 0.16
+    },
+    {
      "name": "KiosAPI",
      "slug": "kiosapi-com",
      "in": 0.6785,
@@ -2221,6 +2669,13 @@
      "rate": 0.18
     },
     {
+     "name": "吉吉 API",
+     "slug": "jiji-cc",
+     "in": 0.72,
+     "out": 3.6,
+     "rate": 0.18
+    },
+    {
      "name": "夯炸了",
      "slug": "hangzhale-com",
      "in": 0.72,
@@ -2228,11 +2683,25 @@
      "rate": 0.18
     },
     {
+     "name": "AI Prime Tech",
+     "slug": "aiprimetech-io",
+     "in": 0.78,
+     "out": 3.9,
+     "rate": 0.195
+    },
+    {
      "name": "YunServer API",
      "slug": "api-yunserver-cn",
      "in": 0.7832,
      "out": 3.916,
      "rate": 0.196
+    },
+    {
+     "name": "AIFXO",
+     "slug": "aifxo-com",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.2
     },
     {
      "name": "Bob API",
@@ -2263,6 +2732,13 @@
      "rate": 0.2
     },
     {
+     "name": "Giao",
+     "slug": "giaolink-com",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.2
+    },
+    {
      "name": "LLM-ALL API",
      "slug": "llm-all-pro",
      "in": 0.8,
@@ -2272,6 +2748,13 @@
     {
      "name": "NowCoding - 即刻编码",
      "slug": "nowcoding-ai",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.2
+    },
+    {
+     "name": "Yunbay",
+     "slug": "yunbay-xyz",
      "in": 0.8,
      "out": 4.0,
      "rate": 0.2
@@ -2300,6 +2783,13 @@
     {
      "name": "深空 API",
      "slug": "xkrelay-com",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.2
+    },
+    {
+     "name": "高效中转站",
+     "slug": "sub2-de5-net",
      "in": 0.8,
      "out": 4.0,
      "rate": 0.2
@@ -2368,6 +2858,13 @@
      "rate": 0.25
     },
     {
+     "name": "Zeus-API",
+     "slug": "zeusnorun-com",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.25
+    },
+    {
      "name": "xiaojing",
      "slug": "open-xiaojingai-com",
      "in": 1.0,
@@ -2403,6 +2900,13 @@
      "rate": 0.28
     },
     {
+     "name": "AI神鸡",
+     "slug": "aishenji-top",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.3
+    },
+    {
      "name": "FHL",
      "slug": "fhl-mom",
      "in": 1.2,
@@ -2419,6 +2923,13 @@
     {
      "name": "LinkAI",
      "slug": "linkai",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.3
+    },
+    {
+     "name": "RayinAPI",
+     "slug": "rayinai-com",
      "in": 1.2,
      "out": 6.0,
      "rate": 0.3
@@ -2461,6 +2972,13 @@
     {
      "name": "jojocode",
      "slug": "jojocode",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.3
+    },
+    {
+     "name": "wakaka",
+     "slug": "wkkapi-com",
      "in": 1.2,
      "out": 6.0,
      "rate": 0.3
@@ -2592,6 +3110,13 @@
      "rate": 0.4
     },
     {
+     "name": "哟词元",
+     "slug": "yostoken-top",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.4
+    },
+    {
      "name": "词易",
      "slug": "chiyicn-com",
      "in": 1.6,
@@ -2611,6 +3136,13 @@
      "in": 1.6285,
      "out": 8.1426,
      "rate": 0.407
+    },
+    {
+     "name": "星链 AI",
+     "slug": "aixlau-me",
+     "in": 1.68,
+     "out": 8.4,
+     "rate": 0.42
     },
     {
      "name": "Koozhan API",
@@ -2718,8 +3250,29 @@
      "rate": 0.5
     },
     {
+     "name": "NaMax",
+     "slug": "namax-ai",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.5
+    },
+    {
+     "name": "SoleAPI",
+     "slug": "soleapi-com",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.5
+    },
+    {
      "name": "synterolink",
      "slug": "synterolink",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.5
+    },
+    {
+     "name": "云渡",
+     "slug": "yundu-lol",
      "in": 2.0,
      "out": 10.0,
      "rate": 0.5
@@ -2744,6 +3297,20 @@
      "in": 2.2,
      "out": 11.0,
      "rate": 0.55
+    },
+    {
+     "name": "To-Tokens",
+     "slug": "totokens-cc",
+     "in": 2.2,
+     "out": 11.0,
+     "rate": 0.55
+    },
+    {
+     "name": "AI Gateway",
+     "slug": "gateai-cc",
+     "in": 2.4,
+     "out": 12.0,
+     "rate": 0.6
     },
     {
      "name": "Bailili API",
@@ -2830,6 +3397,13 @@
      "rate": 0.7
     },
     {
+     "name": "TokOne",
+     "slug": "tokone-ai",
+     "in": 2.8,
+     "out": 14.0,
+     "rate": 0.7
+    },
+    {
      "name": "Umiluxury API",
      "slug": "umiluxury-com",
      "in": 2.8,
@@ -2849,6 +3423,13 @@
      "in": 2.8,
      "out": 14.0,
      "rate": 0.7
+    },
+    {
+     "name": "aicost API",
+     "slug": "aicost-me",
+     "in": 2.9856,
+     "out": 14.9281,
+     "rate": 0.746
     },
     {
      "name": "Kuaipao API",
@@ -2935,6 +3516,13 @@
      "rate": 0.8
     },
     {
+     "name": "智元API",
+     "slug": "chaozhiyuanai-com",
+     "in": 3.2,
+     "out": 16.0,
+     "rate": 0.8
+    },
+    {
      "name": "2Y API",
      "slug": "yyapis-com",
      "in": 3.257,
@@ -2977,6 +3565,20 @@
      "rate": 0.9
     },
     {
+     "name": "XINX",
+     "slug": "xinx-best",
+     "in": 3.6,
+     "out": 18.0,
+     "rate": 0.9
+    },
+    {
+     "name": "aixj",
+     "slug": "aixj-vip",
+     "in": 3.6,
+     "out": 18.0,
+     "rate": 0.9
+    },
+    {
      "name": "LMU AI · 灵眸",
      "slug": "api-lmuai-com",
      "in": 3.8352,
@@ -3007,6 +3609,13 @@
     {
      "name": "ClaudeCN",
      "slug": "claudecn-top",
+     "in": 4.0,
+     "out": 20.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Grox",
+     "slug": "mcgrox-top",
      "in": 4.0,
      "out": 20.0,
      "rate": 1.0
@@ -3098,6 +3707,13 @@
     {
      "name": "老张 API",
      "slug": "api-laozhang-ai",
+     "in": 4.0,
+     "out": 20.0,
+     "rate": 1.0
+    },
+    {
+     "name": "聪明AI",
+     "slug": "congmingai-com",
      "in": 4.0,
      "out": 20.0,
      "rate": 1.0
@@ -3250,6 +3866,13 @@
      "rate": 1.357
     },
     {
+     "name": "鱼鱼连线",
+     "slug": "yylx-io",
+     "in": 5.4284,
+     "out": 27.1419,
+     "rate": 1.357
+    },
+    {
      "name": "ApiPorter",
      "slug": "apiporter-cn",
      "in": 5.6,
@@ -3299,6 +3922,13 @@
      "rate": 1.5
     },
     {
+     "name": "FastAI",
+     "slug": "fastaitoken-com",
+     "in": 6.0,
+     "out": 30.0,
+     "rate": 1.5
+    },
+    {
      "name": "Nova AI",
      "slug": "novai-su",
      "in": 6.0,
@@ -3315,6 +3945,20 @@
     {
      "name": "RPG8",
      "slug": "api-rpg8-cn",
+     "in": 6.0,
+     "out": 30.0,
+     "rate": 1.5
+    },
+    {
+     "name": "USA-零",
+     "slug": "usa0-top",
+     "in": 6.0,
+     "out": 30.0,
+     "rate": 1.5
+    },
+    {
+     "name": "momoAPICodex",
+     "slug": "momoai-asia",
      "in": 6.0,
      "out": 30.0,
      "rate": 1.5
@@ -3367,6 +4011,13 @@
      "in": 6.4,
      "out": 32.0,
      "rate": 1.6
+    },
+    {
+     "name": "ccgo",
+     "slug": "ccgoai-club",
+     "in": 6.6,
+     "out": 33.0,
+     "rate": 1.65
     },
     {
      "name": "Xcode",
@@ -3530,6 +4181,13 @@
      "rate": 2.714
     },
     {
+     "name": "乾行AI",
+     "slug": "qianxing-pro",
+     "in": 10.8568,
+     "out": 54.2838,
+     "rate": 2.714
+    },
+    {
      "name": "Lanln",
      "slug": "venlacy-com",
      "in": 11.2,
@@ -3586,6 +4244,13 @@
      "rate": 3.427
     },
     {
+     "name": "HZLinkAPI",
+     "slug": "hzlinkapi-com",
+     "in": 14.0,
+     "out": 70.0,
+     "rate": 3.5
+    },
+    {
      "name": "yinli",
      "slug": "yinli",
      "in": 14.0,
@@ -3598,6 +4263,13 @@
      "in": 14.4,
      "out": 72.0,
      "rate": 3.6
+    },
+    {
+     "name": "Portdan AI",
+     "slug": "portdan-com",
+     "in": 14.6,
+     "out": 73.0002,
+     "rate": 3.65
     },
     {
      "name": "FastCode",
@@ -3630,6 +4302,13 @@
     {
      "name": "cc.honoursoft.cn",
      "slug": "cc-honoursoft-cn",
+     "in": 17.6422,
+     "out": 88.2112,
+     "rate": 4.411
+    },
+    {
+     "name": "刀刀刀",
+     "slug": "codexapis-com",
      "in": 17.6422,
      "out": 88.2112,
      "rate": 4.411
@@ -3689,6 +4368,13 @@
      "in": 24.4277,
      "out": 122.1386,
      "rate": 6.107
+    },
+    {
+     "name": "For API",
+     "slug": "foropencode-com",
+     "in": 25.7848,
+     "out": 128.9241,
+     "rate": 6.446
     },
     {
      "name": "元衡 API",
@@ -3775,11 +4461,25 @@
      "rate": 8.821
     },
     {
+     "name": "NassaAPI",
+     "slug": "nassaapi-xyz",
+     "in": 36.6416,
+     "out": 36.6416,
+     "rate": 9.16
+    },
+    {
      "name": "Xiamiapi",
      "slug": "xiamiapi-xyz",
      "in": 40.0,
      "out": 200.0,
      "rate": 10.0
+    },
+    {
+     "name": "HeyRoute",
+     "slug": "heyroute-ai",
+     "in": 40.7129,
+     "out": 203.5644,
+     "rate": 10.178
     },
     {
      "name": "Sublyx",
@@ -3845,6 +4545,13 @@
      "rate": 34.606
     },
     {
+     "name": "Rainbow Gate AI",
+     "slug": "rainbowgate-top",
+     "in": 203.5644,
+     "out": 203.5644,
+     "rate": 50.891
+    },
+    {
      "name": "SillyDream",
      "slug": "sillydream-top",
      "in": 651.4061,
@@ -3871,7 +4578,7 @@
    "model_key": "claude-fable-5-1",
    "price_slug": "claude-fable-5-1",
    "label": "Claude Fable 5.1",
-   "median_rate": 1.25,
+   "median_rate": 1.1,
    "own_page": true,
    "current": true,
    "official_in": 10.0,
@@ -3892,11 +4599,25 @@
      "rate": 0.026
     },
     {
+     "name": "Kun-Api",
+     "slug": "kunkun666-com",
+     "in": 0.3,
+     "out": 1.5,
+     "rate": 0.03
+    },
+    {
      "name": "YeToken",
      "slug": "yetoken-vip",
      "in": 0.4,
      "out": 2.0,
      "rate": 0.04
+    },
+    {
+     "name": "TK API",
+     "slug": "tkapi-cc-cd",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.05
     },
     {
      "name": "ergouzi",
@@ -3906,11 +4627,46 @@
      "rate": 0.05
     },
     {
+     "name": "xixiapi",
+     "slug": "xixiapi-cc",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.05
+    },
+    {
+     "name": "土豆",
+     "slug": "2dou-net",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.05
+    },
+    {
+     "name": "RelayCore",
+     "slug": "relaycore-cn",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.06
+    },
+    {
      "name": "apikl.ai",
      "slug": "apikl-ai",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.06
+    },
+    {
+     "name": "cicadas",
+     "slug": "cicadas-top",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.06
+    },
+    {
+     "name": "CrazyToken",
+     "slug": "aiyoyoo-com",
+     "in": 0.625,
+     "out": 3.125,
+     "rate": 0.062
     },
     {
      "name": "A6API",
@@ -3941,6 +4697,13 @@
      "rate": 0.08
     },
     {
+     "name": "API VibeCoding",
+     "slug": "apiclaude-cc",
+     "in": 0.8333,
+     "out": 4.1667,
+     "rate": 0.083
+    },
+    {
      "name": "luciferai",
      "slug": "luciferai-cc",
      "in": 0.9,
@@ -3955,8 +4718,22 @@
      "rate": 0.1
     },
     {
+     "name": "BANK OF TOKEN",
+     "slug": "boft-ai",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.1
+    },
+    {
      "name": "GGUU AI",
      "slug": "gguuai-com",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.1
+    },
+    {
+     "name": "OpenToken",
+     "slug": "otokapi-com",
      "in": 1.0,
      "out": 5.0,
      "rate": 0.1
@@ -3969,11 +4746,32 @@
      "rate": 0.1
     },
     {
+     "name": "MorphAPI",
+     "slug": "aidjapi-top",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.12
+    },
+    {
+     "name": "Taomu",
+     "slug": "taomu-xyz",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.12
+    },
+    {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
      "in": 1.3699,
      "out": 6.8493,
      "rate": 0.137
+    },
+    {
+     "name": "100 Hub",
+     "slug": "aiboys-xyz",
+     "in": 1.5,
+     "out": 7.5,
+     "rate": 0.15
     },
     {
      "name": "Bool",
@@ -4004,6 +4802,13 @@
      "rate": 0.15
     },
     {
+     "name": "island AI Coding",
+     "slug": "codex789-com",
+     "in": 1.5,
+     "out": 7.5,
+     "rate": 0.15
+    },
+    {
      "name": "汪汪の中转站",
      "slug": "hyhawang-com",
      "in": 1.5,
@@ -4013,6 +4818,20 @@
     {
      "name": "LaneAI",
      "slug": "rjk66-cn",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.16
+    },
+    {
+     "name": "xfastapi",
+     "slug": "xfastapi-ai",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.16
+    },
+    {
+     "name": "阶跃星球AI",
+     "slug": "chenhijsdjklasdjkapsojdoa-asia",
      "in": 1.6,
      "out": 8.0,
      "rate": 0.16
@@ -4046,11 +4865,32 @@
      "rate": 0.18
     },
     {
+     "name": "吉吉 API",
+     "slug": "jiji-cc",
+     "in": 1.8,
+     "out": 9.0,
+     "rate": 0.18
+    },
+    {
      "name": "夯炸了",
      "slug": "hangzhale-com",
      "in": 1.8,
      "out": 9.0,
      "rate": 0.18
+    },
+    {
+     "name": "AI Prime Tech",
+     "slug": "aiprimetech-io",
+     "in": 1.95,
+     "out": 9.75,
+     "rate": 0.195
+    },
+    {
+     "name": "AIFXO",
+     "slug": "aifxo-com",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.2
     },
     {
      "name": "CallAI中转",
@@ -4067,6 +4907,20 @@
      "rate": 0.2
     },
     {
+     "name": "Giao",
+     "slug": "giaolink-com",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.2
+    },
+    {
+     "name": "Yunbay",
+     "slug": "yunbay-xyz",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.2
+    },
+    {
      "name": "x-llm",
      "slug": "x-llm-net",
      "in": 2.0,
@@ -4076,6 +4930,13 @@
     {
      "name": "深空 API",
      "slug": "xkrelay-com",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.2
+    },
+    {
+     "name": "高效中转站",
+     "slug": "sub2-de5-net",
      "in": 2.0,
      "out": 10.0,
      "rate": 0.2
@@ -4109,6 +4970,20 @@
      "rate": 0.25
     },
     {
+     "name": "MagicAI",
+     "slug": "sky1818-com",
+     "in": 2.5,
+     "out": 12.5,
+     "rate": 0.25
+    },
+    {
+     "name": "Zeus-API",
+     "slug": "zeusnorun-com",
+     "in": 2.5,
+     "out": 12.5,
+     "rate": 0.25
+    },
+    {
      "name": "xiaojing",
      "slug": "open-xiaojingai-com",
      "in": 2.5,
@@ -4137,6 +5012,13 @@
      "rate": 0.265
     },
     {
+     "name": "AI神鸡",
+     "slug": "aishenji-top",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 0.3
+    },
+    {
      "name": "FHL",
      "slug": "fhl-mom",
      "in": 3.0,
@@ -4158,6 +5040,13 @@
      "rate": 0.3
     },
     {
+     "name": "RayinAPI",
+     "slug": "rayinai-com",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 0.3
+    },
+    {
      "name": "Rehdasu API",
      "slug": "rehdasu-cn",
      "in": 3.0,
@@ -4167,6 +5056,13 @@
     {
      "name": "WAWA ZZ API",
      "slug": "wawazz-xyz",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 0.3
+    },
+    {
+     "name": "wakaka",
+     "slug": "wkkapi-com",
      "in": 3.0,
      "out": 15.0,
      "rate": 0.3
@@ -4223,6 +5119,13 @@
     {
      "name": "UU API",
      "slug": "uuapi-net",
+     "in": 4.0,
+     "out": 20.0,
+     "rate": 0.4
+    },
+    {
+     "name": "哟词元",
+     "slug": "yostoken-top",
      "in": 4.0,
      "out": 20.0,
      "rate": 0.4
@@ -4291,8 +5194,22 @@
      "rate": 0.5
     },
     {
+     "name": "NaMax",
+     "slug": "namax-ai",
+     "in": 5.0,
+     "out": 25.0,
+     "rate": 0.5
+    },
+    {
      "name": "synterolink",
      "slug": "synterolink",
+     "in": 5.0,
+     "out": 25.0,
+     "rate": 0.5
+    },
+    {
+     "name": "云渡",
+     "slug": "yundu-lol",
      "in": 5.0,
      "out": 25.0,
      "rate": 0.5
@@ -4326,6 +5243,13 @@
      "rate": 0.55
     },
     {
+     "name": "To-Tokens",
+     "slug": "totokens-cc",
+     "in": 5.5,
+     "out": 27.5,
+     "rate": 0.55
+    },
+    {
      "name": "Luxery API",
      "slug": "luxery-api",
      "in": 6.0,
@@ -4352,6 +5276,13 @@
      "in": 6.0,
      "out": 30.0,
      "rate": 0.6
+    },
+    {
+     "name": "SSSAiCode",
+     "slug": "sssaicodeapi-com",
+     "in": 6.4,
+     "out": 32.0,
+     "rate": 0.64
     },
     {
      "name": "SuperCodes",
@@ -4384,6 +5315,13 @@
     {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
+     "in": 7.0,
+     "out": 35.0,
+     "rate": 0.7
+    },
+    {
+     "name": "TokOne",
+     "slug": "tokone-ai",
      "in": 7.0,
      "out": 35.0,
      "rate": 0.7
@@ -4459,6 +5397,13 @@
      "rate": 0.8
     },
     {
+     "name": "智元API",
+     "slug": "chaozhiyuanai-com",
+     "in": 8.0,
+     "out": 40.0,
+     "rate": 0.8
+    },
+    {
      "name": "迈威AI",
      "slug": "mxwell-ai",
      "in": 8.1426,
@@ -4475,6 +5420,13 @@
     {
      "name": "SHUAI API",
      "slug": "shuaiapi-com",
+     "in": 9.0,
+     "out": 45.0,
+     "rate": 0.9
+    },
+    {
+     "name": "XINX",
+     "slug": "xinx-best",
      "in": 9.0,
      "out": 45.0,
      "rate": 0.9
@@ -4503,6 +5455,13 @@
     {
      "name": "DawCode",
      "slug": "dawclaudecode-com",
+     "in": 10.0,
+     "out": 50.0,
+     "rate": 1.0
+    },
+    {
+     "name": "Grox",
+     "slug": "mcgrox-top",
      "in": 10.0,
      "out": 50.0,
      "rate": 1.0
@@ -4594,6 +5553,13 @@
     {
      "name": "老张 API",
      "slug": "api-laozhang-ai",
+     "in": 10.0,
+     "out": 50.0,
+     "rate": 1.0
+    },
+    {
+     "name": "聪明AI",
+     "slug": "congmingai-com",
      "in": 10.0,
      "out": 50.0,
      "rate": 1.0
@@ -4858,6 +5824,13 @@
      "rate": 1.5
     },
     {
+     "name": "FastAI",
+     "slug": "fastaitoken-com",
+     "in": 15.0,
+     "out": 75.0,
+     "rate": 1.5
+    },
+    {
      "name": "Lumin AI",
      "slug": "ai-luminai-cc",
      "in": 15.0,
@@ -4900,6 +5873,20 @@
      "rate": 1.5
     },
     {
+     "name": "SoleAPI",
+     "slug": "soleapi-com",
+     "in": 15.0,
+     "out": 75.0,
+     "rate": 1.5
+    },
+    {
+     "name": "USA-零",
+     "slug": "usa0-top",
+     "in": 15.0,
+     "out": 75.0,
+     "rate": 1.5
+    },
+    {
      "name": "ZIVV",
      "slug": "zivv-pro",
      "in": 15.0,
@@ -4923,6 +5910,13 @@
     {
      "name": "geekai",
      "slug": "geekai",
+     "in": 15.0,
+     "out": 75.0,
+     "rate": 1.5
+    },
+    {
+     "name": "momoAPICodex",
+     "slug": "momoai-asia",
      "in": 15.0,
      "out": 75.0,
      "rate": 1.5
@@ -4996,6 +5990,13 @@
      "in": 16.2173,
      "out": 81.0865,
      "rate": 1.622
+    },
+    {
+     "name": "ccgo",
+     "slug": "ccgoai-club",
+     "in": 16.5,
+     "out": 82.5,
+     "rate": 1.65
     },
     {
      "name": "APINebula",
@@ -5152,6 +6153,13 @@
      "rate": 2.036
     },
     {
+     "name": "鱼鱼连线",
+     "slug": "yylx-io",
+     "in": 20.3564,
+     "out": 101.7822,
+     "rate": 2.036
+    },
+    {
      "name": "Xiaoye API",
      "slug": "ai-xiaoye-io",
      "in": 21.0,
@@ -5189,6 +6197,13 @@
     {
      "name": "OpenModel",
      "slug": "openmodel-ai",
+     "in": 27.1419,
+     "out": 135.7096,
+     "rate": 2.714
+    },
+    {
+     "name": "乾行AI",
+     "slug": "qianxing-pro",
      "in": 27.1419,
      "out": 135.7096,
      "rate": 2.714
@@ -5285,6 +6300,13 @@
      "rate": 3.393
     },
     {
+     "name": "aicost API",
+     "slug": "aicost-me",
+     "in": 33.9274,
+     "out": 169.637,
+     "rate": 3.393
+    },
+    {
      "name": "corealgos",
      "slug": "corealgos",
      "in": 33.9274,
@@ -5292,11 +6314,25 @@
      "rate": 3.393
     },
     {
+     "name": "HZLinkAPI",
+     "slug": "hzlinkapi-com",
+     "in": 35.0,
+     "out": 175.0,
+     "rate": 3.5
+    },
+    {
      "name": "yinli",
      "slug": "yinli",
      "in": 35.0,
      "out": 175.0,
      "rate": 3.5
+    },
+    {
+     "name": "Portdan AI",
+     "slug": "portdan-com",
+     "in": 36.5001,
+     "out": 182.5004,
+     "rate": 3.65
     },
     {
      "name": "TryAllAI",
@@ -5341,6 +6377,13 @@
      "rate": 5.428
     },
     {
+     "name": "aixj",
+     "slug": "aixj-vip",
+     "in": 55.0,
+     "out": 275.0,
+     "rate": 5.5
+    },
+    {
      "name": "ZZ OneAPI Console",
      "slug": "zzone-cc-cd",
      "in": 59.7122,
@@ -5367,6 +6410,13 @@
      "in": 61.0693,
      "out": 305.3466,
      "rate": 6.107
+    },
+    {
+     "name": "For API",
+     "slug": "foropencode-com",
+     "in": 64.4621,
+     "out": 322.3103,
+     "rate": 6.446
     },
     {
      "name": "元衡 API",
@@ -5413,6 +6463,13 @@
     {
      "name": "2Y API",
      "slug": "yyapis-com",
+     "in": 74.6403,
+     "out": 373.2014,
+     "rate": 7.464
+    },
+    {
+     "name": "刀刀刀",
+     "slug": "codexapis-com",
      "in": 74.6403,
      "out": 373.2014,
      "rate": 7.464
@@ -5516,6 +6573,13 @@
      "rate": 40.713
     },
     {
+     "name": "HeyRoute",
+     "slug": "heyroute-ai",
+     "in": 542.8384,
+     "out": 2714.192,
+     "rate": 54.284
+    },
+    {
      "name": "JuAPI 助力企业AI转型",
      "slug": "juapi-net",
      "in": 900.0,
@@ -5528,6 +6592,13 @@
      "in": 1139.9606,
      "out": 5699.8032,
      "rate": 113.996
+    },
+    {
+     "name": "Rainbow Gate AI",
+     "slug": "rainbowgate-top",
+     "in": 1272.2775,
+     "out": 1272.2775,
+     "rate": 127.228
     },
     {
      "name": "New API",
@@ -5556,12 +6627,19 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.782,
+   "median_rate": 0.679,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
    "official_out": 10.0,
    "rows": [
+    {
+     "name": "Kun-Api",
+     "slug": "kunkun666-com",
+     "in": 0.06,
+     "out": 0.3,
+     "rate": 0.03
+    },
     {
      "name": "YeToken",
      "slug": "yetoken-vip",
@@ -5575,6 +6653,27 @@
      "in": 0.0909,
      "out": 0.4546,
      "rate": 0.045
+    },
+    {
+     "name": "TK API",
+     "slug": "tkapi-cc-cd",
+     "in": 0.1,
+     "out": 0.5,
+     "rate": 0.05
+    },
+    {
+     "name": "xixiapi",
+     "slug": "xixiapi-cc",
+     "in": 0.1,
+     "out": 0.5,
+     "rate": 0.05
+    },
+    {
+     "name": "土豆",
+     "slug": "2dou-net",
+     "in": 0.1,
+     "out": 0.5,
+     "rate": 0.05
     },
     {
      "name": "空悲切API",
@@ -5605,11 +6704,32 @@
      "rate": 0.06
     },
     {
+     "name": "RelayCore",
+     "slug": "relaycore-cn",
+     "in": 0.12,
+     "out": 0.6,
+     "rate": 0.06
+    },
+    {
      "name": "apikl.ai",
      "slug": "apikl-ai",
      "in": 0.12,
      "out": 0.6,
      "rate": 0.06
+    },
+    {
+     "name": "cicadas",
+     "slug": "cicadas-top",
+     "in": 0.12,
+     "out": 0.6,
+     "rate": 0.06
+    },
+    {
+     "name": "CrazyToken",
+     "slug": "aiyoyoo-com",
+     "in": 0.125,
+     "out": 0.625,
+     "rate": 0.062
     },
     {
      "name": "代码狗",
@@ -5668,6 +6788,13 @@
      "rate": 0.08
     },
     {
+     "name": "API VibeCoding",
+     "slug": "apiclaude-cc",
+     "in": 0.1667,
+     "out": 0.8333,
+     "rate": 0.083
+    },
+    {
      "name": "OpenLux",
      "slug": "openlux-ai",
      "in": 0.1765,
@@ -5696,6 +6823,13 @@
      "rate": 0.1
     },
     {
+     "name": "BANK OF TOKEN",
+     "slug": "boft-ai",
+     "in": 0.2,
+     "out": 1.0,
+     "rate": 0.1
+    },
+    {
      "name": "Clauddy API",
      "slug": "clauddy-com",
      "in": 0.2,
@@ -5705,6 +6839,13 @@
     {
      "name": "GGUU AI",
      "slug": "gguuai-com",
+     "in": 0.2,
+     "out": 1.0,
+     "rate": 0.1
+    },
+    {
+     "name": "OpenToken",
+     "slug": "otokapi-com",
      "in": 0.2,
      "out": 1.0,
      "rate": 0.1
@@ -5738,8 +6879,22 @@
      "rate": 0.12
     },
     {
+     "name": "MorphAPI",
+     "slug": "aidjapi-top",
+     "in": 0.24,
+     "out": 1.2,
+     "rate": 0.12
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
+     "in": 0.24,
+     "out": 1.2,
+     "rate": 0.12
+    },
+    {
+     "name": "Taomu",
+     "slug": "taomu-xyz",
      "in": 0.24,
      "out": 1.2,
      "rate": 0.12
@@ -5773,8 +6928,22 @@
      "rate": 0.133
     },
     {
+     "name": "100 Hub",
+     "slug": "aiboys-xyz",
+     "in": 0.3,
+     "out": 1.5,
+     "rate": 0.15
+    },
+    {
      "name": "Bool",
      "slug": "booltoken-com",
+     "in": 0.3,
+     "out": 1.5,
+     "rate": 0.15
+    },
+    {
+     "name": "island AI Coding",
+     "slug": "codex789-com",
      "in": 0.3,
      "out": 1.5,
      "rate": 0.15
@@ -5808,6 +6977,20 @@
      "rate": 0.16
     },
     {
+     "name": "xfastapi",
+     "slug": "xfastapi-ai",
+     "in": 0.32,
+     "out": 1.6,
+     "rate": 0.16
+    },
+    {
+     "name": "阶跃星球AI",
+     "slug": "chenhijsdjklasdjkapsojdoa-asia",
+     "in": 0.32,
+     "out": 1.6,
+     "rate": 0.16
+    },
+    {
      "name": "AI派",
      "slug": "api-aipaibox-com",
      "in": 0.3334,
@@ -5836,11 +7019,32 @@
      "rate": 0.18
     },
     {
+     "name": "吉吉 API",
+     "slug": "jiji-cc",
+     "in": 0.36,
+     "out": 1.8,
+     "rate": 0.18
+    },
+    {
      "name": "夯炸了",
      "slug": "hangzhale-com",
      "in": 0.36,
      "out": 1.8,
      "rate": 0.18
+    },
+    {
+     "name": "AI Prime Tech",
+     "slug": "aiprimetech-io",
+     "in": 0.39,
+     "out": 1.95,
+     "rate": 0.195
+    },
+    {
+     "name": "AIFXO",
+     "slug": "aifxo-com",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.2
     },
     {
      "name": "CallAI中转",
@@ -5852,6 +7056,13 @@
     {
      "name": "Code-Plan（内部站点）",
      "slug": "o-ai-me",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.2
+    },
+    {
+     "name": "Giao",
+     "slug": "giaolink-com",
      "in": 0.4,
      "out": 2.0,
      "rate": 0.2
@@ -5873,6 +7084,13 @@
     {
      "name": "RightCode",
      "slug": "right-codes",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.2
+    },
+    {
+     "name": "Yunbay",
+     "slug": "yunbay-xyz",
      "in": 0.4,
      "out": 2.0,
      "rate": 0.2
@@ -5906,6 +7124,13 @@
      "rate": 0.2
     },
     {
+     "name": "高效中转站",
+     "slug": "sub2-de5-net",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.2
+    },
+    {
      "name": "SU8 Codes",
      "slug": "su8-codes",
      "in": 0.4464,
@@ -5927,6 +7152,13 @@
      "rate": 0.25
     },
     {
+     "name": "Zeus-API",
+     "slug": "zeusnorun-com",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.25
+    },
+    {
      "name": "嘀嘀嘀 AI",
      "slug": "dddai-dev",
      "in": 0.5,
@@ -5939,6 +7171,13 @@
      "in": 0.5,
      "out": 2.5,
      "rate": 0.25
+    },
+    {
+     "name": "AI神鸡",
+     "slug": "aishenji-top",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.3
     },
     {
      "name": "FHL",
@@ -5955,8 +7194,22 @@
      "rate": 0.3
     },
     {
+     "name": "RayinAPI",
+     "slug": "rayinai-com",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.3
+    },
+    {
      "name": "WAWA ZZ API",
      "slug": "wawazz-xyz",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.3
+    },
+    {
+     "name": "wakaka",
+     "slug": "wkkapi-com",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.3
@@ -6060,6 +7313,13 @@
      "rate": 0.4
     },
     {
+     "name": "哟词元",
+     "slug": "yostoken-top",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.4
+    },
+    {
      "name": "词易",
      "slug": "chiyicn-com",
      "in": 0.8,
@@ -6072,6 +7332,13 @@
      "in": 0.8143,
      "out": 4.0713,
      "rate": 0.407
+    },
+    {
+     "name": "星链 AI",
+     "slug": "aixlau-me",
+     "in": 0.84,
+     "out": 4.2,
+     "rate": 0.42
     },
     {
      "name": "4Router",
@@ -6144,8 +7411,29 @@
      "rate": 0.5
     },
     {
+     "name": "NaMax",
+     "slug": "namax-ai",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.5
+    },
+    {
+     "name": "SoleAPI",
+     "slug": "soleapi-com",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.5
+    },
+    {
      "name": "deepkey",
      "slug": "deepkey-top",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.5
+    },
+    {
+     "name": "云渡",
+     "slug": "yundu-lol",
      "in": 1.0,
      "out": 5.0,
      "rate": 0.5
@@ -6177,6 +7465,20 @@
      "in": 1.1,
      "out": 5.5,
      "rate": 0.55
+    },
+    {
+     "name": "To-Tokens",
+     "slug": "totokens-cc",
+     "in": 1.1,
+     "out": 5.5,
+     "rate": 0.55
+    },
+    {
+     "name": "AI Gateway",
+     "slug": "gateai-cc",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.6
     },
     {
      "name": "Yourapi",
@@ -6251,6 +7553,13 @@
     {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
+     "in": 1.4,
+     "out": 7.0,
+     "rate": 0.7
+    },
+    {
+     "name": "TokOne",
+     "slug": "tokone-ai",
      "in": 1.4,
      "out": 7.0,
      "rate": 0.7
@@ -6333,6 +7642,13 @@
      "rate": 0.8
     },
     {
+     "name": "智元API",
+     "slug": "chaozhiyuanai-com",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.8
+    },
+    {
      "name": "佛爷API",
      "slug": "988665-xyz",
      "in": 1.6285,
@@ -6375,6 +7691,13 @@
      "rate": 0.875
     },
     {
+     "name": "XINX",
+     "slug": "xinx-best",
+     "in": 1.8,
+     "out": 9.0,
+     "rate": 0.9
+    },
+    {
      "name": "LMU AI · 灵眸",
      "slug": "api-lmuai-com",
      "in": 1.9176,
@@ -6410,6 +7733,13 @@
      "rate": 1.0
     },
     {
+     "name": "Grox",
+     "slug": "mcgrox-top",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 1.0
+    },
+    {
      "name": "Kkaiapi",
      "slug": "kkaiapi-com",
      "in": 2.0,
@@ -6433,6 +7763,13 @@
     {
      "name": "xiaojing",
      "slug": "open-xiaojingai-com",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 1.0
+    },
+    {
+     "name": "聪明AI",
+     "slug": "congmingai-com",
      "in": 2.0,
      "out": 10.0,
      "rate": 1.0
@@ -6557,6 +7894,13 @@
      "rate": 1.357
     },
     {
+     "name": "鱼鱼连线",
+     "slug": "yylx-io",
+     "in": 2.7142,
+     "out": 13.571,
+     "rate": 1.357
+    },
+    {
      "name": "ApiPorter",
      "slug": "apiporter-cn",
      "in": 2.8,
@@ -6578,8 +7922,29 @@
      "rate": 1.5
     },
     {
+     "name": "FastAI",
+     "slug": "fastaitoken-com",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 1.5
+    },
+    {
      "name": "Nova AI",
      "slug": "novai-su",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 1.5
+    },
+    {
+     "name": "USA-零",
+     "slug": "usa0-top",
+     "in": 3.0,
+     "out": 15.0,
+     "rate": 1.5
+    },
+    {
+     "name": "momoAPICodex",
+     "slug": "momoai-asia",
      "in": 3.0,
      "out": 15.0,
      "rate": 1.5
@@ -6639,6 +8004,13 @@
      "in": 3.2,
      "out": 16.0,
      "rate": 1.6
+    },
+    {
+     "name": "ccgo",
+     "slug": "ccgoai-club",
+     "in": 3.3,
+     "out": 16.5,
+     "rate": 1.65
     },
     {
      "name": "UU API",
@@ -6753,6 +8125,13 @@
      "rate": 2.714
     },
     {
+     "name": "乾行AI",
+     "slug": "qianxing-pro",
+     "in": 5.4284,
+     "out": 27.1419,
+     "rate": 2.714
+    },
+    {
      "name": "Lanln",
      "slug": "venlacy-com",
      "in": 5.6,
@@ -6788,6 +8167,27 @@
      "rate": 3.393
     },
     {
+     "name": "HZLinkAPI",
+     "slug": "hzlinkapi-com",
+     "in": 7.0,
+     "out": 35.0,
+     "rate": 3.5
+    },
+    {
+     "name": "Portdan AI",
+     "slug": "portdan-com",
+     "in": 7.3,
+     "out": 36.5001,
+     "rate": 3.65
+    },
+    {
+     "name": "刀刀刀",
+     "slug": "codexapis-com",
+     "in": 8.8211,
+     "out": 44.1056,
+     "rate": 4.411
+    },
+    {
      "name": "Muxueai API",
      "slug": "muxueai-pro",
      "in": 10.0,
@@ -6816,6 +8216,13 @@
      "rate": 5.428
     },
     {
+     "name": "aixj",
+     "slug": "aixj-vip",
+     "in": 11.0,
+     "out": 55.0,
+     "rate": 5.5
+    },
+    {
      "name": "Qiny API",
      "slug": "chatnewai-com",
      "in": 11.5353,
@@ -6828,6 +8235,13 @@
      "in": 12.2139,
      "out": 61.0693,
      "rate": 6.107
+    },
+    {
+     "name": "For API",
+     "slug": "foropencode-com",
+     "in": 12.8924,
+     "out": 64.4621,
+     "rate": 6.446
     },
     {
      "name": "元衡 API",
@@ -6914,6 +8328,13 @@
      "rate": 8.821
     },
     {
+     "name": "HeyRoute",
+     "slug": "heyroute-ai",
+     "in": 20.3564,
+     "out": 101.7822,
+     "rate": 10.178
+    },
+    {
      "name": "MWAPI",
      "slug": "mwapi-dev",
      "in": 21.0,
@@ -6975,6 +8396,13 @@
      "in": 651.4061,
      "out": 3257.0304,
      "rate": 325.703
+    },
+    {
+     "name": "Rainbow Gate AI",
+     "slug": "rainbowgate-top",
+     "in": 1272.2775,
+     "out": 1272.2775,
+     "rate": 636.139
     }
    ]
   },
@@ -7005,6 +8433,13 @@
     {
      "name": "空悲切API",
      "slug": "xn--vduyey89e-com",
+     "in": 0.005,
+     "out": 0.025,
+     "rate": 0.05
+    },
+    {
+     "name": "高效中转站",
+     "slug": "sub2-de5-net",
      "in": 0.005,
      "out": 0.025,
      "rate": 0.05
@@ -7064,6 +8499,13 @@
      "in": 0.008,
      "out": 0.04,
      "rate": 0.08
+    },
+    {
+     "name": "API VibeCoding",
+     "slug": "apiclaude-cc",
+     "in": 0.0083,
+     "out": 0.0417,
+     "rate": 0.083
     },
     {
      "name": "OpenLux",
@@ -7127,6 +8569,13 @@
      "in": 0.0133,
      "out": 0.0667,
      "rate": 0.133
+    },
+    {
+     "name": "100 Hub",
+     "slug": "aiboys-xyz",
+     "in": 0.015,
+     "out": 0.075,
+     "rate": 0.15
     },
     {
      "name": "云影 API",
@@ -7383,6 +8832,13 @@
     {
      "name": "Mmaqq API",
      "slug": "mmaqq-top",
+     "in": 0.05,
+     "out": 0.25,
+     "rate": 0.5
+    },
+    {
+     "name": "SoleAPI",
+     "slug": "soleapi-com",
      "in": 0.05,
      "out": 0.25,
      "rate": 0.5
@@ -7773,6 +9229,13 @@
      "rate": 1.5
     },
     {
+     "name": "FastAI",
+     "slug": "fastaitoken-com",
+     "in": 0.15,
+     "out": 0.75,
+     "rate": 1.5
+    },
+    {
      "name": "Nova AI",
      "slug": "novai-su",
      "in": 0.15,
@@ -7878,6 +9341,13 @@
      "rate": 2.036
     },
     {
+     "name": "鱼鱼连线",
+     "slug": "yylx-io",
+     "in": 0.2036,
+     "out": 1.0178,
+     "rate": 2.036
+    },
+    {
      "name": "旋转智能｜Radius to Core",
      "slug": "rtoc-cc",
      "in": 0.22,
@@ -7897,6 +9367,13 @@
      "in": 0.2443,
      "out": 1.2214,
      "rate": 2.443
+    },
+    {
+     "name": "乾行AI",
+     "slug": "qianxing-pro",
+     "in": 0.2714,
+     "out": 1.3571,
+     "rate": 2.714
     },
     {
      "name": "星期天AI",
@@ -8011,6 +9488,13 @@
      "rate": 6.446
     },
     {
+     "name": "For API",
+     "slug": "foropencode-com",
+     "in": 0.6446,
+     "out": 3.2231,
+     "rate": 6.446
+    },
+    {
      "name": "元衡 API",
      "slug": "meta-api-vip",
      "in": 0.66,
@@ -8044,6 +9528,13 @@
      "in": 0.6785,
      "out": 3.3927,
      "rate": 6.785
+    },
+    {
+     "name": "Api.Airforce",
+     "slug": "api-airforce",
+     "in": 0.7464,
+     "out": 3.5963,
+     "rate": 7.464
     },
     {
      "name": "GPT Agent",
@@ -8086,6 +9577,13 @@
      "in": 0.95,
      "out": 4.7498,
      "rate": 9.5
+    },
+    {
+     "name": "HeyRoute",
+     "slug": "heyroute-ai",
+     "in": 1.0178,
+     "out": 5.0891,
+     "rate": 10.178
     },
     {
      "name": "XingWan Club",
@@ -13461,24 +14959,6 @@
    "bench": null
   },
   {
-   "name": "Luxery API",
-   "slug": "luxery-api",
-   "tier": "S",
-   "price": {
-    "in": 7.2,
-    "out": 36.0,
-    "rate": 1.8
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": null,
-   "bonus": "$3",
-   "invoice": "yes",
-   "invoice_note": null,
-   "refund": "可退款",
-   "bench": null
-  },
-  {
    "name": "球球Token",
    "slug": "qiuqiutoken-com",
    "tier": "B",
@@ -13586,6 +15066,16 @@
     "in": 0.5,
     "out": 2.5,
     "rate": 0.125
+   }
+  },
+  {
+   "name": "Luxery API",
+   "slug": "luxery-api",
+   "tier": "B",
+   "price": {
+    "in": 7.2,
+    "out": 36.0,
+    "rate": 1.8
    }
   },
   {
@@ -13757,16 +15247,6 @@
     "out": 16.0,
     "rate": 0.8
    }
-  },
-  {
-   "name": "ByteCat",
-   "slug": "bytecatcode-org",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.1
-   }
   }
  ],
  "bench": [
@@ -13876,5 +15356,5 @@
    "billing": "完全对得上"
   }
  ],
- "updated": "2026-11-07"
+ "updated": "2026-11-08"
 }

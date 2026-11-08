@@ -135,14 +135,6 @@
    }
   },
   {
-   "name": "Luxery API",
-   "slug": "luxery-api",
-   "rates": {
-    "claude": 0.6,
-    "openai": 0.24
-   }
-  },
-  {
    "name": "球球Token",
    "slug": "qiuqiutoken-com",
    "rates": {
@@ -258,6 +250,14 @@
    }
   },
   {
+   "name": "Luxery API",
+   "slug": "luxery-api",
+   "rates": {
+    "claude": 0.6,
+    "openai": 0.24
+   }
+  },
+  {
    "name": "gods",
    "slug": "meisgold-top",
    "rates": {
@@ -314,5 +314,5 @@
    }
   }
  ],
- "updated": "2026-11-07"
+ "updated": "2026-11-08"
 }
