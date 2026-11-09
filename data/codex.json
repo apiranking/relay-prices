@@ -2,7 +2,7 @@
  "vendor": "Codex",
  "site_count": 299,
  "min_rate": 0.007,
- "median_rate": 0.353,
+ "median_rate": 0.373,
  "sites": [
   {
    "name": "XTokenMirror",
@@ -725,12 +725,6 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "Ofapp API",
-   "slug": "api-ofapp-cn",
-   "rate": 0.25,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "RelayCore",
    "slug": "relaycore-cn",
    "rate": 0.25,
@@ -1057,6 +1051,12 @@
   {
    "name": "Mmaqq API",
    "slug": "mmaqq-top",
+   "rate": 0.5,
+   "model": "GPT-6.1 Sol"
+  },
+  {
+   "name": "Ofapp API",
+   "slug": "api-ofapp-cn",
    "rate": 0.5,
    "model": "GPT-6.1 Sol"
   },
@@ -2553,13 +2553,6 @@
      "rate": 0.25
     },
     {
-     "name": "Ofapp API",
-     "slug": "api-ofapp-cn",
-     "in": 0.5,
-     "out": 2.5,
-     "rate": 0.25
-    },
-    {
      "name": "RelayCore",
      "slug": "relaycore-cn",
      "in": 0.5,
@@ -2933,6 +2926,13 @@
     {
      "name": "Mmaqq API",
      "slug": "mmaqq-top",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.5
+    },
+    {
+     "name": "Ofapp API",
+     "slug": "api-ofapp-cn",
      "in": 1.0,
      "out": 5.0,
      "rate": 0.5
@@ -4637,13 +4637,6 @@
      "rate": 0.25
     },
     {
-     "name": "Ofapp API",
-     "slug": "api-ofapp-cn",
-     "in": 2.5,
-     "out": 12.5,
-     "rate": 0.25
-    },
-    {
      "name": "xiaojing",
      "slug": "open-xiaojingai-com",
      "in": 2.5,
@@ -4940,6 +4933,13 @@
     {
      "name": "Mmaqq API",
      "slug": "mmaqq-top",
+     "in": 5.0,
+     "out": 25.0,
+     "rate": 0.5
+    },
+    {
+     "name": "Ofapp API",
+     "slug": "api-ofapp-cn",
      "in": 5.0,
      "out": 25.0,
      "rate": 0.5
@@ -5974,86 +5974,6 @@
    "bench": null
   },
   {
-   "name": "球球Token",
-   "slug": "qiuqiutoken-com",
-   "tier": "B",
-   "price": {
-    "in": 0.8,
-    "out": 4.0,
-    "rate": 0.4
-   }
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.07,
-    "out": 0.33,
-    "rate": 0.033
-   }
-  },
-  {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
-   "tier": "B",
-   "price": {
-    "in": 14.4,
-    "out": 72.0,
-    "rate": 7.2
-   }
-  },
-  {
-   "name": "璃梦API",
-   "slug": "api-hakanaiktn-com",
-   "tier": "B",
-   "price": {
-    "in": 0.32,
-    "out": 1.6,
-    "rate": 0.16
-   }
-  },
-  {
-   "name": "Bool",
-   "slug": "booltoken-com",
-   "tier": "B",
-   "price": {
-    "in": 2.0,
-    "out": 3.0,
-    "rate": 1.0
-   }
-  },
-  {
-   "name": "CCTQ",
-   "slug": "cctq",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.2
-   }
-  },
-  {
-   "name": "Claude API",
-   "slug": "claude-api-org",
-   "tier": "B",
-   "price": {
-    "in": 0.3,
-    "out": 1.5,
-    "rate": 0.15
-   }
-  },
-  {
-   "name": "CoreCode",
-   "slug": "corecode-live",
-   "tier": "B",
-   "price": {
-    "in": 1.6,
-    "out": 8.0,
-    "rate": 0.8
-   }
-  },
-  {
    "name": "LantAPI",
    "slug": "gerlantapi",
    "tier": "B",
@@ -6064,13 +5984,43 @@
    }
   },
   {
-   "name": "KuaiAPI",
-   "slug": "kuaiapi-net",
+   "name": "黑黑",
+   "slug": "heilovehei",
    "tier": "B",
    "price": {
-    "in": 0.6,
-    "out": 0.9,
-    "rate": 0.3
+    "in": 0.1,
+    "out": 0.5,
+    "rate": 0.05
+   }
+  },
+  {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "B",
+   "price": {
+    "in": 0.3,
+    "out": 1.48,
+    "rate": 0.148
+   }
+  },
+  {
+   "name": "Ruoli API",
+   "slug": "ruoli-dev",
+   "tier": "B",
+   "price": {
+    "in": 0.32,
+    "out": 1.6,
+    "rate": 0.16
+   }
+  },
+  {
+   "name": "deepkey",
+   "slug": "deepkey-top",
+   "tier": "B",
+   "price": {
+    "in": 0.24,
+    "out": 1.2,
+    "rate": 0.12
    }
   },
   {
@@ -6084,88 +6034,78 @@
    }
   },
   {
-   "name": "Luxery API",
-   "slug": "luxery-api",
+   "name": "CCTQ",
+   "slug": "cctq",
    "tier": "B",
    "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.3
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.2
    }
   },
   {
-   "name": "gods",
-   "slug": "meisgold-top",
+   "name": "代码狗",
+   "slug": "ai-codepup-cn",
    "tier": "B",
    "price": {
-    "in": 0.6,
+    "in": 0.36,
+    "out": 1.8,
+    "rate": 0.18
+   }
+  },
+  {
+   "name": "Top-API",
+   "slug": "top-api",
+   "tier": "B",
+   "price": {
+    "in": 0.27,
+    "out": 1.36,
+    "rate": 0.136
+   }
+  },
+  {
+   "name": "Die Ge",
+   "slug": "die-ge",
+   "tier": "B",
+   "price": {
+    "in": 0.18,
     "out": 0.9,
-    "rate": 0.3
+    "rate": 0.09
    }
   },
   {
-   "name": "Mirgo",
-   "slug": "mirgo-top",
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
    "tier": "B",
    "price": {
-    "in": 0.76,
-    "out": 3.82,
-    "rate": 0.382
+    "in": 0.8,
+    "out": 4.0,
+    "rate": 0.4
    }
   },
   {
-   "name": "皮卡丘token商店",
-   "slug": "pikaqiu-shop",
+   "name": "合聚API",
+   "slug": "hejuapi-com",
    "tier": "B",
    "price": {
-    "in": 0.12,
-    "out": 0.6,
-    "rate": 0.06
+    "in": 0.08,
+    "out": 0.4,
+    "rate": 0.04
    }
   },
   {
-   "name": "PingCode",
-   "slug": "pingcode",
+   "name": "三头牛",
+   "slug": "36niu-com",
    "tier": "B",
    "price": {
-    "in": 1.4,
-    "out": 7.0,
-    "rate": 0.7
+    "in": 2.71,
+    "out": 13.57,
+    "rate": 1.357
    }
   },
   {
-   "name": "SU8 Codes",
-   "slug": "su8-codes",
-   "tier": "B",
-   "price": {
-    "in": 0.15,
-    "out": 0.74,
-    "rate": 0.074
-   }
-  },
-  {
-   "name": "TokenSOS",
-   "slug": "tokensos-net",
-   "tier": "B",
-   "price": {
-    "in": 0.2,
-    "out": 1.0,
-    "rate": 0.1
-   }
-  },
-  {
-   "name": "x-llm",
-   "slug": "x-llm-net",
-   "tier": "B",
-   "price": {
-    "in": 0.16,
-    "out": 0.8,
-    "rate": 0.08
-   }
-  },
-  {
-   "name": "Xcode",
-   "slug": "xcode-best",
+   "name": "卡皮巴拉API",
+   "slug": "kapibala-asia",
    "tier": "B",
    "price": {
     "in": 0.6,
@@ -6174,28 +6114,8 @@
    }
   },
   {
-   "name": "XINGYI API",
-   "slug": "xingyi888-com",
-   "tier": "B",
-   "price": {
-    "in": 0.09,
-    "out": 0.45,
-    "rate": 0.045
-   }
-  },
-  {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
-   "tier": "B",
-   "price": {
-    "in": 0.12,
-    "out": 0.6,
-    "rate": 0.06
-   }
-  },
-  {
-   "name": "苏粹",
-   "slug": "yh-m7ai-com",
+   "name": "Ofapp API",
+   "slug": "api-ofapp-cn",
    "tier": "B",
    "price": {
     "in": 1.0,
@@ -6214,13 +6134,43 @@
    }
   },
   {
-   "name": "Drag API",
-   "slug": "drag-api",
+   "name": "537 AI",
+   "slug": "537-ai-net",
    "tier": "B",
    "price": {
-    "in": 0.3,
-    "out": 1.5,
-    "rate": 0.15
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.07,
+    "out": 0.33,
+    "rate": 0.033
+   }
+  },
+  {
+   "name": "云雾AI",
+   "slug": "yunwu-ai",
+   "tier": "B",
+   "price": {
+    "in": 0.04,
+    "out": 0.2,
+    "rate": 0.02
+   }
+  },
+  {
+   "name": "ByteCat",
+   "slug": "bytecatcode-org",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.2
    }
   },
   {
@@ -6234,15 +6184,55 @@
    }
   },
   {
-   "name": "Cavoti AI",
-   "slug": "cavoti-ai",
+   "name": "Xcode",
+   "slug": "xcode-best",
    "tier": "B",
    "price": {
-    "in": 0.11,
-    "out": 0.53,
-    "rate": 0.053
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "PackyCode",
+   "slug": "packyapi-com",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
+   }
+  },
+  {
+   "name": "ai98pro",
+   "slug": "ai98pro",
+   "tier": "B",
+   "price": {
+    "in": 0.06,
+    "out": 0.29,
+    "rate": 0.029
+   }
+  },
+  {
+   "name": "QweApi",
+   "slug": "qweapi",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 1.0
+   }
+  },
+  {
+   "name": "Kuaipao API",
+   "slug": "kuaipao-pro",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.2
    }
   }
  ],
- "updated": "2026-11-08"
+ "updated": "2026-11-09"
 }
