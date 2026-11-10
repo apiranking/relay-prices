@@ -3042,6 +3042,13 @@
      "rate": 0.35
     },
     {
+     "name": "WAWA ZZ API",
+     "slug": "wawazz-xyz",
+     "in": 0.7,
+     "out": 4.2,
+     "rate": 0.35
+    },
+    {
      "name": "gods",
      "slug": "meisgold-top",
      "in": 0.7,
@@ -6004,5 +6011,5 @@
    }
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-10"
 }

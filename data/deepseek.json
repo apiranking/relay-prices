@@ -71,6 +71,12 @@
    "model": "DeepSeek V4 Pro"
   },
   {
+   "name": "WAWA ZZ API",
+   "slug": "wawazz-xyz",
+   "rate": 0.044,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
    "name": "GINKA API",
    "slug": "ginka-cloud",
    "rate": 0.05,
@@ -373,12 +379,6 @@
   {
    "name": "Hi-Code",
    "slug": "hi-code-cc",
-   "rate": 0.3,
-   "model": "DeepSeek V4.1 Flash"
-  },
-  {
-   "name": "WAWA ZZ API",
-   "slug": "wawazz-xyz",
    "rate": 0.3,
    "model": "DeepSeek V4.1 Flash"
   },
@@ -2041,6 +2041,13 @@
      "rate": 0.044
     },
     {
+     "name": "WAWA ZZ API",
+     "slug": "wawazz-xyz",
+     "in": 0.396,
+     "out": 1.188,
+     "rate": 0.044
+    },
+    {
      "name": "TinyGate",
      "slug": "tinygate-top",
      "in": 0.439,
@@ -2330,13 +2337,6 @@
     {
      "name": "H API",
      "slug": "h-api",
-     "in": 2.7,
-     "out": 8.1,
-     "rate": 0.3
-    },
-    {
-     "name": "WAWA ZZ API",
-     "slug": "wawazz-xyz",
      "in": 2.7,
      "out": 8.1,
      "rate": 0.3
@@ -3344,5 +3344,5 @@
    }
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-10"
 }

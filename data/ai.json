@@ -568,8 +568,8 @@
    "rates": {
     "openai": 0.018,
     "grok": 0.25,
-    "deepseek": 0.3,
-    "claude": 0.3,
+    "deepseek": 0.044,
+    "claude": 0.4,
     "gemini": 0.175
    }
   },
@@ -3070,8 +3070,8 @@
    "name": "Portdan AI",
    "slug": "portdan-com",
    "rates": {
-    "openai": 0.365,
-    "claude": 3.65
+    "claude": 3.65,
+    "openai": 0.365
    }
   },
   {
@@ -4082,5 +4082,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-08"
+ "updated": "2026-11-10"
 }

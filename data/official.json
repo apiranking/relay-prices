@@ -36,6 +36,12 @@
   "out": 20.0
  },
  {
+  "label": "Claude Fable 5.2",
+  "family": "claude",
+  "in": 8.0,
+  "out": 40.0
+ },
+ {
   "label": "Claude Fable 5",
   "family": "claude",
   "in": 10.0,

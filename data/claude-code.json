@@ -665,12 +665,6 @@
    "model": "Claude Opus 5.5"
   },
   {
-   "name": "WAWA ZZ API",
-   "slug": "wawazz-xyz",
-   "rate": 0.3,
-   "model": "Claude Opus 5.5"
-  },
-  {
    "name": "boxying",
    "slug": "boxying",
    "rate": 0.3,
@@ -805,6 +799,12 @@
   {
    "name": "UU API",
    "slug": "uuapi-net",
+   "rate": 0.4,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "WAWA ZZ API",
+   "slug": "wawazz-xyz",
    "rate": 0.4,
    "model": "Claude Opus 5.5"
   },
@@ -2788,13 +2788,6 @@
      "rate": 0.3
     },
     {
-     "name": "WAWA ZZ API",
-     "slug": "wawazz-xyz",
-     "in": 1.2,
-     "out": 6.0,
-     "rate": 0.3
-    },
-    {
      "name": "boxying",
      "slug": "boxying",
      "in": 1.2,
@@ -2930,6 +2923,13 @@
     {
      "name": "UU API",
      "slug": "uuapi-net",
+     "in": 1.6,
+     "out": 8.0,
+     "rate": 0.4
+    },
+    {
+     "name": "WAWA ZZ API",
+     "slug": "wawazz-xyz",
      "in": 1.6,
      "out": 8.0,
      "rate": 0.4
@@ -4984,13 +4984,6 @@
      "rate": 0.3
     },
     {
-     "name": "WAWA ZZ API",
-     "slug": "wawazz-xyz",
-     "in": 0.6,
-     "out": 3.0,
-     "rate": 0.3
-    },
-    {
      "name": "wakaka",
      "slug": "wkkapi-com",
      "in": 0.6,
@@ -5084,6 +5077,13 @@
     {
      "name": "PRY API",
      "slug": "bearlab-ai",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.4
+    },
+    {
+     "name": "WAWA ZZ API",
+     "slug": "wawazz-xyz",
      "in": 0.8,
      "out": 4.0,
      "rate": 0.4
@@ -6290,9 +6290,30 @@
    "billing": "完全对得上"
   },
   {
+   "name": "apikl.ai",
+   "slug": "apikl-ai",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上"
+  },
+  {
    "name": "Cooper-API",
    "slug": "cooper-api-com",
    "model": "Claude Opus 5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上"
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上"
+  },
+  {
+   "name": "WAWA ZZ API",
+   "slug": "wawazz-xyz",
+   "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
    "billing": "完全对得上"
   }
@@ -6421,7 +6442,7 @@
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 5.5
+    "wait_s": 7.1
    }
   },
   {
@@ -6838,5 +6859,5 @@
    }
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-10"
 }

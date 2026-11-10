@@ -5827,7 +5827,7 @@
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 8.1
+    "wait_s": 5.8
    }
   },
   {
@@ -6234,5 +6234,5 @@
    }
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-10"
 }
