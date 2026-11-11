@@ -146,20 +146,21 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "rates": {
+    "openai": 0.021,
+    "claude": 0.031,
+    "grok": 0.14
+   }
+  },
+  {
    "name": "黑黑",
    "slug": "heilovehei",
    "rates": {
     "claude": 0.1,
     "openai": 0.05,
     "grok": 0.2
-   }
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "rates": {
-    "openai": 0.148,
-    "claude": 0.222
    }
   },
   {
@@ -210,15 +211,6 @@
     "claude": 3.393,
     "gemini": 2.036,
     "deepseek": 0.037
-   }
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "rates": {
-    "claude": 0.067,
-    "openai": 0.036,
-    "grok": 0.18
    }
   },
   {
@@ -317,7 +309,17 @@
     "grok": 0.004,
     "deepseek": 0.006
    }
+  },
+  {
+   "name": "云雾AI",
+   "slug": "yunwu-ai",
+   "rates": {
+    "claude": 0.333,
+    "grok": 0.5,
+    "openai": 0.02,
+    "gemini": 0.5
+   }
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-11"
 }

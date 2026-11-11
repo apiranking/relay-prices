@@ -1,10 +1,10 @@
 {
- "site_count": 432,
+ "site_count": 431,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 368,
+   "count": 367,
    "rows": [
     {
      "name": "Prism API",
@@ -25,6 +25,11 @@
      "name": "Kun-Api",
      "slug": "kunkun666-com",
      "rate": 0.03
+    },
+    {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "rate": 0.031
     },
     {
      "name": "YeToken",
@@ -50,18 +55,13 @@
      "name": "A6API",
      "slug": "a6api",
      "rate": 0.048
-    },
-    {
-     "name": "TK API",
-     "slug": "tkapi-cc-cd",
-     "rate": 0.05
     }
    ]
   },
   {
    "key": "openai",
    "label": "GPT",
-   "count": 382,
+   "count": 381,
    "rows": [
     {
      "name": "Token云桥",
@@ -287,5 +287,5 @@
    ]
   }
  ],
- "updated": "2026-11-08"
+ "updated": "2026-11-11"
 }

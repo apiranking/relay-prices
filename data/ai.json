@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 432,
+ "site_count": 431,
  "rows": [
   {
    "name": "12API",
@@ -1767,6 +1767,15 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "rates": {
+    "openai": 0.021,
+    "claude": 0.031,
+    "grok": 0.14
+   }
+  },
+  {
    "name": "Bob API",
    "slug": "bobdong-cn",
    "rates": {
@@ -2523,15 +2532,6 @@
    }
   },
   {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "rates": {
-    "claude": 0.067,
-    "openai": 0.036,
-    "grok": 0.18
-   }
-  },
-  {
    "name": "合租 Ink",
    "slug": "hezu-ink",
    "rates": {
@@ -2784,14 +2784,6 @@
    "rates": {
     "claude": 0.152,
     "openai": 0.03
-   }
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "rates": {
-    "openai": 0.148,
-    "claude": 0.222
    }
   },
   {
@@ -4082,5 +4074,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }

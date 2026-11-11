@@ -1,6 +1,6 @@
 {
  "vendor": "Claude",
- "site_count": 365,
+ "site_count": 364,
  "min_rate": 0.014,
  "median_rate": 0.55,
  "sites": [
@@ -27,6 +27,12 @@
    "slug": "kunkun666-com",
    "rate": 0.03,
    "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "rate": 0.031,
+   "model": "Claude Sonnet 4.6"
   },
   {
    "name": "YeToken",
@@ -135,12 +141,6 @@
    "slug": "aiyoyoo-com",
    "rate": 0.062,
    "model": "Claude Opus 5.5"
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "rate": 0.067,
-   "model": "Claude Sonnet 5.5"
   },
   {
    "name": "Claude API",
@@ -596,12 +596,6 @@
    "name": "深空 API",
    "slug": "xkrelay-com",
    "rate": 0.2,
-   "model": "Claude Opus 5.5"
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "rate": 0.222,
    "model": "Claude Opus 5.5"
   },
   {
@@ -2438,13 +2432,6 @@
      "rate": 0.1
     },
     {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
-     "in": 0.4,
-     "out": 2.0,
-     "rate": 0.1
-    },
-    {
      "name": "旺旺中转站",
      "slug": "api-bbww-top",
      "in": 0.4,
@@ -2548,6 +2535,13 @@
      "in": 0.548,
      "out": 2.74,
      "rate": 0.137
+    },
+    {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 0.56,
+     "out": 2.8,
+     "rate": 0.14
     },
     {
      "name": "100 Hub",
@@ -2793,13 +2787,6 @@
      "in": 0.8,
      "out": 4.0,
      "rate": 0.2
-    },
-    {
-     "name": "BMCCA",
-     "slug": "cca-maya-today",
-     "in": 0.888,
-     "out": 4.44,
-     "rate": 0.222
     },
     {
      "name": "SU8 Codes",
@@ -4767,6 +4754,13 @@
      "rate": 0.137
     },
     {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 1.12,
+     "out": 5.6,
+     "rate": 0.14
+    },
+    {
      "name": "100 Hub",
      "slug": "aiboys-xyz",
      "in": 1.2,
@@ -5525,13 +5519,6 @@
     {
      "name": "lyapunov-api",
      "slug": "api-lyapunov-vector-com",
-     "in": 8.0,
-     "out": 40.0,
-     "rate": 1.0
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 8.0,
      "out": 40.0,
      "rate": 1.0
@@ -6732,13 +6719,6 @@
      "rate": 0.062
     },
     {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
-     "in": 0.1334,
-     "out": 0.667,
-     "rate": 0.067
-    },
-    {
      "name": "旺旺中转站",
      "slug": "api-bbww-top",
      "in": 0.1334,
@@ -6926,6 +6906,13 @@
      "in": 0.2666,
      "out": 1.333,
      "rate": 0.133
+    },
+    {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 0.28,
+     "out": 1.4,
+     "rate": 0.14
     },
     {
      "name": "100 Hub",
@@ -8466,13 +8453,6 @@
      "rate": 0.06
     },
     {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
-     "in": 0.0067,
-     "out": 0.0333,
-     "rate": 0.067
-    },
-    {
      "name": "旺旺中转站",
      "slug": "api-bbww-top",
      "in": 0.0067,
@@ -8569,6 +8549,13 @@
      "in": 0.0133,
      "out": 0.0667,
      "rate": 0.133
+    },
+    {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 0.014,
+     "out": 0.07,
+     "rate": 0.14
     },
     {
      "name": "100 Hub",
@@ -9689,7 +9676,7 @@
    "model_key": "claude-fable-5-1",
    "price_slug": "claude-fable-5-1",
    "label": "Claude Fable 5.1",
-   "median_rate": 1.1,
+   "median_rate": 1.125,
    "own_page": true,
    "current": false,
    "official_in": 10.0,
@@ -10636,13 +10623,6 @@
     {
      "name": "lyapunov-api",
      "slug": "api-lyapunov-vector-com",
-     "in": 10.0,
-     "out": 50.0,
-     "rate": 1.0
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 10.0,
      "out": 50.0,
      "rate": 1.0
@@ -11738,7 +11718,7 @@
    "model_key": "claude-sonnet-4-6",
    "price_slug": "claude-sonnet-4-6",
    "label": "Claude Sonnet 4.6",
-   "median_rate": 0.667,
+   "median_rate": 0.673,
    "own_page": true,
    "current": false,
    "official_in": 3.0,
@@ -11757,6 +11737,13 @@
      "in": 0.078,
      "out": 0.39,
      "rate": 0.026
+    },
+    {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 0.0933,
+     "out": 0.4662,
+     "rate": 0.031
     },
     {
      "name": "SunnyPumpkinAPI",
@@ -11845,13 +11832,6 @@
     {
      "name": "ByteCat",
      "slug": "bytecatcode-org",
-     "in": 0.3,
-     "out": 1.5,
-     "rate": 0.1
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 0.3,
      "out": 1.5,
      "rate": 0.1
@@ -11995,13 +11975,6 @@
      "in": 0.6,
      "out": 3.0,
      "rate": 0.2
-    },
-    {
-     "name": "BMCCA",
-     "slug": "cca-maya-today",
-     "in": 0.6667,
-     "out": 3.33,
-     "rate": 0.222
     },
     {
      "name": "AI Chat",
@@ -12975,6 +12948,13 @@
      "rate": 0.026
     },
     {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 0.1554,
+     "out": 0.7784,
+     "rate": 0.031
+    },
+    {
      "name": "ergouzi",
      "slug": "ergouzi",
      "in": 0.25,
@@ -13019,13 +12999,6 @@
     {
      "name": "ByteCat",
      "slug": "bytecatcode-org",
-     "in": 0.5,
-     "out": 2.5,
-     "rate": 0.1
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 0.5,
      "out": 2.5,
      "rate": 0.1
@@ -13176,13 +13149,6 @@
      "in": 1.0,
      "out": 5.0,
      "rate": 0.2
-    },
-    {
-     "name": "BMCCA",
-     "slug": "cca-maya-today",
-     "in": 1.11,
-     "out": 5.56,
-     "rate": 0.222
     },
     {
      "name": "AI Chat",
@@ -14121,6 +14087,13 @@
      "rate": 0.026
     },
     {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 0.1554,
+     "out": 0.7784,
+     "rate": 0.031
+    },
+    {
      "name": "ergouzi",
      "slug": "ergouzi",
      "in": 0.25,
@@ -14165,13 +14138,6 @@
     {
      "name": "ByteCat",
      "slug": "bytecatcode-org",
-     "in": 0.5,
-     "out": 2.5,
-     "rate": 0.1
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 0.5,
      "out": 2.5,
      "rate": 0.1
@@ -14322,13 +14288,6 @@
      "in": 1.0,
      "out": 5.0,
      "rate": 0.2
-    },
-    {
-     "name": "BMCCA",
-     "slug": "cca-maya-today",
-     "in": 1.11,
-     "out": 5.56,
-     "rate": 0.222
     },
     {
      "name": "AI Chat",
@@ -15617,13 +15576,6 @@
      "rate": 1.0
     },
     {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
-     "in": 10.0,
-     "out": 50.0,
-     "rate": 1.0
-    },
-    {
      "name": "旺旺中转站",
      "slug": "api-bbww-top",
      "in": 10.0,
@@ -16149,13 +16101,6 @@
     {
      "name": "Clauddy API",
      "slug": "clauddy-com",
-     "in": 0.2,
-     "out": 1.0,
-     "rate": 0.1
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 0.2,
      "out": 1.0,
      "rate": 0.1
@@ -16782,7 +16727,7 @@
    "refund": "1.6%手续费",
    "bench": {
     "model": "Claude Opus 5.5",
-    "billing": "对得上",
+    "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
@@ -17005,7 +16950,14 @@
    "invoice": "yes",
    "invoice_note": "10元开票",
    "refund": "无手续费",
-   "bench": null
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.9
+   }
   },
   {
    "name": "LantAPI",
@@ -17018,6 +16970,16 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "B",
+   "price": {
+    "in": 0.56,
+    "out": 2.8,
+    "rate": 0.14
+   }
+  },
+  {
    "name": "黑黑",
    "slug": "heilovehei",
    "tier": "B",
@@ -17025,16 +16987,6 @@
     "in": 0.4,
     "out": 2.0,
     "rate": 0.1
-   }
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "B",
-   "price": {
-    "in": 0.89,
-    "out": 4.44,
-    "rate": 0.222
    }
   },
   {
@@ -17075,16 +17027,6 @@
     "in": 6.0,
     "out": 30.0,
     "rate": 1.5
-   }
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.1
    }
   },
   {
@@ -17276,6 +17218,16 @@
     "out": 26.0,
     "rate": 1.3
    }
+  },
+  {
+   "name": "RightCode",
+   "slug": "right-codes",
+   "tier": "B",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   }
   }
  ],
  "bench": [
@@ -17291,7 +17243,7 @@
    "slug": "h-api",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "对得上"
+   "billing": "完全对得上"
   },
   {
    "name": "OpenOx",
@@ -17350,6 +17302,13 @@
    "billing": "比标价还便宜"
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上"
+  },
+  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "model": "Claude Opus 5",
@@ -17406,5 +17365,5 @@
    "billing": "完全对得上"
   }
  ],
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }

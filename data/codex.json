@@ -1,8 +1,8 @@
 {
  "vendor": "Codex",
- "site_count": 299,
+ "site_count": 298,
  "min_rate": 0.007,
- "median_rate": 0.373,
+ "median_rate": 0.378,
  "sites": [
   {
    "name": "XTokenMirror",
@@ -523,7 +523,7 @@
   {
    "name": "BMCCA",
    "slug": "cca-maya-today",
-   "rate": 0.148,
+   "rate": 0.14,
    "model": "GPT-6.1 Sol"
   },
   {
@@ -631,12 +631,6 @@
   {
    "name": "云枢 API",
    "slug": "nextpro-top",
-   "rate": 0.18,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
    "rate": 0.18,
    "model": "GPT-6.1 Sol"
   },
@@ -2317,9 +2311,9 @@
     {
      "name": "BMCCA",
      "slug": "cca-maya-today",
-     "in": 0.2962,
-     "out": 1.481,
-     "rate": 0.148
+     "in": 0.28,
+     "out": 1.4,
+     "rate": 0.14
     },
     {
      "name": "API VibeCoding",
@@ -2436,13 +2430,6 @@
     {
      "name": "云枢 API",
      "slug": "nextpro-top",
-     "in": 0.36,
-     "out": 1.8,
-     "rate": 0.18
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 0.36,
      "out": 1.8,
      "rate": 0.18
@@ -4415,9 +4402,9 @@
     {
      "name": "BMCCA",
      "slug": "cca-maya-today",
-     "in": 1.481,
-     "out": 7.405,
-     "rate": 0.148
+     "in": 1.4,
+     "out": 7.0,
+     "rate": 0.14
     },
     {
      "name": "API VibeCoding",
@@ -4520,13 +4507,6 @@
     {
      "name": "云枢 API",
      "slug": "nextpro-top",
-     "in": 1.8,
-     "out": 9.0,
-     "rate": 0.18
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 1.8,
      "out": 9.0,
      "rate": 0.18
@@ -5898,7 +5878,7 @@
    "refund": "无手续费",
    "bench": {
     "model": "GPT-6.1 Sol",
-    "billing": "对得上",
+    "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
@@ -5971,7 +5951,14 @@
    "invoice": "yes",
    "invoice_note": "10元开票",
    "refund": "无手续费",
-   "bench": null
+   "bench": {
+    "model": "GPT-6.1 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 10.9
+   }
   },
   {
    "name": "LantAPI",
@@ -5984,6 +5971,16 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "B",
+   "price": {
+    "in": 0.28,
+    "out": 1.4,
+    "rate": 0.14
+   }
+  },
+  {
    "name": "黑黑",
    "slug": "heilovehei",
    "tier": "B",
@@ -5991,16 +5988,6 @@
     "in": 0.1,
     "out": 0.5,
     "rate": 0.05
-   }
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "B",
-   "price": {
-    "in": 0.3,
-    "out": 1.48,
-    "rate": 0.148
    }
   },
   {
@@ -6041,16 +6028,6 @@
     "in": 0.4,
     "out": 2.0,
     "rate": 0.2
-   }
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "tier": "B",
-   "price": {
-    "in": 0.36,
-    "out": 1.8,
-    "rate": 0.18
    }
   },
   {
@@ -6232,7 +6209,17 @@
     "out": 2.0,
     "rate": 0.2
    }
+  },
+  {
+   "name": "ZIVV",
+   "slug": "zivv-pro",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
+   }
   }
  ],
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }

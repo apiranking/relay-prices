@@ -191,6 +191,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "rate": 0.14,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "Kedaya AI 中转站",
    "slug": "kedaya-ai",
    "rate": 0.14,
@@ -253,12 +259,6 @@
   {
    "name": "apikl.ai",
    "slug": "apikl-ai",
-   "rate": 0.18,
-   "model": "Grok 4.7"
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
    "rate": 0.18,
    "model": "Grok 4.7"
   },
@@ -1247,6 +1247,13 @@
      "rate": 0.136
     },
     {
+     "name": "BMCCA",
+     "slug": "cca-maya-today",
+     "in": 0.28,
+     "out": 0.84,
+     "rate": 0.14
+    },
+    {
      "name": "Kedaya AI 中转站",
      "slug": "kedaya-ai",
      "in": 0.28,
@@ -1326,13 +1333,6 @@
     {
      "name": "apikl.ai",
      "slug": "apikl-ai",
-     "in": 0.36,
-     "out": 1.08,
-     "rate": 0.18
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
      "in": 0.36,
      "out": 1.08,
      "rate": 0.18
@@ -2232,7 +2232,7 @@
    "model_key": "grok-4.5",
    "price_slug": "grok-4-5",
    "label": "Grok 4.5",
-   "median_rate": 0.403,
+   "median_rate": 0.407,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -2328,13 +2328,6 @@
      "in": 0.3,
      "out": 0.9,
      "rate": 0.15
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
-     "in": 0.36,
-     "out": 1.08,
-     "rate": 0.18
     },
     {
      "name": "ByteCat",
@@ -2650,7 +2643,7 @@
    "model_key": "grok-4.6",
    "price_slug": "grok-4-6",
    "label": "Grok 4.6",
-   "median_rate": 0.407,
+   "median_rate": 0.441,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -2739,13 +2732,6 @@
      "in": 0.3,
      "out": 0.9,
      "rate": 0.15
-    },
-    {
-     "name": "代码狗",
-     "slug": "ai-codepup-cn",
-     "in": 0.36,
-     "out": 1.08,
-     "rate": 0.18
     },
     {
      "name": "ByteCat",
@@ -3225,6 +3211,16 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "B",
+   "price": {
+    "in": 0.28,
+    "out": 0.84,
+    "rate": 0.14
+   }
+  },
+  {
    "name": "黑黑",
    "slug": "heilovehei",
    "tier": "B",
@@ -3252,16 +3248,6 @@
     "in": 0.12,
     "out": 0.36,
     "rate": 0.06
-   }
-  },
-  {
-   "name": "代码狗",
-   "slug": "ai-codepup-cn",
-   "tier": "B",
-   "price": {
-    "in": 0.36,
-    "out": 1.08,
-    "rate": 0.18
    }
   },
   {
@@ -3495,5 +3481,5 @@
    }
   }
  ],
- "updated": "2026-11-09"
+ "updated": "2026-11-11"
 }
