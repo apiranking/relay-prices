@@ -527,12 +527,6 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "rate": 0.488,
-   "model": "DeepSeek V4 Pro"
-  },
-  {
    "name": "AutoRouter",
    "slug": "autorouter-top",
    "rate": 0.497,
@@ -753,6 +747,12 @@
    "slug": "hiapi-ai",
    "rate": 1.131,
    "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "rate": 1.17,
+   "model": "DeepSeek V4.1 Flash"
   },
   {
    "name": "Kuaipao API",
@@ -1539,13 +1539,6 @@
      "rate": 0.5
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 1.014,
-     "out": 2.028,
-     "rate": 0.507
-    },
-    {
      "name": "AutoRouter",
      "slug": "autorouter-top",
      "in": 1.0178,
@@ -1770,6 +1763,13 @@
      "rate": 1.12
     },
     {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 2.34,
+     "out": 9.36,
+     "rate": 1.17
+    },
+    {
      "name": "Kuaipao API",
      "slug": "kuaipao-pro",
      "in": 2.52,
@@ -1978,7 +1978,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.492,
+   "median_rate": 0.498,
    "own_page": true,
    "current": false,
    "official_in": 9.0,
@@ -2433,13 +2433,6 @@
      "rate": 0.475
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 4.3875,
-     "out": 13.1625,
-     "rate": 0.488
-    },
-    {
      "name": "AutoRouter",
      "slug": "autorouter-top",
      "in": 4.4784,
@@ -2706,6 +2699,13 @@
      "rate": 1.131
     },
     {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 10.53,
+     "out": 31.59,
+     "rate": 1.17
+    },
+    {
      "name": "TeamoRouter",
      "slug": "teamorouter-cn",
      "in": 11.8067,
@@ -2954,21 +2954,21 @@
    "bench": null
   },
   {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
+   "name": "LinksAPI",
+   "slug": "linksapi",
    "tier": "S",
    "price": {
-    "in": 2.0,
-    "out": 8.0,
-    "rate": 1.0
+    "in": 2.34,
+    "out": 9.36,
+    "rate": 1.17
    },
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "开票仅支持国外 Invoice",
-   "refund": null,
+   "min_topup": "¥1",
+   "bonus": "本站用户送 $3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "无手续费",
    "bench": null
   },
   {
@@ -3008,24 +3008,6 @@
    "bench": null
   },
   {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "tier": "S",
-   "price": {
-    "in": 0.5,
-    "out": 2.01,
-    "rate": 0.251
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥7",
-   "bonus": "¥0.1",
-   "invoice": "yes",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -3044,13 +3026,33 @@
    "bench": null
   },
   {
-   "name": "LantAPI",
-   "slug": "gerlantapi",
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
    "tier": "B",
    "price": {
-    "in": 0.9,
-    "out": 3.6,
-    "rate": 0.45
+    "in": 2.0,
+    "out": 8.0,
+    "rate": 1.0
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 1.6,
+    "rate": 0.2
+   }
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 2.01,
+    "rate": 0.251
    }
   },
   {
@@ -3061,16 +3063,6 @@
     "in": 0.5,
     "out": 2.0,
     "rate": 0.25
-   }
-  },
-  {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "B",
-   "price": {
-    "in": 1.01,
-    "out": 2.03,
-    "rate": 0.507
    }
   },
   {
@@ -3332,17 +3324,7 @@
     "out": 2.71,
     "rate": 0.679
    }
-  },
-  {
-   "name": "For API",
-   "slug": "foropencode-com",
-   "tier": "B",
-   "price": {
-    "in": 1.36,
-    "out": 5.43,
-    "rate": 0.679
-   }
   }
  ],
- "updated": "2026-11-10"
+ "updated": "2026-11-11"
 }

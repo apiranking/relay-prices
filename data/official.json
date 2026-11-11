@@ -108,6 +108,12 @@
   "out": 30.0
  },
  {
+  "label": "Gemini 4 Carbon",
+  "family": "gemini",
+  "in": 2.0,
+  "out": 10.0
+ },
+ {
   "label": "Gemini 4 Argon",
   "family": "gemini",
   "in": 2.0,

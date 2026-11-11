@@ -635,12 +635,6 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "rate": 0.195,
-   "model": "GPT-6 Astra"
-  },
-  {
    "name": "97api",
    "slug": "97api-com",
    "rate": 0.2,
@@ -753,6 +747,12 @@
    "slug": "spacetimeai-cc",
    "rate": 0.27,
    "model": "GPT-6.1 Sol"
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "rate": 0.273,
+   "model": "GPT-6 Astra"
   },
   {
    "name": "ZIVV",
@@ -1235,6 +1235,12 @@
    "model": "GPT-6.1 Sol"
   },
   {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "rate": 0.7,
+   "model": "GPT-6.1 Sol"
+  },
+  {
    "name": "PingCode",
    "slug": "pingcode",
    "rate": 0.7,
@@ -1268,12 +1274,6 @@
    "name": "元衡 API",
    "slug": "meta-api-vip",
    "rate": 0.759,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "CoreCode",
-   "slug": "corecode-live",
-   "rate": 0.8,
    "model": "GPT-6.1 Sol"
   },
   {
@@ -2512,13 +2512,6 @@
      "rate": 0.204
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 0.4875,
-     "out": 2.4375,
-     "rate": 0.244
-    },
-    {
      "name": "AIHub",
      "slug": "aihub-dog",
      "in": 0.5,
@@ -3016,6 +3009,13 @@
      "rate": 0.543
     },
     {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 1.092,
+     "out": 6.552,
+     "rate": 0.546
+    },
+    {
      "name": "Taomu",
      "slug": "taomu-xyz",
      "in": 1.1,
@@ -3121,6 +3121,13 @@
      "rate": 0.679
     },
     {
+     "name": "CoreCode",
+     "slug": "corecode-live",
+     "in": 1.4,
+     "out": 7.0,
+     "rate": 0.7
+    },
+    {
      "name": "PingCode",
      "slug": "pingcode",
      "in": 1.4,
@@ -3182,13 +3189,6 @@
      "in": 1.5267,
      "out": 9.1604,
      "rate": 0.763
-    },
-    {
-     "name": "CoreCode",
-     "slug": "corecode-live",
-     "in": 1.6,
-     "out": 8.0,
-     "rate": 0.8
     },
     {
      "name": "GPT Agent",
@@ -4512,13 +4512,6 @@
      "rate": 0.18
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 1.95,
-     "out": 9.75,
-     "rate": 0.195
-    },
-    {
      "name": "97api",
      "slug": "97api-com",
      "in": 2.0,
@@ -4636,6 +4629,13 @@
      "in": 2.7,
      "out": 13.5,
      "rate": 0.27
+    },
+    {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 2.73,
+     "out": 13.65,
+     "rate": 0.273
     },
     {
      "name": "ZIVV",
@@ -5107,6 +5107,13 @@
      "rate": 0.679
     },
     {
+     "name": "CoreCode",
+     "slug": "corecode-live",
+     "in": 7.0,
+     "out": 35.0,
+     "rate": 0.7
+    },
+    {
      "name": "PingCode",
      "slug": "pingcode",
      "in": 7.0,
@@ -5133,13 +5140,6 @@
      "in": 7.59,
      "out": 37.95,
      "rate": 0.759
-    },
-    {
-     "name": "CoreCode",
-     "slug": "corecode-live",
-     "in": 8.0,
-     "out": 40.0,
-     "rate": 0.8
     },
     {
      "name": "GPT Agent",
@@ -5811,28 +5811,28 @@
    }
   },
   {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
+   "name": "LinksAPI",
+   "slug": "linksapi",
    "tier": "S",
    "price": {
-    "in": 0.8,
-    "out": 4.0,
-    "rate": 0.4
+    "in": 1.09,
+    "out": 6.55,
+    "rate": 0.546
    },
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "开票仅支持国外 Invoice",
-   "refund": null,
+   "min_topup": "¥1",
+   "bonus": "本站用户送 $3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "无手续费",
    "bench": {
     "model": "GPT-6.1 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 7.4
+    "wait_s": 7.1
    }
   },
   {
@@ -5858,6 +5858,31 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 7.3
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "tier": "S",
+   "price": {
+    "in": 1.4,
+    "out": 7.0,
+    "rate": 0.7
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "$3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "手续费20%",
+   "bench": {
+    "model": "GPT-6.1 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.5
    }
   },
   {
@@ -5911,31 +5936,6 @@
    }
   },
   {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "tier": "S",
-   "price": {
-    "in": 1.0,
-    "out": 5.0,
-    "rate": 0.5
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥7",
-   "bonus": "¥0.1",
-   "invoice": "yes",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": {
-    "model": "GPT-6.1 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 16.2
-   }
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -5961,13 +5961,13 @@
    }
   },
   {
-   "name": "LantAPI",
-   "slug": "gerlantapi",
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
    "tier": "B",
    "price": {
-    "in": 0.32,
-    "out": 1.6,
-    "rate": 0.16
+    "in": 0.8,
+    "out": 4.0,
+    "rate": 0.4
    }
   },
   {
@@ -5981,6 +5981,16 @@
    }
   },
   {
+   "name": "智元API",
+   "slug": "chaozhiyuanai-com",
+   "tier": "B",
+   "price": {
+    "in": 1.2,
+    "out": 1.8,
+    "rate": 0.6
+   }
+  },
+  {
    "name": "黑黑",
    "slug": "heilovehei",
    "tier": "B",
@@ -5988,6 +5998,26 @@
     "in": 0.1,
     "out": 0.5,
     "rate": 0.05
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.12,
+    "out": 0.6,
+    "rate": 0.06
+   }
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
    }
   },
   {
@@ -6008,16 +6038,6 @@
     "in": 0.24,
     "out": 1.2,
     "rate": 0.12
-   }
-  },
-  {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "B",
-   "price": {
-    "in": 0.49,
-    "out": 2.44,
-    "rate": 0.244
    }
   },
   {
@@ -6198,26 +6218,6 @@
     "in": 2.0,
     "out": 10.0,
     "rate": 1.0
-   }
-  },
-  {
-   "name": "Kuaipao API",
-   "slug": "kuaipao-pro",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.2
-   }
-  },
-  {
-   "name": "ZIVV",
-   "slug": "zivv-pro",
-   "tier": "B",
-   "price": {
-    "in": 1.0,
-    "out": 5.0,
-    "rate": 0.5
    }
   }
  ],

@@ -76,12 +76,13 @@
    }
   },
   {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
+   "name": "LinksAPI",
+   "slug": "linksapi",
    "rates": {
-    "claude": 0.7,
-    "openai": 0.32,
-    "deepseek": 1.0
+    "claude": 0.125,
+    "openai": 0.127,
+    "deepseek": 1.17,
+    "gemini": 0.507
    }
   },
   {
@@ -90,6 +91,15 @@
    "rates": {
     "claude": 0.3,
     "openai": 0.24
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "rates": {
+    "claude": 1.9,
+    "openai": 0.64,
+    "grok": 1.2
    }
   },
   {
@@ -114,17 +124,6 @@
    }
   },
   {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "rates": {
-    "claude": 0.792,
-    "openai": 0.4,
-    "gemini": 0.712,
-    "grok": 0.475,
-    "deepseek": 0.251
-   }
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "rates": {
@@ -135,14 +134,12 @@
    }
   },
   {
-   "name": "LantAPI",
-   "slug": "gerlantapi",
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
    "rates": {
-    "claude": 0.8,
-    "openai": 0.16,
-    "grok": 0.1,
-    "gemini": 0.8,
-    "deepseek": 0.45
+    "claude": 0.7,
+    "openai": 0.32,
+    "deepseek": 1.0
    }
   },
   {
@@ -155,12 +152,42 @@
    }
   },
   {
+   "name": "智元API",
+   "slug": "chaozhiyuanai-com",
+   "rates": {
+    "openai": 0.12,
+    "claude": 0.8
+   }
+  },
+  {
    "name": "黑黑",
    "slug": "heilovehei",
    "rates": {
     "claude": 0.1,
     "openai": 0.05,
     "grok": 0.2
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.048,
+    "gemini": 0.2,
+    "grok": 0.2,
+    "deepseek": 0.2
+   }
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "rates": {
+    "claude": 0.792,
+    "openai": 0.4,
+    "gemini": 0.712,
+    "grok": 0.475,
+    "deepseek": 0.251
    }
   },
   {
@@ -182,16 +209,6 @@
     "grok": 0.06,
     "gemini": 0.15,
     "deepseek": 0.25
-   }
-  },
-  {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "rates": {
-    "claude": 0.125,
-    "openai": 0.062,
-    "deepseek": 0.488,
-    "gemini": 0.507
    }
   },
   {
@@ -297,27 +314,6 @@
     "claude": 0.06,
     "openai": 0.3,
     "gemini": 0.9
-   }
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rates": {
-    "claude": 0.048,
-    "openai": 0.009,
-    "gemini": 0.081,
-    "grok": 0.004,
-    "deepseek": 0.006
-   }
-  },
-  {
-   "name": "云雾AI",
-   "slug": "yunwu-ai",
-   "rates": {
-    "claude": 0.333,
-    "grok": 0.5,
-    "openai": 0.02,
-    "gemini": 0.5
    }
   }
  ],

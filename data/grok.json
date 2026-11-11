@@ -3137,17 +3137,17 @@
    "bench": null
   },
   {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
+   "name": "LinksAPI",
+   "slug": "linksapi",
    "tier": "S",
    "price": null,
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "开票仅支持国外 Invoice",
-   "refund": null,
+   "min_topup": "¥1",
+   "bonus": "本站用户送 $3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "无手续费",
    "bench": null
   },
   {
@@ -3162,6 +3162,24 @@
    "invoice": "yes",
    "invoice_note": "对公支付6%税费",
    "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "tier": "S",
+   "price": {
+    "in": 2.4,
+    "out": 7.2,
+    "rate": 1.2
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "$3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "手续费20%",
    "bench": null
   },
   {
@@ -3183,34 +3201,6 @@
    "bench": null
   },
   {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "tier": "S",
-   "price": {
-    "in": 0.95,
-    "out": 2.85,
-    "rate": 0.475
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥7",
-   "bonus": "¥0.1",
-   "invoice": "yes",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
-   "name": "LantAPI",
-   "slug": "gerlantapi",
-   "tier": "B",
-   "price": {
-    "in": 0.32,
-    "out": 0.96,
-    "rate": 0.16
-   }
-  },
-  {
    "name": "BMCCA",
    "slug": "cca-maya-today",
    "tier": "B",
@@ -3228,6 +3218,26 @@
     "in": 0.4,
     "out": 1.2,
     "rate": 0.2
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 1.2,
+    "rate": 0.2
+   }
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "tier": "B",
+   "price": {
+    "in": 0.95,
+    "out": 2.85,
+    "rate": 0.475
    }
   },
   {
@@ -3371,6 +3381,16 @@
    }
   },
   {
+   "name": "LinkAPI",
+   "slug": "linkapi-ai",
+   "tier": "B",
+   "price": {
+    "in": 1.6,
+    "out": 4.8,
+    "rate": 0.8
+   }
+  },
+  {
    "name": "RightCode",
    "slug": "right-codes",
    "tier": "B",
@@ -3431,16 +3451,6 @@
    }
   },
   {
-   "name": "LinkAPI",
-   "slug": "linkapi-ai",
-   "tier": "B",
-   "price": {
-    "in": 1.6,
-    "out": 4.8,
-    "rate": 0.8
-   }
-  },
-  {
    "name": "27API",
    "slug": "27api-com",
    "tier": "B",
@@ -3468,16 +3478,6 @@
     "in": 0.02,
     "out": 0.06,
     "rate": 0.01
-   }
-  },
-  {
-   "name": "Xiaoye API",
-   "slug": "ai-xiaoye-io",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 1.8,
-    "rate": 0.3
    }
   }
  ],

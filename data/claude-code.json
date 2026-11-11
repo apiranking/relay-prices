@@ -287,12 +287,6 @@
    "model": "Claude Opus 5.5"
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "rate": 0.125,
-   "model": "Claude Opus 5.5"
-  },
-  {
    "name": "VideoCaptioner API",
    "slug": "videocaptioner-cn",
    "rate": 0.132,
@@ -434,6 +428,12 @@
    "name": "夯炸了",
    "slug": "hangzhale-com",
    "rate": 0.18,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "rate": 0.185,
    "model": "Claude Opus 5.5"
   },
   {
@@ -2341,13 +2341,6 @@
      "rate": 0.12
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 0.4992,
-     "out": 2.496,
-     "rate": 0.125
-    },
-    {
      "name": "VideoCaptioner API",
      "slug": "videocaptioner-cn",
      "in": 0.5294,
@@ -2507,6 +2500,13 @@
      "in": 0.72,
      "out": 3.6,
      "rate": 0.18
+    },
+    {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 0.741,
+     "out": 3.705,
+     "rate": 0.185
     },
     {
      "name": "AI Prime Tech",
@@ -5342,13 +5342,6 @@
      "rate": 0.7
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 1.56,
-     "out": 7.8,
-     "rate": 0.78
-    },
-    {
      "name": "Mirgo",
      "slug": "mirgo-top",
      "in": 1.5693,
@@ -5683,6 +5676,13 @@
      "in": 2.8,
      "out": 14.0,
      "rate": 1.4
+    },
+    {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 2.925,
+     "out": 14.625,
+     "rate": 1.463
     },
     {
      "name": "Code0.ai",
@@ -6214,15 +6214,22 @@
    "billing": "完全对得上"
   },
   {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
+   "name": "LinksAPI",
+   "slug": "linksapi",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "对得上"
+   "billing": "完全对得上"
   },
   {
    "name": "boxying",
    "slug": "boxying",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上"
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
    "billing": "完全对得上"
@@ -6242,13 +6249,6 @@
    "billing": "完全对得上"
   },
   {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "model": "Claude Opus 5",
-   "cache": "缓存优秀",
-   "billing": "比标价还便宜"
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "model": "Claude Opus 5.5",
@@ -6256,8 +6256,15 @@
    "billing": "完全对得上"
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "对得上"
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
    "model": "Claude Opus 5",
    "cache": "缓存优秀",
    "billing": "比标价还便宜"
@@ -6284,30 +6291,9 @@
    "billing": "完全对得上"
   },
   {
-   "name": "apikl.ai",
-   "slug": "apikl-ai",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上"
-  },
-  {
    "name": "Cooper-API",
    "slug": "cooper-api-com",
    "model": "Claude Opus 5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上"
-  },
-  {
-   "name": "皮卡丘token商店",
-   "slug": "pikaqiu-shop",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上"
-  },
-  {
-   "name": "WAWA ZZ API",
-   "slug": "wawazz-xyz",
-   "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
    "billing": "完全对得上"
   }
@@ -6440,28 +6426,28 @@
    }
   },
   {
-   "name": "SSSAICode",
-   "slug": "sssaicode-com",
+   "name": "LinksAPI",
+   "slug": "linksapi",
    "tier": "S",
    "price": {
-    "in": 2.8,
-    "out": 14.0,
-    "rate": 0.7
+    "in": 0.74,
+    "out": 3.71,
+    "rate": 0.185
    },
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "开票仅支持国外 Invoice",
-   "refund": null,
+   "min_topup": "¥1",
+   "bonus": "本站用户送 $3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "无手续费",
    "bench": {
     "model": "Claude Opus 5.5",
-    "billing": "对得上",
+    "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 3.8
+    "wait_s": 6.3
    }
   },
   {
@@ -6487,6 +6473,31 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 3.4
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "tier": "S",
+   "price": {
+    "in": 7.6,
+    "out": 38.0,
+    "rate": 1.9
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "$3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "手续费20%",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 2.5
    }
   },
   {
@@ -6540,31 +6551,6 @@
    }
   },
   {
-   "name": "RunAPI",
-   "slug": "runapi-co",
-   "tier": "S",
-   "price": {
-    "in": 3.17,
-    "out": 15.83,
-    "rate": 0.792
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥7",
-   "bonus": "¥0.1",
-   "invoice": "yes",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": {
-    "model": "Claude Opus 5",
-    "billing": "比标价还便宜",
-    "billing_color": "info",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 3.3
-   }
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -6590,13 +6576,13 @@
    }
   },
   {
-   "name": "LantAPI",
-   "slug": "gerlantapi",
+   "name": "SSSAICode",
+   "slug": "sssaicode-com",
    "tier": "B",
    "price": {
-    "in": 3.2,
-    "out": 16.0,
-    "rate": 0.8
+    "in": 2.8,
+    "out": 14.0,
+    "rate": 0.7
    }
   },
   {
@@ -6610,6 +6596,16 @@
    }
   },
   {
+   "name": "智元API",
+   "slug": "chaozhiyuanai-com",
+   "tier": "B",
+   "price": {
+    "in": 3.2,
+    "out": 16.0,
+    "rate": 0.8
+   }
+  },
+  {
    "name": "黑黑",
    "slug": "heilovehei",
    "tier": "B",
@@ -6617,6 +6613,26 @@
     "in": 0.4,
     "out": 2.0,
     "rate": 0.1
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.8,
+    "out": 4.0,
+    "rate": 0.2
+   }
+  },
+  {
+   "name": "RunAPI",
+   "slug": "runapi-co",
+   "tier": "B",
+   "price": {
+    "in": 3.17,
+    "out": 15.83,
+    "rate": 0.792
    }
   },
   {
@@ -6637,16 +6653,6 @@
     "in": 1.6,
     "out": 8.0,
     "rate": 0.4
-   }
-  },
-  {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 2.5,
-    "rate": 0.125
    }
   },
   {
@@ -6837,26 +6843,6 @@
     "in": 3.0,
     "out": 15.0,
     "rate": 0.75
-   }
-  },
-  {
-   "name": "ZIVV",
-   "slug": "zivv-pro",
-   "tier": "B",
-   "price": {
-    "in": 5.2,
-    "out": 26.0,
-    "rate": 1.3
-   }
-  },
-  {
-   "name": "RightCode",
-   "slug": "right-codes",
-   "tier": "B",
-   "price": {
-    "in": 1.2,
-    "out": 6.0,
-    "rate": 0.3
    }
   }
  ],
