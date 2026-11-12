@@ -6214,15 +6214,15 @@
    "billing": "完全对得上"
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
+   "name": "boxying",
+   "slug": "boxying",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
    "billing": "完全对得上"
   },
   {
-   "name": "boxying",
-   "slug": "boxying",
+   "name": "LinksAPI",
+   "slug": "linksapi",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
    "billing": "完全对得上"
@@ -6315,7 +6315,7 @@
    "bonus": "进群赠送",
    "invoice": "yes",
    "invoice_note": null,
-   "refund": "无手续费",
+   "refund": "退款3%手续费",
    "bench": {
     "model": "Claude Opus 5.5",
     "billing": "对得上",
@@ -6362,7 +6362,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥1",
-   "bonus": "加客服领取$3",
+   "bonus": "加客服领取",
    "invoice": "yes",
    "invoice_note": null,
    "refund": "无手续费",
@@ -6426,31 +6426,6 @@
    }
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": {
-    "in": 0.74,
-    "out": 3.71,
-    "rate": 0.185
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 6.3
-   }
-  },
-  {
    "name": "boxying",
    "slug": "boxying",
    "tier": "S",
@@ -6473,6 +6448,31 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 3.4
+   }
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "S",
+   "price": {
+    "in": 0.74,
+    "out": 3.71,
+    "rate": 0.185
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "本站用户送 $3",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 6.3
    }
   },
   {
@@ -6512,7 +6512,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥5",
-   "bonus": "$0",
+   "bonus": null,
    "invoice": "yes",
    "invoice_note": "3000元起开",
    "refund": "无手续费",
@@ -6716,6 +6716,26 @@
    }
   },
   {
+   "name": "小红马AIGS",
+   "slug": "aigs-cc",
+   "tier": "B",
+   "price": {
+    "in": 33.12,
+    "out": 165.6,
+    "rate": 8.28
+   }
+  },
+  {
+   "name": "AI Prime Tech",
+   "slug": "aiprimetech-io",
+   "tier": "B",
+   "price": {
+    "in": 0.78,
+    "out": 3.9,
+    "rate": 0.195
+   }
+  },
+  {
    "name": "Z-API",
    "slug": "api-zicc-cc",
    "tier": "B",
@@ -6726,28 +6746,18 @@
    }
   },
   {
-   "name": "537 AI",
-   "slug": "537-ai-net",
+   "name": "API VibeCoding",
+   "slug": "apiclaude-cc",
    "tier": "B",
    "price": {
-    "in": 3.2,
-    "out": 16.0,
-    "rate": 0.8
+    "in": 0.33,
+    "out": 1.67,
+    "rate": 0.083
    }
   },
   {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.27,
-    "out": 1.33,
-    "rate": 0.066
-   }
-  },
-  {
-   "name": "云雾AI",
-   "slug": "yunwu-ai",
+   "name": "Claude API",
+   "slug": "claude-api-org",
    "tier": "B",
    "price": {
     "in": 2.0,
@@ -6756,28 +6766,8 @@
    }
   },
   {
-   "name": "Micu",
-   "slug": "micuapi-ai",
-   "tier": "B",
-   "price": {
-    "in": 1.8,
-    "out": 9.0,
-    "rate": 0.45
-   }
-  },
-  {
-   "name": "ByteCat",
-   "slug": "bytecatcode-org",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.1
-   }
-  },
-  {
-   "name": "Codex2API",
-   "slug": "codex2api",
+   "name": "Giao",
+   "slug": "giaolink-com",
    "tier": "B",
    "price": {
     "in": 0.8,
@@ -6786,65 +6776,85 @@
    }
   },
   {
-   "name": "Xcode",
-   "slug": "xcode-best",
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
    "tier": "B",
    "price": {
-    "in": 6.8,
-    "out": 34.0,
-    "rate": 1.7
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.15
    }
   },
   {
-   "name": "PackyCode",
-   "slug": "packyapi-com",
+   "name": "HZLinkAPI",
+   "slug": "hzlinkapi-com",
    "tier": "B",
    "price": {
-    "in": 3.2,
-    "out": 16.0,
-    "rate": 0.8
+    "in": 14.0,
+    "out": 70.0,
+    "rate": 3.5
    }
   },
   {
-   "name": "Bob API",
-   "slug": "bobdong-cn",
+   "name": "KuaiAPI",
+   "slug": "kuaiapi-net",
    "tier": "B",
    "price": {
-    "in": 0.8,
-    "out": 4.0,
-    "rate": 0.2
+    "in": 4.8,
+    "out": 24.0,
+    "rate": 1.2
    }
   },
   {
-   "name": "ai98pro",
-   "slug": "ai98pro",
+   "name": "Kun-Api",
+   "slug": "kunkun666-com",
    "tier": "B",
    "price": {
-    "in": 0.48,
-    "out": 2.4,
-    "rate": 0.12
+    "in": 0.12,
+    "out": 0.6,
+    "rate": 0.03
    }
   },
   {
-   "name": "QweApi",
-   "slug": "qweapi",
+   "name": "Grox",
+   "slug": "mcgrox-top",
    "tier": "B",
    "price": {
-    "in": 14.4,
-    "out": 72.0,
-    "rate": 3.6
+    "in": 4.0,
+    "out": 20.0,
+    "rate": 1.0
    }
   },
   {
-   "name": "Kuaipao API",
-   "slug": "kuaipao-pro",
+   "name": "gods",
+   "slug": "meisgold-top",
    "tier": "B",
    "price": {
-    "in": 3.0,
-    "out": 15.0,
-    "rate": 0.75
+    "in": 0.32,
+    "out": 1.6,
+    "rate": 0.08
+   }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "Portdan AI",
+   "slug": "portdan-com",
+   "tier": "B",
+   "price": {
+    "in": 14.6,
+    "out": 73.0,
+    "rate": 3.65
    }
   }
  ],
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }

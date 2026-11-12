@@ -76,6 +76,14 @@
    }
   },
   {
+   "name": "boxying",
+   "slug": "boxying",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.24
+   }
+  },
+  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "rates": {
@@ -83,14 +91,6 @@
     "openai": 0.127,
     "deepseek": 1.17,
     "gemini": 0.507
-   }
-  },
-  {
-   "name": "boxying",
-   "slug": "boxying",
-   "rates": {
-    "claude": 0.3,
-    "openai": 0.24
    }
   },
   {
@@ -292,30 +292,31 @@
    }
   },
   {
-   "name": "Ofapp API",
-   "slug": "api-ofapp-cn",
+   "name": "1024Token",
+   "slug": "1024token-club",
    "rates": {
-    "openai": 0.25
+    "openai": 0.06
    }
   },
   {
-   "name": "Z-API",
-   "slug": "api-zicc-cc",
+   "name": "27API",
+   "slug": "27api-com",
    "rates": {
-    "claude": 0.08,
-    "openai": 0.1,
-    "gemini": 0.1
+    "grok": 7.5,
+    "gemini": 20.0
    }
   },
   {
-   "name": "537 AI",
-   "slug": "537-ai-net",
+   "name": "小红马AIGS",
+   "slug": "aigs-cc",
    "rates": {
-    "claude": 0.06,
-    "openai": 0.3,
-    "gemini": 0.9
+    "claude": 8.28,
+    "gemini": 3.6,
+    "grok": 8.28,
+    "openai": 1.66,
+    "deepseek": 0.585
    }
   }
  ],
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }

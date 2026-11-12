@@ -3061,7 +3061,7 @@
    "bonus": "进群赠送",
    "invoice": "yes",
    "invoice_note": null,
-   "refund": "无手续费",
+   "refund": "退款3%手续费",
    "bench": null
   },
   {
@@ -3094,7 +3094,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥1",
-   "bonus": "加客服领取$3",
+   "bonus": "加客服领取",
    "invoice": "yes",
    "invoice_note": null,
    "refund": "无手续费",
@@ -3137,20 +3137,6 @@
    "bench": null
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "boxying",
    "slug": "boxying",
    "tier": "S",
@@ -3161,6 +3147,20 @@
    "bonus": "¥0.5",
    "invoice": "yes",
    "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "本站用户送 $3",
+   "invoice": "no",
+   "invoice_note": null,
    "refund": "无手续费",
    "bench": null
   },
@@ -3194,7 +3194,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥5",
-   "bonus": "$0",
+   "bonus": null,
    "invoice": "yes",
    "invoice_note": "3000元起开",
    "refund": "无手续费",
@@ -3311,6 +3311,66 @@
    }
   },
   {
+   "name": "27API",
+   "slug": "27api-com",
+   "tier": "B",
+   "price": {
+    "in": 15.0,
+    "out": 90.0,
+    "rate": 7.5
+   }
+  },
+  {
+   "name": "小红马AIGS",
+   "slug": "aigs-cc",
+   "tier": "B",
+   "price": {
+    "in": 16.56,
+    "out": 49.68,
+    "rate": 8.28
+   }
+  },
+  {
+   "name": "API VibeCoding",
+   "slug": "apiclaude-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 1.5,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.3,
+    "out": 0.9,
+    "rate": 0.15
+   }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 1.2,
+    "rate": 0.2
+   }
+  },
+  {
+   "name": "XINGYI API",
+   "slug": "xingyi888-com",
+   "tier": "B",
+   "price": {
+    "in": 0.2,
+    "out": 0.6,
+    "rate": 0.1
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -3419,67 +3479,7 @@
     "out": 4.2,
     "rate": 0.7
    }
-  },
-  {
-   "name": "Uiuihao API",
-   "slug": "api-uiuihao-com",
-   "tier": "B",
-   "price": {
-    "in": 2.0,
-    "out": 6.0,
-    "rate": 1.0
-   }
-  },
-  {
-   "name": "LLM-ALL API",
-   "slug": "llm-all-pro",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 1.8,
-    "rate": 0.3
-   }
-  },
-  {
-   "name": "AI 搬运工",
-   "slug": "aimover-cc",
-   "tier": "B",
-   "price": {
-    "in": 0.1,
-    "out": 0.3,
-    "rate": 0.05
-   }
-  },
-  {
-   "name": "27API",
-   "slug": "27api-com",
-   "tier": "B",
-   "price": {
-    "in": 15.0,
-    "out": 90.0,
-    "rate": 7.5
-   }
-  },
-  {
-   "name": "4Sapi",
-   "slug": "4sapi-com",
-   "tier": "B",
-   "price": {
-    "in": 2.0,
-    "out": 6.0,
-    "rate": 1.0
-   }
-  },
-  {
-   "name": "鑫旺Neko API",
-   "slug": "790053500-com",
-   "tier": "B",
-   "price": {
-    "in": 0.02,
-    "out": 0.06,
-    "rate": 0.01
-   }
   }
  ],
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }

@@ -2914,7 +2914,7 @@
    "bonus": "进群赠送",
    "invoice": "yes",
    "invoice_note": null,
-   "refund": "无手续费",
+   "refund": "退款3%手续费",
    "bench": null
   },
   {
@@ -2947,7 +2947,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥1",
-   "bonus": "加客服领取$3",
+   "bonus": "加客服领取",
    "invoice": "yes",
    "invoice_note": null,
    "refund": "无手续费",
@@ -2983,7 +2983,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥5",
-   "bonus": "$0",
+   "bonus": null,
    "invoice": "yes",
    "invoice_note": "3000元起开",
    "refund": "无手续费",
@@ -3116,6 +3116,56 @@
    }
   },
   {
+   "name": "小红马AIGS",
+   "slug": "aigs-cc",
+   "tier": "B",
+   "price": {
+    "in": 1.17,
+    "out": 4.66,
+    "rate": 0.585
+   }
+  },
+  {
+   "name": "GoAI",
+   "slug": "goai-im",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 1.0,
+    "rate": 0.25
+   }
+  },
+  {
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 2.4,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 0.1,
+    "out": 0.4,
+    "rate": 0.05
+   }
+  },
+  {
+   "name": "XINGYI API",
+   "slug": "xingyi888-com",
+   "tier": "B",
+   "price": {
+    "in": 0.25,
+    "out": 1.0,
+    "rate": 0.125
+   }
+  },
+  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -3206,16 +3256,6 @@
    }
   },
   {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
-   "tier": "B",
-   "price": {
-    "in": 1.17,
-    "out": 4.66,
-    "rate": 0.585
-   }
-  },
-  {
    "name": "Openai_",
    "slug": "aiooapi-com",
    "tier": "B",
@@ -3284,47 +3324,7 @@
     "out": 0.6,
     "rate": 0.075
    }
-  },
-  {
-   "name": "Bot Compute Fabric",
-   "slug": "botcf-com",
-   "tier": "B",
-   "price": {
-    "in": 1.2,
-    "out": 4.8,
-    "rate": 0.6
-   }
-  },
-  {
-   "name": "刀刀刀",
-   "slug": "codexapis-com",
-   "tier": "B",
-   "price": {
-    "in": 2.71,
-    "out": 10.86,
-    "rate": 1.357
-   }
-  },
-  {
-   "name": "CodingRouter",
-   "slug": "codingrouter",
-   "tier": "B",
-   "price": {
-    "in": 1.9,
-    "out": 7.6,
-    "rate": 0.95
-   }
-  },
-  {
-   "name": "DMXAPI Global",
-   "slug": "dmxapi-com",
-   "tier": "B",
-   "price": {
-    "in": 1.36,
-    "out": 2.71,
-    "rate": 0.679
-   }
   }
  ],
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }

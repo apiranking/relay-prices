@@ -3930,7 +3930,7 @@
    "bonus": "进群赠送",
    "invoice": "yes",
    "invoice_note": null,
-   "refund": "无手续费",
+   "refund": "退款3%手续费",
    "bench": null
   },
   {
@@ -3955,7 +3955,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥1",
-   "bonus": "加客服领取$3",
+   "bonus": "加客服领取",
    "invoice": "yes",
    "invoice_note": null,
    "refund": "无手续费",
@@ -3990,20 +3990,6 @@
    "bench": null
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "boxying",
    "slug": "boxying",
    "tier": "S",
@@ -4014,6 +4000,20 @@
    "bonus": "¥0.5",
    "invoice": "yes",
    "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "本站用户送 $3",
+   "invoice": "no",
+   "invoice_note": null,
    "refund": "无手续费",
    "bench": null
   },
@@ -4039,7 +4039,7 @@
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥5",
-   "bonus": "$0",
+   "bonus": null,
    "invoice": "yes",
    "invoice_note": "3000元起开",
    "refund": "无手续费",
@@ -4074,5 +4074,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-11"
+ "updated": "2026-11-12"
 }
