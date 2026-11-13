@@ -3116,16 +3116,6 @@
    }
   },
   {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
-   "tier": "B",
-   "price": {
-    "in": 1.17,
-    "out": 4.66,
-    "rate": 0.585
-   }
-  },
-  {
    "name": "GoAI",
    "slug": "goai-im",
    "tier": "B",
@@ -3256,6 +3246,16 @@
    }
   },
   {
+   "name": "小红马AIGS",
+   "slug": "aigs-cc",
+   "tier": "B",
+   "price": {
+    "in": 1.17,
+    "out": 4.66,
+    "rate": 0.585
+   }
+  },
+  {
    "name": "Openai_",
    "slug": "aiooapi-com",
    "tier": "B",
@@ -3326,5 +3326,5 @@
    }
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }

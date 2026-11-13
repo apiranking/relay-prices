@@ -307,16 +307,13 @@
    }
   },
   {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
+   "name": "AI Prime Tech",
+   "slug": "aiprimetech-io",
    "rates": {
-    "claude": 8.28,
-    "gemini": 3.6,
-    "grok": 8.28,
-    "openai": 1.66,
-    "deepseek": 0.585
+    "claude": 0.195,
+    "openai": 0.104
    }
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }

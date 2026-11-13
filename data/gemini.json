@@ -7134,16 +7134,6 @@
    }
   },
   {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
-   "tier": "B",
-   "price": {
-    "in": 16.56,
-    "out": 82.8,
-    "rate": 8.28
-   }
-  },
-  {
    "name": "Z-API",
    "slug": "api-zicc-cc",
    "tier": "B",
@@ -7244,5 +7234,5 @@
    }
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }

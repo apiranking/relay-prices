@@ -3321,16 +3321,6 @@
    }
   },
   {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
-   "tier": "B",
-   "price": {
-    "in": 16.56,
-    "out": 49.68,
-    "rate": 8.28
-   }
-  },
-  {
    "name": "API VibeCoding",
    "slug": "apiclaude-cc",
    "tier": "B",
@@ -3479,7 +3469,17 @@
     "out": 4.2,
     "rate": 0.7
    }
+  },
+  {
+   "name": "Uiuihao API",
+   "slug": "api-uiuihao-com",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 6.0,
+    "rate": 1.0
+   }
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }

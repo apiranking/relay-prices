@@ -17100,16 +17100,6 @@
    }
   },
   {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
-   "tier": "B",
-   "price": {
-    "in": 33.12,
-    "out": 165.6,
-    "rate": 8.28
-   }
-  },
-  {
    "name": "AI Prime Tech",
    "slug": "aiprimetech-io",
    "tier": "B",
@@ -17238,6 +17228,16 @@
     "out": 73.0,
     "rate": 3.65
    }
+  },
+  {
+   "name": "SpacetimeAI",
+   "slug": "spacetimeai-cc",
+   "tier": "B",
+   "price": {
+    "in": 5.2,
+    "out": 26.0,
+    "rate": 1.3
+   }
   }
  ],
  "bench": [
@@ -17361,5 +17361,5 @@
    "billing": "完全对得上"
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }

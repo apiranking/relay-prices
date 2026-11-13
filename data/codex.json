@@ -6121,16 +6121,6 @@
    }
   },
   {
-   "name": "小红马AIGS",
-   "slug": "aigs-cc",
-   "tier": "B",
-   "price": {
-    "in": 14.4,
-    "out": 72.0,
-    "rate": 7.2
-   }
-  },
-  {
    "name": "Ofapp API",
    "slug": "api-ofapp-cn",
    "tier": "B",
@@ -6239,7 +6229,17 @@
     "out": 0.9,
     "rate": 0.3
    }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 0.12,
+    "out": 0.6,
+    "rate": 0.06
+   }
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-13"
 }
