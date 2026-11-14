@@ -3137,20 +3137,6 @@
    "bench": null
   },
   {
-   "name": "boxying",
-   "slug": "boxying",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "¥0.5",
-   "invoice": "yes",
-   "invoice_note": "对公支付6%税费",
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "tier": "S",
@@ -3197,6 +3183,20 @@
    "bonus": null,
    "invoice": "yes",
    "invoice_note": "3000元起开",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥0.5",
+   "invoice": "yes",
+   "invoice_note": "对公支付6%税费",
    "refund": "无手续费",
    "bench": null
   },
@@ -3321,6 +3321,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.01,
+    "out": 0.02,
+    "rate": 0.004
+   }
+  },
+  {
    "name": "API VibeCoding",
    "slug": "apiclaude-cc",
    "tier": "B",
@@ -3358,16 +3368,6 @@
     "in": 0.2,
     "out": 0.6,
     "rate": 0.1
-   }
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.01,
-    "out": 0.02,
-    "rate": 0.004
    }
   },
   {
@@ -3481,5 +3481,5 @@
    }
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

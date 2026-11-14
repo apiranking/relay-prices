@@ -76,14 +76,6 @@
    }
   },
   {
-   "name": "boxying",
-   "slug": "boxying",
-   "rates": {
-    "claude": 0.3,
-    "openai": 0.24
-   }
-  },
-  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "rates": {
@@ -134,6 +126,14 @@
    }
   },
   {
+   "name": "boxying",
+   "slug": "boxying",
+   "rates": {
+    "claude": 0.3,
+    "openai": 0.24
+   }
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "rates": {
@@ -166,6 +166,13 @@
     "claude": 0.1,
     "openai": 0.05,
     "grok": 0.2
+   }
+  },
+  {
+   "name": "SubRouter",
+   "slug": "subrouter-ai",
+   "rates": {
+    "openai": 0.086
    }
   },
   {
@@ -305,15 +312,7 @@
     "grok": 7.5,
     "gemini": 20.0
    }
-  },
-  {
-   "name": "AI Prime Tech",
-   "slug": "aiprimetech-io",
-   "rates": {
-    "claude": 0.195,
-    "openai": 0.104
-   }
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

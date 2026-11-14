@@ -3990,20 +3990,6 @@
    "bench": null
   },
   {
-   "name": "boxying",
-   "slug": "boxying",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "¥0.5",
-   "invoice": "yes",
-   "invoice_note": "对公支付6%税费",
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "tier": "S",
@@ -4072,7 +4058,21 @@
    "invoice_note": "10元开票",
    "refund": "无手续费",
    "bench": null
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥0.5",
+   "invoice": "yes",
+   "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": null
   }
  ],
- "updated": "2026-11-12"
+ "updated": "2026-11-14"
 }

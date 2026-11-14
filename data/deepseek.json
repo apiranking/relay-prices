@@ -3116,6 +3116,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.01,
+    "out": 0.05,
+    "rate": 0.006
+   }
+  },
+  {
    "name": "GoAI",
    "slug": "goai-im",
    "tier": "B",
@@ -3153,16 +3163,6 @@
     "in": 0.25,
     "out": 1.0,
     "rate": 0.125
-   }
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.01,
-    "out": 0.05,
-    "rate": 0.006
    }
   },
   {
@@ -3326,5 +3326,5 @@
    }
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

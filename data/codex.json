@@ -5811,31 +5811,6 @@
    }
   },
   {
-   "name": "boxying",
-   "slug": "boxying",
-   "tier": "S",
-   "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.3
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "¥0.5",
-   "invoice": "yes",
-   "invoice_note": "对公支付6%税费",
-   "refund": "无手续费",
-   "bench": {
-    "model": "GPT-6.1 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 7.3
-   }
-  },
-  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "tier": "S",
@@ -5958,6 +5933,31 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 10.9
+   }
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "tier": "S",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥0.5",
+   "invoice": "yes",
+   "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": {
+    "model": "GPT-6.1 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 7.3
    }
   },
   {
@@ -6121,6 +6121,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.07,
+    "out": 0.33,
+    "rate": 0.033
+   }
+  },
+  {
    "name": "Ofapp API",
    "slug": "api-ofapp-cn",
    "tier": "B",
@@ -6219,27 +6229,7 @@
     "out": 15.0,
     "rate": 5.0
    }
-  },
-  {
-   "name": "gods",
-   "slug": "meisgold-top",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 0.9,
-    "rate": 0.3
-   }
-  },
-  {
-   "name": "皮卡丘token商店",
-   "slug": "pikaqiu-shop",
-   "tier": "B",
-   "price": {
-    "in": 0.12,
-    "out": 0.6,
-    "rate": 0.06
-   }
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

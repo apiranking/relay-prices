@@ -6214,13 +6214,6 @@
    "billing": "完全对得上"
   },
   {
-   "name": "boxying",
-   "slug": "boxying",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上"
-  },
-  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "model": "Claude Opus 5.5",
@@ -6251,6 +6244,13 @@
   {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上"
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
    "billing": "完全对得上"
@@ -6426,31 +6426,6 @@
    }
   },
   {
-   "name": "boxying",
-   "slug": "boxying",
-   "tier": "S",
-   "price": {
-    "in": 1.2,
-    "out": 6.0,
-    "rate": 0.3
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "¥0.5",
-   "invoice": "yes",
-   "invoice_note": "对公支付6%税费",
-   "refund": "无手续费",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 3.4
-   }
-  },
-  {
    "name": "LinksAPI",
    "slug": "linksapi",
    "tier": "S",
@@ -6573,6 +6548,31 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 4.9
+   }
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "tier": "S",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥0.5",
+   "invoice": "yes",
+   "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 3.4
    }
   },
   {
@@ -6716,6 +6716,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.27,
+    "out": 1.33,
+    "rate": 0.066
+   }
+  },
+  {
    "name": "AI Prime Tech",
    "slug": "aiprimetech-io",
    "tier": "B",
@@ -6834,27 +6844,7 @@
     "out": 5.0,
     "rate": 0.25
    }
-  },
-  {
-   "name": "Portdan AI",
-   "slug": "portdan-com",
-   "tier": "B",
-   "price": {
-    "in": 14.6,
-    "out": 73.0,
-    "rate": 3.65
-   }
-  },
-  {
-   "name": "SpacetimeAI",
-   "slug": "spacetimeai-cc",
-   "tier": "B",
-   "price": {
-    "in": 5.2,
-    "out": 26.0,
-    "rate": 1.3
-   }
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }

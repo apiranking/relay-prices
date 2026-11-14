@@ -7134,6 +7134,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.28,
+    "out": 1.38,
+    "rate": 0.138
+   }
+  },
+  {
    "name": "Z-API",
    "slug": "api-zicc-cc",
    "tier": "B",
@@ -7171,16 +7181,6 @@
     "in": 1.8,
     "out": 9.0,
     "rate": 0.9
-   }
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.28,
-    "out": 1.38,
-    "rate": 0.138
    }
   },
   {
@@ -7234,5 +7234,5 @@
    }
   }
  ],
- "updated": "2026-11-13"
+ "updated": "2026-11-14"
 }
