@@ -7008,24 +7008,6 @@
    "bench": null
   },
   {
-   "name": "Code0.ai",
-   "slug": "code0-ai",
-   "tier": "S",
-   "price": {
-    "in": 3.0,
-    "out": 15.0,
-    "rate": 1.5
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "¥1",
-   "invoice": "yes",
-   "invoice_note": "税费1%",
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -7234,5 +7216,5 @@
    }
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-15"
 }

@@ -106,16 +106,6 @@
    }
   },
   {
-   "name": "Code0.ai",
-   "slug": "code0-ai",
-   "rates": {
-    "claude": 1.5,
-    "openai": 0.8,
-    "gemini": 0.75,
-    "deepseek": 0.7
-   }
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "rates": {
@@ -312,7 +302,18 @@
     "grok": 7.5,
     "gemini": 20.0
    }
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "rates": {
+    "claude": 0.048,
+    "openai": 0.009,
+    "gemini": 0.081,
+    "grok": 0.004,
+    "deepseek": 0.006
+   }
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-15"
 }

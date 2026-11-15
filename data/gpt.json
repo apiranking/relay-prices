@@ -14006,31 +14006,6 @@
    }
   },
   {
-   "name": "Code0.ai",
-   "slug": "code0-ai",
-   "tier": "S",
-   "price": {
-    "in": 2.0,
-    "out": 10.0,
-    "rate": 1.0
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "¥1",
-   "invoice": "yes",
-   "invoice_note": "税费1%",
-   "refund": "无手续费",
-   "bench": {
-    "model": "GPT-6.1 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 23.2
-   }
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -14351,5 +14326,5 @@
    }
   }
  ],
- "updated": "2026-11-14"
+ "updated": "2026-11-15"
 }
