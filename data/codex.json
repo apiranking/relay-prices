@@ -1,15 +1,9 @@
 {
  "vendor": "Codex",
- "site_count": 298,
- "min_rate": 0.007,
- "median_rate": 0.378,
+ "site_count": 277,
+ "min_rate": 0.009,
+ "median_rate": 0.339,
  "sites": [
-  {
-   "name": "XTokenMirror",
-   "slug": "xtokenmirror-cn",
-   "rate": 0.007,
-   "model": "GPT-6.1 Sol"
-  },
   {
    "name": "A6API",
    "slug": "a6api",
@@ -20,12 +14,6 @@
    "name": "SixthSense LLM",
    "slug": "sixthsense-llm-com",
    "rate": 0.016,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "云雾AI",
-   "slug": "yunwu-ai",
-   "rate": 0.02,
    "model": "GPT-6.1 Sol"
   },
   {
@@ -43,12 +31,6 @@
   {
    "name": "Code-Plan（内部站点）",
    "slug": "o-ai-me",
-   "rate": 0.03,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "空悲切API",
-   "slug": "xn--vduyey89e-com",
    "rate": 0.03,
    "model": "GPT-6.1 Sol"
   },
@@ -237,12 +219,6 @@
    "slug": "callai-one",
    "rate": 0.08,
    "model": "GPT-6 Astra"
-  },
-  {
-   "name": "LLM-ALL API",
-   "slug": "llm-all-pro",
-   "rate": 0.08,
-   "model": "GPT-6.1 Sol"
   },
   {
    "name": "MM API",
@@ -493,12 +469,6 @@
   {
    "name": "YM2API 0号机",
    "slug": "chybenzun-top",
-   "rate": 0.12,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "词易",
-   "slug": "chiyicn-com",
    "rate": 0.12,
    "model": "GPT-6.1 Sol"
   },
@@ -773,12 +743,6 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "Dadakeji API",
-   "slug": "dadakeji-com",
-   "rate": 0.3,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "DawCode",
    "slug": "dawclaudecode-com",
    "rate": 0.3,
@@ -929,12 +893,6 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "RightCode",
-   "slug": "right-codes",
-   "rate": 0.4,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "rate": 0.4,
@@ -949,12 +907,6 @@
   {
    "name": "island AI Coding",
    "slug": "codex789-com",
-   "rate": 0.4,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "unity2",
-   "slug": "unity2-ai",
    "rate": 0.4,
    "model": "GPT-6.1 Sol"
   },
@@ -1033,18 +985,6 @@
   {
    "name": "Clauddy API",
    "slug": "clauddy-com",
-   "rate": 0.5,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "HolySheep AI",
-   "slug": "holysheep-ai",
-   "rate": 0.5,
-   "model": "GPT-6 Astra"
-  },
-  {
-   "name": "Mmaqq API",
-   "slug": "mmaqq-top",
    "rate": 0.5,
    "model": "GPT-6.1 Sol"
   },
@@ -1187,12 +1127,6 @@
    "model": "GPT-6 Astra"
   },
   {
-   "name": "CNMBI",
-   "slug": "cnm-bio",
-   "rate": 0.679,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "Cooper-API",
    "slug": "cooper-api-com",
    "rate": 0.679,
@@ -1325,38 +1259,14 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "35-aigcbest",
-   "slug": "35-aigcbest-top",
-   "rate": 1.0,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "4Sapi",
-   "slug": "4sapi-com",
-   "rate": 1.0,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "AI8",
    "slug": "ai8-my",
    "rate": 1.0,
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "AIHubMix",
-   "slug": "aihubmix-com",
-   "rate": 1.0,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "Apilio",
    "slug": "apilio-ai",
-   "rate": 1.0,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "Bool",
-   "slug": "booltoken-com",
    "rate": 1.0,
    "model": "GPT-6.1 Sol"
   },
@@ -1391,12 +1301,6 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "SudoCode",
-   "slug": "sudocode-chat",
-   "rate": 1.0,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "V-API",
    "slug": "api-gpt-ge",
    "rate": 1.0,
@@ -1421,12 +1325,6 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "老张 API",
-   "slug": "api-laozhang-ai",
-   "rate": 1.0,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "HaoAI",
    "slug": "hao-ai",
    "rate": 1.018,
@@ -1445,21 +1343,9 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "codesonline",
-   "slug": "mx-free-codesonline-dev",
-   "rate": 1.018,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "星期天AI",
    "slug": "weekly-day-top",
    "rate": 1.018,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "Cun AI",
-   "slug": "cun-ai",
-   "rate": 1.125,
    "model": "GPT-6.1 Sol"
   },
   {
@@ -1502,12 +1388,6 @@
    "name": "Hyperapi",
    "slug": "hyperapi-cc",
    "rate": 1.5,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "Codeagent API",
-   "slug": "codeagent-cloud",
-   "rate": 1.6,
    "model": "GPT-6.1 Sol"
   },
   {
@@ -1645,12 +1525,6 @@
   {
    "name": "APIB",
    "slug": "apib-ai",
-   "rate": 5.428,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "Agent Router",
-   "slug": "agentrouter-org",
    "rate": 5.428,
    "model": "GPT-6.1 Sol"
   },
@@ -1805,25 +1679,11 @@
    "official_out": 10.0,
    "rows": [
     {
-     "name": "XTokenMirror",
-     "slug": "xtokenmirror-cn",
-     "in": 0.014,
-     "out": 0.07,
-     "rate": 0.007
-    },
-    {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
      "in": 0.0328,
      "out": 0.164,
      "rate": 0.016
-    },
-    {
-     "name": "云雾AI",
-     "slug": "yunwu-ai",
-     "in": 0.04,
-     "out": 0.2,
-     "rate": 0.02
     },
     {
      "name": "ai98pro",
@@ -1842,13 +1702,6 @@
     {
      "name": "Code-Plan（内部站点）",
      "slug": "o-ai-me",
-     "in": 0.06,
-     "out": 0.3,
-     "rate": 0.03
-    },
-    {
-     "name": "空悲切API",
-     "slug": "xn--vduyey89e-com",
      "in": 0.06,
      "out": 0.3,
      "rate": 0.03
@@ -2045,13 +1898,6 @@
     {
      "name": "Bot Compute Fabric",
      "slug": "botcf-com",
-     "in": 0.16,
-     "out": 0.8,
-     "rate": 0.08
-    },
-    {
-     "name": "LLM-ALL API",
-     "slug": "llm-all-pro",
      "in": 0.16,
      "out": 0.8,
      "rate": 0.08
@@ -2269,13 +2115,6 @@
     {
      "name": "deepkey",
      "slug": "deepkey-top",
-     "in": 0.24,
-     "out": 1.2,
-     "rate": 0.12
-    },
-    {
-     "name": "词易",
-     "slug": "chiyicn-com",
      "in": 0.24,
      "out": 1.2,
      "rate": 0.12
@@ -2582,13 +2421,6 @@
      "rate": 0.3
     },
     {
-     "name": "Dadakeji API",
-     "slug": "dadakeji-com",
-     "in": 0.6,
-     "out": 3.0,
-     "rate": 0.3
-    },
-    {
      "name": "DawCode",
      "slug": "dawclaudecode-com",
      "in": 0.6,
@@ -2771,13 +2603,6 @@
      "rate": 0.4
     },
     {
-     "name": "RightCode",
-     "slug": "right-codes",
-     "in": 0.8,
-     "out": 4.0,
-     "rate": 0.4
-    },
-    {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
      "in": 0.8,
@@ -2796,13 +2621,6 @@
      "slug": "codex789-com",
      "in": 0.8,
      "out": 1.2,
-     "rate": 0.4
-    },
-    {
-     "name": "unity2",
-     "slug": "unity2-ai",
-     "in": 0.8,
-     "out": 4.0,
      "rate": 0.4
     },
     {
@@ -2899,13 +2717,6 @@
     {
      "name": "Clauddy API",
      "slug": "clauddy-com",
-     "in": 1.0,
-     "out": 5.0,
-     "rate": 0.5
-    },
-    {
-     "name": "Mmaqq API",
-     "slug": "mmaqq-top",
      "in": 1.0,
      "out": 5.0,
      "rate": 0.5
@@ -3063,13 +2874,6 @@
      "in": 1.2214,
      "out": 6.1069,
      "rate": 0.611
-    },
-    {
-     "name": "CNMBI",
-     "slug": "cnm-bio",
-     "in": 1.3571,
-     "out": 6.7855,
-     "rate": 0.679
     },
     {
      "name": "Cooper-API",
@@ -3247,29 +3051,8 @@
      "rate": 1.0
     },
     {
-     "name": "35-aigcbest",
-     "slug": "35-aigcbest-top",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 1.0
-    },
-    {
-     "name": "4Sapi",
-     "slug": "4sapi-com",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 1.0
-    },
-    {
      "name": "AI8",
      "slug": "ai8-my",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 1.0
-    },
-    {
-     "name": "AIHubMix",
-     "slug": "aihubmix-com",
      "in": 2.0,
      "out": 10.0,
      "rate": 1.0
@@ -3279,13 +3062,6 @@
      "slug": "apilio-ai",
      "in": 2.0,
      "out": 10.0,
-     "rate": 1.0
-    },
-    {
-     "name": "Bool",
-     "slug": "booltoken-com",
-     "in": 2.0,
-     "out": 3.0,
      "rate": 1.0
     },
     {
@@ -3319,13 +3095,6 @@
     {
      "name": "QweApi",
      "slug": "qweapi",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 1.0
-    },
-    {
-     "name": "SudoCode",
-     "slug": "sudocode-chat",
      "in": 2.0,
      "out": 10.0,
      "rate": 1.0
@@ -3366,13 +3135,6 @@
      "rate": 1.0
     },
     {
-     "name": "老张 API",
-     "slug": "api-laozhang-ai",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 1.0
-    },
-    {
      "name": "HaoAI",
      "slug": "hao-ai",
      "in": 2.0356,
@@ -3394,13 +3156,6 @@
      "rate": 1.018
     },
     {
-     "name": "codesonline",
-     "slug": "mx-free-codesonline-dev",
-     "in": 2.0356,
-     "out": 10.1782,
-     "rate": 1.018
-    },
-    {
      "name": "星期天AI",
      "slug": "weekly-day-top",
      "in": 2.0356,
@@ -3413,13 +3168,6 @@
      "in": 2.1,
      "out": 3.15,
      "rate": 1.05
-    },
-    {
-     "name": "Cun AI",
-     "slug": "cun-ai",
-     "in": 2.25,
-     "out": 11.25,
-     "rate": 1.125
     },
     {
      "name": "CodingRouter",
@@ -3462,13 +3210,6 @@
      "in": 3.0,
      "out": 15.0,
      "rate": 1.5
-    },
-    {
-     "name": "Codeagent API",
-     "slug": "codeagent-cloud",
-     "in": 3.2,
-     "out": 16.0,
-     "rate": 1.6
     },
     {
      "name": "AutoRouter",
@@ -3627,13 +3368,6 @@
     {
      "name": "APIB",
      "slug": "apib-ai",
-     "in": 10.8568,
-     "out": 54.2838,
-     "rate": 5.428
-    },
-    {
-     "name": "Agent Router",
-     "slug": "agentrouter-org",
      "in": 10.8568,
      "out": 54.2838,
      "rate": 5.428
@@ -3826,13 +3560,6 @@
    "official_out": 50.0,
    "rows": [
     {
-     "name": "XTokenMirror",
-     "slug": "xtokenmirror-cn",
-     "in": 0.07,
-     "out": 0.35,
-     "rate": 0.007
-    },
-    {
      "name": "A6API",
      "slug": "a6api",
      "in": 0.0977,
@@ -3845,13 +3572,6 @@
      "in": 0.164,
      "out": 0.82,
      "rate": 0.016
-    },
-    {
-     "name": "云雾AI",
-     "slug": "yunwu-ai",
-     "in": 0.2,
-     "out": 1.0,
-     "rate": 0.02
     },
     {
      "name": "ai98pro",
@@ -3870,13 +3590,6 @@
     {
      "name": "Code-Plan（内部站点）",
      "slug": "o-ai-me",
-     "in": 0.3,
-     "out": 1.5,
-     "rate": 0.03
-    },
-    {
-     "name": "空悲切API",
-     "slug": "xn--vduyey89e-com",
      "in": 0.3,
      "out": 1.5,
      "rate": 0.03
@@ -4094,13 +3807,6 @@
     {
      "name": "CallAI中转",
      "slug": "callai-one",
-     "in": 0.8,
-     "out": 4.0,
-     "rate": 0.08
-    },
-    {
-     "name": "LLM-ALL API",
-     "slug": "llm-all-pro",
      "in": 0.8,
      "out": 4.0,
      "rate": 0.08
@@ -4367,13 +4073,6 @@
     {
      "name": "YM2API 0号机",
      "slug": "chybenzun-top",
-     "in": 1.2,
-     "out": 6.0,
-     "rate": 0.12
-    },
-    {
-     "name": "词易",
-     "slug": "chiyicn-com",
      "in": 1.2,
      "out": 6.0,
      "rate": 0.12
@@ -4659,13 +4358,6 @@
      "rate": 0.3
     },
     {
-     "name": "Dadakeji API",
-     "slug": "dadakeji-com",
-     "in": 3.0,
-     "out": 15.0,
-     "rate": 0.3
-    },
-    {
      "name": "DawCode",
      "slug": "dawclaudecode-com",
      "in": 3.0,
@@ -4813,13 +4505,6 @@
      "rate": 0.4
     },
     {
-     "name": "RightCode",
-     "slug": "right-codes",
-     "in": 4.0,
-     "out": 20.0,
-     "rate": 0.4
-    },
-    {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
      "in": 4.0,
@@ -4829,13 +4514,6 @@
     {
      "name": "Zeus-API",
      "slug": "zeusnorun-com",
-     "in": 4.0,
-     "out": 20.0,
-     "rate": 0.4
-    },
-    {
-     "name": "unity2",
-     "slug": "unity2-ai",
      "in": 4.0,
      "out": 20.0,
      "rate": 0.4
@@ -4899,20 +4577,6 @@
     {
      "name": "Clauddy API",
      "slug": "clauddy-com",
-     "in": 5.0,
-     "out": 25.0,
-     "rate": 0.5
-    },
-    {
-     "name": "HolySheep AI",
-     "slug": "holysheep-ai",
-     "in": 5.0,
-     "out": 25.0,
-     "rate": 0.5
-    },
-    {
-     "name": "Mmaqq API",
-     "slug": "mmaqq-top",
      "in": 5.0,
      "out": 25.0,
      "rate": 0.5
@@ -5049,13 +4713,6 @@
      "in": 6.1069,
      "out": 30.5347,
      "rate": 0.611
-    },
-    {
-     "name": "CNMBI",
-     "slug": "cnm-bio",
-     "in": 6.7855,
-     "out": 33.9274,
-     "rate": 0.679
     },
     {
      "name": "Cooper-API",
@@ -5198,20 +4855,6 @@
      "rate": 1.0
     },
     {
-     "name": "35-aigcbest",
-     "slug": "35-aigcbest-top",
-     "in": 10.0,
-     "out": 50.0,
-     "rate": 1.0
-    },
-    {
-     "name": "4Sapi",
-     "slug": "4sapi-com",
-     "in": 10.0,
-     "out": 50.0,
-     "rate": 1.0
-    },
-    {
      "name": "AI8",
      "slug": "ai8-my",
      "in": 10.0,
@@ -5254,13 +4897,6 @@
      "rate": 1.0
     },
     {
-     "name": "SudoCode",
-     "slug": "sudocode-chat",
-     "in": 10.0,
-     "out": 50.0,
-     "rate": 1.0
-    },
-    {
      "name": "V-API",
      "slug": "api-gpt-ge",
      "in": 10.0,
@@ -5277,13 +4913,6 @@
     {
      "name": "synterolink",
      "slug": "synterolink",
-     "in": 10.0,
-     "out": 50.0,
-     "rate": 1.0
-    },
-    {
-     "name": "老张 API",
-     "slug": "api-laozhang-ai",
      "in": 10.0,
      "out": 50.0,
      "rate": 1.0
@@ -5310,25 +4939,11 @@
      "rate": 1.018
     },
     {
-     "name": "codesonline",
-     "slug": "mx-free-codesonline-dev",
-     "in": 10.1782,
-     "out": 50.8911,
-     "rate": 1.018
-    },
-    {
      "name": "星期天AI",
      "slug": "weekly-day-top",
      "in": 10.1782,
      "out": 50.8911,
      "rate": 1.018
-    },
-    {
-     "name": "Cun AI",
-     "slug": "cun-ai",
-     "in": 11.25,
-     "out": 56.25,
-     "rate": 1.125
     },
     {
      "name": "CodingRouter",
@@ -5385,13 +5000,6 @@
      "in": 15.0,
      "out": 75.0,
      "rate": 1.5
-    },
-    {
-     "name": "Codeagent API",
-     "slug": "codeagent-cloud",
-     "in": 16.0,
-     "out": 80.0,
-     "rate": 1.6
     },
     {
      "name": "AutoRouter",
@@ -5515,13 +5123,6 @@
     {
      "name": "APIB",
      "slug": "apib-ai",
-     "in": 54.2838,
-     "out": 271.4192,
-     "rate": 5.428
-    },
-    {
-     "name": "Agent Router",
-     "slug": "agentrouter-org",
      "in": 54.2838,
      "out": 271.4192,
      "rate": 5.428
@@ -6206,5 +5807,5 @@
    }
   }
  ],
- "updated": "2026-11-15"
+ "updated": "2026-11-17"
 }

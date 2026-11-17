@@ -108,6 +108,12 @@
   "out": 30.0
  },
  {
+  "label": "Gemini 4 Hydrogen",
+  "family": "gemini",
+  "in": 1.5,
+  "out": 7.5
+ },
+ {
   "label": "Gemini 4 Carbon",
   "family": "gemini",
   "in": 2.0,

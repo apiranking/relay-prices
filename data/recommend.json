@@ -299,8 +299,8 @@
    "name": "27API",
    "slug": "27api-com",
    "rates": {
-    "grok": 7.5,
-    "gemini": 20.0
+    "gemini": 20.0,
+    "grok": 7.5
    }
   },
   {

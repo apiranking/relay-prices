@@ -1,6 +1,6 @@
 {
  "vendor": "DeepSeek",
- "site_count": 151,
+ "site_count": 147,
  "min_rate": 0.001,
  "median_rate": 0.38,
  "sites": [
@@ -257,12 +257,6 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
-   "name": "词易",
-   "slug": "chiyicn-com",
-   "rate": 0.15,
-   "model": "DeepSeek V4.1 Flash"
-  },
-  {
    "name": "UnoRouter",
    "slug": "unorouter-com",
    "rate": 0.166,
@@ -351,12 +345,6 @@
    "slug": "runapi-co",
    "rate": 0.251,
    "model": "DeepSeek V4.1 Flash"
-  },
-  {
-   "name": "HolySheep AI",
-   "slug": "holysheep-ai",
-   "rate": 0.267,
-   "model": "DeepSeek V4 Pro"
   },
   {
    "name": "V-API",
@@ -707,12 +695,6 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
-   "name": "SudoCode",
-   "slug": "sudocode-chat",
-   "rate": 1.0,
-   "model": "DeepSeek V4 Pro"
-  },
-  {
    "name": "球球Token",
    "slug": "qiuqiutoken-com",
    "rate": 1.0,
@@ -807,12 +789,6 @@
    "slug": "mxwell-ai",
    "rate": 2.375,
    "model": "DeepSeek V4 Pro"
-  },
-  {
-   "name": "烁",
-   "slug": "h-e-top",
-   "rate": 2.545,
-   "model": "DeepSeek V4.1 Flash"
   },
   {
    "name": "CC中转",
@@ -916,7 +892,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.398,
+   "median_rate": 0.392,
    "own_page": true,
    "current": false,
    "official_in": 2.0,
@@ -1203,13 +1179,6 @@
      "rate": 0.15
     },
     {
-     "name": "词易",
-     "slug": "chiyicn-com",
-     "in": 0.3,
-     "out": 1.2,
-     "rate": 0.15
-    },
-    {
      "name": "KiosAPI",
      "slug": "kiosapi-com",
      "in": 0.3053,
@@ -1452,13 +1421,6 @@
      "slug": "4router-net",
      "in": 0.8,
      "out": 3.2,
-     "rate": 0.4
-    },
-    {
-     "name": "HolySheep AI",
-     "slug": "holysheep-ai",
-     "in": 0.8,
-     "out": 1.6,
      "rate": 0.4
     },
     {
@@ -1812,13 +1774,6 @@
      "rate": 1.5
     },
     {
-     "name": "SudoCode",
-     "slug": "sudocode-chat",
-     "in": 3.0,
-     "out": 9.0,
-     "rate": 1.5
-    },
-    {
      "name": "V-API",
      "slug": "vveai-com",
      "in": 3.3927,
@@ -1845,13 +1800,6 @@
      "in": 3.5624,
      "out": 14.2495,
      "rate": 1.781
-    },
-    {
-     "name": "烁",
-     "slug": "h-e-top",
-     "in": 5.0891,
-     "out": 20.3564,
-     "rate": 2.545
     },
     {
      "name": "CC中转",
@@ -2314,13 +2262,6 @@
      "rate": 0.257
     },
     {
-     "name": "HolySheep AI",
-     "slug": "holysheep-ai",
-     "in": 2.4,
-     "out": 4.8,
-     "rate": 0.267
-    },
-    {
      "name": "V-API",
      "slug": "v-api-de5-net",
      "in": 2.409,
@@ -2659,13 +2600,6 @@
     {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
-     "in": 9.0,
-     "out": 27.0,
-     "rate": 1.0
-    },
-    {
-     "name": "SudoCode",
-     "slug": "sudocode-chat",
      "in": 9.0,
      "out": 27.0,
      "rate": 1.0
@@ -3198,16 +3132,6 @@
    }
   },
   {
-   "name": "HolySheep AI",
-   "slug": "holysheep-ai",
-   "tier": "B",
-   "price": {
-    "in": 0.8,
-    "out": 1.6,
-    "rate": 0.4
-   }
-  },
-  {
    "name": "鑫旺Neko API",
    "slug": "790053500-com",
    "tier": "B",
@@ -3308,5 +3232,5 @@
    }
   }
  ],
- "updated": "2026-11-15"
+ "updated": "2026-11-17"
 }

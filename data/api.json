@@ -1,10 +1,10 @@
 {
- "site_count": 431,
+ "site_count": 379,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 367,
+   "count": 318,
    "rows": [
     {
      "name": "Prism API",
@@ -15,11 +15,6 @@
      "name": "XINGYI API",
      "slug": "xingyi888-com",
      "rate": 0.024
-    },
-    {
-     "name": "XTokenMirror",
-     "slug": "xtokenmirror-cn",
-     "rate": 0.026
     },
     {
      "name": "Kun-Api",
@@ -37,11 +32,6 @@
      "rate": 0.04
     },
     {
-     "name": "SunnyPumpkinAPI",
-     "slug": "gua-guagua-uk",
-     "rate": 0.042
-    },
-    {
      "name": "旺旺中转站",
      "slug": "api-bbww-top",
      "rate": 0.042
@@ -55,23 +45,28 @@
      "name": "A6API",
      "slug": "a6api",
      "rate": 0.048
+    },
+    {
+     "name": "TK API",
+     "slug": "tkapi-cc-cd",
+     "rate": 0.05
+    },
+    {
+     "name": "ergouzi",
+     "slug": "ergouzi",
+     "rate": 0.05
     }
    ]
   },
   {
    "key": "openai",
    "label": "GPT",
-   "count": 381,
+   "count": 337,
    "rows": [
     {
      "name": "Token云桥",
      "slug": "0029-org",
      "rate": 0.001
-    },
-    {
-     "name": "XTokenMirror",
-     "slug": "xtokenmirror-cn",
-     "rate": 0.007
     },
     {
      "name": "A6API",
@@ -87,11 +82,6 @@
      "name": "apikl.ai",
      "slug": "apikl-ai",
      "rate": 0.01
-    },
-    {
-     "name": "Lumin AI",
-     "slug": "ai-luminai-cc",
-     "rate": 0.012
     },
     {
      "name": "OpenLux",
@@ -112,28 +102,28 @@
      "name": "汪汪の中转站",
      "slug": "hyhawang-com",
      "rate": 0.014
+    },
+    {
+     "name": "CallAI中转",
+     "slug": "callai-one",
+     "rate": 0.016
+    },
+    {
+     "name": "SixthSense LLM",
+     "slug": "sixthsense-llm-com",
+     "rate": 0.016
     }
    ]
   },
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 238,
+   "count": 216,
    "rows": [
     {
      "name": "OpenLux",
      "slug": "openlux-ai",
      "rate": 0.037
-    },
-    {
-     "name": "XTokenMirror",
-     "slug": "xtokenmirror-cn",
-     "rate": 0.04
-    },
-    {
-     "name": "SunnyPumpkinAPI",
-     "slug": "gua-guagua-uk",
-     "rate": 0.042
     },
     {
      "name": "不吃坤肉",
@@ -169,13 +159,23 @@
      "name": "luciferai",
      "slug": "luciferai-cc",
      "rate": 0.095
+    },
+    {
+     "name": "MM API",
+     "slug": "slomerex-xyz",
+     "rate": 0.1
+    },
+    {
+     "name": "PRY API",
+     "slug": "bearlab-ai",
+     "rate": 0.1
     }
    ]
   },
   {
    "key": "grok",
    "label": "Grok",
-   "count": 170,
+   "count": 159,
    "rows": [
     {
      "name": "嘀嘀嘀 AI",
@@ -232,7 +232,7 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 152,
+   "count": 148,
    "rows": [
     {
      "name": "高效中转站",
@@ -287,5 +287,5 @@
    ]
   }
  ],
- "updated": "2026-11-11"
+ "updated": "2026-11-17"
 }
