@@ -367,7 +367,8 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
         title = f"Claude 中转站推荐排行榜 {YEAR}：{approx(n)} 家价格对比 + 真付费实测"
         h1 = "Claude 中转站推荐排行榜"
         desc = (f"收录 {approx(n)} 家 Claude 中转站，按现役 {head_models} 等模型对比倍率和输入/输出价，"
-                f"多数站在 {mid(d['median_rate'])} 倍上下；{len(bench)} 家 Claude Code 真付费实测缓存和扣费合格，每日更新。")
+                f"多数站在 {mid(d['median_rate'])} 倍上下，按最低倍率最便宜的是 {top_names_plain(d['sites'])}；"
+                "推荐站都过了真假检测和真付费实测，每日更新。")
     else:
         title = f"{v} 中转站推荐排行榜 {YEAR}：{approx(n)} 家价格倍率对比，哪家便宜"
         h1 = f"{v} 中转站推荐排行榜"
@@ -378,9 +379,10 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
     lead = summary_lead(d, v) or (
         f'<p class="lead">共 {n} 家中转站支持 {escape(v.replace(" Code", ""))}。最便宜的是 {top_names(sites)}；'
         f"多数站在 {mid(d['median_rate'])} 倍上下。</p>")
-    parts = [f"<h1>{escape(h1)}</h1>", lead, ranking_block(d, slug, v)]
+    parts = [f"<h1>{escape(h1)}</h1>", lead]
     if slug == "claude":
-        parts.append(f'<p>用 Claude Code？看 <a href="{BASE}/claude-code/">Claude Code 中转站推荐排行榜</a>。</p>')
+        parts.append(f'<p><b>用 Claude Code 写代码？</b>直接看 <a href="{BASE}/claude-code/">Claude Code 中转站实测对比和配置方法 →</a></p>')
+    parts.append(ranking_block(d, slug, v))
     if slug == "gpt":
         parts.append(f'<p>用 Codex？看 <a href="{BASE}/codex/">Codex 中转站推荐排行榜</a>。</p>')
     if bench:
