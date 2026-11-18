@@ -1,6 +1,6 @@
 {
  "vendor": "Claude Code",
- "site_count": 293,
+ "site_count": 295,
  "min_rate": 0.03,
  "median_rate": 0.6,
  "sites": [
@@ -15,12 +15,6 @@
    "slug": "yetoken-vip",
    "rate": 0.04,
    "model": "Claude Opus 5.5"
-  },
-  {
-   "name": "Cavoti AI",
-   "slug": "cavoti-ai",
-   "rate": 0.045,
-   "model": "Claude Sonnet 5.5"
   },
   {
    "name": "TK API",
@@ -323,6 +317,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "rate": 0.15,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "汪汪の中转站",
    "slug": "hyhawang-com",
    "rate": 0.15,
@@ -494,12 +494,6 @@
    "name": "高效中转站",
    "slug": "sub2-de5-net",
    "rate": 0.2,
-   "model": "Claude Opus 5.5"
-  },
-  {
-   "name": "SU8 Codes",
-   "slug": "su8-codes",
-   "rate": 0.223,
    "model": "Claude Opus 5.5"
   },
   {
@@ -787,6 +781,12 @@
   {
    "name": "Claude API",
    "slug": "claude-api-org",
+   "rate": 0.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "FK Claude",
+   "slug": "fkclaude-xyz",
    "rate": 0.5,
    "model": "Claude Opus 5.5"
   },
@@ -1277,6 +1277,12 @@
    "model": "Claude Opus 5.5"
   },
   {
+   "name": "Codeagent API",
+   "slug": "codeagent-cloud",
+   "rate": 1.44,
+   "model": "Claude Opus 5.5"
+  },
+  {
    "name": "Code0.ai",
    "slug": "code0-ai",
    "rate": 1.5,
@@ -1334,6 +1340,12 @@
    "name": "苏粹",
    "slug": "yh-m7ai-com",
    "rate": 1.5,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "SU8 Codes",
+   "slug": "su8-codes",
+   "rate": 1.515,
    "model": "Claude Opus 5.5"
   },
   {
@@ -1859,13 +1871,6 @@
      "rate": 0.066
     },
     {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "in": 0.2714,
-     "out": 1.3571,
-     "rate": 0.068
-    },
-    {
      "name": "AI 搬运工",
      "slug": "aimover-cc",
      "in": 0.32,
@@ -2139,6 +2144,13 @@
      "rate": 0.15
     },
     {
+     "name": "小丁AI",
+     "slug": "xdcn-top",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.15
+    },
+    {
      "name": "汪汪の中转站",
      "slug": "hyhawang-com",
      "in": 0.6,
@@ -2312,13 +2324,6 @@
      "in": 0.8,
      "out": 4.0,
      "rate": 0.2
-    },
-    {
-     "name": "SU8 Codes",
-     "slug": "su8-codes",
-     "in": 0.8929,
-     "out": 4.4643,
-     "rate": 0.223
     },
     {
      "name": "AI Chat",
@@ -2652,6 +2657,13 @@
     {
      "name": "Claude API",
      "slug": "claude-api-org",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.5
+    },
+    {
+     "name": "FK Claude",
+     "slug": "fkclaude-xyz",
      "in": 2.0,
      "out": 10.0,
      "rate": 0.5
@@ -3210,6 +3222,13 @@
      "rate": 1.4
     },
     {
+     "name": "Codeagent API",
+     "slug": "codeagent-cloud",
+     "in": 5.76,
+     "out": 28.8,
+     "rate": 1.44
+    },
+    {
      "name": "AI8",
      "slug": "ai8-my",
      "in": 6.0,
@@ -3292,6 +3311,13 @@
      "in": 6.0,
      "out": 30.0,
      "rate": 1.5
+    },
+    {
+     "name": "SU8 Codes",
+     "slug": "su8-codes",
+     "in": 6.0585,
+     "out": 30.2923,
+     "rate": 1.515
     },
     {
      "name": "UnoRouter",
@@ -3831,7 +3857,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.69,
+   "median_rate": 0.7,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -3850,13 +3876,6 @@
      "in": 0.08,
      "out": 0.4,
      "rate": 0.04
-    },
-    {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "in": 0.0909,
-     "out": 0.4546,
-     "rate": 0.045
     },
     {
      "name": "TK API",
@@ -4139,6 +4158,13 @@
      "rate": 0.15
     },
     {
+     "name": "小丁AI",
+     "slug": "xdcn-top",
+     "in": 0.3,
+     "out": 1.5,
+     "rate": 0.15
+    },
+    {
      "name": "汪汪の中转站",
      "slug": "hyhawang-com",
      "in": 0.3,
@@ -4305,13 +4331,6 @@
      "in": 0.4,
      "out": 2.0,
      "rate": 0.2
-    },
-    {
-     "name": "SU8 Codes",
-     "slug": "su8-codes",
-     "in": 0.4464,
-     "out": 2.2321,
-     "rate": 0.223
     },
     {
      "name": "合租 Ink",
@@ -5063,6 +5082,13 @@
      "rate": 1.5
     },
     {
+     "name": "SU8 Codes",
+     "slug": "su8-codes",
+     "in": 3.0292,
+     "out": 15.1462,
+     "rate": 1.515
+    },
+    {
      "name": "UnoRouter",
      "slug": "unorouter-com",
      "in": 3.0331,
@@ -5079,6 +5105,13 @@
     {
      "name": "APINebula",
      "slug": "apinebula-com",
+     "in": 3.2,
+     "out": 16.0,
+     "rate": 1.6
+    },
+    {
+     "name": "Codeagent API",
+     "slug": "codeagent-cloud",
      "in": 3.2,
      "out": 16.0,
      "rate": 1.6
@@ -5564,6 +5597,13 @@
    "billing": "完全对得上"
   },
   {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上"
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "model": "Claude Opus 5.5",
@@ -5862,7 +5902,32 @@
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 3.4
+    "wait_s": 4.4
+   }
+  },
+  {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "tier": "S",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.15
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "可退款",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 2.8
    }
   },
   {
@@ -5913,6 +5978,16 @@
     "in": 0.8,
     "out": 4.0,
     "rate": 0.2
+   }
+  },
+  {
+   "name": "Claude API",
+   "slug": "claude-api-org",
+   "tier": "B",
+   "price": {
+    "in": 2.0,
+    "out": 10.0,
+    "rate": 0.5
    }
   },
   {
@@ -6046,16 +6121,6 @@
    }
   },
   {
-   "name": "Claude API",
-   "slug": "claude-api-org",
-   "tier": "B",
-   "price": {
-    "in": 2.0,
-    "out": 10.0,
-    "rate": 0.5
-   }
-  },
-  {
    "name": "Giao",
    "slug": "giaolink-com",
    "tier": "B",
@@ -6073,16 +6138,6 @@
     "in": 0.6,
     "out": 3.0,
     "rate": 0.15
-   }
-  },
-  {
-   "name": "HZLinkAPI",
-   "slug": "hzlinkapi-com",
-   "tier": "B",
-   "price": {
-    "in": 14.0,
-    "out": 70.0,
-    "rate": 3.5
    }
   },
   {
@@ -6134,7 +6189,17 @@
     "out": 5.0,
     "rate": 0.25
    }
+  },
+  {
+   "name": "Portdan AI",
+   "slug": "portdan-com",
+   "tier": "B",
+   "price": {
+    "in": 14.6,
+    "out": 73.0,
+    "rate": 3.65
+   }
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }

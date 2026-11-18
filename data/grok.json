@@ -1,8 +1,8 @@
 {
  "vendor": "Grok",
- "site_count": 159,
+ "site_count": 160,
  "min_rate": 0.001,
- "median_rate": 0.5,
+ "median_rate": 0.522,
  "sites": [
   {
    "name": "嘀嘀嘀 AI",
@@ -146,12 +146,6 @@
    "name": "xiaojing",
    "slug": "open-xiaojingai-com",
    "rate": 0.1,
-   "model": "Grok 4.7"
-  },
-  {
-   "name": "Cavoti AI",
-   "slug": "cavoti-ai",
-   "rate": 0.102,
    "model": "Grok 4.7"
   },
   {
@@ -439,6 +433,12 @@
   {
    "name": "UU API",
    "slug": "uuapi-net",
+   "rate": 0.4,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
    "rate": 0.4,
    "model": "Grok 4.7"
   },
@@ -953,6 +953,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "烁",
+   "slug": "h-e-top",
+   "rate": 33.927,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "Clodex",
    "slug": "clodex-xyz",
    "rate": 37.5,
@@ -964,7 +970,7 @@
    "model_key": "grok-4.7",
    "price_slug": "grok-4-7",
    "label": "Grok 4.7",
-   "median_rate": 0.5,
+   "median_rate": 0.522,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -1130,13 +1136,6 @@
      "in": 0.2,
      "out": 0.6,
      "rate": 0.1
-    },
-    {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "in": 0.2036,
-     "out": 0.6107,
-     "rate": 0.102
     },
     {
      "name": "DasuAPI",
@@ -1477,6 +1476,13 @@
     {
      "name": "UU API",
      "slug": "uuapi-net",
+     "in": 0.8,
+     "out": 2.4,
+     "rate": 0.4
+    },
+    {
+     "name": "小丁AI",
+     "slug": "xdcn-top",
      "in": 0.8,
      "out": 2.4,
      "rate": 0.4
@@ -2077,6 +2083,13 @@
      "rate": 18.375
     },
     {
+     "name": "烁",
+     "slug": "h-e-top",
+     "in": 67.8548,
+     "out": 203.5644,
+     "rate": 33.927
+    },
+    {
      "name": "Clodex",
      "slug": "clodex-xyz",
      "in": 75.0,
@@ -2089,7 +2102,7 @@
    "model_key": "grok-4.5",
    "price_slug": "grok-4-5",
    "label": "Grok 4.5",
-   "median_rate": 0.407,
+   "median_rate": 0.441,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -2157,13 +2170,6 @@
      "in": 0.2,
      "out": 0.6,
      "rate": 0.1
-    },
-    {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "in": 0.2036,
-     "out": 0.6107,
-     "rate": 0.102
     },
     {
      "name": "Clauddy API",
@@ -2444,7 +2450,7 @@
    "model_key": "grok-4.6",
    "price_slug": "grok-4-6",
    "label": "Grok 4.6",
-   "median_rate": 0.441,
+   "median_rate": 0.475,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -2505,13 +2511,6 @@
      "in": 0.2,
      "out": 0.6,
      "rate": 0.1
-    },
-    {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "in": 0.2036,
-     "out": 0.6107,
-     "rate": 0.102
     },
     {
      "name": "Clauddy API",
@@ -2946,6 +2945,24 @@
    "bench": null
   },
   {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "tier": "S",
+   "price": {
+    "in": 0.8,
+    "out": 2.4,
+    "rate": 0.4
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "可退款",
+   "bench": null
+  },
+  {
    "name": "BMCCA",
    "slug": "cca-maya-today",
    "tier": "B",
@@ -3206,5 +3223,5 @@
    }
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }

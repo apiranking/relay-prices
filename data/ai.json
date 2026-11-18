@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 379,
+ "site_count": 382,
  "rows": [
   {
    "name": "12API",
@@ -1476,6 +1476,16 @@
    }
   },
   {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "rates": {
+    "claude": 0.15,
+    "openai": 0.1,
+    "gemini": 0.25,
+    "grok": 0.4
+   }
+  },
+  {
    "name": "旺旺中转站",
    "slug": "api-bbww-top",
    "rates": {
@@ -1719,15 +1729,6 @@
     "openai": 0.016,
     "grok": 0.13,
     "claude": 0.2
-   }
-  },
-  {
-   "name": "Cavoti AI",
-   "slug": "cavoti-ai",
-   "rates": {
-    "claude": 0.045,
-    "openai": 0.041,
-    "grok": 0.102
    }
   },
   {
@@ -2004,9 +2005,9 @@
    "name": "SU8 Codes",
    "slug": "su8-codes",
    "rates": {
-    "openai": 0.074,
-    "claude": 0.223,
-    "deepseek": 0.107
+    "openai": 0.505,
+    "claude": 1.515,
+    "deepseek": 0.727
    }
   },
   {
@@ -2526,6 +2527,14 @@
    "rates": {
     "claude": 1.0,
     "gemini": 7.0
+   }
+  },
+  {
+   "name": "Codeagent API",
+   "slug": "codeagent-cloud",
+   "rates": {
+    "claude": 1.44,
+    "openai": 1.4
    }
   },
   {
@@ -3057,6 +3066,14 @@
    }
   },
   {
+   "name": "烁",
+   "slug": "h-e-top",
+   "rates": {
+    "grok": 33.927,
+    "deepseek": 2.545
+   }
+  },
+  {
    "name": "白鸟",
    "slug": "bnwu-top",
    "rates": {
@@ -3200,6 +3217,13 @@
    "slug": "shqbb-com",
    "rates": {
     "deepseek": 0.5
+   }
+  },
+  {
+   "name": "FK Claude",
+   "slug": "fkclaude-xyz",
+   "rates": {
+    "claude": 0.5
    }
   },
   {
@@ -3616,7 +3640,21 @@
    "invoice_note": "对公支付6%税费",
    "refund": "无手续费",
    "bench": null
+  },
+  {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "可退款",
+   "bench": null
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }

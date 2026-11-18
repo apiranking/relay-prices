@@ -1,8 +1,8 @@
 {
  "vendor": "DeepSeek",
- "site_count": 147,
+ "site_count": 148,
  "min_rate": 0.001,
- "median_rate": 0.38,
+ "median_rate": 0.388,
  "sites": [
   {
    "name": "高效中转站",
@@ -206,12 +206,6 @@
    "name": "知界API",
    "slug": "zjapi-com",
    "rate": 0.102,
-   "model": "DeepSeek V4.1 Flash"
-  },
-  {
-   "name": "SU8 Codes",
-   "slug": "su8-codes",
-   "rate": 0.107,
    "model": "DeepSeek V4.1 Flash"
   },
   {
@@ -641,6 +635,12 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
+   "name": "SU8 Codes",
+   "slug": "su8-codes",
+   "rate": 0.727,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
    "name": "Xcode",
    "slug": "xcode-best",
    "rate": 0.75,
@@ -791,6 +791,12 @@
    "model": "DeepSeek V4 Pro"
   },
   {
+   "name": "烁",
+   "slug": "h-e-top",
+   "rate": 2.545,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
    "name": "CC中转",
    "slug": "yancc-cloud",
    "rate": 2.714,
@@ -892,7 +898,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.392,
+   "median_rate": 0.4,
    "own_page": true,
    "current": false,
    "official_in": 2.0,
@@ -1128,13 +1134,6 @@
      "in": 0.2036,
      "out": 0.8143,
      "rate": 0.102
-    },
-    {
-     "name": "SU8 Codes",
-     "slug": "su8-codes",
-     "in": 0.2143,
-     "out": 0.8571,
-     "rate": 0.107
     },
     {
      "name": "QYAI",
@@ -1620,6 +1619,13 @@
      "rate": 0.7
     },
     {
+     "name": "SU8 Codes",
+     "slug": "su8-codes",
+     "in": 1.454,
+     "out": 5.8161,
+     "rate": 0.727
+    },
+    {
      "name": "Xcode",
      "slug": "xcode-best",
      "in": 1.5,
@@ -1802,6 +1808,13 @@
      "rate": 1.781
     },
     {
+     "name": "烁",
+     "slug": "h-e-top",
+     "in": 5.0891,
+     "out": 20.3564,
+     "rate": 2.545
+    },
+    {
      "name": "CC中转",
      "slug": "yancc-cloud",
      "in": 5.4284,
@@ -1926,7 +1939,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.498,
+   "median_rate": 0.5,
    "own_page": true,
    "current": false,
    "official_in": 9.0,
@@ -2162,13 +2175,6 @@
      "in": 1.2,
      "out": 4.05,
      "rate": 0.133
-    },
-    {
-     "name": "SU8 Codes",
-     "slug": "su8-codes",
-     "in": 1.2429,
-     "out": 2.4857,
-     "rate": 0.138
     },
     {
      "name": "KiosAPI",
@@ -2561,6 +2567,13 @@
      "in": 8.4,
      "out": 16.8,
      "rate": 0.933
+    },
+    {
+     "name": "SU8 Codes",
+     "slug": "su8-codes",
+     "in": 8.4334,
+     "out": 16.8668,
+     "rate": 0.937
     },
     {
      "name": "APIYI",
@@ -3232,5 +3245,5 @@
    }
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }

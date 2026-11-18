@@ -1,8 +1,8 @@
 {
  "vendor": "Codex",
- "site_count": 277,
+ "site_count": 278,
  "min_rate": 0.009,
- "median_rate": 0.339,
+ "median_rate": 0.35,
  "sites": [
   {
    "name": "A6API",
@@ -113,12 +113,6 @@
    "model": "GPT-6.1 Sol"
   },
   {
-   "name": "Cavoti AI",
-   "slug": "cavoti-ai",
-   "rate": 0.053,
-   "model": "GPT-6.1 Sol"
-  },
-  {
    "name": "VideoCaptioner API",
    "slug": "videocaptioner-cn",
    "rate": 0.055,
@@ -194,12 +188,6 @@
    "name": "火之高兴API",
    "slug": "arthasmenethil-vip",
    "rate": 0.07,
-   "model": "GPT-6.1 Sol"
-  },
-  {
-   "name": "SU8 Codes",
-   "slug": "su8-codes",
-   "rate": 0.074,
    "model": "GPT-6.1 Sol"
   },
   {
@@ -423,6 +411,12 @@
    "slug": "hanhegufei-online",
    "rate": 0.1,
    "model": "GPT-6 Astra"
+  },
+  {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "rate": 0.1,
+   "model": "GPT-6.1 Sol"
   },
   {
    "name": "聪明AI",
@@ -1055,6 +1049,12 @@
    "model": "GPT-6 Astra"
   },
   {
+   "name": "SU8 Codes",
+   "slug": "su8-codes",
+   "rate": 0.505,
+   "model": "GPT-6.1 Sol"
+  },
+  {
    "name": "Meinianda AI",
    "slug": "meinianda-top",
    "rate": 0.543,
@@ -1388,6 +1388,12 @@
    "name": "Hyperapi",
    "slug": "hyperapi-cc",
    "rate": 1.5,
+   "model": "GPT-6.1 Sol"
+  },
+  {
+   "name": "Codeagent API",
+   "slug": "codeagent-cloud",
+   "rate": 1.6,
    "model": "GPT-6.1 Sol"
   },
   {
@@ -1798,13 +1804,6 @@
      "rate": 0.05
     },
     {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "in": 0.1059,
-     "out": 0.5293,
-     "rate": 0.053
-    },
-    {
      "name": "VideoCaptioner API",
      "slug": "videocaptioner-cn",
      "in": 0.1103,
@@ -1887,13 +1886,6 @@
      "in": 0.14,
      "out": 0.7,
      "rate": 0.07
-    },
-    {
-     "name": "SU8 Codes",
-     "slug": "su8-codes",
-     "in": 0.1488,
-     "out": 0.744,
-     "rate": 0.074
     },
     {
      "name": "Bot Compute Fabric",
@@ -2059,6 +2051,13 @@
     {
      "name": "华龙算力",
      "slug": "hualong-online",
+     "in": 0.2,
+     "out": 1.0,
+     "rate": 0.1
+    },
+    {
+     "name": "小丁AI",
+     "slug": "xdcn-top",
      "in": 0.2,
      "out": 1.0,
      "rate": 0.1
@@ -2785,6 +2784,13 @@
      "rate": 0.5
     },
     {
+     "name": "SU8 Codes",
+     "slug": "su8-codes",
+     "in": 1.0097,
+     "out": 5.0487,
+     "rate": 0.505
+    },
+    {
      "name": "Meinianda AI",
      "slug": "meinianda-top",
      "in": 1.0857,
@@ -3210,6 +3216,13 @@
      "in": 3.0,
      "out": 15.0,
      "rate": 1.5
+    },
+    {
+     "name": "Codeagent API",
+     "slug": "codeagent-cloud",
+     "in": 3.2,
+     "out": 16.0,
+     "rate": 1.6
     },
     {
      "name": "AutoRouter",
@@ -3686,13 +3699,6 @@
      "rate": 0.05
     },
     {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "in": 0.5293,
-     "out": 2.6463,
-     "rate": 0.053
-    },
-    {
      "name": "VideoCaptioner API",
      "slug": "videocaptioner-cn",
      "in": 0.5515,
@@ -3782,13 +3788,6 @@
      "in": 0.7,
      "out": 3.5,
      "rate": 0.07
-    },
-    {
-     "name": "SU8 Codes",
-     "slug": "su8-codes",
-     "in": 0.744,
-     "out": 3.7202,
-     "rate": 0.074
     },
     {
      "name": "AI Gateway",
@@ -4024,6 +4023,13 @@
     {
      "name": "寒鹤的小破站",
      "slug": "hanhegufei-online",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.1
+    },
+    {
+     "name": "小丁AI",
+     "slug": "xdcn-top",
      "in": 1.0,
      "out": 5.0,
      "rate": 0.1
@@ -4638,6 +4644,13 @@
      "rate": 0.505
     },
     {
+     "name": "SU8 Codes",
+     "slug": "su8-codes",
+     "in": 5.0487,
+     "out": 25.2436,
+     "rate": 0.505
+    },
+    {
      "name": "Meinianda AI",
      "slug": "meinianda-top",
      "in": 5.4284,
@@ -5000,6 +5013,13 @@
      "in": 15.0,
      "out": 75.0,
      "rate": 1.5
+    },
+    {
+     "name": "Codeagent API",
+     "slug": "codeagent-cloud",
+     "in": 16.0,
+     "out": 80.0,
+     "rate": 1.6
     },
     {
      "name": "AutoRouter",
@@ -5533,7 +5553,32 @@
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 7.3
+    "wait_s": 12.2
+   }
+  },
+  {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "tier": "S",
+   "price": {
+    "in": 0.2,
+    "out": 1.0,
+    "rate": 0.1
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "可退款",
+   "bench": {
+    "model": "GPT-6.1 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 11.0
    }
   },
   {
@@ -5584,6 +5629,16 @@
     "in": 0.12,
     "out": 0.6,
     "rate": 0.06
+   }
+  },
+  {
+   "name": "Claude API",
+   "slug": "claude-api-org",
+   "tier": "B",
+   "price": {
+    "in": 0.3,
+    "out": 1.5,
+    "rate": 0.15
    }
   },
   {
@@ -5737,16 +5792,6 @@
    }
   },
   {
-   "name": "Claude API",
-   "slug": "claude-api-org",
-   "tier": "B",
-   "price": {
-    "in": 0.3,
-    "out": 1.5,
-    "rate": 0.15
-   }
-  },
-  {
    "name": "Giao",
    "slug": "giaolink-com",
    "tier": "B",
@@ -5764,16 +5809,6 @@
     "in": 0.26,
     "out": 1.3,
     "rate": 0.13
-   }
-  },
-  {
-   "name": "HZLinkAPI",
-   "slug": "hzlinkapi-com",
-   "tier": "B",
-   "price": {
-    "in": 16.0,
-    "out": 24.0,
-    "rate": 8.0
    }
   },
   {
@@ -5805,7 +5840,17 @@
     "out": 15.0,
     "rate": 5.0
    }
+  },
+  {
+   "name": "gods",
+   "slug": "meisgold-top",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 0.9,
+    "rate": 0.3
+   }
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }

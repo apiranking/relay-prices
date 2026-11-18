@@ -1,10 +1,10 @@
 {
- "site_count": 379,
+ "site_count": 382,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 318,
+   "count": 320,
    "rows": [
     {
      "name": "Prism API",
@@ -37,11 +37,6 @@
      "rate": 0.042
     },
     {
-     "name": "Cavoti AI",
-     "slug": "cavoti-ai",
-     "rate": 0.045
-    },
-    {
      "name": "A6API",
      "slug": "a6api",
      "rate": 0.048
@@ -55,13 +50,18 @@
      "name": "ergouzi",
      "slug": "ergouzi",
      "rate": 0.05
+    },
+    {
+     "name": "xixiapi",
+     "slug": "xixiapi-cc",
+     "rate": 0.05
     }
    ]
   },
   {
    "key": "openai",
    "label": "GPT",
-   "count": 337,
+   "count": 338,
    "rows": [
     {
      "name": "Token云桥",
@@ -118,7 +118,7 @@
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 216,
+   "count": 217,
    "rows": [
     {
      "name": "OpenLux",
@@ -175,7 +175,7 @@
   {
    "key": "grok",
    "label": "Grok",
-   "count": 159,
+   "count": 160,
    "rows": [
     {
      "name": "嘀嘀嘀 AI",
@@ -232,7 +232,7 @@
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 148,
+   "count": 149,
    "rows": [
     {
      "name": "高效中转站",
@@ -287,5 +287,5 @@
    ]
   }
  ],
- "updated": "2026-11-17"
+ "updated": "2026-11-18"
 }
