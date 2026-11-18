@@ -349,6 +349,8 @@ def vendor_body(d: dict, slug: str) -> tuple[str, str, str, list[dict]]:
     tables = d["tables"]
     head_models = "、".join(t["label"].replace("Claude ", "") for t in tables[:2])
     bench = d.get("bench") or []
+    if slug == "claude-code" and bench:
+        return cc_body(d)
     if slug == "claude-code":
         title = (f"Claude Code 中转站推荐排行榜 {YEAR}：真付费实测 + {approx(n)} 家价格对比" if bench
                  else f"Claude Code 中转站推荐 {YEAR}：{approx(n)} 家价格倍率对比")
@@ -467,6 +469,148 @@ wire_api = "responses"</pre>
                         "带「真付费实测」的我们用 Codex 自己掏钱跑过，扣费和标价对得上。"))
     else:
         qas.append((f"{v} 中转站有多少家？", f"本页收录 {n} 家支持 {escape(v)} 模型的中转站，每天更新价格。"))
+    faq_html, faq_ld = faq_block(qas)
+    parts.append(faq_html)
+    return title, desc, "\n".join(parts), [faq_ld]
+
+
+# ---------- Claude Code 专页 ----------
+# 和 claude/ 分工：claude/ 回答「Claude 模型哪家便宜」，本页只回答「用 Claude Code 选哪家、怎么接」。
+# 首屏是实测对比（不是 claude/ 那套推荐卡片），底部价格表换成 Claude Code 最吃的缓存读取价。
+
+def _cc_price(tables: list[dict], name: str, i: int) -> dict | None:
+    if i >= len(tables):
+        return None
+    return next((r for r in tables[i]["rows"] if r["name"] == name), None)
+
+
+def _cache_cell(t: dict, r: dict) -> str:
+    if r.get("cache_x"):
+        return f'<span class="tg warn">官方缓存价 × 倍率 × {escape(r["cache_x"])}</span>'
+    if t.get("official_cache_read"):
+        return money(t["official_cache_read"] * r["rate"])
+    return "—"
+
+
+def cc_body(d: dict) -> tuple[str, str, str, list[dict]]:
+    n, tables, bench = d["site_count"], d["tables"], d["bench"]
+    opus = tables[0] if tables else None
+    short = [t["label"].replace("Claude ", "") for t in tables[:2]]
+    first = bench[0]
+
+    def opus_of(b):
+        return _cc_price(tables, b["name"], 0)
+
+    priced = [(b, opus_of(b)) for b in bench if opus_of(b)]
+    cheap = min(priced, key=lambda x: x[1]["rate"]) if priced else None
+    timed = [b for b in bench if b.get("wait_s") is not None]
+    fast = min(timed, key=lambda b: b["wait_s"]) if timed else None
+
+    title = f"Claude Code 中转站推荐 {YEAR}：哪家好？{len(bench)} 家真付费实测缓存和扣费"
+    desc = (f"Claude Code 中转站哪家好：先看 {first['name']}，用 Claude Code 实测{first['cache'] or ''}、扣费{first['billing']}。"
+            f"对比 {len(bench)} 家 claudecode中转站的缓存命中、扣费和首字等待，{'、'.join(short)} 价格倍率，"
+            "附环境变量和 settings.json 配置方法、常见报错怎么改，每日更新。")
+
+    def nm(b):
+        return f'<a href="{site_url(b["slug"])}">{escape(b["name"])}</a>' if b.get("slug") else escape(b["name"])
+
+    lead = [f"不知道选哪家：先看 <b>{nm(first)}</b>，我们用 Claude Code 自己掏钱实测，{escape(first['cache'] or '缓存正常')}、"
+            f"扣费{escape(first['billing'])}。"]
+    if cheap and cheap[0]["name"] != first["name"]:
+        lead.append(f"更看重便宜：<b>{nm(cheap[0])}</b>，{escape(opus['label'])} {times(cheap[1]['rate'])}。")
+    if fast and fast["name"] != first["name"]:
+        lead.append(f"更看重速度：<b>{nm(fast)}</b>，首字约 {fast['wait_s']:g} 秒。")
+    lead.append('已经有 key？直接看 <a href="#setup">配置方法</a>。')
+
+    parts = ["<h1>Claude Code 中转站推荐：选哪家、怎么接</h1>",
+             f'<p class="lead">{"".join(lead)}</p>',
+             f'<h2 id="bench">{len(bench)} 家 Claude Code 中转站真付费实测对比</h2>',
+             "<p>每一家我们都拿 Claude Code 真充值跑过，排序和 API Ranking 推荐一致。</p>"]
+    p_head = "".join(f'<th scope="col">{escape(s)} 价格</th>' for s in short)
+    parts.append('<div class="wrap"><table><thead><tr><th scope="col">#</th><th scope="col">中转站</th>'
+                 '<th scope="col">缓存</th><th scope="col">扣费</th><th scope="col">首字等待</th>'
+                 f"{p_head}</tr></thead><tbody>")
+    for i, b in enumerate(bench, 1):
+        tested = "" if b["model"] == (opus or {}).get("label") else f'<br><small>实测 {escape(b["model"].replace("Claude ", ""))}</small>'
+        cells = []
+        for j in range(len(short)):
+            r = _cc_price(tables, b["name"], j)
+            cells.append(f'<td class="n">{times(r["rate"])}</td>' if r else "<td>—</td>")
+        parts.append(
+            f"<tr><td>{i}</td><td>{nm(b)}{tested}</td>"
+            f'<td><span class="tg {TONE.get(b.get("cache_color"), "")}">{escape(b["cache"] or "—")}</span></td>'
+            f'<td><span class="tg {TONE.get(b.get("billing_color"), "")}">{escape(b["billing"])}</span></td>'
+            f'<td class="n">{"约 %g 秒" % b["wait_s"] if b.get("wait_s") is not None else "—"}</td>'
+            + "".join(cells) + "</tr>")
+    parts.append("</tbody></table></div>")
+    parts.append(f'<p>每家的逐轮扣费明细见 <a href="{MAIN}/benchmark?{UTM}">API Ranking 真付费实测</a>。</p>')
+
+    parts.append("""<h2>为什么选 claudecode中转站 要先看缓存</h2>
+<p>Claude Code 连续改代码时，每一轮都会带上前面的对话和代码，大部分 token 是重复内容。缓存能命中、缓存价按规矩收的站，
+这部分只按缓存读取价算，比普通输入便宜很多；缓存不命中或缓存价收得高，同样的活实际花费会多出好几倍。
+所以只比输入、输出单价不够，上面实测表里的「缓存」和「扣费」两列更关键。</p>""")
+
+    parts.append("""<h2 id="setup">Claude Code 怎么接入中转站（环境变量与配置文件）</h2>
+<p>在中转站后台创建 key，然后任选一种方式。</p>
+<h3>方式一：环境变量</h3>
+<pre>export ANTHROPIC_BASE_URL=https://中转站地址
+export ANTHROPIC_AUTH_TOKEN=中转站的 key
+claude</pre>
+<p>Windows PowerShell 用 <code>$env:ANTHROPIC_BASE_URL="https://中转站地址"</code> 和 <code>$env:ANTHROPIC_AUTH_TOKEN="中转站的 key"</code>。</p>
+<h3>方式二：写进 ~/.claude/settings.json（不用每次设）</h3>
+<pre>{
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://中转站地址",
+    "ANTHROPIC_AUTH_TOKEN": "中转站的 key"
+  }
+}</pre>
+<p>常在几家站之间切换的，可以用 CC-Switch 这类切换工具一键改上面两项。</p>""")
+
+    parts.append("""<h2>Claude Code 接中转站常见报错</h2>
+<ul>
+<li><b>连不上或返回网页内容：</b>多半是地址填错了。按中转站给的 Claude Code 接入地址原样填，别自己加或删路径（比如 <code>/v1</code>），以站方说明为准。</li>
+<li><b>填了 key 还提示认证失败：</b>先确认 key 填在站方要求的变量里（多数站是 <code>ANTHROPIC_AUTH_TOKEN</code>）；再查有没有旧的 <code>ANTHROPIC_API_KEY</code> 环境变量或 settings.json 里的另一套配置在抢着生效，只留一套。</li>
+<li><b>提示模型不存在：</b>站方的模型名可能和官方不同，按站里模型列表的名字填，或用站方提供的模型映射。</li>
+<li><b>对话中途报 400、提到 thinking 或签名：</b>多见于中途切换了模型或站点，新开一个会话再试；一直出现就换站方推荐的模型。</li>
+</ul>""")
+
+    if opus:
+        parts.append(f"<h2>Claude Code 中转站缓存价格（{n} 家）</h2>"
+                     + cards([("家中转站支持", str(n)), ("最低倍率", rate(d["min_rate"])),
+                              (f"{opus['label']} 官方缓存读取价", f"${opus['official_cache_read']:g}" if opus.get("official_cache_read") else "—"),
+                              (f"{opus['label']} 官方输入价", f"${opus['official_in']:g}")]))
+        parts.append("<p>缓存读取价 = 官方缓存价 × 倍率。个别站缓存价不按倍率收，表里直接标出多收几倍。</p>")
+    for t in tables:
+        parts.append(f'<details><summary>展开：{escape(t["label"])} 中转站缓存价格（{len(t["rows"])} 家，按倍率从低到高）</summary>')
+        parts.append(f'<div class="wrap" id="{escape(t["price_slug"])}"><table><thead><tr><th scope="col">#</th>'
+                     '<th scope="col">中转站</th><th scope="col">倍率</th><th scope="col">缓存读取价</th>'
+                     '<th scope="col">输入价</th><th scope="col">输出价</th></tr></thead><tbody>')
+        for i, r in enumerate(t["rows"], 1):
+            parts.append(f'<tr><td>{i}</td><td>{site_name(r, False)}</td><td class="n">{rate(r["rate"])}</td>'
+                         f'<td class="n">{_cache_cell(t, r)}</td><td class="n">{money(r["in"])}</td>'
+                         f'<td class="n">{money(r["out"])}</td></tr>')
+        parts.append("</tbody></table></div>")
+        if t["own_page"]:
+            parts.append(f'<p><a href="{model_url("claude", t)}">{escape(t["label"])} 中转站价格单页 →</a></p>')
+        parts.append("</details>")
+    parts.append(f'<p>只比较 Claude 各型号（含 Fable、Haiku）价格？看 <a href="{BASE}/claude/">Claude 中转站价格对比</a>。</p>')
+
+    top3 = top_names_plain(bench)
+    qas = [
+        ("claudecode中转站哪家好？",
+         f"先看上面实测表前几名：{top3}。这些站我们用 Claude Code 自己掏钱跑过，缓存能命中、扣费和标价对得上。"
+         "再按你常用的型号比倍率。"),
+        ("Claude Code 中转站怎么配置？",
+         "把 ANTHROPIC_BASE_URL 设成中转站地址、ANTHROPIC_AUTH_TOKEN 设成中转站的 key，再启动 claude；"
+         '也可以写进 ~/.claude/settings.json 的 env 里。详见上面 <a href="#setup">配置方法</a>。'),
+    ]
+    if opus and opus.get("official_cache_read"):
+        qas.append(("Claude Code 中转站的缓存价格怎么看？",
+                    f"缓存读取价 = 官方缓存价 × 倍率。{escape(opus['label'])} 官方缓存读取 ${opus['official_cache_read']:g} / 百万 tokens，"
+                    f"0.5 倍的站就是 {money(opus['official_cache_read'] * 0.5)}。少数站缓存价不按倍率收，上面价格表里单独标出。"))
+    qas.append(("已经填了 key，为什么还提示认证失败？",
+                "多半是变量名不对，或者旧的 ANTHROPIC_API_KEY、settings.json 里的另一套配置还在生效。只留一套配置，"
+                "按站方说明的变量名填 key 再试。"))
     faq_html, faq_ld = faq_block(qas)
     parts.append(faq_html)
     return title, desc, "\n".join(parts), [faq_ld]
