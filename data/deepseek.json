@@ -903,6 +903,7 @@
    "current": false,
    "official_in": 2.0,
    "official_out": 8.0,
+   "official_cache_read": 0.04,
    "rows": [
     {
      "name": "高效中转站",
@@ -1735,7 +1736,8 @@
      "slug": "linksapi",
      "in": 2.34,
      "out": 9.36,
-     "rate": 1.17
+     "rate": 1.17,
+     "cache_x": "15倍"
     },
     {
      "name": "Kuaipao API",
@@ -1944,6 +1946,7 @@
    "current": false,
    "official_in": 9.0,
    "official_out": 27.0,
+   "official_cache_read": 0.3,
    "rows": [
     {
      "name": "高效中转站",
@@ -2307,7 +2310,8 @@
      "slug": "omniakey",
      "in": 2.9517,
      "out": 5.9034,
-     "rate": 0.328
+     "rate": 0.328,
+     "cache_x": "0.25倍"
     },
     {
      "name": "灵芽API",
@@ -2475,7 +2479,8 @@
      "slug": "goai-im",
      "in": 6.0,
      "out": 12.0,
-     "rate": 0.667
+     "rate": 0.667,
+     "cache_x": "0.25倍"
     },
     {
      "name": "ToAPIs",
@@ -2650,7 +2655,8 @@
      "slug": "linksapi",
      "in": 10.53,
      "out": 31.59,
-     "rate": 1.17
+     "rate": 1.17,
+     "cache_x": "9倍"
     },
     {
      "name": "TeamoRouter",
@@ -2671,7 +2677,8 @@
      "slug": "qiuqiutoken-com",
      "in": 12.0,
      "out": 24.0,
-     "rate": 1.333
+     "rate": 1.333,
+     "cache_x": "2.5倍"
     },
     {
      "name": "2Y API",

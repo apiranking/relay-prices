@@ -1923,6 +1923,7 @@
    "current": true,
    "official_in": 4.0,
    "official_out": 20.0,
+   "official_cache_read": 0.2,
    "rows": [
     {
      "name": "Kun-Api",
@@ -3035,7 +3036,8 @@
      "slug": "openox",
      "in": 3.2,
      "out": 16.0,
-     "rate": 0.8
+     "rate": 0.8,
+     "cache_x": "2倍"
     },
     {
      "name": "PackyCode",
@@ -4000,6 +4002,7 @@
    "current": true,
    "official_in": 8.0,
    "official_out": 40.0,
+   "official_cache_read": 0.2,
    "rows": [
     {
      "name": "XINGYI API",
@@ -4496,7 +4499,8 @@
      "slug": "openox",
      "in": 2.6656,
      "out": 13.328,
-     "rate": 0.333
+     "rate": 0.333,
+     "cache_x": "4倍"
     },
     {
      "name": "PPToken CC",
@@ -5846,6 +5850,7 @@
    "current": true,
    "official_in": 2.0,
    "official_out": 10.0,
+   "official_cache_read": 0.1,
    "rows": [
     {
      "name": "Kun-Api",
@@ -5985,7 +5990,8 @@
      "slug": "apiclaude-cc",
      "in": 0.1667,
      "out": 0.8333,
-     "rate": 0.083
+     "rate": 0.083,
+     "cache_x": "2倍"
     },
     {
      "name": "OpenLux",
@@ -6083,7 +6089,8 @@
      "slug": "ruoli-dev",
      "in": 0.24,
      "out": 1.2,
-     "rate": 0.12
+     "rate": 0.12,
+     "cache_x": "2倍"
     },
     {
      "name": "Taomu",
@@ -6146,7 +6153,8 @@
      "slug": "xdcn-top",
      "in": 0.3,
      "out": 1.5,
-     "rate": 0.15
+     "rate": 0.15,
+     "cache_x": "2倍"
     },
     {
      "name": "汪汪の中转站",
@@ -6265,7 +6273,8 @@
      "slug": "h-api",
      "in": 0.4,
      "out": 2.0,
-     "rate": 0.2
+     "rate": 0.2,
+     "cache_x": "2倍"
     },
     {
      "name": "Rehdasu API",
@@ -6405,7 +6414,8 @@
      "slug": "openox",
      "in": 0.6663,
      "out": 3.3317,
-     "rate": 0.333
+     "rate": 0.333,
+     "cache_x": "2倍"
     },
     {
      "name": "synterolink",
@@ -6419,7 +6429,8 @@
      "slug": "top-api",
      "in": 0.6785,
      "out": 3.3927,
-     "rate": 0.339
+     "rate": 0.339,
+     "cache_x": "2倍"
     },
     {
      "name": "PPToken CC",
@@ -6566,7 +6577,8 @@
      "slug": "deepkey-top",
      "in": 1.0,
      "out": 5.0,
-     "rate": 0.5
+     "rate": 0.5,
+     "cache_x": "2倍"
     },
     {
      "name": "云渡",
@@ -6664,7 +6676,8 @@
      "slug": "36niu-com",
      "in": 1.3571,
      "out": 6.7855,
-     "rate": 0.679
+     "rate": 0.679,
+     "cache_x": "2倍"
     },
     {
      "name": "88API-Token聚合平台",
@@ -6692,7 +6705,8 @@
      "slug": "qiuqiutoken-com",
      "in": 1.4,
      "out": 7.0,
-     "rate": 0.7
+     "rate": 0.7,
+     "cache_x": "2倍"
     },
     {
      "name": "Mirgo",
@@ -6832,7 +6846,8 @@
      "slug": "cctq",
      "in": 2.0,
      "out": 10.0,
-     "rate": 1.0
+     "rate": 1.0,
+     "cache_x": "2倍"
     },
     {
      "name": "Die Ge",
@@ -7007,7 +7022,8 @@
      "slug": "linksapi",
      "in": 2.925,
      "out": 14.625,
-     "rate": 1.463
+     "rate": 1.463,
+     "cache_x": "2倍"
     },
     {
      "name": "Code0.ai",
@@ -7091,7 +7107,8 @@
      "slug": "apinebula-com",
      "in": 3.2,
      "out": 16.0,
-     "rate": 1.6
+     "rate": 1.6,
+     "cache_x": "2倍"
     },
     {
      "name": "Codeagent API",
@@ -7119,7 +7136,8 @@
      "slug": "uuapi-net",
      "in": 3.4,
      "out": 17.0,
-     "rate": 1.7
+     "rate": 1.7,
+     "cache_x": "2倍"
     },
     {
      "name": "Xcode",
@@ -7147,14 +7165,16 @@
      "slug": "omniakey",
      "in": 3.7999,
      "out": 18.9993,
-     "rate": 1.9
+     "rate": 1.9,
+     "cache_x": "2倍"
     },
     {
      "name": "boxying",
      "slug": "boxying",
      "in": 4.0,
      "out": 20.0,
-     "rate": 2.0
+     "rate": 2.0,
+     "cache_x": "2倍"
     },
     {
      "name": "HaoAI",
@@ -7517,6 +7537,7 @@
    "current": true,
    "official_in": 0.1,
    "official_out": 0.5,
+   "official_cache_read": 0.01,
    "rows": [
     {
      "name": "A6API",
@@ -8698,6 +8719,7 @@
    "current": false,
    "official_in": 10.0,
    "official_out": 50.0,
+   "official_cache_read": 0.25,
    "rows": [
     {
      "name": "XINGYI API",
@@ -10530,6 +10552,7 @@
    "current": false,
    "official_in": 3.0,
    "official_out": 15.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "Prism API",
@@ -11466,6 +11489,7 @@
    "current": false,
    "official_in": 5.0,
    "official_out": 25.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "BMCCA",
@@ -12339,6 +12363,7 @@
    "current": false,
    "official_in": 5.0,
    "official_out": 25.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "BMCCA",
@@ -13205,6 +13230,7 @@
    "current": false,
    "official_in": 10.0,
    "official_out": 50.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "ergouzi",
@@ -13868,6 +13894,7 @@
    "current": false,
    "official_in": 2.0,
    "official_out": 10.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "A6API",
@@ -14958,126 +14985,190 @@
    "slug": "uuapi-net",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "对得上"
+   "billing": "对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.9
   },
   {
    "name": "H API",
    "slug": "h-api",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.9
   },
   {
    "name": "OpenOx",
    "slug": "openox",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.2
   },
   {
    "name": "APINebula",
    "slug": "apinebula-com",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 3.4
   },
   {
    "name": "LinkAI",
    "slug": "linkai",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 7.1
   },
   {
    "name": "LinksAPI",
    "slug": "linksapi",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 6.3
   },
   {
    "name": "CoreCode",
    "slug": "corecode-live",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 2.5
   },
   {
    "name": "OmniaKey",
    "slug": "omniakey",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.5
   },
   {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.9
   },
   {
    "name": "boxying",
    "slug": "boxying",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.4
   },
   {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 2.8
   },
   {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "对得上"
+   "billing": "对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 3.8
+  },
+  {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存良好",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 6.1
   },
   {
    "name": "RunAPI",
    "slug": "runapi-co",
    "model": "Claude Opus 5",
    "cache": "缓存优秀",
-   "billing": "比标价还便宜"
+   "billing": "比标价还便宜",
+   "cache_color": "good",
+   "billing_color": "info",
+   "wait_s": 3.3
   },
   {
    "name": "ByteCat",
    "slug": "bytecatcode-org",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 3.9
   },
   {
    "name": "Xcode",
    "slug": "xcode-best",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.6
   },
   {
    "name": "RightCode",
    "slug": null,
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.7
   },
   {
    "name": "Code0.ai",
    "slug": "code0-ai",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.1
   },
   {
    "name": "Cooper-API",
    "slug": "cooper-api-com",
    "model": "Claude Opus 5",
    "cache": "缓存优秀",
-   "billing": "完全对得上"
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 5.9
   }
  ],
  "updated": "2026-11-18"

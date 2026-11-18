@@ -1305,6 +1305,7 @@
    "current": true,
    "official_in": 2.0,
    "official_out": 10.0,
+   "official_cache_read": 0.1,
    "rows": [
     {
      "name": "OpenLux",
@@ -1598,7 +1599,8 @@
      "slug": "die-ge",
      "in": 1.0,
      "out": 5.0,
-     "rate": 0.5
+     "rate": 0.5,
+     "cache_x": "0.5倍"
     },
     {
      "name": "Nova AI",
@@ -2116,7 +2118,8 @@
      "slug": "aiwts-com",
      "in": 5.25,
      "out": 26.25,
-     "rate": 2.625
+     "rate": 2.625,
+     "cache_x": "2倍"
     },
     {
      "name": "api.68886868.xyz",
@@ -2479,6 +2482,7 @@
    "current": true,
    "official_in": 2.0,
    "official_out": 10.0,
+   "official_cache_read": 0.1,
    "rows": [
     {
      "name": "OpenLux",
@@ -3646,6 +3650,7 @@
    "current": true,
    "official_in": 2.0,
    "official_out": 8.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "RPG8",
@@ -4715,6 +4720,7 @@
    "current": true,
    "official_in": 1.5,
    "official_out": 7.5,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "OpenLux",
@@ -5574,6 +5580,7 @@
    "current": true,
    "official_in": 1.5,
    "official_out": 7.5,
+   "official_cache_read": 0.075,
    "rows": [
     {
      "name": "OpenLux",
@@ -6426,6 +6433,7 @@
    "current": false,
    "official_in": 1.5,
    "official_out": 9.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "A6API",
@@ -6914,6 +6922,7 @@
    "current": false,
    "official_in": 1.5,
    "official_out": 7.5,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "A6API",

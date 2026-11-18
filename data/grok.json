@@ -975,6 +975,7 @@
    "current": true,
    "official_in": 2.0,
    "official_out": 6.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "嘀嘀嘀 AI",
@@ -2107,6 +2108,7 @@
    "current": false,
    "official_in": 2.0,
    "official_out": 6.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "A6API",
@@ -2455,6 +2457,7 @@
    "current": false,
    "official_in": 2.0,
    "official_out": 6.0,
+   "official_cache_read": null,
    "rows": [
     {
      "name": "A6API",

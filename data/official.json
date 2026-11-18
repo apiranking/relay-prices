@@ -60,6 +60,18 @@
   "out": 0.5
  },
  {
+  "label": "GPT-6.2 Astra",
+  "family": "openai",
+  "in": 8.0,
+  "out": 40.0
+ },
+ {
+  "label": "GPT-6.2 Sol",
+  "family": "openai",
+  "in": 2.0,
+  "out": 10.0
+ },
+ {
   "label": "GPT-6 Astra",
   "family": "openai",
   "in": 10.0,
