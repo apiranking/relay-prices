@@ -1,8 +1,8 @@
 {
  "vendor": "Gemini",
- "site_count": 215,
+ "site_count": 217,
  "min_rate": 0.037,
- "median_rate": 0.712,
+ "median_rate": 0.7,
  "sites": [
   {
    "name": "OpenLux",
@@ -389,6 +389,12 @@
    "model": "Gemini 3.1 Pro"
   },
   {
+   "name": "RightCode",
+   "slug": "right-codes",
+   "rate": 0.3,
+   "model": "Gemini 3.8 Flash"
+  },
+  {
    "name": "Ruoli API",
    "slug": "ruoli-dev",
    "rate": 0.3,
@@ -551,6 +557,12 @@
    "model": "Gemini 4 Argon"
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "rate": 0.5,
+   "model": "Gemini 3.1 Pro"
+  },
+  {
    "name": "白鸟",
    "slug": "bnwu-top",
    "rate": 0.5,
@@ -597,6 +609,12 @@
    "slug": "yundu-lol",
    "rate": 0.65,
    "model": "Gemini 3.1 Pro"
+  },
+  {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rate": 0.667,
+   "model": "Gemini 3.8 Flash"
   },
   {
    "name": "CodingRouter",
@@ -1016,12 +1034,6 @@
    "name": "nekoapi",
    "slug": "api-nekoapi-com",
    "rate": 2.5,
-   "model": "Gemini 4 Argon"
-  },
-  {
-   "name": "维塔斯 AI",
-   "slug": "aiwts-com",
-   "rate": 2.625,
    "model": "Gemini 4 Argon"
   },
   {
@@ -1689,6 +1701,13 @@
     {
      "name": "LinkAI",
      "slug": "linkai",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.6
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 1.2,
      "out": 6.0,
      "rate": 0.6
@@ -2863,6 +2882,13 @@
      "rate": 0.6
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.6
+    },
+    {
      "name": "YeToken",
      "slug": "yetoken-vip",
      "in": 1.32,
@@ -3068,6 +3094,13 @@
     {
      "name": "旋转智能｜Radius to Core",
      "slug": "rtoc-cc",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 1.0
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
      "in": 2.0,
      "out": 10.0,
      "rate": 1.0
@@ -3281,13 +3314,6 @@
      "in": 5.0484,
      "out": 25.2419,
      "rate": 2.524
-    },
-    {
-     "name": "维塔斯 AI",
-     "slug": "aiwts-com",
-     "in": 5.25,
-     "out": 26.25,
-     "rate": 2.625
     },
     {
      "name": "api.68886868.xyz",
@@ -4059,6 +4085,13 @@
      "rate": 0.5
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 1.0,
+     "out": 4.0,
+     "rate": 0.5
+    },
+    {
      "name": "白鸟",
      "slug": "bnwu-top",
      "in": 1.0,
@@ -4082,6 +4115,13 @@
     {
      "name": "LinkAI",
      "slug": "linkai",
+     "in": 1.2,
+     "out": 7.2,
+     "rate": 0.6
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 1.2,
      "out": 7.2,
      "rate": 0.6
@@ -4313,6 +4353,13 @@
     {
      "name": "yinli",
      "slug": "yinli",
+     "in": 2.0,
+     "out": 12.0,
+     "rate": 1.0
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
      "in": 2.0,
      "out": 12.0,
      "rate": 1.0
@@ -5087,6 +5134,13 @@
      "rate": 0.3
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 0.45,
+     "out": 2.25,
+     "rate": 0.3
+    },
+    {
      "name": "88API-Token聚合平台",
      "slug": "88api-ai",
      "in": 0.525,
@@ -5176,6 +5230,13 @@
      "in": 0.9507,
      "out": 4.7532,
      "rate": 0.634
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.667
     },
     {
      "name": "CodingRouter",
@@ -5940,6 +6001,13 @@
      "rate": 0.3
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 0.45,
+     "out": 2.25,
+     "rate": 0.3
+    },
+    {
      "name": "88API-Token聚合平台",
      "slug": "88api-ai",
      "in": 0.525,
@@ -6248,18 +6316,18 @@
      "rate": 2.036
     },
     {
-     "name": "OmniaKey",
-     "slug": "omniakey",
-     "in": 3.0535,
-     "out": 15.2673,
-     "rate": 2.036
-    },
-    {
      "name": "corealgos",
      "slug": "corealgos",
      "in": 3.0535,
      "out": 15.2673,
      "rate": 2.036
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
+     "in": 3.15,
+     "out": 15.75,
+     "rate": 2.1
     },
     {
      "name": "聚星AI",
@@ -6365,6 +6433,13 @@
      "in": 5.4,
      "out": 27.0,
      "rate": 3.6
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
+     "in": 5.4284,
+     "out": 27.1419,
+     "rate": 3.619
     },
     {
      "name": "AutoRouter",
@@ -6560,6 +6635,13 @@
      "in": 0.75,
      "out": 4.5,
      "rate": 0.5
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 0.9,
+     "out": 5.4,
+     "rate": 0.6
     },
     {
      "name": "旺旺中转站",
@@ -6917,7 +6999,7 @@
    "model_key": "gemini-3.7-flash",
    "price_slug": "gemini-3-7-flash",
    "label": "Gemini 3.7 Flash",
-   "median_rate": 0.567,
+   "median_rate": 0.5,
    "own_page": false,
    "current": false,
    "official_in": 1.5,
@@ -6976,6 +7058,13 @@
     {
      "name": "LinkAI",
      "slug": "linkai",
+     "in": 0.45,
+     "out": 2.25,
+     "rate": 0.3
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 0.45,
      "out": 2.25,
      "rate": 0.3
@@ -7178,21 +7267,21 @@
    "bench": null
   },
   {
-   "name": "OmniaKey",
-   "slug": "omniakey",
+   "name": "小丁AI",
+   "slug": "xdcn-top",
    "tier": "S",
    "price": {
-    "in": 5.43,
-    "out": 27.14,
-    "rate": 2.714
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
    },
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
+   "min_topup": "¥1",
+   "bonus": "$0",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "可退款",
    "bench": null
   },
   {
@@ -7214,21 +7303,21 @@
    "bench": null
   },
   {
-   "name": "小丁AI",
-   "slug": "xdcn-top",
+   "name": "OmniaKey",
+   "slug": "omniakey",
    "tier": "S",
    "price": {
-    "in": 1.0,
-    "out": 5.0,
-    "rate": 0.5
+    "in": 5.43,
+    "out": 27.14,
+    "rate": 2.714
    },
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "$0",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "可退款",
+   "min_topup": "¥5",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
+   "refund": "无手续费",
    "bench": null
   },
   {
@@ -7282,6 +7371,16 @@
    }
   },
   {
+   "name": "聚星AI",
+   "slug": "juxingai-top",
+   "tier": "B",
+   "price": {
+    "in": 2.2,
+    "out": 11.0,
+    "rate": 1.1
+   }
+  },
+  {
    "name": "Top-API",
    "slug": "top-api",
    "tier": "B",
@@ -7309,16 +7408,6 @@
     "in": 4.0,
     "out": 20.0,
     "rate": 2.0
-   }
-  },
-  {
-   "name": "合聚API",
-   "slug": "hejuapi-com",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 2.5,
-    "rate": 0.25
    }
   },
   {
@@ -7412,5 +7501,5 @@
    }
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

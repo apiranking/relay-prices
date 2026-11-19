@@ -1,8 +1,8 @@
 {
  "ref": {
-  "model": "GPT-6 Astra",
+  "model": "GPT-6.2 Astra",
   "tier": "max / high 档",
-  "image": 36
+  "image": 3418
  },
  "stations": [
   {
@@ -27,7 +27,7 @@
    "image": 397
   }
  ],
- "hidden": 1,
+ "hidden": 2,
  "cases": [
   {
    "model": "GPT-6 Astra",
@@ -45,5 +45,5 @@
    "image": 25
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

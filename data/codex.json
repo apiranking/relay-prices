@@ -1,6 +1,6 @@
 {
  "vendor": "Codex",
- "site_count": 278,
+ "site_count": 280,
  "min_rate": 0.009,
  "median_rate": 0.35,
  "sites": [
@@ -415,6 +415,12 @@
   {
    "name": "小丁AI",
    "slug": "xdcn-top",
+   "rate": 0.1,
+   "model": "GPT-6.2 Sol"
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
    "rate": 0.1,
    "model": "GPT-6.2 Sol"
   },
@@ -887,6 +893,12 @@
    "model": "GPT-6.2 Sol"
   },
   {
+   "name": "RightCode",
+   "slug": "right-codes",
+   "rate": 0.4,
+   "model": "GPT-6.2 Sol"
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "rate": 0.4,
@@ -1037,6 +1049,12 @@
    "model": "GPT-6.2 Sol"
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rate": 0.5,
+   "model": "GPT-6.2 Sol"
+  },
+  {
    "name": "苏粹",
    "slug": "yh-m7ai-com",
    "rate": 0.5,
@@ -1124,12 +1142,6 @@
    "name": "OmniaKey",
    "slug": "omniakey",
    "rate": 0.611,
-   "model": "GPT-6.2 Astra"
-  },
-  {
-   "name": "Cooper-API",
-   "slug": "cooper-api-com",
-   "rate": 0.679,
    "model": "GPT-6.2 Sol"
   },
   {
@@ -1223,12 +1235,6 @@
    "model": "GPT-6.2 Sol"
   },
   {
-   "name": "维塔斯 AI",
-   "slug": "aiwts-com",
-   "rate": 0.8,
-   "model": "GPT-6.2 Astra"
-  },
-  {
    "name": "聚星AI",
    "slug": "juxingai-top",
    "rate": 0.8,
@@ -1250,6 +1256,12 @@
    "name": "ZZ OneAPI Console",
    "slug": "zzone-cc-cd",
    "rate": 0.875,
+   "model": "GPT-6.2 Sol"
+  },
+  {
+   "name": "Cooper-API",
+   "slug": "cooper-api-com",
+   "rate": 0.882,
    "model": "GPT-6.2 Sol"
   },
   {
@@ -2064,6 +2076,13 @@
      "rate": 0.1
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.2,
+     "out": 1.0,
+     "rate": 0.1
+    },
+    {
      "name": "聪明AI",
      "slug": "congmingai-com",
      "in": 0.2,
@@ -2603,6 +2622,13 @@
      "rate": 0.4
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 0.8,
+     "out": 4.0,
+     "rate": 0.4
+    },
+    {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
      "in": 0.8,
@@ -2778,6 +2804,13 @@
      "rate": 0.5
     },
     {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.5
+    },
+    {
      "name": "苏粹",
      "slug": "yh-m7ai-com",
      "in": 1.0,
@@ -2876,18 +2909,18 @@
      "rate": 0.611
     },
     {
-     "name": "Wokey",
-     "slug": "wokey-ai",
+     "name": "OmniaKey",
+     "slug": "omniakey",
      "in": 1.2214,
      "out": 6.1069,
      "rate": 0.611
     },
     {
-     "name": "Cooper-API",
-     "slug": "cooper-api-com",
-     "in": 1.3571,
-     "out": 6.7855,
-     "rate": 0.679
+     "name": "Wokey",
+     "slug": "wokey-ai",
+     "in": 1.2214,
+     "out": 6.1069,
+     "rate": 0.611
     },
     {
      "name": "MoleAPI",
@@ -2995,13 +3028,6 @@
      "rate": 0.759
     },
     {
-     "name": "OmniaKey",
-     "slug": "omniakey",
-     "in": 1.5267,
-     "out": 7.6337,
-     "rate": 0.763
-    },
-    {
      "name": "GPT Agent",
      "slug": "gpt-agent-cc",
      "in": 1.6,
@@ -3035,6 +3061,13 @@
      "in": 1.7507,
      "out": 8.7533,
      "rate": 0.875
+    },
+    {
+     "name": "Cooper-API",
+     "slug": "cooper-api-com",
+     "in": 1.7642,
+     "out": 8.8211,
+     "rate": 0.882
     },
     {
      "name": "To-Tokens",
@@ -3130,13 +3163,6 @@
     {
      "name": "xfastapi",
      "slug": "xfastapi-ai",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 1.0
-    },
-    {
-     "name": "维塔斯 AI",
-     "slug": "aiwts-com",
      "in": 2.0,
      "out": 10.0,
      "rate": 1.0
@@ -4513,6 +4539,13 @@
      "rate": 0.4
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 3.2,
+     "out": 16.0,
+     "rate": 0.4
+    },
+    {
      "name": "SSSAICode",
      "slug": "sssaicode-com",
      "in": 3.2,
@@ -4730,13 +4763,6 @@
      "rate": 0.611
     },
     {
-     "name": "Cooper-API",
-     "slug": "cooper-api-com",
-     "in": 5.4284,
-     "out": 27.1419,
-     "rate": 0.679
-    },
-    {
      "name": "MoleAPI",
      "slug": "moleapi-com",
      "in": 5.4284,
@@ -4828,13 +4854,6 @@
      "rate": 0.8
     },
     {
-     "name": "维塔斯 AI",
-     "slug": "aiwts-com",
-     "in": 6.4,
-     "out": 32.0,
-     "rate": 0.8
-    },
-    {
      "name": "聚星AI",
      "slug": "juxingai-top",
      "in": 6.4,
@@ -4861,6 +4880,13 @@
      "in": 7.0026,
      "out": 35.0131,
      "rate": 0.875
+    },
+    {
+     "name": "Cooper-API",
+     "slug": "cooper-api-com",
+     "in": 7.0569,
+     "out": 35.2845,
+     "rate": 0.882
     },
     {
      "name": "147 AI",
@@ -4928,6 +4954,13 @@
     {
      "name": "synterolink",
      "slug": "synterolink",
+     "in": 8.0,
+     "out": 40.0,
+     "rate": 1.0
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
      "in": 8.0,
      "out": 40.0,
      "rate": 1.0
@@ -5459,103 +5492,28 @@
    }
   },
   {
-   "name": "CoreCode",
-   "slug": "corecode-live",
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
    "tier": "S",
    "price": {
-    "in": 1.4,
-    "out": 7.0,
-    "rate": 0.7
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": "$3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "手续费20%",
-   "bench": {
-    "model": "GPT-6.1 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 4.5
-   }
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": {
-    "in": 1.53,
-    "out": 7.63,
-    "rate": 0.763
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
-   "bench": {
-    "model": "GPT-6.1 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 35.1
-   }
-  },
-  {
-   "name": "维塔斯 AI",
-   "slug": "aiwts-com",
-   "tier": "S",
-   "price": {
-    "in": 2.0,
-    "out": 10.0,
-    "rate": 1.0
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": "首冲满10送5",
-   "invoice": "yes",
-   "invoice_note": "10元开票",
-   "refund": "无手续费",
-   "bench": {
-    "model": "GPT-6.1 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 10.9
-   }
-  },
-  {
-   "name": "boxying",
-   "slug": "boxying",
-   "tier": "S",
-   "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.3
+    "in": 0.28,
+    "out": 1.4,
+    "rate": 0.14
    },
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥1",
-   "bonus": "¥0.5",
-   "invoice": "yes",
-   "invoice_note": "对公支付6%税费",
-   "refund": "无手续费",
+   "bonus": null,
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "48小时内可退",
    "bench": {
     "model": "GPT-6.1 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 12.2
+    "wait_s": 10.4
    }
   },
   {
@@ -5584,6 +5542,81 @@
    }
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "tier": "S",
+   "price": {
+    "in": 1.0,
+    "out": 5.0,
+    "rate": 0.5
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "首冲满10送5",
+   "invoice": "yes",
+   "invoice_note": "10元开票",
+   "refund": "无手续费",
+   "bench": {
+    "model": "GPT-6.1 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 10.9
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "S",
+   "price": {
+    "in": 1.22,
+    "out": 6.11,
+    "rate": 0.611
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
+   "refund": "无手续费",
+   "bench": {
+    "model": "GPT-6.1 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 35.1
+   }
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "tier": "S",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥0.5",
+   "invoice": "yes",
+   "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": {
+    "model": "GPT-6.1 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 12.2
+   }
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "tier": "B",
@@ -5591,36 +5624,6 @@
     "in": 0.8,
     "out": 4.0,
     "rate": 0.4
-   }
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "B",
-   "price": {
-    "in": 0.28,
-    "out": 1.4,
-    "rate": 0.14
-   }
-  },
-  {
-   "name": "智元API",
-   "slug": "chaozhiyuanai-com",
-   "tier": "B",
-   "price": {
-    "in": 1.2,
-    "out": 6.0,
-    "rate": 0.6
-   }
-  },
-  {
-   "name": "黑黑",
-   "slug": "heilovehei",
-   "tier": "B",
-   "price": {
-    "in": 0.1,
-    "out": 0.5,
-    "rate": 0.05
    }
   },
   {
@@ -5634,6 +5637,26 @@
    }
   },
   {
+   "name": "黑黑",
+   "slug": "heilovehei",
+   "tier": "B",
+   "price": {
+    "in": 0.1,
+    "out": 0.5,
+    "rate": 0.05
+   }
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "B",
+   "price": {
+    "in": 0.2,
+    "out": 1.0,
+    "rate": 0.1
+   }
+  },
+  {
    "name": "Claude API",
    "slug": "claude-api-org",
    "tier": "B",
@@ -5641,6 +5664,16 @@
     "in": 0.3,
     "out": 1.5,
     "rate": 0.15
+   }
+  },
+  {
+   "name": "Giao",
+   "slug": "giaolink-com",
+   "tier": "B",
+   "price": {
+    "in": 0.9,
+    "out": 4.5,
+    "rate": 0.45
    }
   },
   {
@@ -5674,6 +5707,16 @@
    }
   },
   {
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.26,
+    "out": 1.3,
+    "rate": 0.13
+   }
+  },
+  {
    "name": "CCTQ",
    "slug": "cctq",
    "tier": "B",
@@ -5681,6 +5724,16 @@
     "in": 0.4,
     "out": 2.0,
     "rate": 0.2
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "tier": "B",
+   "price": {
+    "in": 1.4,
+    "out": 7.0,
+    "rate": 0.7
    }
   },
   {
@@ -5711,16 +5764,6 @@
     "in": 0.8,
     "out": 4.0,
     "rate": 0.4
-   }
-  },
-  {
-   "name": "合聚API",
-   "slug": "hejuapi-com",
-   "tier": "B",
-   "price": {
-    "in": 0.08,
-    "out": 0.4,
-    "rate": 0.04
    }
   },
   {
@@ -5794,26 +5837,6 @@
    }
   },
   {
-   "name": "Giao",
-   "slug": "giaolink-com",
-   "tier": "B",
-   "price": {
-    "in": 0.9,
-    "out": 4.5,
-    "rate": 0.45
-   }
-  },
-  {
-   "name": "Hi-Code",
-   "slug": "hi-code-cc",
-   "tier": "B",
-   "price": {
-    "in": 0.26,
-    "out": 1.3,
-    "rate": 0.13
-   }
-  },
-  {
    "name": "KuaiAPI",
    "slug": "kuaiapi-net",
    "tier": "B",
@@ -5852,7 +5875,17 @@
     "out": 3.0,
     "rate": 0.3
    }
+  },
+  {
+   "name": "皮卡丘token商店",
+   "slug": "pikaqiu-shop",
+   "tier": "B",
+   "price": {
+    "in": 0.12,
+    "out": 0.6,
+    "rate": 0.06
+   }
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

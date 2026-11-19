@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 382,
+ "site_count": 383,
  "rows": [
   {
    "name": "12API",
@@ -164,6 +164,17 @@
     "claude": 1.561,
     "deepseek": 0.95,
     "grok": 2.036
+   }
+  },
+  {
+   "name": "Cooper-API",
+   "slug": "cooper-api-com",
+   "rates": {
+    "claude": 1.018,
+    "openai": 0.679,
+    "gemini": 2.036,
+    "grok": 3.393,
+    "deepseek": 0.97
    }
   },
   {
@@ -882,6 +893,17 @@
    }
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "rates": {
+    "openai": 0.05,
+    "claude": 0.031,
+    "gemini": 0.5,
+    "deepseek": 0.3,
+    "grok": 0.25
+   }
+  },
+  {
    "name": "汪汪の中转站",
    "slug": "hyhawang-com",
    "rates": {
@@ -1316,6 +1338,16 @@
    }
   },
   {
+   "name": "RightCode",
+   "slug": "right-codes",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.08,
+    "grok": 0.1,
+    "gemini": 0.3
+   }
+  },
+  {
    "name": "Ruoli API",
    "slug": "ruoli-dev",
    "rates": {
@@ -1550,8 +1582,8 @@
    "slug": "aiwts-com",
    "rates": {
     "claude": 0.5,
-    "openai": 0.8,
-    "gemini": 2.625,
+    "openai": 0.5,
+    "gemini": 0.667,
     "deepseek": 0.5
    }
   },
@@ -1756,15 +1788,6 @@
     "claude": 0.133,
     "openai": 0.065,
     "grok": 0.3
-   }
-  },
-  {
-   "name": "Cooper-API",
-   "slug": "cooper-api-com",
-   "rates": {
-    "claude": 1.018,
-    "openai": 0.679,
-    "gemini": 2.036
    }
   },
   {
@@ -3220,13 +3243,6 @@
    }
   },
   {
-   "name": "FK Claude",
-   "slug": "fkclaude-xyz",
-   "rates": {
-    "claude": 0.5
-   }
-  },
-  {
    "name": "GPTProto",
    "slug": "gptproto-com",
    "rates": {
@@ -3586,31 +3602,31 @@
    "bench": null
   },
   {
-   "name": "CoreCode",
-   "slug": "corecode-live",
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
    "tier": "S",
    "price": null,
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": "$3",
+   "min_topup": "¥1",
+   "bonus": null,
    "invoice": "no",
    "invoice_note": null,
-   "refund": "手续费20%",
+   "refund": "48小时内可退",
    "bench": null
   },
   {
-   "name": "OmniaKey",
-   "slug": "omniakey",
+   "name": "小丁AI",
+   "slug": "xdcn-top",
    "tier": "S",
    "price": null,
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
+   "min_topup": "¥1",
+   "bonus": "$0",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "可退款",
    "bench": null
   },
   {
@@ -3628,6 +3644,20 @@
    "bench": null
   },
   {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
    "name": "boxying",
    "slug": "boxying",
    "tier": "S",
@@ -3640,21 +3670,7 @@
    "invoice_note": "对公支付6%税费",
    "refund": "无手续费",
    "bench": null
-  },
-  {
-   "name": "小丁AI",
-   "slug": "xdcn-top",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "$0",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "可退款",
-   "bench": null
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

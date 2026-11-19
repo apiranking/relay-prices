@@ -1,8 +1,8 @@
 {
  "vendor": "Grok",
- "site_count": 160,
+ "site_count": 163,
  "min_rate": 0.001,
- "median_rate": 0.522,
+ "median_rate": 0.5,
  "sites": [
   {
    "name": "嘀嘀嘀 AI",
@@ -127,6 +127,12 @@
   {
    "name": "PackyCode",
    "slug": "packyapi-com",
+   "rate": 0.1,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "RightCode",
+   "slug": "right-codes",
    "rate": 0.1,
    "model": "Grok 4.7"
   },
@@ -343,6 +349,12 @@
   {
    "name": "WAWA ZZ API",
    "slug": "wawazz-xyz",
+   "rate": 0.25,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
    "rate": 0.25,
    "model": "Grok 4.7"
   },
@@ -821,6 +833,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "Cooper-API",
+   "slug": "cooper-api-com",
+   "rate": 3.393,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "UniAPI",
    "slug": "uniapi-ai",
    "rate": 3.393,
@@ -970,7 +988,7 @@
    "model_key": "grok-4.7",
    "price_slug": "grok-4-7",
    "label": "Grok 4.7",
-   "median_rate": 0.522,
+   "median_rate": 0.5,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -1113,6 +1131,13 @@
     {
      "name": "PackyCode",
      "slug": "packyapi-com",
+     "in": 0.2,
+     "out": 0.6,
+     "rate": 0.1
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 0.2,
      "out": 0.6,
      "rate": 0.1
@@ -1372,6 +1397,13 @@
     {
      "name": "WAWA ZZ API",
      "slug": "wawazz-xyz",
+     "in": 0.5,
+     "out": 1.5,
+     "rate": 0.25
+    },
+    {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
      "in": 0.5,
      "out": 1.5,
      "rate": 0.25
@@ -1930,6 +1962,13 @@
      "rate": 3.0
     },
     {
+     "name": "Cooper-API",
+     "slug": "cooper-api-com",
+     "in": 6.7855,
+     "out": 20.3564,
+     "rate": 3.393
+    },
+    {
      "name": "UniAPI",
      "slug": "uniapi-ai",
      "in": 6.7855,
@@ -2103,7 +2142,7 @@
    "model_key": "grok-4.5",
    "price_slug": "grok-4-5",
    "label": "Grok 4.5",
-   "median_rate": 0.441,
+   "median_rate": 0.407,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -2162,6 +2201,13 @@
     {
      "name": "PackyCode",
      "slug": "packyapi-com",
+     "in": 0.2,
+     "out": 0.6,
+     "rate": 0.1
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 0.2,
      "out": 0.6,
      "rate": 0.1
@@ -2452,7 +2498,7 @@
    "model_key": "grok-4.6",
    "price_slug": "grok-4-6",
    "label": "Grok 4.6",
-   "median_rate": 0.475,
+   "median_rate": 0.441,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -2504,6 +2550,13 @@
     {
      "name": "PackyCode",
      "slug": "packyapi-com",
+     "in": 0.2,
+     "out": 0.6,
+     "rate": 0.1
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 0.2,
      "out": 0.6,
      "rate": 0.1
@@ -2898,21 +2951,39 @@
    "bench": null
   },
   {
-   "name": "CoreCode",
-   "slug": "corecode-live",
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
    "tier": "S",
    "price": {
-    "in": 2.4,
-    "out": 7.2,
-    "rate": 1.2
+    "in": 0.28,
+    "out": 0.84,
+    "rate": 0.14
    },
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": "$3",
+   "min_topup": "¥1",
+   "bonus": null,
    "invoice": "no",
    "invoice_note": null,
-   "refund": "手续费20%",
+   "refund": "48小时内可退",
+   "bench": null
+  },
+  {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "tier": "S",
+   "price": {
+    "in": 0.8,
+    "out": 2.4,
+    "rate": 0.4
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "$0",
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "可退款",
    "bench": null
   },
   {
@@ -2948,31 +3019,13 @@
    "bench": null
   },
   {
-   "name": "小丁AI",
-   "slug": "xdcn-top",
-   "tier": "S",
-   "price": {
-    "in": 0.8,
-    "out": 2.4,
-    "rate": 0.4
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "$0",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "可退款",
-   "bench": null
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
+   "name": "深空 API",
+   "slug": "xkrelay-com",
    "tier": "B",
    "price": {
-    "in": 0.28,
-    "out": 0.84,
-    "rate": 0.14
+    "in": 0.4,
+    "out": 1.2,
+    "rate": 0.2
    }
   },
   {
@@ -2986,13 +3039,13 @@
    }
   },
   {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
    "tier": "B",
    "price": {
-    "in": 0.4,
-    "out": 1.2,
-    "rate": 0.2
+    "in": 0.5,
+    "out": 1.5,
+    "rate": 0.25
    }
   },
   {
@@ -3023,6 +3076,36 @@
     "in": 0.12,
     "out": 0.36,
     "rate": 0.06
+   }
+  },
+  {
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.3,
+    "out": 0.9,
+    "rate": 0.15
+   }
+  },
+  {
+   "name": "27API",
+   "slug": "27api-com",
+   "tier": "B",
+   "price": {
+    "in": 15.0,
+    "out": 90.0,
+    "rate": 7.5
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "tier": "B",
+   "price": {
+    "in": 2.4,
+    "out": 7.2,
+    "rate": 1.2
    }
   },
   {
@@ -3076,16 +3159,6 @@
    }
   },
   {
-   "name": "27API",
-   "slug": "27api-com",
-   "tier": "B",
-   "price": {
-    "in": 15.0,
-    "out": 90.0,
-    "rate": 7.5
-   }
-  },
-  {
    "name": "A6API",
    "slug": "a6api",
    "tier": "B",
@@ -3103,16 +3176,6 @@
     "in": 0.5,
     "out": 1.5,
     "rate": 0.25
-   }
-  },
-  {
-   "name": "Hi-Code",
-   "slug": "hi-code-cc",
-   "tier": "B",
-   "price": {
-    "in": 0.3,
-    "out": 0.9,
-    "rate": 0.15
    }
   },
   {
@@ -3186,13 +3249,13 @@
    }
   },
   {
-   "name": "LinkAPI",
-   "slug": "linkapi-ai",
+   "name": "RightCode",
+   "slug": "right-codes",
    "tier": "B",
    "price": {
-    "in": 1.6,
-    "out": 4.8,
-    "rate": 0.8
+    "in": 0.2,
+    "out": 0.6,
+    "rate": 0.1
    }
   },
   {
@@ -3226,5 +3289,5 @@
    }
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

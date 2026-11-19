@@ -1,8 +1,8 @@
 {
  "vendor": "Claude",
- "site_count": 318,
+ "site_count": 319,
  "min_rate": 0.014,
- "median_rate": 0.619,
+ "median_rate": 0.6,
  "sites": [
   {
    "name": "Prism API",
@@ -27,6 +27,12 @@
    "slug": "cca-maya-today",
    "rate": 0.031,
    "model": "Claude Sonnet 4.6"
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "rate": 0.031,
+   "model": "Claude Fable 5.1"
   },
   {
    "name": "YeToken",
@@ -485,6 +491,12 @@
    "model": "Claude Sonnet 5.5"
   },
   {
+   "name": "RightCode",
+   "slug": "right-codes",
+   "rate": 0.2,
+   "model": "Claude Sonnet 5.5"
+  },
+  {
    "name": "Yunbay",
    "slug": "yunbay-xyz",
    "rate": 0.2,
@@ -845,12 +857,6 @@
    "model": "Claude Opus 5.5"
   },
   {
-   "name": "FK Claude",
-   "slug": "fkclaude-xyz",
-   "rate": 0.5,
-   "model": "Claude Opus 5.5"
-  },
-  {
    "name": "GINKA API",
    "slug": "ginka-cloud",
    "rate": 0.5,
@@ -896,7 +902,7 @@
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "rate": 0.5,
-   "model": "Claude Fable 5.2"
+   "model": "Claude Fable 5.1"
   },
   {
    "name": "GPT Agent",
@@ -2199,6 +2205,13 @@
      "rate": 0.12
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.125
+    },
+    {
      "name": "VideoCaptioner API",
      "slug": "videocaptioner-cn",
      "in": 0.5294,
@@ -2591,6 +2604,13 @@
      "rate": 0.3
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 1.2,
+     "out": 6.0,
+     "rate": 0.3
+    },
+    {
      "name": "Token云桥",
      "slug": "0029-org",
      "in": 1.2,
@@ -2796,13 +2816,6 @@
     {
      "name": "Claude API",
      "slug": "claude-api-org",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 0.5
-    },
-    {
-     "name": "FK Claude",
-     "slug": "fkclaude-xyz",
      "in": 2.0,
      "out": 10.0,
      "rate": 0.5
@@ -4173,6 +4186,13 @@
      "rate": 0.12
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 1.0,
+     "out": 5.0,
+     "rate": 0.125
+    },
+    {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
      "in": 1.096,
@@ -4608,13 +4628,6 @@
      "rate": 0.5
     },
     {
-     "name": "维塔斯 AI",
-     "slug": "aiwts-com",
-     "in": 4.0,
-     "out": 20.0,
-     "rate": 0.5
-    },
-    {
      "name": "黑黑",
      "slug": "heilovehei",
      "in": 4.0,
@@ -4708,6 +4721,13 @@
     {
      "name": "Kuaipao API",
      "slug": "kuaipao-pro",
+     "in": 6.0,
+     "out": 30.0,
+     "rate": 0.75
+    },
+    {
+     "name": "维塔斯 AI",
+     "slug": "aiwts-com",
      "in": 6.0,
      "out": 30.0,
      "rate": 0.75
@@ -5112,6 +5132,13 @@
      "rate": 1.5
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 12.0,
+     "out": 60.0,
+     "rate": 1.5
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
      "in": 12.0,
@@ -5294,20 +5321,6 @@
      "rate": 1.846
     },
     {
-     "name": "FK Claude",
-     "slug": "fkclaude-xyz",
-     "in": 14.8,
-     "out": 74.0,
-     "rate": 1.85
-    },
-    {
-     "name": "OmniaKey",
-     "slug": "omniakey",
-     "in": 15.1995,
-     "out": 75.9974,
-     "rate": 1.9
-    },
-    {
      "name": "boxying",
      "slug": "boxying",
      "in": 16.0,
@@ -5334,6 +5347,13 @@
      "in": 16.0388,
      "out": 80.1938,
      "rate": 2.005
+    },
+    {
+     "name": "Cooper-API",
+     "slug": "cooper-api-com",
+     "in": 16.2852,
+     "out": 81.4258,
+     "rate": 2.036
     },
     {
      "name": "HaoAI",
@@ -5408,6 +5428,13 @@
     {
      "name": "AutoRouter",
      "slug": "autorouter-top",
+     "in": 18.9993,
+     "out": 94.9967,
+     "rate": 2.375
+    },
+    {
+     "name": "OmniaKey",
+     "slug": "omniakey",
      "in": 18.9993,
      "out": 94.9967,
      "rate": 2.375
@@ -6107,6 +6134,13 @@
      "rate": 0.12
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.25,
+     "out": 1.25,
+     "rate": 0.125
+    },
+    {
      "name": "VideoCaptioner API",
      "slug": "videocaptioner-cn",
      "in": 0.2647,
@@ -6279,6 +6313,13 @@
     {
      "name": "Rehdasu API",
      "slug": "rehdasu-cn",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.2
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 0.4,
      "out": 2.0,
      "rate": 0.2
@@ -7177,6 +7218,13 @@
      "cache_x": "2倍"
     },
     {
+     "name": "Cooper-API",
+     "slug": "cooper-api-com",
+     "in": 4.0713,
+     "out": 20.3564,
+     "rate": 2.036
+    },
+    {
      "name": "HaoAI",
      "slug": "hao-ai",
      "in": 4.0713,
@@ -7532,7 +7580,7 @@
    "model_key": "claude-haiku-5-5",
    "price_slug": "claude-haiku-5-5",
    "label": "Claude Haiku 5.5",
-   "median_rate": 1.133,
+   "median_rate": 1.1,
    "own_page": true,
    "current": true,
    "official_in": 0.1,
@@ -7652,6 +7700,13 @@
      "rate": 0.12
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.0125,
+     "out": 0.0625,
+     "rate": 0.125
+    },
+    {
      "name": "VideoCaptioner API",
      "slug": "videocaptioner-cn",
      "in": 0.0132,
@@ -7731,6 +7786,13 @@
     {
      "name": "Rehdasu API",
      "slug": "rehdasu-cn",
+     "in": 0.02,
+     "out": 0.1,
+     "rate": 0.2
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 0.02,
      "out": 0.1,
      "rate": 0.2
@@ -8734,6 +8796,13 @@
      "in": 0.3,
      "out": 1.5,
      "rate": 0.03
+    },
+    {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.3125,
+     "out": 1.5625,
+     "rate": 0.031
     },
     {
      "name": "YeToken",
@@ -9814,6 +9883,13 @@
      "rate": 1.5
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 15.0,
+     "out": 75.0,
+     "rate": 1.5
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
      "in": 15.0,
@@ -9994,13 +10070,6 @@
      "in": 18.4565,
      "out": 92.1468,
      "rate": 1.846
-    },
-    {
-     "name": "FK Claude",
-     "slug": "fkclaude-xyz",
-     "in": 18.5,
-     "out": 92.5,
-     "rate": 1.85
     },
     {
      "name": "OmniaKey",
@@ -10793,6 +10862,13 @@
      "rate": 0.3
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 0.9,
+     "out": 4.5,
+     "rate": 0.3
+    },
+    {
      "name": "Token云桥",
      "slug": "0029-org",
      "in": 0.9,
@@ -10893,13 +10969,6 @@
     {
      "name": "Clauddy API",
      "slug": "clauddy-com",
-     "in": 1.5,
-     "out": 7.5,
-     "rate": 0.5
-    },
-    {
-     "name": "FK Claude",
-     "slug": "fkclaude-xyz",
      "in": 1.5,
      "out": 7.5,
      "rate": 0.5
@@ -11723,6 +11792,13 @@
      "rate": 0.3
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 1.5,
+     "out": 7.5,
+     "rate": 0.3
+    },
+    {
      "name": "Token云桥",
      "slug": "0029-org",
      "in": 1.5,
@@ -11823,13 +11899,6 @@
     {
      "name": "APINebula",
      "slug": "apinebula-com",
-     "in": 2.5,
-     "out": 12.5,
-     "rate": 0.5
-    },
-    {
-     "name": "FK Claude",
-     "slug": "fkclaude-xyz",
      "in": 2.5,
      "out": 12.5,
      "rate": 0.5
@@ -12597,6 +12666,13 @@
      "rate": 0.3
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 1.5,
+     "out": 7.5,
+     "rate": 0.3
+    },
+    {
      "name": "Token云桥",
      "slug": "0029-org",
      "in": 1.5,
@@ -12697,13 +12773,6 @@
     {
      "name": "APINebula",
      "slug": "apinebula-com",
-     "in": 2.5,
-     "out": 12.5,
-     "rate": 0.5
-    },
-    {
-     "name": "FK Claude",
-     "slug": "fkclaude-xyz",
      "in": 2.5,
      "out": 12.5,
      "rate": 0.5
@@ -13611,6 +13680,13 @@
      "rate": 1.5
     },
     {
+     "name": "RightCode",
+     "slug": "right-codes",
+     "in": 15.0,
+     "out": 75.0,
+     "rate": 1.5
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
      "in": 15.0,
@@ -13686,13 +13762,6 @@
      "in": 18.4565,
      "out": 92.1468,
      "rate": 1.846
-    },
-    {
-     "name": "FK Claude",
-     "slug": "fkclaude-xyz",
-     "in": 18.5,
-     "out": 92.5,
-     "rate": 1.85
     },
     {
      "name": "OmniaKey",
@@ -13889,7 +13958,7 @@
    "model_key": "claude-sonnet-5",
    "price_slug": "claude-sonnet-5",
    "label": "Claude Sonnet 5",
-   "median_rate": 0.74,
+   "median_rate": 0.7,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
@@ -13990,6 +14059,13 @@
     {
      "name": "Rehdasu API",
      "slug": "rehdasu-cn",
+     "in": 0.4,
+     "out": 2.0,
+     "rate": 0.2
+    },
+    {
+     "name": "RightCode",
+     "slug": "right-codes",
      "in": 0.4,
      "out": 2.0,
      "rate": 0.2
@@ -14584,103 +14660,28 @@
    }
   },
   {
-   "name": "CoreCode",
-   "slug": "corecode-live",
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
    "tier": "S",
    "price": {
-    "in": 7.6,
-    "out": 38.0,
-    "rate": 1.9
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": "$3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "手续费20%",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 2.5
-   }
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": {
-    "in": 7.6,
-    "out": 38.0,
-    "rate": 1.9
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 4.5
-   }
-  },
-  {
-   "name": "维塔斯 AI",
-   "slug": "aiwts-com",
-   "tier": "S",
-   "price": {
-    "in": 4.0,
-    "out": 20.0,
-    "rate": 1.0
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥10",
-   "bonus": "首冲满10送5",
-   "invoice": "yes",
-   "invoice_note": "10元开票",
-   "refund": "无手续费",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 4.9
-   }
-  },
-  {
-   "name": "boxying",
-   "slug": "boxying",
-   "tier": "S",
-   "price": {
-    "in": 1.2,
-    "out": 6.0,
-    "rate": 0.3
+    "in": 0.56,
+    "out": 2.8,
+    "rate": 0.14
    },
    "water": "模型为真",
    "anomaly": null,
    "min_topup": "¥1",
-   "bonus": "¥0.5",
-   "invoice": "yes",
-   "invoice_note": "对公支付6%税费",
-   "refund": "无手续费",
+   "bonus": null,
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "48小时内可退",
    "bench": {
     "model": "Claude Opus 5.5",
     "billing": "完全对得上",
     "billing_color": "good",
-    "cache": "缓存优秀",
+    "cache": "缓存良好",
     "cache_color": "good",
-    "wait_s": 4.4
+    "wait_s": 6.1
    }
   },
   {
@@ -14709,6 +14710,81 @@
    }
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "tier": "S",
+   "price": {
+    "in": 4.0,
+    "out": 20.0,
+    "rate": 1.0
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥10",
+   "bonus": "首冲满10送5",
+   "invoice": "yes",
+   "invoice_note": "10元开票",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.9
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "S",
+   "price": {
+    "in": 7.6,
+    "out": 38.0,
+    "rate": 1.9
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.5
+   }
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "tier": "S",
+   "price": {
+    "in": 1.2,
+    "out": 6.0,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": "¥0.5",
+   "invoice": "yes",
+   "invoice_note": "对公支付6%税费",
+   "refund": "无手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 4.4
+   }
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "tier": "B",
@@ -14716,36 +14792,6 @@
     "in": 2.8,
     "out": 14.0,
     "rate": 0.7
-   }
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "B",
-   "price": {
-    "in": 0.56,
-    "out": 2.8,
-    "rate": 0.14
-   }
-  },
-  {
-   "name": "智元API",
-   "slug": "chaozhiyuanai-com",
-   "tier": "B",
-   "price": {
-    "in": 3.2,
-    "out": 16.0,
-    "rate": 0.8
-   }
-  },
-  {
-   "name": "黑黑",
-   "slug": "heilovehei",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.1
    }
   },
   {
@@ -14759,6 +14805,26 @@
    }
   },
   {
+   "name": "黑黑",
+   "slug": "heilovehei",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.1
+   }
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 2.5,
+    "rate": 0.125
+   }
+  },
+  {
    "name": "Claude API",
    "slug": "claude-api-org",
    "tier": "B",
@@ -14766,6 +14832,16 @@
     "in": 2.0,
     "out": 10.0,
     "rate": 0.5
+   }
+  },
+  {
+   "name": "Giao",
+   "slug": "giaolink-com",
+   "tier": "B",
+   "price": {
+    "in": 0.8,
+    "out": 4.0,
+    "rate": 0.2
    }
   },
   {
@@ -14799,6 +14875,16 @@
    }
   },
   {
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.15
+   }
+  },
+  {
    "name": "CCTQ",
    "slug": "cctq",
    "tier": "B",
@@ -14806,6 +14892,16 @@
     "in": 6.0,
     "out": 30.0,
     "rate": 1.5
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "tier": "B",
+   "price": {
+    "in": 7.6,
+    "out": 38.0,
+    "rate": 1.9
    }
   },
   {
@@ -14826,16 +14922,6 @@
     "in": 2.8,
     "out": 14.0,
     "rate": 0.7
-   }
-  },
-  {
-   "name": "合聚API",
-   "slug": "hejuapi-com",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.15
    }
   },
   {
@@ -14869,16 +14955,6 @@
    }
   },
   {
-   "name": "AI Prime Tech",
-   "slug": "aiprimetech-io",
-   "tier": "B",
-   "price": {
-    "in": 0.78,
-    "out": 3.9,
-    "rate": 0.195
-   }
-  },
-  {
    "name": "Z-API",
    "slug": "api-zicc-cc",
    "tier": "B",
@@ -14896,26 +14972,6 @@
     "in": 0.33,
     "out": 1.67,
     "rate": 0.083
-   }
-  },
-  {
-   "name": "Giao",
-   "slug": "giaolink-com",
-   "tier": "B",
-   "price": {
-    "in": 0.8,
-    "out": 4.0,
-    "rate": 0.2
-   }
-  },
-  {
-   "name": "Hi-Code",
-   "slug": "hi-code-cc",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.15
    }
   },
   {
@@ -14976,6 +15032,16 @@
     "in": 14.6,
     "out": 73.0,
     "rate": 3.65
+   }
+  },
+  {
+   "name": "SpacetimeAI",
+   "slug": "spacetimeai-cc",
+   "tier": "B",
+   "price": {
+    "in": 5.2,
+    "out": 26.0,
+    "rate": 1.3
    }
   }
  ],
@@ -15041,44 +15107,14 @@
    "wait_s": 6.3
   },
   {
-   "name": "CoreCode",
-   "slug": "corecode-live",
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
    "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
+   "cache": "缓存良好",
    "billing": "完全对得上",
    "cache_color": "good",
    "billing_color": "good",
-   "wait_s": 2.5
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上",
-   "cache_color": "good",
-   "billing_color": "good",
-   "wait_s": 4.5
-  },
-  {
-   "name": "维塔斯 AI",
-   "slug": "aiwts-com",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上",
-   "cache_color": "good",
-   "billing_color": "good",
-   "wait_s": 4.9
-  },
-  {
-   "name": "boxying",
-   "slug": "boxying",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上",
-   "cache_color": "good",
-   "billing_color": "good",
-   "wait_s": 4.4
+   "wait_s": 6.1
   },
   {
    "name": "小丁AI",
@@ -15091,6 +15127,36 @@
    "wait_s": 2.8
   },
   {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.9
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.5
+  },
+  {
+   "name": "boxying",
+   "slug": "boxying",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.4
+  },
+  {
    "name": "SSSAICode",
    "slug": "sssaicode-com",
    "model": "Claude Opus 5.5",
@@ -15101,16 +15167,6 @@
    "wait_s": 3.8
   },
   {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存良好",
-   "billing": "完全对得上",
-   "cache_color": "good",
-   "billing_color": "good",
-   "wait_s": 6.1
-  },
-  {
    "name": "RunAPI",
    "slug": "runapi-co",
    "model": "Claude Opus 5",
@@ -15119,6 +15175,16 @@
    "cache_color": "good",
    "billing_color": "info",
    "wait_s": 3.3
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 2.5
   },
   {
    "name": "ByteCat",
@@ -15142,7 +15208,7 @@
   },
   {
    "name": "RightCode",
-   "slug": null,
+   "slug": "right-codes",
    "model": "Claude Opus 5.5",
    "cache": "缓存优秀",
    "billing": "完全对得上",
@@ -15171,5 +15237,5 @@
    "wait_s": 5.9
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

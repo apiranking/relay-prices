@@ -1,6 +1,6 @@
 {
  "vendor": "DeepSeek",
- "site_count": 148,
+ "site_count": 150,
  "min_rate": 0.001,
  "median_rate": 0.388,
  "sites": [
@@ -377,6 +377,12 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "rate": 0.3,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
    "name": "MoleAPI",
    "slug": "moleapi-com",
    "rate": 0.305,
@@ -680,6 +686,12 @@
    "name": "CodingRouter",
    "slug": "codingrouter",
    "rate": 0.95,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "Cooper-API",
+   "slug": "cooper-api-com",
+   "rate": 0.97,
    "model": "DeepSeek V4.1 Flash"
   },
   {
@@ -1333,6 +1345,13 @@
      "rate": 0.3
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.6,
+     "out": 2.4,
+     "rate": 0.3
+    },
+    {
      "name": "MoleAPI",
      "slug": "moleapi-com",
      "in": 0.6107,
@@ -1674,6 +1693,13 @@
      "in": 1.9339,
      "out": 7.7354,
      "rate": 0.967
+    },
+    {
+     "name": "Cooper-API",
+     "slug": "cooper-api-com",
+     "in": 1.9393,
+     "out": 7.7558,
+     "rate": 0.97
     },
     {
      "name": "SSSAICode",
@@ -2299,6 +2325,13 @@
      "rate": 0.3
     },
     {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 2.7,
+     "out": 8.1,
+     "rate": 0.3
+    },
+    {
      "name": "SoleAPI",
      "slug": "soleapi-com",
      "in": 2.93,
@@ -2586,6 +2619,13 @@
      "in": 8.509,
      "out": 25.527,
      "rate": 0.945
+    },
+    {
+     "name": "Cooper-API",
+     "slug": "cooper-api-com",
+     "in": 8.7248,
+     "out": 26.173,
+     "rate": 0.97
     },
     {
      "name": "CodingRouter",
@@ -2926,24 +2966,6 @@
    "bench": null
   },
   {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": {
-    "in": 1.02,
-    "out": 4.07,
-    "rate": 0.509
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -2958,6 +2980,24 @@
    "bonus": "首冲满10送5",
    "invoice": "yes",
    "invoice_note": "10元开票",
+   "refund": "无手续费",
+   "bench": null
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "S",
+   "price": {
+    "in": 1.02,
+    "out": 4.07,
+    "rate": 0.509
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥5",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "3000元起开",
    "refund": "无手续费",
    "bench": null
   },
@@ -2982,6 +3022,26 @@
    }
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 2.4,
+    "rate": 0.3
+   }
+  },
+  {
+   "name": "GoAI",
+   "slug": "goai-im",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 1.0,
+    "rate": 0.25
+   }
+  },
+  {
    "name": "RunAPI",
    "slug": "runapi-co",
    "tier": "B",
@@ -3002,6 +3062,16 @@
    }
   },
   {
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 2.4,
+    "rate": 0.3
+   }
+  },
+  {
    "name": "CCTQ",
    "slug": "cctq",
    "tier": "B",
@@ -3019,6 +3089,16 @@
     "in": 0.07,
     "out": 0.37,
     "rate": 0.037
+   }
+  },
+  {
+   "name": "聚星AI",
+   "slug": "juxingai-top",
+   "tier": "B",
+   "price": {
+    "in": 1.5,
+    "out": 3.0,
+    "rate": 0.75
    }
   },
   {
@@ -3059,26 +3139,6 @@
     "in": 0.01,
     "out": 0.05,
     "rate": 0.006
-   }
-  },
-  {
-   "name": "GoAI",
-   "slug": "goai-im",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 1.0,
-    "rate": 0.25
-   }
-  },
-  {
-   "name": "Hi-Code",
-   "slug": "hi-code-cc",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 2.4,
-    "rate": 0.3
    }
   },
   {
@@ -3230,27 +3290,7 @@
     "out": 3.11,
     "rate": 0.388
    }
-  },
-  {
-   "name": "apikl.ai",
-   "slug": "apikl-ai",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 2.0,
-    "rate": 0.25
-   }
-  },
-  {
-   "name": "PRY API",
-   "slug": "bearlab-ai",
-   "tier": "B",
-   "price": {
-    "in": 0.15,
-    "out": 0.6,
-    "rate": 0.075
-   }
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }

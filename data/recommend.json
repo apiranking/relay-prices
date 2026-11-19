@@ -86,12 +86,32 @@
    }
   },
   {
-   "name": "CoreCode",
-   "slug": "corecode-live",
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
    "rates": {
-    "claude": 1.9,
-    "openai": 0.64,
-    "grok": 1.2
+    "openai": 0.021,
+    "claude": 0.031,
+    "grok": 0.14
+   }
+  },
+  {
+   "name": "小丁AI",
+   "slug": "xdcn-top",
+   "rates": {
+    "claude": 0.15,
+    "openai": 0.1,
+    "gemini": 0.25,
+    "grok": 0.4
+   }
+  },
+  {
+   "name": "维塔斯 AI",
+   "slug": "aiwts-com",
+   "rates": {
+    "claude": 0.5,
+    "openai": 0.5,
+    "gemini": 0.667,
+    "deepseek": 0.5
    }
   },
   {
@@ -106,31 +126,11 @@
    }
   },
   {
-   "name": "维塔斯 AI",
-   "slug": "aiwts-com",
-   "rates": {
-    "claude": 0.5,
-    "openai": 0.8,
-    "gemini": 2.625,
-    "deepseek": 0.5
-   }
-  },
-  {
    "name": "boxying",
    "slug": "boxying",
    "rates": {
     "claude": 0.3,
     "openai": 0.24
-   }
-  },
-  {
-   "name": "小丁AI",
-   "slug": "xdcn-top",
-   "rates": {
-    "claude": 0.15,
-    "openai": 0.1,
-    "gemini": 0.25,
-    "grok": 0.4
    }
   },
   {
@@ -140,39 +140,6 @@
     "claude": 0.7,
     "openai": 0.32,
     "deepseek": 1.0
-   }
-  },
-  {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "rates": {
-    "openai": 0.021,
-    "claude": 0.031,
-    "grok": 0.14
-   }
-  },
-  {
-   "name": "智元API",
-   "slug": "chaozhiyuanai-com",
-   "rates": {
-    "openai": 0.12,
-    "claude": 0.8
-   }
-  },
-  {
-   "name": "黑黑",
-   "slug": "heilovehei",
-   "rates": {
-    "claude": 0.1,
-    "openai": 0.05,
-    "grok": 0.2
-   }
-  },
-  {
-   "name": "SubRouter",
-   "slug": "subrouter-ai",
-   "rates": {
-    "openai": 0.086
    }
   },
   {
@@ -187,12 +154,54 @@
    }
   },
   {
+   "name": "黑黑",
+   "slug": "heilovehei",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.05,
+    "grok": 0.2
+   }
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "rates": {
+    "openai": 0.05,
+    "claude": 0.031,
+    "gemini": 0.5,
+    "deepseek": 0.3,
+    "grok": 0.25
+   }
+  },
+  {
+   "name": "SubRouter",
+   "slug": "subrouter-ai",
+   "rates": {
+    "openai": 0.086
+   }
+  },
+  {
    "name": "Claude API",
    "slug": "claude-api-org",
    "rates": {
     "openai": 0.03,
     "claude": 0.069,
     "gemini": 0.25
+   }
+  },
+  {
+   "name": "Giao",
+   "slug": "giaolink-com",
+   "rates": {
+    "openai": 0.09,
+    "claude": 0.2
+   }
+  },
+  {
+   "name": "GoAI",
+   "slug": "goai-im",
+   "rates": {
+    "deepseek": 0.25
    }
   },
   {
@@ -228,6 +237,24 @@
    }
   },
   {
+   "name": "Hi-Code",
+   "slug": "hi-code-cc",
+   "rates": {
+    "openai": 0.104,
+    "claude": 0.15,
+    "grok": 0.15,
+    "deepseek": 0.3
+   }
+  },
+  {
+   "name": "27API",
+   "slug": "27api-com",
+   "rates": {
+    "gemini": 20.0,
+    "grok": 7.5
+   }
+  },
+  {
    "name": "CCTQ",
    "slug": "cctq",
    "rates": {
@@ -244,6 +271,25 @@
     "claude": 3.393,
     "gemini": 2.036,
     "deepseek": 0.037
+   }
+  },
+  {
+   "name": "CoreCode",
+   "slug": "corecode-live",
+   "rates": {
+    "claude": 1.9,
+    "openai": 0.64,
+    "grok": 1.2
+   }
+  },
+  {
+   "name": "聚星AI",
+   "slug": "juxingai-top",
+   "rates": {
+    "claude": 3.2,
+    "openai": 0.48,
+    "gemini": 1.1,
+    "deepseek": 0.5
    }
   },
   {
@@ -265,55 +311,7 @@
     "gemini": 0.5,
     "grok": 1.0
    }
-  },
-  {
-   "name": "球球Token",
-   "slug": "qiuqiutoken-com",
-   "rates": {
-    "gemini": 1.0,
-    "claude": 0.7,
-    "openai": 0.32,
-    "grok": 0.25,
-    "deepseek": 1.0
-   }
-  },
-  {
-   "name": "合聚API",
-   "slug": "hejuapi-com",
-   "rates": {
-    "claude": 0.1,
-    "openai": 0.032,
-    "gemini": 0.125
-   }
-  },
-  {
-   "name": "三头牛",
-   "slug": "36niu-com",
-   "rates": {
-    "claude": 0.679,
-    "openai": 1.357,
-    "grok": 1.357,
-    "gemini": 0.679,
-    "deepseek": 0.921
-   }
-  },
-  {
-   "name": "卡皮巴拉API",
-   "slug": "kapibala-asia",
-   "rates": {
-    "openai": 0.12,
-    "claude": 0.18,
-    "deepseek": 0.525,
-    "grok": 0.75
-   }
-  },
-  {
-   "name": "1024Token",
-   "slug": "1024token-club",
-   "rates": {
-    "openai": 0.06
-   }
   }
  ],
- "updated": "2026-11-18"
+ "updated": "2026-11-19"
 }
