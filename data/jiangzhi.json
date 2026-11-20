@@ -8,26 +8,26 @@
   {
    "name": "UU API",
    "slug": "uuapi-net",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 31
+   "model": "GPT-6.2 Astra",
+   "tier": "medium 档",
+   "image": 3596
   },
   {
    "name": "H API",
    "slug": "h-api",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 28
+   "model": "GPT-6.2 Astra",
+   "tier": "medium 档",
+   "image": 3597
   },
   {
    "name": "OpenOx",
    "slug": "openox",
-   "model": "GPT-6 Astra",
-   "tier": "max / high 档",
-   "image": 397
+   "model": "GPT-6.2 Astra",
+   "tier": "medium 档",
+   "image": 3590
   }
  ],
- "hidden": 2,
+ "hidden": 0,
  "cases": [
   {
    "model": "GPT-6 Astra",
@@ -45,5 +45,5 @@
    "image": 25
   }
  ],
- "updated": "2026-11-19"
+ "updated": "2026-11-20"
 }

@@ -423,11 +423,11 @@
    "name": "OpenOx",
    "slug": "openox",
    "rates": {
-    "claude": 0.333,
+    "claude": 0.29,
     "openai": 0.12,
-    "grok": 0.4,
-    "deepseek": 0.616,
-    "gemini": 1.0
+    "grok": 0.1,
+    "deepseek": 0.329,
+    "gemini": 0.15
    }
   },
   {
@@ -1182,9 +1182,9 @@
    "slug": "gpt-agent-cc",
    "rates": {
     "claude": 0.533,
+    "gemini": 8.0,
     "grok": 3.0,
-    "openai": 0.8,
-    "gemini": 8.0
+    "openai": 0.8
    }
   },
   {
@@ -1261,10 +1261,10 @@
    "name": "LinksAPI",
    "slug": "linksapi",
    "rates": {
-    "claude": 0.125,
-    "openai": 0.127,
-    "deepseek": 1.17,
-    "gemini": 0.507
+    "claude": 0.128,
+    "openai": 0.08,
+    "deepseek": 1.2,
+    "gemini": 0.65
    }
   },
   {
@@ -1965,9 +1965,9 @@
    "name": "PoloAPI",
    "slug": "poloapi-com",
    "rates": {
+    "gemini": 6.785,
     "deepseek": 9.047,
-    "openai": 13.571,
-    "gemini": 6.785
+    "openai": 13.571
    }
   },
   {
@@ -3672,5 +3672,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-19"
+ "updated": "2026-11-20"
 }

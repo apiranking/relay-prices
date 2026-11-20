@@ -125,6 +125,12 @@
    "model": "Grok 4.5"
   },
   {
+   "name": "OpenOx",
+   "slug": "openox",
+   "rate": 0.1,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "PackyCode",
    "slug": "packyapi-com",
    "rate": 0.1,
@@ -427,12 +433,6 @@
   {
    "name": "H API",
    "slug": "h-api",
-   "rate": 0.4,
-   "model": "Grok 4.7"
-  },
-  {
-   "name": "OpenOx",
-   "slug": "openox",
    "rate": 0.4,
    "model": "Grok 4.7"
   },
@@ -1129,6 +1129,13 @@
      "rate": 0.1
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 0.1998,
+     "out": 0.5993,
+     "rate": 0.1
+    },
+    {
      "name": "PackyCode",
      "slug": "packyapi-com",
      "in": 0.2,
@@ -1488,13 +1495,6 @@
     {
      "name": "H API",
      "slug": "h-api",
-     "in": 0.8,
-     "out": 2.4,
-     "rate": 0.4
-    },
-    {
-     "name": "OpenOx",
-     "slug": "openox",
      "in": 0.8,
      "out": 2.4,
      "rate": 0.4
@@ -2887,9 +2887,9 @@
    "slug": "openox",
    "tier": "S",
    "price": {
-    "in": 0.8,
-    "out": 2.4,
-    "rate": 0.4
+    "in": 0.2,
+    "out": 0.6,
+    "rate": 0.1
    },
    "water": "模型为真",
    "anomaly": null,
@@ -3289,5 +3289,5 @@
    }
   }
  ],
- "updated": "2026-11-19"
+ "updated": "2026-11-20"
 }

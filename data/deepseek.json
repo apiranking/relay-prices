@@ -2,7 +2,7 @@
  "vendor": "DeepSeek",
  "site_count": 150,
  "min_rate": 0.001,
- "median_rate": 0.388,
+ "median_rate": 0.384,
  "sites": [
   {
    "name": "高效中转站",
@@ -407,6 +407,12 @@
    "model": "DeepSeek V4 Pro"
   },
   {
+   "name": "OpenOx",
+   "slug": "openox",
+   "rate": 0.329,
+   "model": "DeepSeek V4 Pro"
+  },
+  {
    "name": "灵芽API",
    "slug": "lingyaai-cn",
    "rate": 0.333,
@@ -593,12 +599,6 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
-   "name": "OpenOx",
-   "slug": "openox",
-   "rate": 0.616,
-   "model": "DeepSeek V4 Pro"
-  },
-  {
    "name": "DMXAPI Global",
    "slug": "dmxapi-com",
    "rate": 0.679,
@@ -745,7 +745,7 @@
   {
    "name": "LinksAPI",
    "slug": "linksapi",
-   "rate": 1.17,
+   "rate": 1.2,
    "model": "DeepSeek V4.1 Flash"
   },
   {
@@ -910,7 +910,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.4,
+   "median_rate": 0.395,
    "own_page": true,
    "current": false,
    "official_in": 2.0,
@@ -1373,6 +1373,13 @@
      "rate": 0.325
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 0.672,
+     "out": 2.688,
+     "rate": 0.336
+    },
+    {
      "name": "AIsa",
      "slug": "aisa-one",
      "in": 0.6785,
@@ -1576,13 +1583,6 @@
      "rate": 0.612
     },
     {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 1.26,
-     "out": 5.04,
-     "rate": 0.63
-    },
-    {
      "name": "卡皮巴拉API",
      "slug": "kapibala-asia",
      "in": 1.35,
@@ -1760,9 +1760,9 @@
     {
      "name": "LinksAPI",
      "slug": "linksapi",
-     "in": 2.34,
-     "out": 9.36,
-     "rate": 1.17,
+     "in": 2.4,
+     "out": 9.6,
+     "rate": 1.2,
      "cache_x": "15倍"
     },
     {
@@ -1967,7 +1967,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.5,
+   "median_rate": 0.498,
    "own_page": true,
    "current": false,
    "official_in": 9.0,
@@ -2347,6 +2347,13 @@
      "cache_x": "0.25倍"
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 2.9568,
+     "out": 8.8704,
+     "rate": 0.329
+    },
+    {
      "name": "灵芽API",
      "slug": "lingyaai-cn",
      "in": 3.0,
@@ -2485,13 +2492,6 @@
      "in": 5.4,
      "out": 16.2,
      "rate": 0.6
-    },
-    {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 5.544,
-     "out": 16.632,
-     "rate": 0.616
     },
     {
      "name": "小红马AIGS",
@@ -2693,9 +2693,9 @@
     {
      "name": "LinksAPI",
      "slug": "linksapi",
-     "in": 10.53,
-     "out": 31.59,
-     "rate": 1.17,
+     "in": 10.8,
+     "out": 32.4,
+     "rate": 1.2,
      "cache_x": "9倍"
     },
     {
@@ -2934,9 +2934,9 @@
    "slug": "openox",
    "tier": "S",
    "price": {
-    "in": 1.26,
-    "out": 5.04,
-    "rate": 0.63
+    "in": 0.67,
+    "out": 2.69,
+    "rate": 0.336
    },
    "water": "模型为真",
    "anomaly": null,
@@ -2952,9 +2952,9 @@
    "slug": "linksapi",
    "tier": "S",
    "price": {
-    "in": 2.34,
-    "out": 9.36,
-    "rate": 1.17
+    "in": 2.4,
+    "out": 9.6,
+    "rate": 1.2
    },
    "water": "模型为真",
    "anomaly": null,
@@ -3292,5 +3292,5 @@
    }
   }
  ],
- "updated": "2026-11-19"
+ "updated": "2026-11-20"
 }

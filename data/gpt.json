@@ -473,6 +473,12 @@
    "model": "GPT-6 Luna"
   },
   {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "rate": 0.08,
+   "model": "GPT-6.2 Sol"
+  },
+  {
    "name": "OpenToken",
    "slug": "otokapi-com",
    "rate": 0.08,
@@ -770,7 +776,7 @@
    "name": "OpenOx",
    "slug": "openox",
    "rate": 0.12,
-   "model": "GPT-6.2 Sol"
+   "model": "GPT-5.6 Sol"
   },
   {
    "name": "UNIKEY",
@@ -812,12 +818,6 @@
    "name": "闪电API",
    "slug": "ai-flashapi-top",
    "rate": 0.125,
-   "model": "GPT-5.5"
-  },
-  {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "rate": 0.127,
    "model": "GPT-5.5"
   },
   {
@@ -2250,6 +2250,13 @@
      "rate": 0.08
     },
     {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 0.16,
+     "out": 0.8,
+     "rate": 0.08
+    },
+    {
      "name": "MM API",
      "slug": "slomerex-xyz",
      "in": 0.16,
@@ -2451,13 +2458,6 @@
      "in": 0.21,
      "out": 1.05,
      "rate": 0.105
-    },
-    {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 0.2402,
-     "out": 1.201,
-     "rate": 0.12
     },
     {
      "name": "Umiluxury API",
@@ -2688,6 +2688,13 @@
      "slug": "linkapi-ai",
      "in": 0.4,
      "out": 2.0,
+     "rate": 0.2
+    },
+    {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 0.3998,
+     "out": 1.9989,
      "rate": 0.2
     },
     {
@@ -3200,13 +3207,6 @@
      "in": 1.0857,
      "out": 5.4284,
      "rate": 0.543
-    },
-    {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 1.092,
-     "out": 5.46,
-     "rate": 0.546
     },
     {
      "name": "Taomu",
@@ -4181,6 +4181,14 @@
      "rate": 0.08
     },
     {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 0.64,
+     "out": 3.2,
+     "rate": 0.08,
+     "cache_x": "2倍"
+    },
+    {
      "name": "MM API",
      "slug": "slomerex-xyz",
      "in": 0.64,
@@ -4433,13 +4441,6 @@
      "rate": 0.105
     },
     {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 0.9608,
-     "out": 4.804,
-     "rate": 0.12
-    },
-    {
      "name": "Umiluxury API",
      "slug": "umiluxury-com",
      "in": 0.96,
@@ -4636,6 +4637,13 @@
      "rate": 0.2
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 1.5991,
+     "out": 7.9956,
+     "rate": 0.2
+    },
+    {
      "name": "UNIKEY",
      "slug": "getunikey-ai",
      "in": 1.6,
@@ -4704,13 +4712,6 @@
      "in": 2.16,
      "out": 10.8,
      "rate": 0.27
-    },
-    {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 2.184,
-     "out": 10.92,
-     "rate": 0.273
     },
     {
      "name": "ZIVV",
@@ -6408,9 +6409,9 @@
     {
      "name": "LinksAPI",
      "slug": "linksapi",
-     "in": 0.1121,
-     "out": 0.5606,
-     "rate": 0.224
+     "in": 0.115,
+     "out": 0.575,
+     "rate": 0.23
     },
     {
      "name": "luciferai",
@@ -7364,15 +7365,15 @@
      "rate": 0.204
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 1.2188,
-     "out": 7.3125,
-     "rate": 0.244
-    },
-    {
      "name": "Global AI",
      "slug": "globalai-vip",
+     "in": 1.25,
+     "out": 7.5,
+     "rate": 0.25
+    },
+    {
+     "name": "LinksAPI",
+     "slug": "linksapi",
      "in": 1.25,
      "out": 7.5,
      "rate": 0.25
@@ -8469,10 +8470,10 @@
      "rate": 0.125
     },
     {
-     "name": "OpenOx",
-     "slug": "openox",
+     "name": "LinksAPI",
+     "slug": "linksapi",
      "in": 0.32,
-     "out": 1.92,
+     "out": 2.56,
      "rate": 0.128
     },
     {
@@ -8588,6 +8589,13 @@
      "rate": 0.16
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 0.3998,
+     "out": 2.3987,
+     "rate": 0.16
+    },
+    {
      "name": "Ruoli API",
      "slug": "ruoli-dev",
      "in": 0.4,
@@ -8607,13 +8615,6 @@
      "in": 0.4,
      "out": 2.4,
      "rate": 0.16
-    },
-    {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 0.4056,
-     "out": 3.2448,
-     "rate": 0.162
     },
     {
      "name": "jojocode",
@@ -10799,19 +10800,19 @@
      "rate": 0.543
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 1.092,
-     "out": 6.552,
-     "rate": 0.546,
-     "cache_x": "2倍"
-    },
-    {
      "name": "Taomu",
      "slug": "taomu-xyz",
      "in": 1.1,
      "out": 1.65,
      "rate": 0.55
+    },
+    {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 1.12,
+     "out": 6.72,
+     "rate": 0.56,
+     "cache_x": "2倍"
     },
     {
      "name": "12API",
@@ -11541,7 +11542,7 @@
    "model_key": "gpt-5.5",
    "price_slug": "gpt-5-5",
    "label": "GPT-5.5",
-   "median_rate": 0.261,
+   "median_rate": 0.276,
    "own_page": true,
    "current": false,
    "official_in": 5.0,
@@ -12116,13 +12117,6 @@
      "rate": 0.11
     },
     {
-     "name": "OpenOx",
-     "slug": "openox",
-     "in": 0.6003,
-     "out": 3.6018,
-     "rate": 0.12
-    },
-    {
      "name": "Umiluxury API",
      "slug": "umiluxury-com",
      "in": 0.6,
@@ -12156,13 +12150,6 @@
      "in": 0.625,
      "out": 3.75,
      "rate": 0.125
-    },
-    {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 0.6338,
-     "out": 3.8025,
-     "rate": 0.127
     },
     {
      "name": "Top-API",
@@ -12354,6 +12341,13 @@
      "rate": 0.2
     },
     {
+     "name": "OpenOx",
+     "slug": "openox",
+     "in": 0.9994,
+     "out": 5.9967,
+     "rate": 0.2
+    },
+    {
      "name": "RPG8",
      "slug": "api-rpg8-cn",
      "in": 1.0,
@@ -12457,6 +12451,13 @@
      "in": 1.3571,
      "out": 8.1426,
      "rate": 0.271
+    },
+    {
+     "name": "LinksAPI",
+     "slug": "linksapi",
+     "in": 1.4,
+     "out": 8.4,
+     "rate": 0.28
     },
     {
      "name": "537 AI",
@@ -14133,9 +14134,9 @@
     {
      "name": "LinksAPI",
      "slug": "linksapi",
-     "in": 2.73,
-     "out": 13.65,
-     "rate": 0.273
+     "in": 2.8,
+     "out": 14.0,
+     "rate": 0.28
     },
     {
      "name": "ZIVV",
@@ -15355,15 +15356,15 @@
      "rate": 0.204
     },
     {
-     "name": "LinksAPI",
-     "slug": "linksapi",
-     "in": 0.4875,
-     "out": 2.4375,
-     "rate": 0.244
-    },
-    {
      "name": "Global AI",
      "slug": "globalai-vip",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.25
+    },
+    {
+     "name": "LinksAPI",
+     "slug": "linksapi",
      "in": 0.5,
      "out": 2.5,
      "rate": 0.25
@@ -16229,12 +16230,12 @@
    "invoice_note": null,
    "refund": "退款3%手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 9.5
+    "wait_s": 3.1
    }
   },
   {
@@ -16254,12 +16255,12 @@
    "invoice_note": "200元起开",
    "refund": "1.6%手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 9.9
+    "wait_s": 8.4
    }
   },
   {
@@ -16267,9 +16268,9 @@
    "slug": "openox",
    "tier": "S",
    "price": {
-    "in": 0.24,
-    "out": 1.2,
-    "rate": 0.12
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.2
    },
    "water": "模型为真",
    "anomaly": null,
@@ -16279,12 +16280,12 @@
    "invoice_note": null,
    "refund": "无手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 7.5
+    "wait_s": 53.5
    }
   },
   {
@@ -16304,12 +16305,12 @@
    "invoice_note": null,
    "refund": "无手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 4.3
+    "wait_s": 4.8
    }
   },
   {
@@ -16329,7 +16330,7 @@
    "invoice_note": "200元起开",
    "refund": "无手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
@@ -16342,9 +16343,9 @@
    "slug": "linksapi",
    "tier": "S",
    "price": {
-    "in": 1.09,
-    "out": 5.46,
-    "rate": 0.546
+    "in": 0.16,
+    "out": 0.8,
+    "rate": 0.08
    },
    "water": "模型为真",
    "anomaly": null,
@@ -16354,12 +16355,12 @@
    "invoice_note": null,
    "refund": "无手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 7.1
+    "wait_s": 7.0
    }
   },
   {
@@ -16379,12 +16380,12 @@
    "invoice_note": null,
    "refund": "48小时内可退",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
-    "cache": "缓存优秀",
+    "cache": "缓存良好",
     "cache_color": "good",
-    "wait_s": 10.4
+    "wait_s": 6.4
    }
   },
   {
@@ -16404,12 +16405,12 @@
    "invoice_note": null,
    "refund": "可退款",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 11.0
+    "wait_s": 4.0
    }
   },
   {
@@ -16429,12 +16430,12 @@
    "invoice_note": "10元开票",
    "refund": "无手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 10.9
+    "wait_s": 11.1
    }
   },
   {
@@ -16454,12 +16455,12 @@
    "invoice_note": "3000元起开",
    "refund": "无手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 35.1
+    "wait_s": 5.2
    }
   },
   {
@@ -16479,12 +16480,12 @@
    "invoice_note": "对公支付6%税费",
    "refund": "无手续费",
    "bench": {
-    "model": "GPT-6.1 Sol",
+    "model": "GPT-6.2 Sol",
     "billing": "完全对得上",
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 12.2
+    "wait_s": 15.2
    }
   },
   {
@@ -16758,5 +16759,5 @@
    }
   }
  ],
- "updated": "2026-11-19"
+ "updated": "2026-11-20"
 }

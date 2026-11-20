@@ -120,6 +120,12 @@
   "out": 30.0
  },
  {
+  "label": "Gemini 4 Neon",
+  "family": "gemini",
+  "in": 3.0,
+  "out": 15.0
+ },
+ {
   "label": "Gemini 4 Hydrogen",
   "family": "gemini",
   "in": 1.5,
