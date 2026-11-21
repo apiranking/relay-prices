@@ -143,23 +143,14 @@
    }
   },
   {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
+   "name": "LantAPI",
+   "slug": "gerlantapi",
    "rates": {
-    "claude": 0.2,
-    "openai": 0.048,
-    "gemini": 0.2,
-    "grok": 0.2,
-    "deepseek": 0.2
-   }
-  },
-  {
-   "name": "黑黑",
-   "slug": "heilovehei",
-   "rates": {
-    "claude": 0.1,
-    "openai": 0.05,
-    "grok": 0.2
+    "claude": 0.8,
+    "openai": 0.16,
+    "grok": 0.1,
+    "gemini": 0.8,
+    "deepseek": 0.45
    }
   },
   {
@@ -177,7 +168,18 @@
    "name": "SubRouter",
    "slug": "subrouter-ai",
    "rates": {
-    "openai": 0.086
+    "openai": 0.584
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "rates": {
+    "claude": 0.2,
+    "openai": 0.048,
+    "gemini": 0.2,
+    "grok": 0.2,
+    "deepseek": 0.2
    }
   },
   {
@@ -202,6 +204,15 @@
    "slug": "goai-im",
    "rates": {
     "deepseek": 0.25
+   }
+  },
+  {
+   "name": "黑黑",
+   "slug": "heilovehei",
+   "rates": {
+    "claude": 0.1,
+    "openai": 0.05,
+    "grok": 0.2
    }
   },
   {
@@ -301,17 +312,7 @@
     "gemini": 0.679,
     "grok": 0.339
    }
-  },
-  {
-   "name": "Die Ge",
-   "slug": "die-ge",
-   "rates": {
-    "claude": 0.25,
-    "openai": 0.03,
-    "gemini": 0.5,
-    "grok": 1.0
-   }
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

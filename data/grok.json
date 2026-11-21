@@ -3019,6 +3019,26 @@
    "bench": null
   },
   {
+   "name": "LantAPI",
+   "slug": "gerlantapi",
+   "tier": "B",
+   "price": {
+    "in": 0.32,
+    "out": 0.96,
+    "rate": 0.16
+   }
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "B",
+   "price": {
+    "in": 0.5,
+    "out": 1.5,
+    "rate": 0.25
+   }
+  },
+  {
    "name": "深空 API",
    "slug": "xkrelay-com",
    "tier": "B",
@@ -3036,16 +3056,6 @@
     "in": 0.4,
     "out": 1.2,
     "rate": 0.2
-   }
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 1.5,
-    "rate": 0.25
    }
   },
   {
@@ -3277,17 +3287,7 @@
     "out": 4.2,
     "rate": 0.7
    }
-  },
-  {
-   "name": "Uiuihao API",
-   "slug": "api-uiuihao-com",
-   "tier": "B",
-   "price": {
-    "in": 2.0,
-    "out": 6.0,
-    "rate": 1.0
-   }
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

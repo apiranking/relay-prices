@@ -1,6 +1,6 @@
 {
  "vendor": "Codex",
- "site_count": 280,
+ "site_count": 279,
  "min_rate": 0.009,
  "median_rate": 0.35,
  "sites": [
@@ -745,12 +745,6 @@
   {
    "name": "DawCode",
    "slug": "dawclaudecode-com",
-   "rate": 0.3,
-   "model": "GPT-6.2 Sol"
-  },
-  {
-   "name": "FHL",
-   "slug": "fhl-mom",
    "rate": 0.3,
    "model": "GPT-6.2 Sol"
   },
@@ -2449,13 +2443,6 @@
     {
      "name": "DawCode",
      "slug": "dawclaudecode-com",
-     "in": 0.6,
-     "out": 3.0,
-     "rate": 0.3
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.3
@@ -4400,13 +4387,6 @@
      "rate": 0.3
     },
     {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 2.4,
-     "out": 12.0,
-     "rate": 0.3
-    },
-    {
      "name": "Luxery API",
      "slug": "luxery-api",
      "in": 2.4,
@@ -5414,7 +5394,7 @@
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 53.5
+    "wait_s": 9.6
    }
   },
   {
@@ -5628,23 +5608,13 @@
    }
   },
   {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
+   "name": "LantAPI",
+   "slug": "gerlantapi",
    "tier": "B",
    "price": {
-    "in": 0.12,
-    "out": 0.6,
-    "rate": 0.06
-   }
-  },
-  {
-   "name": "黑黑",
-   "slug": "heilovehei",
-   "tier": "B",
-   "price": {
-    "in": 0.1,
-    "out": 0.5,
-    "rate": 0.05
+    "in": 0.32,
+    "out": 1.6,
+    "rate": 0.16
    }
   },
   {
@@ -5655,6 +5625,16 @@
     "in": 0.2,
     "out": 1.0,
     "rate": 0.1
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.12,
+    "out": 0.6,
+    "rate": 0.06
    }
   },
   {
@@ -5675,6 +5655,16 @@
     "in": 0.9,
     "out": 4.5,
     "rate": 0.45
+   }
+  },
+  {
+   "name": "黑黑",
+   "slug": "heilovehei",
+   "tier": "B",
+   "price": {
+    "in": 0.1,
+    "out": 0.5,
+    "rate": 0.05
    }
   },
   {
@@ -5876,17 +5866,7 @@
     "out": 3.0,
     "rate": 0.3
    }
-  },
-  {
-   "name": "皮卡丘token商店",
-   "slug": "pikaqiu-shop",
-   "tier": "B",
-   "price": {
-    "in": 0.12,
-    "out": 0.6,
-    "rate": 0.06
-   }
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

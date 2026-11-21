@@ -1,6 +1,6 @@
 {
  "vendor": "GPT",
- "site_count": 337,
+ "site_count": 336,
  "min_rate": 0.001,
  "median_rate": 0.2,
  "sites": [
@@ -341,12 +341,6 @@
    "model": "GPT-6 Luna"
   },
   {
-   "name": "FHL",
-   "slug": "fhl-mom",
-   "rate": 0.06,
-   "model": "GPT-6 Luna"
-  },
-  {
    "name": "KuaiAPI",
    "slug": "kuaiapi-net",
    "rate": 0.06,
@@ -549,12 +543,6 @@
    "slug": "sub2-de5-net",
    "rate": 0.08,
    "model": "GPT-5.6 Terra"
-  },
-  {
-   "name": "SubRouter",
-   "slug": "subrouter-ai",
-   "rate": 0.086,
-   "model": "GPT-5.5"
   },
   {
    "name": "CCCX中转站",
@@ -1521,6 +1509,12 @@
    "slug": "pingcode",
    "rate": 0.56,
    "model": "GPT-5.6 Terra"
+  },
+  {
+   "name": "SubRouter",
+   "slug": "subrouter-ai",
+   "rate": 0.584,
+   "model": "GPT-5.5"
   },
   {
    "name": "12API",
@@ -2791,13 +2785,6 @@
     {
      "name": "DawCode",
      "slug": "dawclaudecode-com",
-     "in": 0.6,
-     "out": 3.0,
-     "rate": 0.3
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.3
@@ -4742,13 +4729,6 @@
      "rate": 0.3
     },
     {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 2.4,
-     "out": 12.0,
-     "rate": 0.3
-    },
-    {
      "name": "Luxery API",
      "slug": "luxery-api",
      "in": 2.4,
@@ -5685,7 +5665,7 @@
    "model_key": "gpt-6-luna",
    "price_slug": "gpt-6-luna",
    "label": "GPT-6 Luna",
-   "median_rate": 0.207,
+   "median_rate": 0.21,
    "own_page": true,
    "current": true,
    "official_in": 0.5,
@@ -5942,13 +5922,6 @@
      "slug": "1024token-club",
      "in": 0.03,
      "out": 0.045,
-     "rate": 0.06
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 0.03,
-     "out": 0.15,
      "rate": 0.06
     },
     {
@@ -7720,7 +7693,7 @@
    "model_key": "gpt-5.6-terra",
    "price_slug": "gpt-5-6-terra",
    "label": "GPT-5.6 Terra",
-   "median_rate": 0.207,
+   "median_rate": 0.204,
    "own_page": true,
    "current": false,
    "official_in": 2.5,
@@ -8699,13 +8672,6 @@
      "in": 0.54,
      "out": 2.7,
      "rate": 0.216
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 0.6,
-     "out": 3.6,
-     "rate": 0.24
     },
     {
      "name": "Luxery API",
@@ -10394,13 +10360,6 @@
      "rate": 0.3
     },
     {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 0.6,
-     "out": 3.0,
-     "rate": 0.3
-    },
-    {
      "name": "KuaiAPI",
      "slug": "kuaiapi-net",
      "in": 0.6,
@@ -11542,7 +11501,7 @@
    "model_key": "gpt-5.5",
    "price_slug": "gpt-5-5",
    "label": "GPT-5.5",
-   "median_rate": 0.276,
+   "median_rate": 0.28,
    "own_page": true,
    "current": false,
    "official_in": 5.0,
@@ -11940,13 +11899,6 @@
      "in": 0.425,
      "out": 2.55,
      "rate": 0.085
-    },
-    {
-     "name": "SubRouter",
-     "slug": "subrouter-ai",
-     "in": 0.43,
-     "out": 4.0,
-     "rate": 0.086
     },
     {
      "name": "CCCX中转站",
@@ -12481,13 +12433,6 @@
      "rate": 0.3
     },
     {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 1.5,
-     "out": 9.0,
-     "rate": 0.3
-    },
-    {
      "name": "LantAPI",
      "slug": "gerlantapi",
      "in": 1.5,
@@ -12766,6 +12711,13 @@
      "in": 2.75,
      "out": 22.0,
      "rate": 0.55
+    },
+    {
+     "name": "SubRouter",
+     "slug": "subrouter-ai",
+     "in": 2.9178,
+     "out": 27.1419,
+     "rate": 0.584
     },
     {
      "name": "kksj",
@@ -14162,13 +14114,6 @@
     {
      "name": "DawCode",
      "slug": "dawclaudecode-com",
-     "in": 3.0,
-     "out": 15.0,
-     "rate": 0.3
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
      "in": 3.0,
      "out": 15.0,
      "rate": 0.3
@@ -16285,7 +16230,7 @@
     "billing_color": "good",
     "cache": "缓存优秀",
     "cache_color": "good",
-    "wait_s": 53.5
+    "wait_s": 9.6
    }
   },
   {
@@ -16499,23 +16444,13 @@
    }
   },
   {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
+   "name": "LantAPI",
+   "slug": "gerlantapi",
    "tier": "B",
    "price": {
-    "in": 0.12,
-    "out": 0.6,
-    "rate": 0.06
-   }
-  },
-  {
-   "name": "黑黑",
-   "slug": "heilovehei",
-   "tier": "B",
-   "price": {
-    "in": 0.1,
-    "out": 0.5,
-    "rate": 0.05
+    "in": 0.32,
+    "out": 1.6,
+    "rate": 0.16
    }
   },
   {
@@ -16526,6 +16461,16 @@
     "in": 0.2,
     "out": 1.0,
     "rate": 0.1
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.12,
+    "out": 0.6,
+    "rate": 0.06
    }
   },
   {
@@ -16546,6 +16491,16 @@
     "in": 0.9,
     "out": 4.5,
     "rate": 0.45
+   }
+  },
+  {
+   "name": "黑黑",
+   "slug": "heilovehei",
+   "tier": "B",
+   "price": {
+    "in": 0.1,
+    "out": 0.5,
+    "rate": 0.05
    }
   },
   {
@@ -16747,17 +16702,7 @@
     "out": 3.0,
     "rate": 0.3
    }
-  },
-  {
-   "name": "皮卡丘token商店",
-   "slug": "pikaqiu-shop",
-   "tier": "B",
-   "price": {
-    "in": 0.12,
-    "out": 0.6,
-    "rate": 0.06
-   }
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

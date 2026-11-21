@@ -3012,13 +3012,13 @@
    }
   },
   {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
+   "name": "LantAPI",
+   "slug": "gerlantapi",
    "tier": "B",
    "price": {
-    "in": 0.4,
-    "out": 1.6,
-    "rate": 0.2
+    "in": 0.9,
+    "out": 3.6,
+    "rate": 0.45
    }
   },
   {
@@ -3029,6 +3029,16 @@
     "in": 0.6,
     "out": 2.4,
     "rate": 0.3
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 1.6,
+    "rate": 0.2
    }
   },
   {
@@ -3280,17 +3290,7 @@
     "out": 0.24,
     "rate": 0.03
    }
-  },
-  {
-   "name": "LMU AI · 灵眸",
-   "slug": "api-lmuai-com",
-   "tier": "B",
-   "price": {
-    "in": 0.78,
-    "out": 3.11,
-    "rate": 0.388
-   }
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

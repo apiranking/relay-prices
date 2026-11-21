@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 383,
+ "site_count": 382,
  "rows": [
   {
    "name": "12API",
@@ -2593,14 +2593,6 @@
    }
   },
   {
-   "name": "FHL",
-   "slug": "fhl-mom",
-   "rates": {
-    "claude": 0.3,
-    "openai": 0.06
-   }
-  },
-  {
    "name": "Frontier Intelligence",
    "slug": "api-frontier-intelligence-tech",
    "rates": {
@@ -3337,7 +3329,7 @@
    "name": "SubRouter",
    "slug": "subrouter-ai",
    "rates": {
-    "openai": 0.086
+    "openai": 0.584
    }
   },
   {
@@ -3672,5 +3664,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

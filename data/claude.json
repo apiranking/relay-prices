@@ -1,8 +1,8 @@
 {
  "vendor": "Claude",
- "site_count": 319,
+ "site_count": 318,
  "min_rate": 0.014,
- "median_rate": 0.6,
+ "median_rate": 0.619,
  "sites": [
   {
    "name": "Prism API",
@@ -633,12 +633,6 @@
    "slug": "claude-bestswifter-com",
    "rate": 0.3,
    "model": "Claude Sonnet 4.6"
-  },
-  {
-   "name": "FHL",
-   "slug": "fhl-mom",
-   "rate": 0.3,
-   "model": "Claude Opus 5.5"
   },
   {
    "name": "LinkAI",
@@ -2577,13 +2571,6 @@
      "rate": 0.3
     },
     {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 1.2,
-     "out": 6.0,
-     "rate": 0.3
-    },
-    {
      "name": "H API",
      "slug": "h-api",
      "in": 1.2,
@@ -4010,7 +3997,7 @@
    "model_key": "claude-fable-5-2",
    "price_slug": "claude-fable-5-2",
    "label": "Claude Fable 5.2",
-   "median_rate": 1.125,
+   "median_rate": 1.15,
    "own_page": true,
    "current": true,
    "official_in": 8.0,
@@ -4447,13 +4434,6 @@
     {
      "name": "AI神鸡",
      "slug": "aishenji-top",
-     "in": 2.4,
-     "out": 12.0,
-     "rate": 0.3
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
      "in": 2.4,
      "out": 12.0,
      "rate": 0.3
@@ -5872,7 +5852,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.69,
+   "median_rate": 0.7,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -6412,13 +6392,6 @@
     {
      "name": "AI神鸡",
      "slug": "aishenji-top",
-     "in": 0.6,
-     "out": 3.0,
-     "rate": 0.3
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.3
@@ -7580,7 +7553,7 @@
    "model_key": "claude-haiku-5-5",
    "price_slug": "claude-haiku-5-5",
    "label": "Claude Haiku 5.5",
-   "median_rate": 1.1,
+   "median_rate": 1.117,
    "own_page": true,
    "current": true,
    "official_in": 0.1,
@@ -7831,13 +7804,6 @@
      "in": 0.0267,
      "out": 0.1333,
      "rate": 0.267
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
-     "in": 0.03,
-     "out": 0.15,
-     "rate": 0.3
     },
     {
      "name": "Micu",
@@ -9199,13 +9165,6 @@
     {
      "name": "AI神鸡",
      "slug": "aishenji-top",
-     "in": 3.0,
-     "out": 15.0,
-     "rate": 0.3
-    },
-    {
-     "name": "FHL",
-     "slug": "fhl-mom",
      "in": 3.0,
      "out": 15.0,
      "rate": 0.3
@@ -14795,23 +14754,13 @@
    }
   },
   {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
+   "name": "LantAPI",
+   "slug": "gerlantapi",
    "tier": "B",
    "price": {
-    "in": 0.8,
-    "out": 4.0,
-    "rate": 0.2
-   }
-  },
-  {
-   "name": "黑黑",
-   "slug": "heilovehei",
-   "tier": "B",
-   "price": {
-    "in": 0.4,
-    "out": 2.0,
-    "rate": 0.1
+    "in": 3.2,
+    "out": 16.0,
+    "rate": 0.8
    }
   },
   {
@@ -14822,6 +14771,16 @@
     "in": 0.5,
     "out": 2.5,
     "rate": 0.125
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.8,
+    "out": 4.0,
+    "rate": 0.2
    }
   },
   {
@@ -14842,6 +14801,16 @@
     "in": 0.8,
     "out": 4.0,
     "rate": 0.2
+   }
+  },
+  {
+   "name": "黑黑",
+   "slug": "heilovehei",
+   "tier": "B",
+   "price": {
+    "in": 0.4,
+    "out": 2.0,
+    "rate": 0.1
    }
   },
   {
@@ -15032,16 +15001,6 @@
     "in": 14.6,
     "out": 73.0,
     "rate": 3.65
-   }
-  },
-  {
-   "name": "SpacetimeAI",
-   "slug": "spacetimeai-cc",
-   "tier": "B",
-   "price": {
-    "in": 5.2,
-    "out": 26.0,
-    "rate": 1.3
    }
   }
  ],
@@ -15237,5 +15196,5 @@
    "wait_s": 5.9
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }

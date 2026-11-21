@@ -8874,13 +8874,13 @@
    "bench": null
   },
   {
-   "name": "深空 API",
-   "slug": "xkrelay-com",
+   "name": "LantAPI",
+   "slug": "gerlantapi",
    "tier": "B",
    "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.2
+    "in": 3.2,
+    "out": 16.0,
+    "rate": 1.067
    }
   },
   {
@@ -8891,6 +8891,16 @@
     "in": 1.5,
     "out": 7.5,
     "rate": 0.5
+   }
+  },
+  {
+   "name": "深空 API",
+   "slug": "xkrelay-com",
+   "tier": "B",
+   "price": {
+    "in": 0.6,
+    "out": 3.0,
+    "rate": 0.2
    }
   },
   {
@@ -9132,17 +9142,7 @@
     "out": 7.5,
     "rate": 0.5
    }
-  },
-  {
-   "name": "PackyCode",
-   "slug": "packyapi-com",
-   "tier": "B",
-   "price": {
-    "in": 21.0,
-    "out": 105.0,
-    "rate": 7.0
-   }
   }
  ],
- "updated": "2026-11-20"
+ "updated": "2026-11-21"
 }
