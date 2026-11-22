@@ -1,6 +1,6 @@
 {
  "vendor": "Claude Code",
- "site_count": 295,
+ "site_count": 296,
  "min_rate": 0.03,
  "median_rate": 0.6,
  "sites": [
@@ -313,6 +313,12 @@
   {
    "name": "island AI Coding",
    "slug": "codex789-com",
+   "rate": 0.15,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "itaiapi",
+   "slug": "itaiapi",
    "rate": 0.15,
    "model": "Claude Opus 5.5"
   },
@@ -2133,6 +2139,13 @@
     {
      "name": "island AI Coding",
      "slug": "codex789-com",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.15
+    },
+    {
+     "name": "itaiapi",
+     "slug": "itaiapi",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.15
@@ -6287,5 +6300,5 @@
    }
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }

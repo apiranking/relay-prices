@@ -1,8 +1,8 @@
 {
  "vendor": "Claude",
- "site_count": 318,
+ "site_count": 319,
  "min_rate": 0.014,
- "median_rate": 0.619,
+ "median_rate": 0.6,
  "sites": [
   {
    "name": "Prism API",
@@ -349,6 +349,12 @@
   {
    "name": "island AI Coding",
    "slug": "codex789-com",
+   "rate": 0.15,
+   "model": "Claude Opus 5.5"
+  },
+  {
+   "name": "itaiapi",
+   "slug": "itaiapi",
    "rate": 0.15,
    "model": "Claude Opus 5.5"
   },
@@ -2271,6 +2277,13 @@
     {
      "name": "island AI Coding",
      "slug": "codex789-com",
+     "in": 0.6,
+     "out": 3.0,
+     "rate": 0.15
+    },
+    {
+     "name": "itaiapi",
+     "slug": "itaiapi",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.15
@@ -10702,6 +10715,13 @@
      "rate": 0.15
     },
     {
+     "name": "itaiapi",
+     "slug": "itaiapi",
+     "in": 0.45,
+     "out": 2.25,
+     "rate": 0.15
+    },
+    {
      "name": "云影 API",
      "slug": "yyapi-cloud",
      "in": 0.45,
@@ -11625,6 +11645,13 @@
      "rate": 0.15
     },
     {
+     "name": "itaiapi",
+     "slug": "itaiapi",
+     "in": 0.75,
+     "out": 3.75,
+     "rate": 0.15
+    },
+    {
      "name": "云影 API",
      "slug": "yyapi-cloud",
      "in": 0.75,
@@ -12494,6 +12521,13 @@
     {
      "name": "Traxnode",
      "slug": "traxnode-com",
+     "in": 0.75,
+     "out": 3.75,
+     "rate": 0.15
+    },
+    {
+     "name": "itaiapi",
+     "slug": "itaiapi",
      "in": 0.75,
      "out": 3.75,
      "rate": 0.15
@@ -15196,5 +15230,5 @@
    "wait_s": 5.9
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }

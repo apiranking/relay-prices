@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 382,
+ "site_count": 383,
  "rows": [
   {
    "name": "12API",
@@ -896,7 +896,7 @@
    "name": "枢码AI",
    "slug": "hubcodex-fun",
    "rates": {
-    "openai": 0.05,
+    "openai": 0.1,
     "claude": 0.031,
     "gemini": 0.5,
     "deepseek": 0.3,
@@ -2969,6 +2969,14 @@
    }
   },
   {
+   "name": "itaiapi",
+   "slug": "itaiapi",
+   "rates": {
+    "claude": 0.15,
+    "openai": 0.1
+   }
+  },
+  {
    "name": "jojocode",
    "slug": "jojocode",
    "rates": {
@@ -3664,5 +3672,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }

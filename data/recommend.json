@@ -157,7 +157,7 @@
    "name": "枢码AI",
    "slug": "hubcodex-fun",
    "rates": {
-    "openai": 0.05,
+    "openai": 0.1,
     "claude": 0.031,
     "gemini": 0.5,
     "deepseek": 0.3,
@@ -314,5 +314,5 @@
    }
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }

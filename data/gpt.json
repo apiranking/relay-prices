@@ -1,6 +1,6 @@
 {
  "vendor": "GPT",
- "site_count": 336,
+ "site_count": 337,
  "min_rate": 0.001,
  "median_rate": 0.2,
  "sites": [
@@ -291,12 +291,6 @@
    "slug": "umapis-com",
    "rate": 0.05,
    "model": "GPT-6.2 Sol"
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "rate": 0.05,
-   "model": "GPT-6 Luna"
   },
   {
    "name": "阶跃星球AI",
@@ -671,6 +665,12 @@
    "model": "GPT-6.2 Sol"
   },
   {
+   "name": "itaiapi",
+   "slug": "itaiapi",
+   "rate": 0.1,
+   "model": "GPT-5.5"
+  },
+  {
    "name": "xiaojing",
    "slug": "open-xiaojingai-com",
    "rate": 0.1,
@@ -685,6 +685,12 @@
   {
    "name": "小丁AI",
    "slug": "xdcn-top",
+   "rate": 0.1,
+   "model": "GPT-6.2 Sol"
+  },
+  {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
    "rate": 0.1,
    "model": "GPT-6.2 Sol"
   },
@@ -5883,13 +5889,6 @@
      "rate": 0.05
     },
     {
-     "name": "枢码AI",
-     "slug": "hubcodex-fun",
-     "in": 0.025,
-     "out": 0.0375,
-     "rate": 0.05
-    },
-    {
      "name": "阶跃星球AI",
      "slug": "chenhijsdjklasdjkapsojdoa-asia",
      "in": 0.025,
@@ -6153,6 +6152,13 @@
      "slug": "open-xiaojingai-com",
      "in": 0.05,
      "out": 0.25,
+     "rate": 0.1
+    },
+    {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.05,
+     "out": 0.075,
      "rate": 0.1
     },
     {
@@ -7883,13 +7889,6 @@
      "rate": 0.05
     },
     {
-     "name": "枢码AI",
-     "slug": "hubcodex-fun",
-     "in": 0.125,
-     "out": 0.75,
-     "rate": 0.05
-    },
-    {
      "name": "阶跃星球AI",
      "slug": "chenhijsdjklasdjkapsojdoa-asia",
      "in": 0.125,
@@ -8291,6 +8290,13 @@
     {
      "name": "Z-API",
      "slug": "api-zicc-cc",
+     "in": 0.25,
+     "out": 1.5,
+     "rate": 0.1
+    },
+    {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
      "in": 0.25,
      "out": 1.5,
      "rate": 0.1
@@ -10311,13 +10317,6 @@
      "rate": 0.25
     },
     {
-     "name": "枢码AI",
-     "slug": "hubcodex-fun",
-     "in": 0.5,
-     "out": 0.75,
-     "rate": 0.25
-    },
-    {
      "name": "阶跃星球AI",
      "slug": "chenhijsdjklasdjkapsojdoa-asia",
      "in": 0.5,
@@ -10484,6 +10483,13 @@
      "in": 0.72,
      "out": 3.6,
      "rate": 0.36
+    },
+    {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
+     "in": 0.75,
+     "out": 1.125,
+     "rate": 0.375
     },
     {
      "name": "Mirgo",
@@ -11501,7 +11507,7 @@
    "model_key": "gpt-5.5",
    "price_slug": "gpt-5-5",
    "label": "GPT-5.5",
-   "median_rate": 0.28,
+   "median_rate": 0.276,
    "own_page": true,
    "current": false,
    "official_in": 5.0,
@@ -11665,13 +11671,6 @@
     {
      "name": "apikl.ai",
      "slug": "apikl-ai",
-     "in": 0.25,
-     "out": 1.5,
-     "rate": 0.05
-    },
-    {
-     "name": "枢码AI",
-     "slug": "hubcodex-fun",
      "in": 0.25,
      "out": 1.5,
      "rate": 0.05
@@ -12034,8 +12033,22 @@
      "rate": 0.1
     },
     {
+     "name": "itaiapi",
+     "slug": "itaiapi",
+     "in": 0.5,
+     "out": 3.0,
+     "rate": 0.1
+    },
+    {
      "name": "寒鹤的小破站",
      "slug": "hanhegufei-online",
+     "in": 0.5,
+     "out": 3.0,
+     "rate": 0.1
+    },
+    {
+     "name": "枢码AI",
+     "slug": "hubcodex-fun",
      "in": 0.5,
      "out": 3.0,
      "rate": 0.1
@@ -16704,5 +16717,5 @@
    }
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-22"
 }
