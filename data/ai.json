@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 383,
+ "site_count": 381,
  "rows": [
   {
    "name": "12API",
@@ -2969,14 +2969,6 @@
    }
   },
   {
-   "name": "itaiapi",
-   "slug": "itaiapi",
-   "rates": {
-    "claude": 0.15,
-    "openai": 0.1
-   }
-  },
-  {
    "name": "jojocode",
    "slug": "jojocode",
    "rates": {
@@ -3030,14 +3022,6 @@
    "rates": {
     "claude": 1.0,
     "gemini": 1.0
-   }
-  },
-  {
-   "name": "南玻万",
-   "slug": "vvvv-ee",
-   "rates": {
-    "claude": 14.928,
-    "openai": 10.857
    }
   },
   {
@@ -3560,6 +3544,20 @@
    "bench": null
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "48小时内可退",
+   "bench": null
+  },
+  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "tier": "S",
@@ -3602,20 +3600,6 @@
    "bench": null
   },
   {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": null,
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "48小时内可退",
-   "bench": null
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "tier": "S",
@@ -3630,6 +3614,20 @@
    "bench": null
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "S",
+   "price": null,
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "充值满500可开票、8%税费",
+   "refund": "10%手续费",
+   "bench": null
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -3640,20 +3638,6 @@
    "bonus": "首冲满10送5",
    "invoice": "yes",
    "invoice_note": "10元开票",
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
    "refund": "无手续费",
    "bench": null
   },
@@ -3672,5 +3656,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-22"
+ "updated": "2026-11-24"
 }

@@ -1,6 +1,6 @@
 {
  "vendor": "GPT",
- "site_count": 337,
+ "site_count": 335,
  "min_rate": 0.001,
  "median_rate": 0.2,
  "sites": [
@@ -663,12 +663,6 @@
    "slug": "api-zicc-cc",
    "rate": 0.1,
    "model": "GPT-6.2 Sol"
-  },
-  {
-   "name": "itaiapi",
-   "slug": "itaiapi",
-   "rate": 0.1,
-   "model": "GPT-5.5"
   },
   {
    "name": "xiaojing",
@@ -1971,12 +1965,6 @@
    "slug": "nassaapi-xyz",
    "rate": 10.178,
    "model": "GPT-6.2 Astra"
-  },
-  {
-   "name": "南玻万",
-   "slug": "vvvv-ee",
-   "rate": 10.857,
-   "model": "GPT-5.6 Terra"
   },
   {
    "name": "睿库API",
@@ -3860,13 +3848,6 @@
      "rate": 13.571
     },
     {
-     "name": "南玻万",
-     "slug": "vvvv-ee",
-     "in": 27.1419,
-     "out": 135.7096,
-     "rate": 13.571
-    },
-    {
      "name": "睿库API",
      "slug": "rkapi-com",
      "in": 27.1419,
@@ -5612,13 +5593,6 @@
     {
      "name": "Neco Api",
      "slug": "api-sbbbbbbbbb-xyz",
-     "in": 108.5677,
-     "out": 542.8384,
-     "rate": 13.571
-    },
-    {
-     "name": "南玻万",
-     "slug": "vvvv-ee",
      "in": 108.5677,
      "out": 542.8384,
      "rate": 13.571
@@ -7699,7 +7673,7 @@
    "model_key": "gpt-5.6-terra",
    "price_slug": "gpt-5-6-terra",
    "label": "GPT-5.6 Terra",
-   "median_rate": 0.204,
+   "median_rate": 0.202,
    "own_page": true,
    "current": false,
    "official_in": 2.5,
@@ -9525,13 +9499,6 @@
      "in": 20.3564,
      "out": 122.1386,
      "rate": 8.143
-    },
-    {
-     "name": "南玻万",
-     "slug": "vvvv-ee",
-     "in": 27.1419,
-     "out": 162.8515,
-     "rate": 10.857
     },
     {
      "name": "睿库API",
@@ -11439,13 +11406,6 @@
      "rate": 13.571
     },
     {
-     "name": "南玻万",
-     "slug": "vvvv-ee",
-     "in": 27.1419,
-     "out": 135.7096,
-     "rate": 13.571
-    },
-    {
      "name": "睿库API",
      "slug": "rkapi-com",
      "in": 27.1419,
@@ -11507,7 +11467,7 @@
    "model_key": "gpt-5.5",
    "price_slug": "gpt-5-5",
    "label": "GPT-5.5",
-   "median_rate": 0.276,
+   "median_rate": 0.28,
    "own_page": true,
    "current": false,
    "official_in": 5.0,
@@ -12028,13 +11988,6 @@
     {
      "name": "Z-API",
      "slug": "api-zicc-cc",
-     "in": 0.5,
-     "out": 3.0,
-     "rate": 0.1
-    },
-    {
-     "name": "itaiapi",
-     "slug": "itaiapi",
      "in": 0.5,
      "out": 3.0,
      "rate": 0.1
@@ -15014,13 +14967,6 @@
      "rate": 13.571
     },
     {
-     "name": "南玻万",
-     "slug": "vvvv-ee",
-     "in": 135.7096,
-     "out": 678.548,
-     "rate": 13.571
-    },
-    {
      "name": "睿库API",
      "slug": "rkapi-com",
      "in": 135.7096,
@@ -16247,6 +16193,31 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "S",
+   "price": {
+    "in": 0.28,
+    "out": 1.4,
+    "rate": 0.14
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "48小时内可退",
+   "bench": {
+    "model": "GPT-6.2 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存良好",
+    "cache_color": "good",
+    "wait_s": 6.4
+   }
+  },
+  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "tier": "S",
@@ -16322,31 +16293,6 @@
    }
   },
   {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "S",
-   "price": {
-    "in": 0.28,
-    "out": 1.4,
-    "rate": 0.14
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": null,
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "48小时内可退",
-   "bench": {
-    "model": "GPT-6.2 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存良好",
-    "cache_color": "good",
-    "wait_s": 6.4
-   }
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "tier": "S",
@@ -16372,6 +16318,31 @@
    }
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "S",
+   "price": {
+    "in": 0.2,
+    "out": 1.0,
+    "rate": 0.1
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "充值满500可开票、8%税费",
+   "refund": "10%手续费",
+   "bench": {
+    "model": "GPT-6.2 Sol",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 6.4
+   }
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -16394,31 +16365,6 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 11.1
-   }
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": {
-    "in": 1.22,
-    "out": 6.11,
-    "rate": 0.611
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
-   "bench": {
-    "model": "GPT-6.2 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 5.2
    }
   },
   {
@@ -16464,16 +16410,6 @@
     "in": 0.32,
     "out": 1.6,
     "rate": 0.16
-   }
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "tier": "B",
-   "price": {
-    "in": 0.2,
-    "out": 1.0,
-    "rate": 0.1
    }
   },
   {
@@ -16574,6 +16510,16 @@
     "in": 1.4,
     "out": 7.0,
     "rate": 0.7
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "B",
+   "price": {
+    "in": 1.22,
+    "out": 6.11,
+    "rate": 0.611
    }
   },
   {
@@ -16717,5 +16663,5 @@
    }
   }
  ],
- "updated": "2026-11-22"
+ "updated": "2026-11-24"
 }

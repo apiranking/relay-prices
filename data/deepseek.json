@@ -2966,6 +2966,24 @@
    "bench": null
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "S",
+   "price": {
+    "in": 0.6,
+    "out": 2.4,
+    "rate": 0.3
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "充值满500可开票、8%税费",
+   "refund": "10%手续费",
+   "bench": null
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -2980,24 +2998,6 @@
    "bonus": "首冲满10送5",
    "invoice": "yes",
    "invoice_note": "10元开票",
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": {
-    "in": 1.02,
-    "out": 4.07,
-    "rate": 0.509
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
    "refund": "无手续费",
    "bench": null
   },
@@ -3019,16 +3019,6 @@
     "in": 0.9,
     "out": 3.6,
     "rate": 0.45
-   }
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 2.4,
-    "rate": 0.3
    }
   },
   {
@@ -3109,6 +3099,16 @@
     "in": 1.5,
     "out": 3.0,
     "rate": 0.75
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "B",
+   "price": {
+    "in": 1.02,
+    "out": 4.07,
+    "rate": 0.509
    }
   },
   {
@@ -3292,5 +3292,5 @@
    }
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-24"
 }

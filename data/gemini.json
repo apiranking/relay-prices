@@ -8838,6 +8838,24 @@
    "bench": null
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "S",
+   "price": {
+    "in": 1.5,
+    "out": 7.5,
+    "rate": 0.5
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "充值满500可开票、8%税费",
+   "refund": "10%手续费",
+   "bench": null
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -8856,24 +8874,6 @@
    "bench": null
   },
   {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": {
-    "in": 10.86,
-    "out": 54.28,
-    "rate": 3.619
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "LantAPI",
    "slug": "gerlantapi",
    "tier": "B",
@@ -8881,16 +8881,6 @@
     "in": 3.2,
     "out": 16.0,
     "rate": 1.067
-   }
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "tier": "B",
-   "price": {
-    "in": 1.5,
-    "out": 7.5,
-    "rate": 0.5
    }
   },
   {
@@ -8971,6 +8961,16 @@
     "in": 7.7,
     "out": 38.5,
     "rate": 2.567
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "B",
+   "price": {
+    "in": 10.86,
+    "out": 54.28,
+    "rate": 3.619
    }
   },
   {
@@ -9144,5 +9144,5 @@
    }
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-24"
 }

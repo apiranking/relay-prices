@@ -2901,6 +2901,24 @@
    "bench": null
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "S",
+   "price": {
+    "in": 0.28,
+    "out": 0.84,
+    "rate": 0.14
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "48小时内可退",
+   "bench": null
+  },
+  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "tier": "S",
@@ -2951,24 +2969,6 @@
    "bench": null
   },
   {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "S",
-   "price": {
-    "in": 0.28,
-    "out": 0.84,
-    "rate": 0.14
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": null,
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "48小时内可退",
-   "bench": null
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "tier": "S",
@@ -2987,21 +2987,21 @@
    "bench": null
   },
   {
-   "name": "OmniaKey",
-   "slug": "omniakey",
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
    "tier": "S",
    "price": {
-    "in": 21.71,
-    "out": 65.14,
-    "rate": 10.857
+    "in": 0.5,
+    "out": 1.5,
+    "rate": 0.25
    },
    "water": "模型为真",
    "anomaly": null,
-   "min_topup": "¥5",
+   "min_topup": "¥1",
    "bonus": null,
    "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
+   "invoice_note": "充值满500可开票、8%税费",
+   "refund": "10%手续费",
    "bench": null
   },
   {
@@ -3026,16 +3026,6 @@
     "in": 0.32,
     "out": 0.96,
     "rate": 0.16
-   }
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 1.5,
-    "rate": 0.25
    }
   },
   {
@@ -3116,6 +3106,16 @@
     "in": 2.4,
     "out": 7.2,
     "rate": 1.2
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "tier": "B",
+   "price": {
+    "in": 21.71,
+    "out": 65.14,
+    "rate": 10.857
    }
   },
   {
@@ -3289,5 +3289,5 @@
    }
   }
  ],
- "updated": "2026-11-21"
+ "updated": "2026-11-24"
 }

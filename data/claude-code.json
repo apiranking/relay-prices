@@ -1,6 +1,6 @@
 {
  "vendor": "Claude Code",
- "site_count": 296,
+ "site_count": 294,
  "min_rate": 0.03,
  "median_rate": 0.6,
  "sites": [
@@ -313,12 +313,6 @@
   {
    "name": "island AI Coding",
    "slug": "codex789-com",
-   "rate": 0.15,
-   "model": "Claude Opus 5.5"
-  },
-  {
-   "name": "itaiapi",
-   "slug": "itaiapi",
    "rate": 0.15,
    "model": "Claude Opus 5.5"
   },
@@ -1721,12 +1715,6 @@
    "model": "Claude Opus 5.5"
   },
   {
-   "name": "南玻万",
-   "slug": "vvvv-ee",
-   "rate": 14.928,
-   "model": "Claude Opus 5.5"
-  },
-  {
    "name": "JuAPI 助力企业AI转型",
    "slug": "juapi-net",
    "rate": 15.0,
@@ -2139,13 +2127,6 @@
     {
      "name": "island AI Coding",
      "slug": "codex789-com",
-     "in": 0.6,
-     "out": 3.0,
-     "rate": 0.15
-    },
-    {
-     "name": "itaiapi",
-     "slug": "itaiapi",
      "in": 0.6,
      "out": 3.0,
      "rate": 0.15
@@ -3790,13 +3771,6 @@
      "rate": 12.214
     },
     {
-     "name": "南玻万",
-     "slug": "vvvv-ee",
-     "in": 59.7122,
-     "out": 298.5611,
-     "rate": 14.928
-    },
-    {
      "name": "JuAPI 助力企业AI转型",
      "slug": "juapi-net",
      "in": 60.0,
@@ -3872,7 +3846,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.7,
+   "median_rate": 0.69,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -5505,13 +5479,6 @@
      "rate": 10.5
     },
     {
-     "name": "南玻万",
-     "slug": "vvvv-ee",
-     "in": 29.8561,
-     "out": 149.2806,
-     "rate": 14.928
-    },
-    {
      "name": "JuAPI 助力企业AI转型",
      "slug": "juapi-net",
      "in": 30.0,
@@ -5602,6 +5569,16 @@
    "wait_s": 4.2
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存良好",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 6.1
+  },
+  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "model": "Claude Opus 5.5",
@@ -5632,16 +5609,6 @@
    "wait_s": 6.3
   },
   {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存良好",
-   "billing": "完全对得上",
-   "cache_color": "good",
-   "billing_color": "good",
-   "wait_s": 6.1
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "model": "Claude Opus 5.5",
@@ -5652,6 +5619,16 @@
    "wait_s": 2.8
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 7.1
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "model": "Claude Opus 5.5",
@@ -5660,16 +5637,6 @@
    "cache_color": "good",
    "billing_color": "good",
    "wait_s": 4.9
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上",
-   "cache_color": "good",
-   "billing_color": "good",
-   "wait_s": 4.5
   },
   {
    "name": "boxying",
@@ -5710,6 +5677,16 @@
    "cache_color": "good",
    "billing_color": "good",
    "wait_s": 2.5
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 4.5
   },
   {
    "name": "ByteCat",
@@ -5840,6 +5817,31 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "tier": "S",
+   "price": {
+    "in": 0.56,
+    "out": 2.8,
+    "rate": 0.14
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "no",
+   "invoice_note": null,
+   "refund": "48小时内可退",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存良好",
+    "cache_color": "good",
+    "wait_s": 6.1
+   }
+  },
+  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "tier": "S",
@@ -5915,31 +5917,6 @@
    }
   },
   {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "tier": "S",
-   "price": {
-    "in": 0.56,
-    "out": 2.8,
-    "rate": 0.14
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": null,
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "48小时内可退",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存良好",
-    "cache_color": "good",
-    "wait_s": 6.1
-   }
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "tier": "S",
@@ -5965,6 +5942,31 @@
    }
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "tier": "S",
+   "price": {
+    "in": 0.5,
+    "out": 2.5,
+    "rate": 0.125
+   },
+   "water": "模型为真",
+   "anomaly": null,
+   "min_topup": "¥1",
+   "bonus": null,
+   "invoice": "yes",
+   "invoice_note": "充值满500可开票、8%税费",
+   "refund": "10%手续费",
+   "bench": {
+    "model": "Claude Opus 5.5",
+    "billing": "完全对得上",
+    "billing_color": "good",
+    "cache": "缓存优秀",
+    "cache_color": "good",
+    "wait_s": 7.1
+   }
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "tier": "S",
@@ -5987,31 +5989,6 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 4.9
-   }
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "tier": "S",
-   "price": {
-    "in": 7.6,
-    "out": 38.0,
-    "rate": 1.9
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥5",
-   "bonus": null,
-   "invoice": "yes",
-   "invoice_note": "3000元起开",
-   "refund": "无手续费",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 4.5
    }
   },
   {
@@ -6057,16 +6034,6 @@
     "in": 3.2,
     "out": 16.0,
     "rate": 0.8
-   }
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 2.5,
-    "rate": 0.125
    }
   },
   {
@@ -6162,6 +6129,16 @@
   {
    "name": "CoreCode",
    "slug": "corecode-live",
+   "tier": "B",
+   "price": {
+    "in": 7.6,
+    "out": 38.0,
+    "rate": 1.9
+   }
+  },
+  {
+   "name": "OmniaKey",
+   "slug": "omniakey",
    "tier": "B",
    "price": {
     "in": 7.6,
@@ -6300,5 +6277,5 @@
    }
   }
  ],
- "updated": "2026-11-22"
+ "updated": "2026-11-24"
 }

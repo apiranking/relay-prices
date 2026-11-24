@@ -56,6 +56,15 @@
    }
   },
   {
+   "name": "BMCCA",
+   "slug": "cca-maya-today",
+   "rates": {
+    "openai": 0.021,
+    "claude": 0.031,
+    "grok": 0.14
+   }
+  },
+  {
    "name": "APINebula",
    "slug": "apinebula-com",
    "rates": {
@@ -86,15 +95,6 @@
    }
   },
   {
-   "name": "BMCCA",
-   "slug": "cca-maya-today",
-   "rates": {
-    "openai": 0.021,
-    "claude": 0.031,
-    "grok": 0.14
-   }
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "rates": {
@@ -105,6 +105,17 @@
    }
   },
   {
+   "name": "枢码AI",
+   "slug": "hubcodex-fun",
+   "rates": {
+    "openai": 0.1,
+    "claude": 0.031,
+    "gemini": 0.5,
+    "deepseek": 0.3,
+    "grok": 0.25
+   }
+  },
+  {
    "name": "维塔斯 AI",
    "slug": "aiwts-com",
    "rates": {
@@ -112,17 +123,6 @@
     "openai": 0.5,
     "gemini": 0.667,
     "deepseek": 0.5
-   }
-  },
-  {
-   "name": "OmniaKey",
-   "slug": "omniakey",
-   "rates": {
-    "claude": 1.9,
-    "openai": 0.611,
-    "gemini": 2.036,
-    "grok": 10.857,
-    "deepseek": 0.328
    }
   },
   {
@@ -151,17 +151,6 @@
     "grok": 0.1,
     "gemini": 0.8,
     "deepseek": 0.45
-   }
-  },
-  {
-   "name": "枢码AI",
-   "slug": "hubcodex-fun",
-   "rates": {
-    "openai": 0.1,
-    "claude": 0.031,
-    "gemini": 0.5,
-    "deepseek": 0.3,
-    "grok": 0.25
    }
   },
   {
@@ -304,6 +293,17 @@
    }
   },
   {
+   "name": "OmniaKey",
+   "slug": "omniakey",
+   "rates": {
+    "claude": 1.9,
+    "openai": 0.611,
+    "gemini": 2.036,
+    "grok": 10.857,
+    "deepseek": 0.328
+   }
+  },
+  {
    "name": "Top-API",
    "slug": "top-api",
    "rates": {
@@ -314,5 +314,5 @@
    }
   }
  ],
- "updated": "2026-11-22"
+ "updated": "2026-11-24"
 }
