@@ -1,8 +1,8 @@
 {
  "vendor": "Claude Code",
- "site_count": 294,
+ "site_count": 290,
  "min_rate": 0.03,
- "median_rate": 0.6,
+ "median_rate": 0.633,
  "sites": [
   {
    "name": "Kun-Api",
@@ -44,12 +44,6 @@
    "name": "AI 搬运工",
    "slug": "aimover-cc",
    "rate": 0.053,
-   "model": "Claude Sonnet 5.5"
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rate": 0.057,
    "model": "Claude Sonnet 5.5"
   },
   {
@@ -338,12 +332,6 @@
    "name": "Aitechflux API",
    "slug": "aitechflux-com",
    "rate": 0.152,
-   "model": "Claude Opus 5.5"
-  },
-  {
-   "name": "LaneAI",
-   "slug": "rjk66-cn",
-   "rate": 0.16,
    "model": "Claude Opus 5.5"
   },
   {
@@ -849,12 +837,6 @@
    "slug": "api-uiuihao-com",
    "rate": 0.533,
    "model": "Claude Sonnet 5.5"
-  },
-  {
-   "name": "Global AI",
-   "slug": "globalai-vip",
-   "rate": 0.55,
-   "model": "Claude Opus 5.5"
   },
   {
    "name": "To-Tokens",
@@ -1757,12 +1739,6 @@
    "model": "Claude Opus 5.5"
   },
   {
-   "name": "SillyDream",
-   "slug": "sillydream-top",
-   "rate": 162.852,
-   "model": "Claude Opus 5.5"
-  },
-  {
    "name": "New API",
    "slug": "meow61-my",
    "rate": 226.499,
@@ -1857,13 +1833,6 @@
      "in": 0.25,
      "out": 1.25,
      "rate": 0.062
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.2663,
-     "out": 1.3313,
-     "rate": 0.066
     },
     {
      "name": "AI 搬运工",
@@ -2165,13 +2134,6 @@
      "in": 0.608,
      "out": 3.04,
      "rate": 0.152
-    },
-    {
-     "name": "LaneAI",
-     "slug": "rjk66-cn",
-     "in": 0.64,
-     "out": 3.2,
-     "rate": 0.16
     },
     {
      "name": "xfastapi",
@@ -2719,13 +2681,6 @@
      "in": 2.0,
      "out": 10.0,
      "rate": 0.5
-    },
-    {
-     "name": "Global AI",
-     "slug": "globalai-vip",
-     "in": 2.2,
-     "out": 11.0,
-     "rate": 0.55
     },
     {
      "name": "To-Tokens",
@@ -3820,13 +3775,6 @@
      "rate": 50.891
     },
     {
-     "name": "SillyDream",
-     "slug": "sillydream-top",
-     "in": 651.4061,
-     "out": 3257.0304,
-     "rate": 162.852
-    },
-    {
      "name": "New API",
      "slug": "meow61-my",
      "in": 905.9973,
@@ -3846,7 +3794,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.69,
+   "median_rate": 0.7,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -3894,13 +3842,6 @@
      "in": 0.1066,
      "out": 0.533,
      "rate": 0.053
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.114,
-     "out": 0.57,
-     "rate": 0.057
     },
     {
      "name": "Jasper",
@@ -4174,13 +4115,6 @@
     {
      "name": "Aitechflux API",
      "slug": "aitechflux-com",
-     "in": 0.32,
-     "out": 1.6,
-     "rate": 0.16
-    },
-    {
-     "name": "LaneAI",
-     "slug": "rjk66-cn",
      "in": 0.32,
      "out": 1.6,
      "rate": 0.16
@@ -4615,13 +4549,6 @@
      "in": 1.0666,
      "out": 5.333,
      "rate": 0.533
-    },
-    {
-     "name": "Global AI",
-     "slug": "globalai-vip",
-     "in": 1.1,
-     "out": 5.5,
-     "rate": 0.55
     },
     {
      "name": "To-Tokens",
@@ -5521,13 +5448,6 @@
      "rate": 226.499
     },
     {
-     "name": "SillyDream",
-     "slug": "sillydream-top",
-     "in": 651.4061,
-     "out": 3257.0304,
-     "rate": 325.703
-    },
-    {
      "name": "Rainbow Gate AI",
      "slug": "rainbowgate-top",
      "in": 1272.2775,
@@ -6187,16 +6107,6 @@
    }
   },
   {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.27,
-    "out": 1.33,
-    "rate": 0.066
-   }
-  },
-  {
    "name": "Z-API",
    "slug": "api-zicc-cc",
    "tier": "B",
@@ -6277,5 +6187,5 @@
    }
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }

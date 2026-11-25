@@ -1,15 +1,9 @@
 {
  "vendor": "Codex",
- "site_count": 278,
- "min_rate": 0.009,
+ "site_count": 274,
+ "min_rate": 0.016,
  "median_rate": 0.35,
  "sites": [
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rate": 0.009,
-   "model": "GPT-6.2 Astra"
-  },
   {
    "name": "SixthSense LLM",
    "slug": "sixthsense-llm-com",
@@ -677,12 +671,6 @@
    "model": "GPT-6.2 Sol"
   },
   {
-   "name": "Global AI",
-   "slug": "globalai-vip",
-   "rate": 0.25,
-   "model": "GPT-6.2 Sol"
-  },
-  {
    "name": "NowCoding - 即刻编码",
    "slug": "nowcoding-ai",
    "rate": 0.25,
@@ -949,12 +937,6 @@
   {
    "name": "Giao",
    "slug": "giaolink-com",
-   "rate": 0.45,
-   "model": "GPT-6.2 Sol"
-  },
-  {
-   "name": "LaneAI",
-   "slug": "rjk66-cn",
    "rate": 0.45,
    "model": "GPT-6.2 Sol"
   },
@@ -1661,12 +1643,6 @@
    "model": "GPT-6.2 Astra"
   },
   {
-   "name": "SillyDream",
-   "slug": "sillydream-top",
-   "rate": 54.284,
-   "model": "GPT-6.2 Sol"
-  },
-  {
    "name": "New API",
    "slug": "apinexus-dpdns-org",
    "rate": 64.462,
@@ -1712,13 +1688,6 @@
      "in": 0.06,
      "out": 0.3,
      "rate": 0.03
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.0651,
-     "out": 0.3257,
-     "rate": 0.033
     },
     {
      "name": "OpenLux",
@@ -2372,13 +2341,6 @@
      "rate": 0.25
     },
     {
-     "name": "Global AI",
-     "slug": "globalai-vip",
-     "in": 0.5,
-     "out": 2.5,
-     "rate": 0.25
-    },
-    {
      "name": "NowCoding - 即刻编码",
      "slug": "nowcoding-ai",
      "in": 0.5,
@@ -2682,13 +2644,6 @@
     {
      "name": "Giao",
      "slug": "giaolink-com",
-     "in": 0.9,
-     "out": 4.5,
-     "rate": 0.45
-    },
-    {
-     "name": "LaneAI",
-     "slug": "rjk66-cn",
      "in": 0.9,
      "out": 4.5,
      "rate": 0.45
@@ -3548,13 +3503,6 @@
      "rate": 40.713
     },
     {
-     "name": "SillyDream",
-     "slug": "sillydream-top",
-     "in": 108.5677,
-     "out": 542.8384,
-     "rate": 54.284
-    },
-    {
      "name": "New API",
      "slug": "apinexus-dpdns-org",
      "in": 508.911,
@@ -3574,13 +3522,6 @@
    "official_out": 40.0,
    "official_cache_read": 0.4,
    "rows": [
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.076,
-     "out": 0.38,
-     "rate": 0.009
-    },
     {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
@@ -4311,13 +4252,6 @@
      "rate": 0.22
     },
     {
-     "name": "Global AI",
-     "slug": "globalai-vip",
-     "in": 2.0,
-     "out": 10.0,
-     "rate": 0.25
-    },
-    {
      "name": "NowCoding - 即刻编码",
      "slug": "nowcoding-ai",
      "in": 2.0,
@@ -4554,13 +4488,6 @@
      "in": 3.5284,
      "out": 17.6422,
      "rate": 0.441
-    },
-    {
-     "name": "LaneAI",
-     "slug": "rjk66-cn",
-     "in": 3.6,
-     "out": 18.0,
-     "rate": 0.45
     },
     {
      "name": "RayinAPI",
@@ -5284,13 +5211,6 @@
      "rate": 20.356
     },
     {
-     "name": "SillyDream",
-     "slug": "sillydream-top",
-     "in": 434.2707,
-     "out": 2171.3536,
-     "rate": 54.284
-    },
-    {
      "name": "New API",
      "slug": "apinexus-dpdns-org",
      "in": 515.6965,
@@ -5768,16 +5688,6 @@
    }
   },
   {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.07,
-    "out": 0.33,
-    "rate": 0.033
-   }
-  },
-  {
    "name": "Ofapp API",
    "slug": "api-ofapp-cn",
    "tier": "B",
@@ -5848,5 +5758,5 @@
    }
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }

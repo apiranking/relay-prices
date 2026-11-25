@@ -1,20 +1,14 @@
 {
  "vendor": "DeepSeek",
- "site_count": 150,
+ "site_count": 148,
  "min_rate": 0.001,
- "median_rate": 0.384,
+ "median_rate": 0.388,
  "sites": [
   {
    "name": "高效中转站",
    "slug": "sub2-de5-net",
    "rate": 0.001,
    "model": "DeepSeek V4 Pro"
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rate": 0.006,
-   "model": "DeepSeek V4.1 Flash"
   },
   {
    "name": "Jasper",
@@ -163,12 +157,6 @@
   {
    "name": "2xapi",
    "slug": "2xa-cc-cd",
-   "rate": 0.075,
-   "model": "DeepSeek V4.1 Flash"
-  },
-  {
-   "name": "LaneAI",
-   "slug": "rjk66-cn",
    "rate": 0.075,
    "model": "DeepSeek V4.1 Flash"
   },
@@ -910,7 +898,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.395,
+   "median_rate": 0.4,
    "own_page": true,
    "current": false,
    "official_in": 2.0,
@@ -923,13 +911,6 @@
      "in": 0.0088,
      "out": 0.0264,
      "rate": 0.004
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.0117,
-     "out": 0.0469,
-     "rate": 0.006
     },
     {
      "name": "Jasper",
@@ -1067,13 +1048,6 @@
     {
      "name": "2xapi",
      "slug": "2xa-cc-cd",
-     "in": 0.15,
-     "out": 0.6,
-     "rate": 0.075
-    },
-    {
-     "name": "LaneAI",
-     "slug": "rjk66-cn",
      "in": 0.15,
      "out": 0.6,
      "rate": 0.075
@@ -1967,7 +1941,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.498,
+   "median_rate": 0.5,
    "own_page": true,
    "current": false,
    "official_in": 9.0,
@@ -1980,13 +1954,6 @@
      "in": 0.0087,
      "out": 0.0174,
      "rate": 0.001
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.0651,
-     "out": 0.1954,
-     "rate": 0.007
     },
     {
      "name": "Jasper",
@@ -2134,13 +2101,6 @@
      "in": 0.63,
      "out": 1.89,
      "rate": 0.07
-    },
-    {
-     "name": "LaneAI",
-     "slug": "rjk66-cn",
-     "in": 0.675,
-     "out": 2.025,
-     "rate": 0.075
     },
     {
      "name": "ZeroCat",
@@ -3142,16 +3102,6 @@
    }
   },
   {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.01,
-    "out": 0.05,
-    "rate": 0.006
-   }
-  },
-  {
    "name": "皮卡丘token商店",
    "slug": "pikaqiu-shop",
    "tier": "B",
@@ -3292,5 +3242,5 @@
    }
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-25"
 }
