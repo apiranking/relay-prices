@@ -21,7 +21,7 @@
    "label": "DeepSeek"
   }
  ],
- "site_count": 376,
+ "site_count": 378,
  "rows": [
   {
    "name": "12API",
@@ -65,6 +65,17 @@
     "gemini": 0.35,
     "grok": 0.35,
     "deepseek": 0.5
+   }
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "rates": {
+    "claude": 0.048,
+    "openai": 0.009,
+    "gemini": 0.081,
+    "grok": 0.004,
+    "deepseek": 0.006
    }
   },
   {
@@ -274,6 +285,17 @@
     "openai": 0.404,
     "grok": 0.807,
     "deepseek": 0.388
+   }
+  },
+  {
+   "name": "LaneAI",
+   "slug": "rjk66-cn",
+   "rates": {
+    "claude": 0.16,
+    "openai": 0.36,
+    "gemini": 0.175,
+    "deepseek": 0.075,
+    "grok": 0.2
    }
   },
   {
@@ -1176,6 +1198,16 @@
    }
   },
   {
+   "name": "Global AI",
+   "slug": "globalai-vip",
+   "rates": {
+    "claude": 0.55,
+    "gemini": 0.8,
+    "openai": 0.25,
+    "grok": 0.6
+   }
+  },
+  {
    "name": "Hi-Code",
    "slug": "hi-code-cc",
    "rates": {
@@ -1651,15 +1683,6 @@
    }
   },
   {
-   "name": "AiHao - AI智能体的加油站",
-   "slug": "aihao-ai",
-   "rates": {
-    "openai": 2.171,
-    "gemini": 3.393,
-    "deepseek": 4.071
-   }
-  },
-  {
    "name": "AiXor",
    "slug": "aixor-org",
    "rates": {
@@ -1999,6 +2022,15 @@
     "openai": 0.505,
     "claude": 1.515,
     "deepseek": 0.727
+   }
+  },
+  {
+   "name": "SillyDream",
+   "slug": "sillydream-top",
+   "rates": {
+    "claude": 162.852,
+    "openai": 54.284,
+    "gemini": 162.852
    }
   },
   {
@@ -3284,13 +3316,6 @@
    }
   },
   {
-   "name": "TeamoRouter",
-   "slug": "teamorouter-cn",
-   "rates": {
-    "deepseek": 1.312
-   }
-  },
-  {
    "name": "Tokeness",
    "slug": "tokeness-ai",
    "rates": {
@@ -3608,5 +3633,5 @@
    "bench": null
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }

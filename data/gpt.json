@@ -1,6 +1,6 @@
 {
  "vendor": "GPT",
- "site_count": 330,
+ "site_count": 333,
  "min_rate": 0.001,
  "median_rate": 0.2,
  "sites": [
@@ -9,6 +9,12 @@
    "slug": "0029-org",
    "rate": 0.001,
    "model": "GPT-5.5"
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "rate": 0.009,
+   "model": "GPT-6.2 Astra"
   },
   {
    "name": "XINGYI API",
@@ -1079,6 +1085,12 @@
    "model": "GPT-5.5"
   },
   {
+   "name": "Global AI",
+   "slug": "globalai-vip",
+   "rate": 0.25,
+   "model": "GPT-6.2 Sol"
+  },
+  {
    "name": "Ofapp API",
    "slug": "api-ofapp-cn",
    "rate": 0.25,
@@ -1227,6 +1239,12 @@
    "slug": "moyuu-cc",
    "rate": 0.353,
    "model": "GPT-6.2 Sol"
+  },
+  {
+   "name": "LaneAI",
+   "slug": "rjk66-cn",
+   "rate": 0.36,
+   "model": "GPT-5.6 Terra"
   },
   {
    "name": "白鸟",
@@ -1829,12 +1847,6 @@
    "model": "GPT-5.5"
   },
   {
-   "name": "AiHao - AI智能体的加油站",
-   "slug": "aihao-ai",
-   "rate": 2.171,
-   "model": "GPT-5.6 Terra"
-  },
-  {
    "name": "Lanln",
    "slug": "venlacy-com",
    "rate": 2.8,
@@ -1979,6 +1991,12 @@
    "model": "GPT-5.5"
   },
   {
+   "name": "SillyDream",
+   "slug": "sillydream-top",
+   "rate": 54.284,
+   "model": "GPT-6.2 Sol"
+  },
+  {
    "name": "New API",
    "slug": "apinexus-dpdns-org",
    "rate": 64.462,
@@ -2024,6 +2042,13 @@
      "in": 0.06,
      "out": 0.3,
      "rate": 0.03
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0651,
+     "out": 0.3257,
+     "rate": 0.033
     },
     {
      "name": "OpenLux",
@@ -2677,6 +2702,13 @@
      "rate": 0.25
     },
     {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.25
+    },
+    {
      "name": "NowCoding - 即刻编码",
      "slug": "nowcoding-ai",
      "in": 0.5,
@@ -2980,6 +3012,13 @@
     {
      "name": "Giao",
      "slug": "giaolink-com",
+     "in": 0.9,
+     "out": 4.5,
+     "rate": 0.45
+    },
+    {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
      "in": 0.9,
      "out": 4.5,
      "rate": 0.45
@@ -3601,13 +3640,6 @@
      "rate": 2.036
     },
     {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 5.4284,
-     "out": 27.1419,
-     "rate": 2.714
-    },
-    {
      "name": "Lanln",
      "slug": "venlacy-com",
      "in": 5.6,
@@ -3839,6 +3871,13 @@
      "rate": 40.713
     },
     {
+     "name": "SillyDream",
+     "slug": "sillydream-top",
+     "in": 108.5677,
+     "out": 542.8384,
+     "rate": 54.284
+    },
+    {
      "name": "New API",
      "slug": "apinexus-dpdns-org",
      "in": 508.911,
@@ -3858,6 +3897,13 @@
    "official_out": 40.0,
    "official_cache_read": 0.4,
    "rows": [
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.076,
+     "out": 0.38,
+     "rate": 0.009
+    },
     {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
@@ -4588,6 +4634,13 @@
      "rate": 0.22
     },
     {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 2.0,
+     "out": 10.0,
+     "rate": 0.25
+    },
+    {
      "name": "NowCoding - 即刻编码",
      "slug": "nowcoding-ai",
      "in": 2.0,
@@ -4824,6 +4877,13 @@
      "in": 3.5284,
      "out": 17.6422,
      "rate": 0.441
+    },
+    {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
+     "in": 3.6,
+     "out": 18.0,
+     "rate": 0.45
     },
     {
      "name": "RayinAPI",
@@ -5337,13 +5397,6 @@
      "rate": 2.171
     },
     {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 21.7135,
-     "out": 108.5677,
-     "rate": 2.714
-    },
-    {
      "name": "Lanln",
      "slug": "venlacy-com",
      "in": 22.4,
@@ -5545,6 +5598,13 @@
      "in": 162.8515,
      "out": 814.2576,
      "rate": 20.356
+    },
+    {
+     "name": "SillyDream",
+     "slug": "sillydream-top",
+     "in": 434.2707,
+     "out": 2171.3536,
+     "rate": 54.284
     },
     {
      "name": "New API",
@@ -5754,6 +5814,13 @@
      "in": 0.02,
      "out": 0.03,
      "rate": 0.04
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0244,
+     "out": 0.1221,
+     "rate": 0.049
     },
     {
      "name": "AIHub",
@@ -6279,6 +6346,13 @@
      "in": 0.12,
      "out": 0.72,
      "rate": 0.24
+    },
+    {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 0.125,
+     "out": 0.1875,
+     "rate": 0.25
     },
     {
      "name": "CodingRouter",
@@ -7001,6 +7075,13 @@
      "rate": 0.03
     },
     {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.1629,
+     "out": 0.9771,
+     "rate": 0.033
+    },
+    {
      "name": "合聚API",
      "slug": "hejuapi-com",
      "in": 0.2,
@@ -7209,6 +7290,13 @@
      "in": 1.0178,
      "out": 6.1069,
      "rate": 0.204
+    },
+    {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 1.25,
+     "out": 7.5,
+     "rate": 0.25
     },
     {
      "name": "LinksAPI",
@@ -7559,7 +7647,7 @@
    "model_key": "gpt-5.6-terra",
    "price_slug": "gpt-5-6-terra",
    "label": "GPT-5.6 Terra",
-   "median_rate": 0.2,
+   "median_rate": 0.202,
    "own_page": true,
    "current": false,
    "official_in": 2.5,
@@ -7586,6 +7674,13 @@
      "in": 0.05,
      "out": 0.3,
      "rate": 0.02
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0569,
+     "out": 0.3416,
+     "rate": 0.023
     },
     {
      "name": "Code-Plan（内部站点）",
@@ -8568,6 +8663,13 @@
      "rate": 0.24
     },
     {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 0.625,
+     "out": 3.75,
+     "rate": 0.25
+    },
+    {
      "name": "88API-Token聚合平台",
      "slug": "88api-ai",
      "in": 0.7,
@@ -8664,6 +8766,13 @@
      "in": 0.8821,
      "out": 5.2927,
      "rate": 0.353
+    },
+    {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
+     "in": 0.9,
+     "out": 5.4,
+     "rate": 0.36
     },
     {
      "name": "Portdan AI",
@@ -9212,13 +9321,6 @@
      "rate": 2.0
     },
     {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 5.4284,
-     "out": 32.5703,
-     "rate": 2.171
-    },
-    {
      "name": "三头牛",
      "slug": "36niu-com",
      "in": 5.4284,
@@ -9415,6 +9517,13 @@
      "rate": 40.713
     },
     {
+     "name": "SillyDream",
+     "slug": "sillydream-top",
+     "in": 135.7096,
+     "out": 814.2576,
+     "rate": 54.284
+    },
+    {
      "name": "New API",
      "slug": "apinexus-dpdns-org",
      "in": 508.911,
@@ -9461,6 +9570,13 @@
      "in": 0.06,
      "out": 0.3,
      "rate": 0.03
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0651,
+     "out": 0.3257,
+     "rate": 0.033
     },
     {
      "name": "OpenLux",
@@ -10100,6 +10216,13 @@
      "rate": 0.25
     },
     {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.25
+    },
+    {
      "name": "NowCoding - 即刻编码",
      "slug": "nowcoding-ai",
      "in": 0.5,
@@ -10412,6 +10535,13 @@
      "slug": "giaolink-com",
      "in": 0.9,
      "out": 1.35,
+     "rate": 0.45
+    },
+    {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
+     "in": 0.9,
+     "out": 4.5,
      "rate": 0.45
     },
     {
@@ -11040,13 +11170,6 @@
      "rate": 2.036
     },
     {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 5.4284,
-     "out": 27.1419,
-     "rate": 2.714
-    },
-    {
      "name": "Lanln",
      "slug": "venlacy-com",
      "in": 5.6,
@@ -11278,6 +11401,13 @@
      "rate": 40.713
     },
     {
+     "name": "SillyDream",
+     "slug": "sillydream-top",
+     "in": 108.5677,
+     "out": 542.8384,
+     "rate": 54.284
+    },
+    {
      "name": "New API",
      "slug": "apinexus-dpdns-org",
      "in": 508.911,
@@ -11290,7 +11420,7 @@
    "model_key": "gpt-5.5",
    "price_slug": "gpt-5-5",
    "label": "GPT-5.5",
-   "median_rate": 0.3,
+   "median_rate": 0.28,
    "own_page": true,
    "current": false,
    "official_in": 5.0,
@@ -11303,6 +11433,13 @@
      "in": 0.005,
      "out": 0.03,
      "rate": 0.001
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0813,
+     "out": 0.4881,
+     "rate": 0.016
     },
     {
      "name": "SixthSense LLM",
@@ -12152,6 +12289,13 @@
      "rate": 0.25
     },
     {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 1.25,
+     "out": 7.5,
+     "rate": 0.25
+    },
+    {
      "name": "Ofapp API",
      "slug": "api-ofapp-cn",
      "in": 1.25,
@@ -12838,13 +12982,6 @@
      "rate": 2.5
     },
     {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 13.571,
-     "out": 81.4258,
-     "rate": 2.714
-    },
-    {
      "name": "RunAPI",
      "slug": "runapi-co",
      "in": 13.571,
@@ -13088,6 +13225,13 @@
    "official_out": 50.0,
    "official_cache_read": null,
    "rows": [
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0977,
+     "out": 0.4886,
+     "rate": 0.009
+    },
     {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
@@ -13810,6 +13954,13 @@
      "rate": 0.22
     },
     {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 2.5,
+     "out": 12.5,
+     "rate": 0.25
+    },
+    {
      "name": "NowCoding - 即刻编码",
      "slug": "nowcoding-ai",
      "in": 2.5,
@@ -14053,6 +14204,13 @@
      "in": 4.4106,
      "out": 22.0528,
      "rate": 0.441
+    },
+    {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
+     "in": 4.5,
+     "out": 22.5,
+     "rate": 0.45
     },
     {
      "name": "RayinAPI",
@@ -14566,13 +14724,6 @@
      "rate": 2.171
     },
     {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 27.1419,
-     "out": 135.7096,
-     "rate": 2.714
-    },
-    {
      "name": "Lanln",
      "slug": "venlacy-com",
      "in": 28.0,
@@ -14776,6 +14927,13 @@
      "rate": 20.356
     },
     {
+     "name": "SillyDream",
+     "slug": "sillydream-top",
+     "in": 542.8384,
+     "out": 2714.192,
+     "rate": 54.284
+    },
+    {
      "name": "New API",
      "slug": "apinexus-dpdns-org",
      "in": 644.6206,
@@ -14822,6 +14980,13 @@
      "in": 0.0592,
      "out": 0.296,
      "rate": 0.03
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0651,
+     "out": 0.3257,
+     "rate": 0.033
     },
     {
      "name": "合聚API",
@@ -15025,6 +15190,13 @@
      "in": 0.4071,
      "out": 2.0356,
      "rate": 0.204
+    },
+    {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 0.5,
+     "out": 2.5,
+     "rate": 0.25
     },
     {
      "name": "LinksAPI",
@@ -15460,6 +15632,13 @@
      "rate": 0.04
     },
     {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0489,
+     "out": 0.2931,
+     "rate": 0.049
+    },
+    {
      "name": "黑黑",
      "slug": "heilovehei",
      "in": 0.05,
@@ -15598,6 +15777,13 @@
      "in": 0.2036,
      "out": 1.2214,
      "rate": 0.204
+    },
+    {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 0.25,
+     "out": 1.5,
+     "rate": 0.25
     },
     {
      "name": "Ofapp API",
@@ -16329,6 +16515,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.07,
+    "out": 0.33,
+    "rate": 0.033
+   }
+  },
+  {
    "name": "Ofapp API",
    "slug": "api-ofapp-cn",
    "tier": "B",
@@ -16399,5 +16595,5 @@
    }
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }

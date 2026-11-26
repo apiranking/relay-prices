@@ -1,13 +1,19 @@
 {
  "vendor": "Grok",
- "site_count": 160,
+ "site_count": 163,
  "min_rate": 0.001,
- "median_rate": 0.522,
+ "median_rate": 0.5,
  "sites": [
   {
    "name": "嘀嘀嘀 AI",
    "slug": "dddai-dev",
    "rate": 0.001,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "rate": 0.004,
    "model": "Grok 4.7"
   },
   {
@@ -269,6 +275,12 @@
    "model": "Grok 4.7"
   },
   {
+   "name": "LaneAI",
+   "slug": "rjk66-cn",
+   "rate": 0.2,
+   "model": "Grok 4.7"
+  },
+  {
    "name": "MM API",
    "slug": "slomerex-xyz",
    "rate": 0.2,
@@ -493,6 +505,12 @@
   {
    "name": "12API",
    "slug": "12ai-org",
+   "rate": 0.6,
+   "model": "Grok 4.7"
+  },
+  {
+   "name": "Global AI",
+   "slug": "globalai-vip",
    "rate": 0.6,
    "model": "Grok 4.7"
   },
@@ -970,7 +988,7 @@
    "model_key": "grok-4.7",
    "price_slug": "grok-4-7",
    "label": "Grok 4.7",
-   "median_rate": 0.522,
+   "median_rate": 0.5,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -983,6 +1001,13 @@
      "in": 0.002,
      "out": 0.006,
      "rate": 0.001
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0081,
+     "out": 0.0244,
+     "rate": 0.004
     },
     {
      "name": "Code-Plan（内部站点）",
@@ -1286,6 +1311,13 @@
      "rate": 0.2
     },
     {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
+     "in": 0.4,
+     "out": 1.2,
+     "rate": 0.2
+    },
+    {
      "name": "MM API",
      "slug": "slomerex-xyz",
      "in": 0.4,
@@ -1547,6 +1579,13 @@
     {
      "name": "12API",
      "slug": "12ai-org",
+     "in": 1.2,
+     "out": 3.6,
+     "rate": 0.6
+    },
+    {
+     "name": "Global AI",
+     "slug": "globalai-vip",
      "in": 1.2,
      "out": 3.6,
      "rate": 0.6
@@ -2111,6 +2150,13 @@
    "official_cache_read": null,
    "rows": [
     {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0081,
+     "out": 0.0244,
+     "rate": 0.004
+    },
+    {
      "name": "PRY API",
      "slug": "bearlab-ai",
      "in": 0.04,
@@ -2300,6 +2346,13 @@
      "rate": 0.5
     },
     {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 1.2,
+     "out": 3.6,
+     "rate": 0.6
+    },
+    {
      "name": "Handsfreeclub API",
      "slug": "handsfreeclub-com",
      "in": 1.2,
@@ -2452,6 +2505,13 @@
    "official_out": 6.0,
    "official_cache_read": null,
    "rows": [
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0081,
+     "out": 0.0244,
+     "rate": 0.004
+    },
     {
      "name": "PRY API",
      "slug": "bearlab-ai",
@@ -2633,6 +2693,13 @@
      "in": 1.0,
      "out": 3.0,
      "rate": 0.5
+    },
+    {
+     "name": "Global AI",
+     "slug": "globalai-vip",
+     "in": 1.2,
+     "out": 3.6,
+     "rate": 0.6
     },
     {
      "name": "Handsfreeclub API",
@@ -3102,6 +3169,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.01,
+    "out": 0.02,
+    "rate": 0.004
+   }
+  },
+  {
    "name": "API VibeCoding",
    "slug": "apiclaude-cc",
    "tier": "B",
@@ -3212,5 +3289,5 @@
    }
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }

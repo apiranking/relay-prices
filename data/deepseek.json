@@ -2,13 +2,19 @@
  "vendor": "DeepSeek",
  "site_count": 148,
  "min_rate": 0.001,
- "median_rate": 0.388,
+ "median_rate": 0.378,
  "sites": [
   {
    "name": "高效中转站",
    "slug": "sub2-de5-net",
    "rate": 0.001,
    "model": "DeepSeek V4 Pro"
+  },
+  {
+   "name": "A6API",
+   "slug": "a6api",
+   "rate": 0.006,
+   "model": "DeepSeek V4.1 Flash"
   },
   {
    "name": "Jasper",
@@ -157,6 +163,12 @@
   {
    "name": "2xapi",
    "slug": "2xa-cc-cd",
+   "rate": 0.075,
+   "model": "DeepSeek V4.1 Flash"
+  },
+  {
+   "name": "LaneAI",
+   "slug": "rjk66-cn",
    "rate": 0.075,
    "model": "DeepSeek V4.1 Flash"
   },
@@ -743,12 +755,6 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
-   "name": "TeamoRouter",
-   "slug": "teamorouter-cn",
-   "rate": 1.312,
-   "model": "DeepSeek V4 Pro"
-  },
-  {
    "name": "刀刀刀",
    "slug": "codexapis-com",
    "rate": 1.333,
@@ -827,12 +833,6 @@
    "model": "DeepSeek V4.1 Flash"
   },
   {
-   "name": "AiHao - AI智能体的加油站",
-   "slug": "aihao-ai",
-   "rate": 4.071,
-   "model": "DeepSeek V4.1 Flash"
-  },
-  {
    "name": "Qiny API",
    "slug": "chatnewai-com",
    "rate": 5.428,
@@ -898,7 +898,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.4,
+   "median_rate": 0.392,
    "own_page": true,
    "current": false,
    "official_in": 2.0,
@@ -911,6 +911,13 @@
      "in": 0.0088,
      "out": 0.0264,
      "rate": 0.004
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0117,
+     "out": 0.0469,
+     "rate": 0.006
     },
     {
      "name": "Jasper",
@@ -1048,6 +1055,13 @@
     {
      "name": "2xapi",
      "slug": "2xa-cc-cd",
+     "in": 0.15,
+     "out": 0.6,
+     "rate": 0.075
+    },
+    {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
      "in": 0.15,
      "out": 0.6,
      "rate": 0.075
@@ -1866,13 +1880,6 @@
      "rate": 3.562
     },
     {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 8.1426,
-     "out": 32.5703,
-     "rate": 4.071
-    },
-    {
      "name": "Qiny API",
      "slug": "chatnewai-com",
      "in": 10.8568,
@@ -1941,7 +1948,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.5,
+   "median_rate": 0.486,
    "own_page": true,
    "current": false,
    "official_in": 9.0,
@@ -1954,6 +1961,13 @@
      "in": 0.0087,
      "out": 0.0174,
      "rate": 0.001
+    },
+    {
+     "name": "A6API",
+     "slug": "a6api",
+     "in": 0.0651,
+     "out": 0.1954,
+     "rate": 0.007
     },
     {
      "name": "Jasper",
@@ -2101,6 +2115,13 @@
      "in": 0.63,
      "out": 1.89,
      "rate": 0.07
+    },
+    {
+     "name": "LaneAI",
+     "slug": "rjk66-cn",
+     "in": 0.675,
+     "out": 2.025,
+     "rate": 0.075
     },
     {
      "name": "ZeroCat",
@@ -2659,13 +2680,6 @@
      "cache_x": "9倍"
     },
     {
-     "name": "TeamoRouter",
-     "slug": "teamorouter-cn",
-     "in": 11.8067,
-     "out": 23.6135,
-     "rate": 1.312
-    },
-    {
      "name": "刀刀刀",
      "slug": "codexapis-com",
      "in": 11.9967,
@@ -2784,13 +2798,6 @@
      "in": 48.8555,
      "out": 146.5664,
      "rate": 5.428
-    },
-    {
-     "name": "AiHao - AI智能体的加油站",
-     "slug": "aihao-ai",
-     "in": 61.0693,
-     "out": 183.208,
-     "rate": 6.785
     },
     {
      "name": "CaMeL AI",
@@ -3102,6 +3109,16 @@
    }
   },
   {
+   "name": "A6API",
+   "slug": "a6api",
+   "tier": "B",
+   "price": {
+    "in": 0.01,
+    "out": 0.05,
+    "rate": 0.006
+   }
+  },
+  {
    "name": "皮卡丘token商店",
    "slug": "pikaqiu-shop",
    "tier": "B",
@@ -3242,5 +3259,5 @@
    }
   }
  ],
- "updated": "2026-11-25"
+ "updated": "2026-11-26"
 }
