@@ -1,8 +1,8 @@
 {
  "vendor": "Claude",
- "site_count": 317,
+ "site_count": 315,
  "min_rate": 0.014,
- "median_rate": 0.6,
+ "median_rate": 0.639,
  "sites": [
   {
    "name": "Prism API",
@@ -45,12 +45,6 @@
    "slug": "api-bbww-top",
    "rate": 0.042,
    "model": "Claude Sonnet 4.6"
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rate": 0.048,
-   "model": "Claude Haiku 5.5"
   },
   {
    "name": "TK API",
@@ -704,12 +698,6 @@
    "name": "synterolink",
    "slug": "synterolink",
    "rate": 0.333,
-   "model": "Claude Sonnet 5.5"
-  },
-  {
-   "name": "Top-API",
-   "slug": "top-api",
-   "rate": 0.339,
    "model": "Claude Sonnet 5.5"
   },
   {
@@ -1995,13 +1983,6 @@
      "in": 0.25,
      "out": 1.25,
      "rate": 0.062
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.2663,
-     "out": 1.3313,
-     "rate": 0.066
     },
     {
      "name": "AI 搬运工",
@@ -4069,13 +4050,6 @@
      "rate": 0.062
     },
     {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.5863,
-     "out": 2.9313,
-     "rate": 0.073
-    },
-    {
      "name": "gods",
      "slug": "meisgold-top",
      "in": 0.64,
@@ -5358,13 +5332,6 @@
      "rate": 2.036
     },
     {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 16.2852,
-     "out": 81.4258,
-     "rate": 2.036
-    },
-    {
      "name": "可乐AI",
      "slug": "code28-ccwu-cc",
      "in": 16.2852,
@@ -5839,7 +5806,7 @@
    "model_key": "claude-sonnet-5-5",
    "price_slug": "claude-sonnet-5-5",
    "label": "Claude Sonnet 5.5",
-   "median_rate": 0.69,
+   "median_rate": 0.7,
    "own_page": true,
    "current": true,
    "official_in": 2.0,
@@ -5887,13 +5854,6 @@
      "in": 0.1066,
      "out": 0.533,
      "rate": 0.053
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.114,
-     "out": 0.57,
-     "rate": 0.057
     },
     {
      "name": "Jasper",
@@ -6424,14 +6384,6 @@
      "in": 0.6666,
      "out": 3.333,
      "rate": 0.333
-    },
-    {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 0.6785,
-     "out": 3.3927,
-     "rate": 0.339,
-     "cache_x": "2倍"
     },
     {
      "name": "PPToken CC",
@@ -7533,20 +7485,13 @@
    "model_key": "claude-haiku-5-5",
    "price_slug": "claude-haiku-5-5",
    "label": "Claude Haiku 5.5",
-   "median_rate": 1.1,
+   "median_rate": 1.133,
    "own_page": true,
    "current": true,
    "official_in": 0.1,
    "official_out": 0.5,
    "official_cache_read": 0.01,
    "rows": [
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.0047,
-     "out": 0.0244,
-     "rate": 0.048
-    },
     {
      "name": "高效中转站",
      "slug": "sub2-de5-net",
@@ -7816,13 +7761,6 @@
     {
      "name": "KiosAPI",
      "slug": "kiosapi-com",
-     "in": 0.0339,
-     "out": 0.1696,
-     "rate": 0.339
-    },
-    {
-     "name": "Top-API",
-     "slug": "top-api",
      "in": 0.0339,
      "out": 0.1696,
      "rate": 0.339
@@ -8805,13 +8743,6 @@
      "in": 0.625,
      "out": 3.125,
      "rate": 0.062
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.7328,
-     "out": 3.6642,
-     "rate": 0.073
     },
     {
      "name": "gods",
@@ -10074,13 +10005,6 @@
      "rate": 2.036
     },
     {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 20.3564,
-     "out": 101.7822,
-     "rate": 2.036
-    },
-    {
      "name": "可乐AI",
      "slug": "code28-ccwu-cc",
      "in": 20.3564,
@@ -10548,7 +10472,7 @@
    "model_key": "claude-sonnet-4-6",
    "price_slug": "claude-sonnet-4-6",
    "label": "Claude Sonnet 4.6",
-   "median_rate": 0.7,
+   "median_rate": 0.725,
    "own_page": true,
    "current": false,
    "official_in": 3.0,
@@ -10582,13 +10506,6 @@
      "in": 0.15,
      "out": 0.75,
      "rate": 0.05
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.171,
-     "out": 0.855,
-     "rate": 0.057
     },
     {
      "name": "537 AI",
@@ -10820,13 +10737,6 @@
      "in": 0.9996,
      "out": 4.998,
      "rate": 0.333
-    },
-    {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 1.0178,
-     "out": 5.0891,
-     "rate": 0.339
     },
     {
      "name": "SparkCode",
@@ -11485,7 +11395,7 @@
    "model_key": "claude-opus-4-8",
    "price_slug": "claude-opus-4-8",
    "label": "Claude Opus 4.8",
-   "median_rate": 0.7,
+   "median_rate": 0.75,
    "own_page": true,
    "current": false,
    "official_in": 5.0,
@@ -11505,13 +11415,6 @@
      "in": 0.25,
      "out": 1.25,
      "rate": 0.05
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.3325,
-     "out": 1.6624,
-     "rate": 0.066
     },
     {
      "name": "AI 搬运工",
@@ -11743,13 +11646,6 @@
      "in": 1.5,
      "out": 7.5,
      "rate": 0.3
-    },
-    {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 1.6964,
-     "out": 8.4818,
-     "rate": 0.339
     },
     {
      "name": "合租 Ink",
@@ -12379,13 +12275,6 @@
      "in": 0.25,
      "out": 1.25,
      "rate": 0.05
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.3325,
-     "out": 1.6624,
-     "rate": 0.066
     },
     {
      "name": "AI 搬运工",
@@ -13241,13 +13130,6 @@
      "rate": 0.05
     },
     {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.7328,
-     "out": 3.6642,
-     "rate": 0.073
-    },
-    {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
      "in": 1.3699,
@@ -13738,13 +13620,6 @@
      "rate": 2.036
     },
     {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 20.3564,
-     "out": 101.7822,
-     "rate": 2.036
-    },
-    {
      "name": "Xiaoye API",
      "slug": "ai-xiaoye-io",
      "in": 21.0,
@@ -13890,20 +13765,13 @@
    "model_key": "claude-sonnet-5",
    "price_slug": "claude-sonnet-5",
    "label": "Claude Sonnet 5",
-   "median_rate": 0.7,
+   "median_rate": 0.792,
    "own_page": false,
    "current": false,
    "official_in": 2.0,
    "official_out": 10.0,
    "official_cache_read": null,
    "rows": [
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.114,
-     "out": 0.57,
-     "rate": 0.057
-    },
     {
      "name": "AI 搬运工",
      "slug": "aimover-cc",
@@ -14043,13 +13911,6 @@
      "in": 0.6664,
      "out": 3.332,
      "rate": 0.333
-    },
-    {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 0.6785,
-     "out": 3.3927,
-     "rate": 0.339
     },
     {
      "name": "合租 Ink",
@@ -14797,16 +14658,6 @@
    }
   },
   {
-   "name": "deepkey",
-   "slug": "deepkey-top",
-   "tier": "B",
-   "price": {
-    "in": 1.6,
-    "out": 8.0,
-    "rate": 0.4
-   }
-  },
-  {
    "name": "Hi-Code",
    "slug": "hi-code-cc",
    "tier": "B",
@@ -14887,16 +14738,6 @@
    }
   },
   {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.27,
-    "out": 1.33,
-    "rate": 0.066
-   }
-  },
-  {
    "name": "Z-API",
    "slug": "api-zicc-cc",
    "tier": "B",
@@ -14914,6 +14755,16 @@
     "in": 0.33,
     "out": 1.67,
     "rate": 0.083
+   }
+  },
+  {
+   "name": "deepkey",
+   "slug": "deepkey-top",
+   "tier": "B",
+   "price": {
+    "in": 1.6,
+    "out": 8.0,
+    "rate": 0.4
    }
   },
   {
@@ -15179,5 +15030,5 @@
    "wait_s": 5.9
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }

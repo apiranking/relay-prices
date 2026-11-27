@@ -1,20 +1,14 @@
 {
  "vendor": "DeepSeek",
- "site_count": 148,
+ "site_count": 147,
  "min_rate": 0.001,
- "median_rate": 0.378,
+ "median_rate": 0.38,
  "sites": [
   {
    "name": "高效中转站",
    "slug": "sub2-de5-net",
    "rate": 0.001,
    "model": "DeepSeek V4 Pro"
-  },
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rate": 0.006,
-   "model": "DeepSeek V4.1 Flash"
   },
   {
    "name": "Jasper",
@@ -898,7 +892,7 @@
    "model_key": "deepseek-v4.1-flash",
    "price_slug": "deepseek-v4-1-flash",
    "label": "DeepSeek V4.1 Flash",
-   "median_rate": 0.392,
+   "median_rate": 0.395,
    "own_page": true,
    "current": false,
    "official_in": 2.0,
@@ -911,13 +905,6 @@
      "in": 0.0088,
      "out": 0.0264,
      "rate": 0.004
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.0117,
-     "out": 0.0469,
-     "rate": 0.006
     },
     {
      "name": "Jasper",
@@ -1948,7 +1935,7 @@
    "model_key": "deepseek-v4-pro",
    "price_slug": "deepseek-v4-pro",
    "label": "DeepSeek V4 Pro",
-   "median_rate": 0.486,
+   "median_rate": 0.497,
    "own_page": true,
    "current": false,
    "official_in": 9.0,
@@ -1961,13 +1948,6 @@
      "in": 0.0087,
      "out": 0.0174,
      "rate": 0.001
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.0651,
-     "out": 0.1954,
-     "rate": 0.007
     },
     {
      "name": "Jasper",
@@ -3019,16 +2999,6 @@
    }
   },
   {
-   "name": "deepkey",
-   "slug": "deepkey-top",
-   "tier": "B",
-   "price": {
-    "in": 0.5,
-    "out": 2.0,
-    "rate": 0.25
-   }
-  },
-  {
    "name": "Hi-Code",
    "slug": "hi-code-cc",
    "tier": "B",
@@ -3109,13 +3079,13 @@
    }
   },
   {
-   "name": "A6API",
-   "slug": "a6api",
+   "name": "deepkey",
+   "slug": "deepkey-top",
    "tier": "B",
    "price": {
-    "in": 0.01,
-    "out": 0.05,
-    "rate": 0.006
+    "in": 0.5,
+    "out": 2.0,
+    "rate": 0.25
    }
   },
   {
@@ -3259,5 +3229,5 @@
    }
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }

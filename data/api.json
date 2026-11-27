@@ -1,10 +1,10 @@
 {
- "site_count": 378,
+ "site_count": 376,
  "families": [
   {
    "key": "claude",
    "label": "Claude",
-   "count": 319,
+   "count": 317,
    "rows": [
     {
      "name": "Prism API",
@@ -42,11 +42,6 @@
      "rate": 0.042
     },
     {
-     "name": "A6API",
-     "slug": "a6api",
-     "rate": 0.048
-    },
-    {
      "name": "TK API",
      "slug": "tkapi-cc-cd",
      "rate": 0.05
@@ -55,23 +50,23 @@
      "name": "ergouzi",
      "slug": "ergouzi",
      "rate": 0.05
+    },
+    {
+     "name": "xixiapi",
+     "slug": "xixiapi-cc",
+     "rate": 0.05
     }
    ]
   },
   {
    "key": "openai",
    "label": "GPT",
-   "count": 336,
+   "count": 334,
    "rows": [
     {
      "name": "Token云桥",
      "slug": "0029-org",
      "rate": 0.001
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "rate": 0.009
     },
     {
      "name": "XINGYI API",
@@ -112,13 +107,18 @@
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
      "rate": 0.016
+    },
+    {
+     "name": "GGUU AI",
+     "slug": "gguuai-com",
+     "rate": 0.017
     }
    ]
   },
   {
    "key": "gemini",
    "label": "Gemini",
-   "count": 218,
+   "count": 216,
    "rows": [
     {
      "name": "OpenLux",
@@ -151,11 +151,6 @@
      "rate": 0.075
     },
     {
-     "name": "A6API",
-     "slug": "a6api",
-     "rate": 0.081
-    },
-    {
      "name": "luciferai",
      "slug": "luciferai-cc",
      "rate": 0.095
@@ -169,23 +164,23 @@
      "name": "PRY API",
      "slug": "bearlab-ai",
      "rate": 0.1
+    },
+    {
+     "name": "RPG8",
+     "slug": "api-rpg8-cn",
+     "rate": 0.1
     }
    ]
   },
   {
    "key": "grok",
    "label": "Grok",
-   "count": 163,
+   "count": 161,
    "rows": [
     {
      "name": "嘀嘀嘀 AI",
      "slug": "dddai-dev",
      "rate": 0.001
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "rate": 0.004
     },
     {
      "name": "Code-Plan（内部站点）",
@@ -226,23 +221,23 @@
      "name": "TokenSOS",
      "slug": "tokensos-net",
      "rate": 0.04
+    },
+    {
+     "name": "AI 搬运工",
+     "slug": "aimover-cc",
+     "rate": 0.05
     }
    ]
   },
   {
    "key": "deepseek",
    "label": "DeepSeek",
-   "count": 149,
+   "count": 148,
    "rows": [
     {
      "name": "高效中转站",
      "slug": "sub2-de5-net",
      "rate": 0.001
-    },
-    {
-     "name": "A6API",
-     "slug": "a6api",
-     "rate": 0.006
     },
     {
      "name": "Jasper",
@@ -283,9 +278,14 @@
      "name": "corealgos",
      "slug": "corealgos",
      "rate": 0.037
+    },
+    {
+     "name": "OpenLux",
+     "slug": "openlux-ai",
+     "rate": 0.044
     }
    ]
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }

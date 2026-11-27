@@ -1,15 +1,9 @@
 {
  "vendor": "Codex",
- "site_count": 277,
- "min_rate": 0.009,
+ "site_count": 275,
+ "min_rate": 0.016,
  "median_rate": 0.35,
  "sites": [
-  {
-   "name": "A6API",
-   "slug": "a6api",
-   "rate": 0.009,
-   "model": "GPT-6.2 Astra"
-  },
   {
    "name": "SixthSense LLM",
    "slug": "sixthsense-llm-com",
@@ -482,12 +476,6 @@
    "name": "Hi-Code",
    "slug": "hi-code-cc",
    "rate": 0.13,
-   "model": "GPT-6.2 Sol"
-  },
-  {
-   "name": "Top-API",
-   "slug": "top-api",
-   "rate": 0.136,
    "model": "GPT-6.2 Sol"
   },
   {
@@ -1708,13 +1696,6 @@
      "rate": 0.03
     },
     {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.0651,
-     "out": 0.3257,
-     "rate": 0.033
-    },
-    {
      "name": "OpenLux",
      "slug": "openlux-ai",
      "in": 0.0736,
@@ -2140,13 +2121,6 @@
      "in": 0.26,
      "out": 1.3,
      "rate": 0.13
-    },
-    {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 0.2714,
-     "out": 1.3571,
-     "rate": 0.136
     },
     {
      "name": "BMCCA",
@@ -3562,13 +3536,6 @@
    "official_cache_read": 0.4,
    "rows": [
     {
-     "name": "A6API",
-     "slug": "a6api",
-     "in": 0.076,
-     "out": 0.38,
-     "rate": 0.009
-    },
-    {
      "name": "SixthSense LLM",
      "slug": "sixthsense-llm-com",
      "in": 0.1312,
@@ -4086,13 +4053,6 @@
      "in": 1.04,
      "out": 5.2,
      "rate": 0.13
-    },
-    {
-     "name": "Top-API",
-     "slug": "top-api",
-     "in": 1.0857,
-     "out": 5.4284,
-     "rate": 0.136
     },
     {
      "name": "BMCCA",
@@ -5638,16 +5598,6 @@
    }
   },
   {
-   "name": "deepkey",
-   "slug": "deepkey-top",
-   "tier": "B",
-   "price": {
-    "in": 0.24,
-    "out": 1.2,
-    "rate": 0.12
-   }
-  },
-  {
    "name": "Hi-Code",
    "slug": "hi-code-cc",
    "tier": "B",
@@ -5685,16 +5635,6 @@
     "in": 1.22,
     "out": 6.11,
     "rate": 0.611
-   }
-  },
-  {
-   "name": "Top-API",
-   "slug": "top-api",
-   "tier": "B",
-   "price": {
-    "in": 0.27,
-    "out": 1.36,
-    "rate": 0.136
    }
   },
   {
@@ -5748,16 +5688,6 @@
    }
   },
   {
-   "name": "A6API",
-   "slug": "a6api",
-   "tier": "B",
-   "price": {
-    "in": 0.07,
-    "out": 0.33,
-    "rate": 0.033
-   }
-  },
-  {
    "name": "Ofapp API",
    "slug": "api-ofapp-cn",
    "tier": "B",
@@ -5785,6 +5715,16 @@
     "in": 0.3,
     "out": 1.5,
     "rate": 0.15
+   }
+  },
+  {
+   "name": "deepkey",
+   "slug": "deepkey-top",
+   "tier": "B",
+   "price": {
+    "in": 0.24,
+    "out": 1.2,
+    "rate": 0.12
    }
   },
   {
@@ -5828,5 +5768,5 @@
    }
   }
  ],
- "updated": "2026-11-26"
+ "updated": "2026-11-27"
 }

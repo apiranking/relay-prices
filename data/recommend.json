@@ -226,17 +226,6 @@
    }
   },
   {
-   "name": "deepkey",
-   "slug": "deepkey-top",
-   "rates": {
-    "claude": 0.4,
-    "openai": 0.08,
-    "grok": 0.06,
-    "gemini": 0.15,
-    "deepseek": 0.25
-   }
-  },
-  {
    "name": "Hi-Code",
    "slug": "hi-code-cc",
    "rates": {
@@ -304,15 +293,26 @@
    }
   },
   {
-   "name": "Top-API",
-   "slug": "top-api",
+   "name": "Die Ge",
+   "slug": "die-ge",
    "rates": {
-    "claude": 0.339,
-    "openai": 0.136,
-    "gemini": 0.679,
-    "grok": 0.339
+    "claude": 0.25,
+    "openai": 0.03,
+    "gemini": 0.5,
+    "grok": 1.0
+   }
+  },
+  {
+   "name": "球球Token",
+   "slug": "qiuqiutoken-com",
+   "rates": {
+    "gemini": 1.0,
+    "claude": 0.7,
+    "openai": 0.32,
+    "grok": 0.25,
+    "deepseek": 1.0
    }
   }
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-27"
 }
