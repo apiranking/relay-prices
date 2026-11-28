@@ -2901,20 +2901,6 @@
    "bench": null
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": null,
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "tier": "S",
@@ -3203,17 +3189,7 @@
     "out": 0.6,
     "rate": 0.1
    }
-  },
-  {
-   "name": "AI8",
-   "slug": "ai8-my",
-   "tier": "B",
-   "price": {
-    "in": 1.4,
-    "out": 4.2,
-    "rate": 0.7
-   }
   }
  ],
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }

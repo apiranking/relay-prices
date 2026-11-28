@@ -8665,24 +8665,6 @@
    "bench": null
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": {
-    "in": 1.95,
-    "out": 9.75,
-    "rate": 0.65
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "tier": "S",
@@ -8887,6 +8869,16 @@
    }
   },
   {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "B",
+   "price": {
+    "in": 1.95,
+    "out": 9.75,
+    "rate": 0.65
+   }
+  },
+  {
    "name": "Grox",
    "slug": "mcgrox-top",
    "tier": "B",
@@ -8975,17 +8967,7 @@
     "out": 12.0,
     "rate": 0.8
    }
-  },
-  {
-   "name": "Xcode",
-   "slug": "xcode-best",
-   "tier": "B",
-   "price": {
-    "in": 1.5,
-    "out": 7.5,
-    "rate": 0.5
-   }
   }
  ],
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }

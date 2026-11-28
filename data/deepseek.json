@@ -2895,24 +2895,6 @@
    "bench": null
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": {
-    "in": 2.4,
-    "out": 9.6,
-    "rate": 1.2
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": null
-  },
-  {
    "name": "枢码AI",
    "slug": "hubcodex-fun",
    "tier": "S",
@@ -3089,6 +3071,16 @@
    }
   },
   {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "B",
+   "price": {
+    "in": 2.4,
+    "out": 9.6,
+    "rate": 1.2
+   }
+  },
+  {
    "name": "皮卡丘token商店",
    "slug": "pikaqiu-shop",
    "tier": "B",
@@ -3217,17 +3209,7 @@
     "out": 2.4,
     "rate": 0.3
    }
-  },
-  {
-   "name": "璃梦API",
-   "slug": "api-hakanaiktn-com",
-   "tier": "B",
-   "price": {
-    "in": 0.06,
-    "out": 0.24,
-    "rate": 0.03
-   }
   }
  ],
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }

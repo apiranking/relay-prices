@@ -5393,31 +5393,6 @@
    }
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": {
-    "in": 0.16,
-    "out": 0.8,
-    "rate": 0.08
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": {
-    "model": "GPT-6.2 Sol",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 7.0
-   }
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "tier": "S",
@@ -5748,6 +5723,16 @@
    }
   },
   {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "B",
+   "price": {
+    "in": 0.16,
+    "out": 0.8,
+    "rate": 0.08
+   }
+  },
+  {
    "name": "Grox",
    "slug": "mcgrox-top",
    "tier": "B",
@@ -5756,17 +5741,7 @@
     "out": 50.0,
     "rate": 5.0
    }
-  },
-  {
-   "name": "gods",
-   "slug": "meisgold-top",
-   "tier": "B",
-   "price": {
-    "in": 0.6,
-    "out": 3.0,
-    "rate": 0.3
-   }
   }
  ],
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }

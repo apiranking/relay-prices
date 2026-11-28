@@ -5565,16 +5565,6 @@
    "wait_s": 7.1
   },
   {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "model": "Claude Opus 5.5",
-   "cache": "缓存优秀",
-   "billing": "完全对得上",
-   "cache_color": "good",
-   "billing_color": "good",
-   "wait_s": 6.3
-  },
-  {
    "name": "小丁AI",
    "slug": "xdcn-top",
    "model": "Claude Opus 5.5",
@@ -5653,6 +5643,16 @@
    "cache_color": "good",
    "billing_color": "good",
    "wait_s": 4.5
+  },
+  {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "model": "Claude Opus 5.5",
+   "cache": "缓存优秀",
+   "billing": "完全对得上",
+   "cache_color": "good",
+   "billing_color": "good",
+   "wait_s": 6.3
   },
   {
    "name": "ByteCat",
@@ -5855,31 +5855,6 @@
     "cache": "缓存优秀",
     "cache_color": "good",
     "wait_s": 7.1
-   }
-  },
-  {
-   "name": "LinksAPI",
-   "slug": "linksapi",
-   "tier": "S",
-   "price": {
-    "in": 0.76,
-    "out": 3.8,
-    "rate": 0.19
-   },
-   "water": "模型为真",
-   "anomaly": null,
-   "min_topup": "¥1",
-   "bonus": "本站用户送 $3",
-   "invoice": "no",
-   "invoice_note": null,
-   "refund": "无手续费",
-   "bench": {
-    "model": "Claude Opus 5.5",
-    "billing": "完全对得上",
-    "billing_color": "good",
-    "cache": "缓存优秀",
-    "cache_color": "good",
-    "wait_s": 6.3
    }
   },
   {
@@ -6193,6 +6168,16 @@
    }
   },
   {
+   "name": "LinksAPI",
+   "slug": "linksapi",
+   "tier": "B",
+   "price": {
+    "in": 0.76,
+    "out": 3.8,
+    "rate": 0.19
+   }
+  },
+  {
    "name": "Grox",
    "slug": "mcgrox-top",
    "tier": "B",
@@ -6221,17 +6206,7 @@
     "out": 5.0,
     "rate": 0.25
    }
-  },
-  {
-   "name": "Portdan AI",
-   "slug": "portdan-com",
-   "tier": "B",
-   "price": {
-    "in": 14.6,
-    "out": 73.0,
-    "rate": 3.65
-   }
   }
  ],
- "updated": "2026-11-27"
+ "updated": "2026-11-28"
 }
